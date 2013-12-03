@@ -1,0 +1,302 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA9B41DE184DA1E5002F828B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA9B41DD184DA1E5002F828B /* Cocoa.framework */; };
+		EA9B41E8184DA1E5002F828B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EA9B41E6184DA1E5002F828B /* InfoPlist.strings */; };
+		EA9B41EA184DA1E5002F828B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9B41E9184DA1E5002F828B /* main.m */; };
+		EA9B41EE184DA1E5002F828B /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = EA9B41EC184DA1E5002F828B /* Credits.rtf */; };
+		EA9B41F1184DA1E5002F828B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9B41F0184DA1E5002F828B /* AppDelegate.m */; };
+		EA9B41F4184DA1E5002F828B /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA9B41F2184DA1E5002F828B /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EA9B41D9184DA1E5002F828B /* PrinterSettingUtility.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrinterSettingUtility.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA9B41DD184DA1E5002F828B /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		EA9B41E0184DA1E5002F828B /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		EA9B41E1184DA1E5002F828B /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		EA9B41E2184DA1E5002F828B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EA9B41E5184DA1E5002F828B /* PrinterSettingUtility-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PrinterSettingUtility-Info.plist"; sourceTree = "<group>"; };
+		EA9B41E7184DA1E5002F828B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EA9B41E9184DA1E5002F828B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EA9B41EB184DA1E5002F828B /* PrinterSettingUtility-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PrinterSettingUtility-Prefix.pch"; sourceTree = "<group>"; };
+		EA9B41ED184DA1E5002F828B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		EA9B41EF184DA1E5002F828B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EA9B41F0184DA1E5002F828B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EA9B41F3184DA1E5002F828B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA9B41D6184DA1E5002F828B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA9B41DE184DA1E5002F828B /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA9B41CE184DA1E5002F828B = {
+			isa = PBXGroup;
+			children = (
+				EA9B41E3184DA1E5002F828B /* PrinterSettingUtility */,
+				EA9B41DC184DA1E5002F828B /* Frameworks */,
+				EA9B41DA184DA1E5002F828B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA9B41DA184DA1E5002F828B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA9B41D9184DA1E5002F828B /* PrinterSettingUtility.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA9B41DC184DA1E5002F828B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA9B41DD184DA1E5002F828B /* Cocoa.framework */,
+				EA9B41DF184DA1E5002F828B /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA9B41DF184DA1E5002F828B /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA9B41E0184DA1E5002F828B /* AppKit.framework */,
+				EA9B41E1184DA1E5002F828B /* CoreData.framework */,
+				EA9B41E2184DA1E5002F828B /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		EA9B41E3184DA1E5002F828B /* PrinterSettingUtility */ = {
+			isa = PBXGroup;
+			children = (
+				EA9B41EF184DA1E5002F828B /* AppDelegate.h */,
+				EA9B41F0184DA1E5002F828B /* AppDelegate.m */,
+				EA9B41F2184DA1E5002F828B /* MainMenu.xib */,
+				EA9B41E4184DA1E5002F828B /* Supporting Files */,
+			);
+			path = PrinterSettingUtility;
+			sourceTree = "<group>";
+		};
+		EA9B41E4184DA1E5002F828B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA9B41E5184DA1E5002F828B /* PrinterSettingUtility-Info.plist */,
+				EA9B41E6184DA1E5002F828B /* InfoPlist.strings */,
+				EA9B41E9184DA1E5002F828B /* main.m */,
+				EA9B41EB184DA1E5002F828B /* PrinterSettingUtility-Prefix.pch */,
+				EA9B41EC184DA1E5002F828B /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA9B41D8184DA1E5002F828B /* PrinterSettingUtility */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA9B41F7184DA1E5002F828B /* Build configuration list for PBXNativeTarget "PrinterSettingUtility" */;
+			buildPhases = (
+				EA9B41D5184DA1E5002F828B /* Sources */,
+				EA9B41D6184DA1E5002F828B /* Frameworks */,
+				EA9B41D7184DA1E5002F828B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PrinterSettingUtility;
+			productName = PrinterSettingUtility;
+			productReference = EA9B41D9184DA1E5002F828B /* PrinterSettingUtility.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA9B41D0184DA1E5002F828B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Wang Kun";
+			};
+			buildConfigurationList = EA9B41D3184DA1E5002F828B /* Build configuration list for PBXProject "PrinterSettingUtility" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EA9B41CE184DA1E5002F828B;
+			productRefGroup = EA9B41DA184DA1E5002F828B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA9B41D8184DA1E5002F828B /* PrinterSettingUtility */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA9B41D7184DA1E5002F828B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA9B41E8184DA1E5002F828B /* InfoPlist.strings in Resources */,
+				EA9B41EE184DA1E5002F828B /* Credits.rtf in Resources */,
+				EA9B41F4184DA1E5002F828B /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA9B41D5184DA1E5002F828B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA9B41EA184DA1E5002F828B /* main.m in Sources */,
+				EA9B41F1184DA1E5002F828B /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EA9B41E6184DA1E5002F828B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA9B41E7184DA1E5002F828B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EA9B41EC184DA1E5002F828B /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA9B41ED184DA1E5002F828B /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		EA9B41F2184DA1E5002F828B /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA9B41F3184DA1E5002F828B /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA9B41F5184DA1E5002F828B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		EA9B41F6184DA1E5002F828B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		EA9B41F8184DA1E5002F828B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PrinterSettingUtility/PrinterSettingUtility-Prefix.pch";
+				INFOPLIST_FILE = "PrinterSettingUtility/PrinterSettingUtility-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EA9B41F9184DA1E5002F828B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PrinterSettingUtility/PrinterSettingUtility-Prefix.pch";
+				INFOPLIST_FILE = "PrinterSettingUtility/PrinterSettingUtility-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA9B41D3184DA1E5002F828B /* Build configuration list for PBXProject "PrinterSettingUtility" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA9B41F5184DA1E5002F828B /* Debug */,
+				EA9B41F6184DA1E5002F828B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA9B41F7184DA1E5002F828B /* Build configuration list for PBXNativeTarget "PrinterSettingUtility" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA9B41F8184DA1E5002F828B /* Debug */,
+				EA9B41F9184DA1E5002F828B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA9B41D0184DA1E5002F828B /* Project object */;
+}
