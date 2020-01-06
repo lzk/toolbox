@@ -1,0 +1,656 @@
+/* 
+  Localizable.strings
+  PrinterSettingUtility
+
+  Created by Wang Kun on 13-12-13.
+  Copyright (c) 2013年 Wang Kun. All rights reserved.
+*/
+
+
+"IDS_EDIT" = "Rediger";
+"IDS_COPY" = "Kopier";
+"IDS_PASTE" = "Sæt ind";
+"IDS_SELECT_ALL" = "Vælg alle";
+
+"IDS_Idle" = "Gruppeformation klar";
+
+
+"IDS_Start Configuration" = "Start konfiguration";
+
+"IDS_directPINCode" = "PIN-kode";
+
+"IDS_WIRELESS_PASSWORD_DESCRIPTION" = "Indtast WEP-nøgle (5 eller 13 alfanumeriske tegn/symboler ELLER 10- eller 26-cifrede hexidecimale numre) for kodeord.\n
+Se mærkater eller vejledning til adgangspunkt, hvis du anvender det fra fabriksindstilling.";
+
+"IDS_WIRELESS_PASSPHRASE_DESCRIPTION" = "Indtast adgangsudtryk (8 til 63 alfanumeriske tegn/symboler ELLER 64 cifrede hexadecimale numre) for adgangskoden.\n
+Se etiketter eller manual for adgangspunkt, hvis du anvender standardindstillingen. ";
+
+
+"IDS_CONFIGURATION_PAGE" = "Konfigurationsside";
+
+"IDS_PRINT" = "Udskriv";
+
+"IDS_WIRELESS_RESET" = "Nulstil";
+
+"IDS_THE_SET_GATEWAY_ADDRESS_IS_ILLEGAL" = "Den indstillede protokolomsætter-adresse er ulovlig.";
+
+"IDS_THE_SET_IP_ADDRESS_IS_ILLEGAL" = "Den indstillede IP-adresse er ulovlig.";
+
+"IDS_CAUTION_X" = "FORSIGTIG:\rAnvendelse af ikke-Xerox tonerpatroner kan gøre visse printerfunktioner ubrugbare, give forringet printkvalitet og påvirke printerens driftssikkerhed. Xerox anbefaler, at der kun anvendes nye Xerox tonerpatroner i din printer. Xerox giver ikke garantidækning for problemer, som skyldes anvendelse af tilbehør, dele eller komponenter, som ikke er leveret af Xerox.";
+
+"IDS_Security Settings" = "Fortrolige indstillinger";
+
+"IDS_Acceptable" = "Acceptabel";
+
+"IDS_Low" = "Lav";
+
+"IDS_Good" = "God";
+
+"IDS_No Reception" = "Ingen modtagelse";
+
+"IDS_E-mail Alert" = "E-mail-advarsler";
+
+"IDS_directWPSSetup" = "WPS-indst.";
+
+"IDS_ManualGatewayAddress" = "Protokolomsætteradr.";
+
+"IDS_Network Mask" = "Netværksmaske";
+
+"This IP subnet can not be used in same section with Wi-Fi Direct." = "Denne IP subnet kan ikke anvendes i samme sektion som Wi-Fi Direct.";
+
+"IP subnet 192.168.186.x is reserved for Wi-Fi Direct." = "IP subnet 192.168.186.x er reserveret for Wi-Fi Direct.";
+
+"IDS_Software Download" = "Softwareindlæsning";
+
+"IDS_IPv6UseManualAddress" = "Anvend manuel adresse";
+
+"IDS_Reset Network Setup" = "Nulstil netværkskonfiguration";
+
+"IDS_Wi-Fi Setup" = "Konfiguration af Wi-Fi";
+
+"IDS_Print PIN Code" = "Udskriv PIN-kode";
+
+"IDS_Reset Passphrase" = "Nulstil adgangsudtryk";
+
+"IDS_Disconnect and Reset Passphrase" = "Frakobl og nulstil adgangsudtryk";
+
+"IDS_Disconnect Now" = "Frakobl nu";
+
+"Status" = "Status";
+
+"IDS_Group Role" = "Grupperolle";
+
+"IDS_Group Owner" = "Gruppeejer";
+
+"IDS_directDevice" = "Enhedens navn";
+
+"IDS_directWPSMethod" = "WPS metode";
+
+"IDS_Push Button Control" = "Konfiguration af trykknapper";
+"IDS_Connection Status" = "Status for forbindelse";
+
+"IDS_directPassphrase" = "Adgangsudtryk";
+
+"IDS_Print Passphrase" = "Udskriv adgangsudtryk";
+
+"IDS_Reset Wireless" = "Nulstil Wi-Fi-indstillinger";
+
+"IDS_Reset Code" = "Nulstil PIN kode";
+"IDS_directP2PRole" = "Nuværende rolle";
+"Disable" = "Deaktiver";
+"IDS_Client" = "Klient";
+
+"Grid 2 Chart" = "Gitter 2 diagram";
+
+"Toner Palette Check" = "Tonerpaletkontrol";
+
+"Printer Information" = "Printerinformation";
+
+"Printer Serial Number" = "Printerserienr.";
+
+"Printer Type" = "Printertype";
+
+"Memory Capacity" = "Hukommelseskapacitet";
+
+"Processor Speed" = "Processor-hastighed";
+
+"Firmware Version" = "Firmware-version";
+
+"Network Firmware Version" = "Netværk firmware-version";
+
+"MCU Firmware Version" = "MCU firmware-version";
+
+"Printing Speed (Color)" = "Udskrivningshastighed (Farve)";
+
+"Printing Speed (Monochrome)" = "Udskrivningshastighed (Sort/hvid)";
+
+"Menu Settings" = "Menuindstillinger";
+
+"System Settings" = "Systemindstillinger";
+
+"Power Saver Timer" = "Indstilling for energisparer";
+
+"Low Power Timer" = "Energisparertid";
+
+"Power Saver Mode 1 " = "Lavenergi";
+
+"Sleep Timer" = "Lavenergitid";
+
+"Power Saver Mode 2" = "Energisparer";
+
+"minutes_5_30" = "minutter (%d - %d)";
+
+"Auto Reset" = "Autonulstil";
+
+"Job Timeout" = "Job-timeout";
+
+"Fault Timeout" = "Fejl-timeout";
+
+"mm/inch" = "Mm/tomme";
+
+"Adjust BTR" = "Indstil BTR";
+
+"Adjust Fusing Unit" = "Juster fuserenhed";
+
+"Auto Registration Adjustment" = "Autoregistreringsindstilling";
+
+"Adjust Altitude" = "Indstil højde";
+
+"Non-Genuine Mode" = "Ikke ægte";
+
+"BTR Refresh Mode" = "BTR genopfriskningsindstilling";
+
+"Reports" = "Rapporter";
+
+"Information Pages" = "Informationsark";
+
+"System Settings" = "Systemindstillinger";
+
+"Panel Settings" = "Panelindstillinger";
+
+"Job History" = "Jobhistorie";
+
+"Error History" = "Fejlhistorie";
+
+"Demo Page" = "Demoside";
+
+"IDS_SETTING_REPORT" = "Rapport om printerindstillinger";
+
+"Report Language" = "Rapportsprog";
+
+"IP Mode" = "IP-indstilling";
+
+"IPv4" = "IPv4";
+
+"Dual Stack" = "Dobbeltstak";
+
+"Network Settings" = "Netværksindstillinger";
+
+"Auto" = "Auto";
+
+"Protocols" = "Protokoller";
+
+"Host Access List" = "Liste over hostadgang";
+
+"IP Filter" = "IP-filter";
+
+"Accept" = "Accepter";
+
+"Reject" = "Afvis";
+
+"Enable" = "Aktiver";
+
+"Wireless Setup" = "Trådløs indstilling";
+
+"Select Mode" = "Vælg indstilling";
+
+"Wi-Fi" = "Wi-Fi";
+
+"SSID" = "SSID";
+
+"Infrastructure" = "Infrastruktur";
+
+"Ad-Hoc" = "Ad-Hoc";
+
+"Encryption Type" = "Krypteringstype";
+
+"No Security" = "Ingen sikkerhed";
+
+"WEP" = "WEP";
+
+"Password" = "Adgangskode";
+
+"WPA-PSK-TKIP" = "WPA-PSK-TKIP";
+
+"WPA2-PSK-AES" = "WPA2-PSK-AES";
+
+"Mixed mode PSK" = "Blandet PSK";
+
+"Display Characters" = "Vis tegn";
+
+"Transmit Key" = "Overfør.nøgle";
+
+"WEP Key" = "WEP-nøgle";
+
+"Wi-Fi Direct Setup" = "Wi-Fi Direct konfig";
+
+"TCP/IP Settings" = "TCP/IP-indstillinger";
+
+"IP Address Mode" = "IP-adresseindstilling";
+
+"IP Address" = "IP-adresse";
+
+"Subnet Mask" = "Subnet-maske";
+
+"Gateway Address" = "Protokolomsætteradr.";
+
+"Printer Maintenance" = "Vedligeholdelse af printer";
+
+"System Settings" = "Systemindstillinger";
+
+"minutes_1_6" = "minutter (%d - %d)";
+
+"Auto Reset_O_HOT" = "Autonulstil";
+
+"1 minute" = "1 minut";
+
+"2 minutes" = "2 minutter";
+
+"3 minutes" = "3 minutter";
+
+"4 minutes" = "4 minutter";
+
+"Off" = "Fra";
+
+"Job Timeout_I_HOT" = "Job-timeout";
+
+"seconds (0: Off, 5 - 300)" = "sekunder(0:Fra, 5 - 300)";
+
+"Fault Timeout_U_HOT" = "Fejl-timeout";
+
+"Off" = "Fra";
+
+"Off_JUNK_FAX_FILTER" = "Fra";
+
+"Off_JPN_FOR_COLLATED" = "Fra";
+
+"On_JPN_FOR_COLLATED" = "Sorteret";
+
+"On" = "Til";
+
+"On_FOR_JPN" = "Til";
+
+"On1_JUNK_FAX_FILTER" = "Til (&1)";
+
+"On2_REMOTE_RECEIVE" = "Til (&2)";
+
+"On3_SEND_HEADER" = "Til (&3)";
+
+"On4_FAX_COVER_PAGE" = "Til (&4)";
+
+"On5_PREFIX_DIAL" = "Til (&5)";
+
+"On6_ECM" = "Til (&6)";
+
+"millimeter (mm)" = "millimeter (mm)";
+
+"inch (\")" = "tomme (\")";
+
+"Apply New Settings" = "Anvend nye indstillinger";
+
+"Registration Adjustment" = "Registreringsindstilling";
+
+"Manual Registration Adjustments" = "Manuel registreringsindstilling";
+
+"Auto Correct" = "Autokorrektion";
+
+"Print Color Regi Chart" = "Udskriv farveoversigt";
+
+"Color Registration Adjustment 1 (Lateral)" = "Farveregistreringsindstilling 1 (lateral)";
+
+"Y (Yellow)" = "G (gul)";
+
+"M (Magenta)" = "M (magenta)";
+
+"C (Cyan)" = "C (cyan)";
+
+"Color Registration Adjustment 2 (Process)" = "Farveregistreringsindstilling 2 (proces)";
+
+"LY (Left Yellow)" = "VG (Venstre Gul)";
+
+"LM (Left Magenta)" = "VM (Venstre Magenta)";
+
+"LC (Left Cyan)" = "VC (Venstre Cyan)";
+
+"RY (Right Yellow)" = "HG (Højre Gul)";
+
+"RM (Right Magenta)" = "HM (Højre Magenta)";
+
+"RC (Right Cyan)" = "HC (Højre Cyan)";
+
+"Start" = "Start";
+
+"0 meter" = "0 meter";
+
+"1000 meters" = "1.000 meter";
+
+"2000 meters" = "2.000 meter";
+
+"3000 meters" = "3.000 meter";
+
+"System Section" = "Systemsektion";
+
+"BOOTP" = "BOOTP";
+
+"RARP" = "RARP";
+
+"DHCP" = "DHCP";
+
+"DHCP/AutoIP" = "DHCP/AutoIP";
+
+"Panel" = "Panel";
+
+"Restart printer to apply new settings" = "Genstart printer for at anvende nye indstillinger";
+
+"Internet Services" = "Internet Services";
+
+"Print Server Settings" = "Indstillinger for printerserver";
+
+"Display of CentreWare Internet Services" = "Visning af CentreWare Internet Services";
+
+"Display of CWIS" = "Visning af CWIS";
+
+"Display" = "Visning";
+
+"seconds_0_255" = "sekunder(0-255)";
+
+"seconds_3_255" = "sekunder(3-255)";
+
+"minutes" = "minutter";
+
+"Diagnosis" = "Diagnosticering";
+
+"Chart Print" = "Tabeludskrift";
+
+"Pitch Configuration Chart" = "Pitchkonfigurationstabel";
+
+"Ghost Configuration Chart" = "Skyggekonfigurationstabel";
+
+"4 &Colors Configuration Chart" = "4 farver-konfigurationstabel";
+
+"MQ Chart" = "MQ-tabel";
+
+"Alignment Chart" = "Justeringstabel";
+
+"Environment Sensor Info" = "Omgivelsessensorinformation";
+
+"Get Environment Sensor Info" = "Hent omgivelsessensorinformation";
+
+"Result" = "Resultat";
+
+"Humidity inside the machine" = "Fugtighedsgrad indeni maskinen  ";
+
+"Temperature inside the machine" = "Temperatur indeni maskinen";
+
+"Clean Developer" = "Rengør fremkalder";
+
+"Start" = "Start";
+
+"Refresh Mode" = "Genopfriskningsindstilling";
+
+"Toner Refresh Mode" = "Toneropfyldningsindstilling";
+
+"Toner Refresh Mode_GRANDE" = "Toneropfyldningsindstilling";
+
+"Get Printer Information." = "Hent printerinformation.";
+
+"Set Printer Information." = "Indstil printerinformation.";
+
+"Send Printer Information." = "Send printerinformation.";
+
+"The setting has been changed. Do you want to cancel the settings?" = "Indstillingen er ændret. Vil du annullere indstillingerne?";
+
+"Failed to acquire the information." = "Kunne ikke indhente informationen.";
+
+"Communication with printer failed." = "Kommunikation til printer mislykkedes.";
+
+"Are you sure you want to exit Printer Setting Utility?" = "Er du sikker på, at du vil afslutte printerindstillingsværktøjet?";
+
+"Are you sure you want to exit Printer Setting Utility?" = "Er du sikker på, at du vil afslutte værktøjskassen?";
+
+"Information was not acquired because the Status Monitor was running." = "Der kunne ikke indhentes information, fordi Status Monitor kørte.";
+
+"Information was not transmitted because the Status Monitor was running." = "Informationen blev ikke transmitteret, fordi Status Monitor kørte.";
+
+"It is not possible to print with the paper set in the tray. \rPlease set A4 or the Letter size paper in the tray, and click on a button again. " = "Det er ikke muligt at udskrive med det papir, der er indstillet til bakken. \r Indstil papirstørrelsen i bakken til A4 eller Letter, og klik på knappen igen.  ";
+
+"Restart printer for new settings to take effect.\rDo you want to restart printer?" = "Start printeren igen for at nye indstillinger kan blive aktiveret.\rØnsker du at starte printeren igen?";
+
+"Printer Status: Active" = "Printerstatus: Aktiv";
+
+"Printer Status: Busy" = "Printerstatus: Optaget";
+
+"Printer Status: Cover is Open" = "Printerstatus: Dæksel er åben";
+
+"Printer Status: Error" = "Printerstatus: Fejl";
+
+"Printer Status: Initializing" = "Printerstatus: Initialiserer";
+
+"Printer Status: Job is Pending Deletion" = "Printerstatus: Job afventer sletning";
+
+"Printer Status: Manual Feed Required" = "Printerstatus: Manuel tilførsel påkrævet";
+
+"Printer Status: Not Available" = "Printerstatus: Ikke til rådighed";
+
+"Printer Status: Not Supported" = "Printerstatus: Ikke understøttet";
+
+"Printer Status: Out of Memory" = "Printerstatus: Hukommelse opbrugt";
+
+"Printer Status: Out of Paper" = "Printerstatus: Ikke mere papir";
+
+"Printer Status: Out of Toner" = "Printerstatus: Ikke mere toner";
+
+"Printer Status: Page Error" = "Printerstatus: Sidefejl";
+
+"Printer Status: Paper Jam" = "Printerstatus: Papirstop";
+
+"Printer Status: Paper Problem" = "Printerstatus: Papirproblem ";
+
+"Printer Status: Pause" = "Printerstatus: Pause";
+
+"Printer Status: Power Off" = "Printerstatus: Slukket";
+
+"Printer Status: Power Saver Mode" = "Printerstatus: Strømspareindstilling";
+
+"Printer Status: Printing" = "Printerstatus: Udskriver";
+
+"Printer Status: Processing" = "Printerstatus: Behandler";
+
+"Printer Status: Ready" = "Printerstatus: Klar";
+
+"Printer Status: Toner Low" = "Printerstatus: Toner lav";
+
+"Printer Status: Unknown" = "Printerstatus: Ukendt";
+
+"Printer Status: Waiting" = "Printerstatus: Venter";
+
+"Printer Status: Warming Up" = "Printerstatus: Varmer op";
+
+"Printer Status: ADF Cover Open" = "Printerstatus: ADF-dæksel er åbent";
+
+"Printer Status: ADF Paper Jam" = "Printerstatus: ADF-papirstop";
+
+"Printer Status: User Intervention Required" = "Printerstatus: Brugerintervention påkrævet";
+
+"Cancel" = "Annuller";
+
+"Help" = "Hjælp";
+
+"OK" = "OK";
+
+"Reset Defaults" = "Nulst. stand.";
+
+"Printer Setting Utility" = "Printerindstillingsværktøj";
+
+"seconds" = "sekunder";
+
+"Information was not acquired because the Status Monitor was running." = "Der kunne ikke indhentes information, fordi printeren er i brug.";
+
+"Information was not transmitted because the Status Monitor was running." = "Der kunne ikke overføres information, fordi printeren er i brug.";
+
+"Boot Code Version" = "Startkodeversion";
+
+"Color Table Version" = "Farvetabelversion";
+
+"Density Adjustment" = "Tæthedsjustering";
+
+"Density Adjustment_D_HOT" = "&Tæthedsjustering";
+
+"Density Adjustment_ADJUSTMENT" = "Tæthedsjustering";
+
+"Density Adjustment_ADJUSTMENT_HOT" = "&Tæthedsjustering";
+
+"Adjust Paper Type" = "Juster papirtype";
+
+"Plain Paper" = "Almindeligt papir";
+
+"Plain Paper_P_HOT" = "&Almindeligt papir";
+
+"Lightweight" = "Tynd";
+
+"Heavyweight" = "Tykt";
+
+"minutes_1_30" = "minutter (1 - 30)";
+
+"minutes_6_11" = "minutter (6 - 11)";
+
+"Printer Serial Number_P_HOT" = "&Printer Serial Number";
+
+"Select Printer:" = "Vælg printer:";
+
+"Printer Name" = "Printernavn";
+
+"Model Name" = "Modelnavn";
+
+"Connected To" = "Tilsluttet til";
+
+"Close" = "Luk";
+
+"Supported printers are not installed in the system." = "Der er ikke installeret understøttede printere i systemet.";
+
+"Meter Readings" = "Tælleraflæsninger";
+
+"Meter 1" = "Tæller 1";
+
+"Meter 2" = "Tæller 2";
+
+"Meter 3" = "Tæller 3";
+
+"Meter 4" = "Tæller 4";
+
+"inch (\")ES" = "tomme (\")";
+
+"CWIS" = "CWIS";
+
+"Drum Refresh Configuration Chart" = "Konfigurations for genopfrisk valse";
+
+"Version" = "Version";
+
+"Billing Meters" = "Konteringstællere";
+
+"Total Impression" = "Tryk i alt";
+
+
+"Color Impression" = "Farvetryk";
+
+"Black Impression" = "Sorte tryk";
+
+"Network Message" = "Netværksmeddelelse";
+
+"Low Toner Alert Message_W_HOT" = "Advarsel om l&av toner";
+
+"Low Toner Alert Message" = "Advarsel om lav toner";
+
+"Machine Life" = "Maskinens levetid";
+
+"C&ontinue Print" = "Fortsæt udskrivning";
+
+"IDS_CU_XERO_LIFE" = "FORSIGTIG:\rSelvom printeren kan anvendes efter endt levetid ved at ændre indstillingen til Fortsæt udskrivning, kan udskrivningskvaliteten blive forringet.";
+
+//
+
+"About" = "om";
+
+"Quit" = "Afslut";
+
+"On (except A4/Ltr)" = "Til (undtagen A4/Letter)";
+
+"English" = "English";
+
+"French" = "French";
+
+"Russion" = "Russion";
+
+"Show Paper Size Error" = "Vis fejl med papirformat";
+
+"Labels" = "Etiketter";
+
+"Plain" = "Almindelig";
+
+"Bond" = "Almindelig tyk";
+
+"Lightweight Cardstock" = "Tyndt karton";
+
+"Lightweight Glossy Cardstock" = "Tyndt glossy karton";
+
+"Envelope" = "Konvolut";
+
+"Recycled" = "Recycled";
+
+"Black" = "Sort";
+
+"seconds (0: Off, 3 - 300)" = "sekunder(0:Fra, 3 - 300)";
+
+"Ethernet" = "Ethernet";
+
+"10BASE-T Half" = "10BASE-T Half";
+
+"10BASE-T Full" = "10BASE-T Full";
+
+"100BASE-T Half" = "100BASE-T Half";
+
+"100BASE-T Full" = "100BASE-T Full";
+
+"LPD" = "LPD";
+
+"Port9100" = "Port9100";
+
+"IPP" = "IPP";
+
+"WSD" = "WSD";
+
+"SNMP v1/v2c" = "SNMP v1/v2c";
+
+"StatusMessenger" = "StatusMessenger";
+
+"Bonjour(mDNS)" = "Bonjour(mDNS)";
+
+"Mode" = "tilstand";
+
+"Incorrect SSID." = "Forkert SSID.";
+
+"Incorrect Password." = "Forkert adgangskode.";
+
+
+
+
+
+
+
+
+
+
+
+
+
+

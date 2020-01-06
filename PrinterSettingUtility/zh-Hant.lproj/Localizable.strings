@@ -1,0 +1,646 @@
+/* 
+  Localizable.strings
+  PrinterSettingUtility
+
+  Created by Wang Kun on 13-12-13.
+  Copyright (c) 2013年 Wang Kun. All rights reserved.
+*/
+
+"IDS_EDIT" = "編輯";
+"IDS_COPY" = "複製";
+"IDS_PASTE" = "貼上";
+"IDS_SELECT_ALL" = "選擇全部";
+
+"IDS_Idle" = "群組形成閒置"; 
+
+"IDS_Start Configuration" = "開始配置";
+
+"IDS_directPINCode" = "PIN代碼";
+
+"IDS_WIRELESS_PASSWORD_DESCRIPTION" = "輸入密碼的WEP金鑰(5或13個英數字元/符號，或者10或26位數的16進位數字)\n
+如果您使用原廠設定值，請參照有關存取點的標籤或說明書。";
+
+"IDS_WIRELESS_PASSPHRASE_DESCRIPTION" = "請對密碼輸入複雜密碼(8到63個英數字元/符號，或者64位數的十六進位數字)。\n
+如果您使用原廠設定值，請參照有關存取點的標籤或說明書。 ";
+
+"IDS_CONFIGURATION_PAGE" = "配置頁面";
+
+"IDS_PRINT" = "列印";
+
+"IDS_WIRELESS_RESET" = "重設";
+
+"IDS_THE_SET_GATEWAY_ADDRESS_IS_ILLEGAL" = "設定的通訊閘位址無效。";
+
+"IDS_THE_SET_IP_ADDRESS_IS_ILLEGAL" = "設定的IP位址無效。";
+
+"IDS_CAUTION_I" = "注意:\r使用非富士全錄l品牌碳粉卡匣可能會導致某些印表機功能無法使用，降低列印品質，並影響印表機的可靠性。富士全錄建議只使用全新富士全錄品牌碳粉卡匣。若使用非富士全錄提供的配件、零件或元件而發生問題時，富士全錄恕不提供保固。";
+
+"IDS_Security Settings" = "安全設定";
+
+"IDS_Acceptable" = "可接受";
+
+"IDS_Good" = "良好";
+
+"IDS_Low" = "低";
+
+"IDS_No Reception" = "接收失敗";
+
+"IDS_E-mail Alert" = "寄送通知";
+
+"IDS_directWPSSetup" = "WPS";
+
+"IDS_ManualGatewayAddress" = "通訊閘位址"; 
+
+"IDS_Network Mask" = "子網路遮罩";
+
+"This IP subnet can not be used in same section with Wi-Fi Direct." = "此IP子網路不可與Wi-Fi Direct的值相同。";
+
+"IP subnet 192.168.186.x is reserved for Wi-Fi Direct." = "IP子網路192.168.186.x保留為Wi-Fi Direct用。";
+
+"IDS_Software Download" = "軟體下載";
+
+"IDS_IPv6UseManualAddress" = "使用手動配置地址";
+
+"IDS_Reset Network Setup" = "重設網路設定";
+
+"IDS_Wi-Fi Setup" = "Wi-Fi設定";
+
+"IDS_Print PIN Code" = "列印PIN代碼"; 
+
+"IDS_Reset Passphrase" = "重設Passphrase"; 
+
+"IDS_Disconnect and Reset Passphrase" = "中斷連線並重設複雜密碼";
+
+"IDS_Disconnect Now" = "立即中斷連線";
+
+"Status" = "狀態";
+
+"IDS_Group Role" = "群組角色";
+
+"IDS_Group Owner" = "群組擁有者";
+
+"IDS_directWPSMethod" = "WPS方法";
+"IDS_Reset Wireless" = "重設Wi-Fi設定";
+"IDS_Push Button Control" = "按鍵設定";
+"IDS_Reset Code" = "重設PIN代碼";
+"IDS_directP2PRole" = "目前的角色";
+"IDS_directDevice" = "裝置名稱";
+"IDS_Client" = "用戶端";
+"Disable" = "關閉";
+
+"IDS_directPassphrase" = "Passphrase";
+"IDS_Print Passphrase" = "列印Passphrase";
+"IDS_Connection Status" = "連線狀態";
+
+"Grid 2 Chart" = "格子2圖";
+
+"Toner Palette Check" = "碳粉面板圖";
+
+"Printer Information" = "印表機資訊";
+
+"Printer Serial Number" = "機器序號";
+
+"Printer Type" = "印表機類型";
+
+"Memory Capacity" = "記憶體容量";
+
+"Processor Speed" = "處理器速度";
+
+"Firmware Version" = "軔體版本";
+
+"Network Firmware Version" = "網路軔體版本";
+
+"MCU Firmware Version" = "MCU軔體版本";
+
+"Printing Speed (Color)" = "連續列印速度(彩色)";
+
+"Printing Speed (Monochrome)" = "連續列印速度(黑白)";
+
+"Menu Settings" = "畫面設定";
+
+"System Settings" = "系統設定";
+
+"Power Saver Timer" = "節電開始時間";//
+
+"Low Power Timer" = "低電力模式";
+
+"Power Saver Mode 1 " = "低電力模式";
+
+"Sleep Timer" = "睡眠模式";
+
+"Power Saver Mode 2" = "睡眠模式";
+
+"minutes_5_30" = "分鐘(%d~%d)";
+
+"Auto Reset" = "自動重設";
+
+"Job Timeout" = "工作自動解除";
+
+"Fault Timeout" = "故障逾時";
+
+"mm/inch" = "公制/英制切換";
+
+"Adjust BTR" = "BTR調整";
+
+"Adjust Fusing Unit" = "調整熔著部組件";
+
+"Auto Registration Adjustment" = "自動基準線校正";
+
+"Adjust Altitude" = "高度校正";
+
+"Non-Genuine Mode" = "非原裝碳粉模式";
+
+"BTR Refresh Mode" = "BTR更新模式";
+
+"Reports" = "報表";
+
+"Information Pages" = "報表";
+
+"System Settings" = "系統設定";
+
+"Panel Settings" = "控制面板設定清單";
+
+"Job History" = "工作記錄報表";
+
+"Error History" = "錯誤記錄報表";
+
+"Demo Page" = "列印測試頁";
+
+"IDS_SETTING_REPORT" = "印表機設定報表";
+
+"Report Language" = "報表語言";
+
+"IP Mode" = "IP模式";
+
+"IPv4" = "IPv4";
+
+"Dual Stack" = "雙重架構";
+
+"Network Settings" = "網路設定";
+
+"Auto" = "自動";
+
+"Protocols" = "通訊協定";
+
+"Host Access List" = "主機存取清單";
+
+"IP Filter" = "IP限定過濾";
+
+"Accept" = "接受";
+
+"Reject" = "拒絕";
+
+"Enable" = "啟動";
+
+"Wireless Setup" = "無線設定";
+
+"Select Mode" = "選擇模式";
+
+"Wi-Fi" = "Wi-Fi";
+
+"SSID" = "SSID";
+
+"Infrastructure" = "Infrastructure";
+
+"Ad-Hoc" = "Ad-Hoc";
+
+"Encryption Type" = "加密種類";
+
+"No Security" = "不使用";
+
+"WEP" = "WEP";
+
+"Password" = "密碼";
+
+"WPA-PSK-TKIP" = "WPA-PSK-TKIP";
+
+"WPA2-PSK-AES" = "WPA2-PSK-AES";
+
+"Mixed mode PSK" = "混合模式PSK";
+
+"Display Characters" = "顯示字元";
+
+"Transmit Key" = "Transmit金鑰";
+
+"WEP Key" = "WEP金鑰";
+
+"Wi-Fi Direct Setup" = "Wi-Fi Direct設定";
+
+"TCP/IP Settings" = "TCP/IP設定";
+
+"IP Address Mode" = "IP位址模式";
+
+"IP Address" = "IP位址";
+
+"Subnet Mask" = "子網路遮罩";
+
+"Gateway Address" = "通訊閘位址";
+
+"Printer Maintenance" = "印表機維護";
+
+"System Settings" = "系統設定";
+
+"minutes_1_6" = "分鐘(%d~%d)";
+
+"Auto Reset_O_HOT" = "自動重設";
+
+"1 minute" = "分鐘";
+
+"2 minutes" = "分鐘";
+
+"3 minutes" = "分鐘";
+
+"4 minutes" = "分鐘";
+
+"Off" = "關閉";
+
+"Job Timeout_I_HOT" = "工作自動解除";
+
+"seconds (0: Off, 5 - 300)" = "秒鐘(0:關閉，5-300)";
+
+"Fault Timeout_U_HOT" = "故障逾時";
+
+"Off" = "關閉";
+
+"Off_JUNK_FAX_FILTER" = "關閉";
+
+"Off_JPN_FOR_COLLATED" = "無";
+
+"On_JPN_FOR_COLLATED" = "有";
+
+"On" = "開啟";
+
+"On_FOR_JPN" = "開啟";
+
+"On1_JUNK_FAX_FILTER" = "開啟(&1)";
+
+"On2_REMOTE_RECEIVE" = "開啟(&2)";
+
+"On3_SEND_HEADER" = "開啟(&3)";
+
+"On4_FAX_COVER_PAGE" = "開啟(&4)";
+
+"On5_PREFIX_DIAL" = "開啟(&5)";
+
+"On6_ECM" = "開啟(&6)";
+
+"millimeter (mm)" = "公釐(mm)";
+
+"inch (\")" = "英寸(\")";
+
+"Apply New Settings" = "套用新的設定";
+
+"Registration Adjustment" = "基準線調整";
+
+"Manual Registration Adjustments" = "手動基準線調整";
+
+"Auto Correct" = "自動校正";
+
+"Print Color Regi Chart" = "列印彩色基準線稿";
+
+"Color Registration Adjustment 1 (Lateral)" = "彩色基準線調整1(側面)";
+
+"Y (Yellow)" = "Y(黃色)";
+
+"M (Magenta)" = "M(洋紅色)";
+
+"C (Cyan)" = "C(青色)";
+
+"Color Registration Adjustment 2 (Process)" = "彩色基準線調整2(過程)";
+
+"LY (Left Yellow)" = "LY(左黃色)";
+
+"LM (Left Magenta)" = "LM(左洋紅色)";
+
+"LC (Left Cyan)" = "LC(左青色)";
+
+"RY (Right Yellow)" = "RY(右黃色)";
+
+"RM (Right Magenta)" = "RM(右洋紅色)";
+
+"RC (Right Cyan)" = "RC(右青色)";
+
+"Start" = "開始";
+
+"0 meter" = "0公尺";
+
+"1000 meters" = "1000公尺";
+
+"2000 meters" = "2000公尺";
+
+"3000 meters" = "3000公尺";
+
+"System Section" = "系統設定值";
+
+"BOOTP" = "BOOTP";
+
+"RARP" = "RARP";
+
+"DHCP" = "DHCP";
+
+"DHCP/AutoIP" = "DHCP/AutoIP";
+
+"Panel" = "控制面板";
+
+"Restart printer to apply new settings" = "套用新的設定並重新啟動印表機";
+
+"Internet Services" = "Internet Services";
+
+"Print Server Settings" = "列印伺服器設定";
+
+"Display of CentreWare Internet Services" = "顯示CentreWare Internet Services";
+
+"Display of CWIS" = "顯示CentreWare Internet Services";
+
+"Display" = "顯示";
+
+"seconds_0_255" = "秒鐘(0~255)";
+
+"seconds_3_255" = "秒鐘(3~255)";
+
+"minutes" = "分鐘";
+
+"Diagnosis" = "診斷";
+
+"Chart Print" = "稿列印";
+
+"Pitch Configuration Chart" = "間距配置圖";
+
+"Ghost Configuration Chart" = "問題配置圖";
+
+"4 &Colors Configuration Chart" = "4色彩配置圖";
+
+"MQ Chart" = "MQ稿";
+
+"Alignment Chart" = "對齊稿";
+
+"Environment Sensor Info" = "環境感應器資料";
+
+"Get Environment Sensor Info" = "取得環境感應器資料";
+
+"Result" = "結果";
+
+"Humidity inside the machine" = "機器內部濕度";
+
+"Temperature inside the machine" = "機器內部溫度";
+
+"Clean Developer" = "顯像部的攪拌";
+
+"Start" = "開始";
+
+"Refresh Mode" = "更新模式";
+
+"Toner Refresh Mode" = "碳粉的更新模式";
+
+"Toner Refresh Mode_GRANDE" = "碳粉的更新模式";
+
+"Get Printer Information." = "存取印表機資訊。";
+
+"Set Printer Information." = "設定印表機資訊。";
+
+"Send Printer Information." = "傳送印表機資訊。";
+
+"The setting has been changed. Do you want to cancel the settings?" = "已變更設定。是否要取消設定?";
+
+"Failed to acquire the information." = "無法取得資訊。";
+
+"Communication with printer failed." = "與印表機通訊失敗。";
+
+"Are you sure you want to exit Printer Setting Utility?" = "是否確定要退出印表機設定公用程式？";
+
+"Information was not acquired because the Status Monitor was running." = "無法取得資訊，因為[狀態監視器]正在執行。";
+
+"Information was not transmitted because the Status Monitor was running." = "無法傳送資訊，因為[狀態監視器]正在執行。";
+
+"It is not possible to print with the paper set in the tray. \rPlease set A4 or the Letter size paper in the tray, and click on a button again. " = "無法用紙盤中的紙張列印。\r請在紙盤中放置A4或Letter 尺寸的紙張，然後再按一次按鍵。 ";
+
+"Restart printer for new settings to take effect.\rDo you want to restart printer?" = "新設定在重新啟動印表機後生效。\r是否要重新啟動印表機？";
+
+"Printer Status: Active" = "印表機狀態:執行中";
+
+"Printer Status: Busy" = "印表機狀態:使用中";
+
+"Printer Status: Cover is Open" = "印表機狀態:蓋子開著";
+
+"Printer Status: Error" = "印表機狀態:錯誤";
+
+"Printer Status: Initializing" = "印表機狀態:初始中";
+
+"Printer Status: Job is Pending Deletion" = "印表機狀態:工作等待刪除";
+
+"Printer Status: Manual Feed Required" = "印表機狀態:需要手送紙盤";
+
+"Printer Status: Not Available" = "印表機狀態:不適用";
+
+"Printer Status: Not Supported" = "印表機狀態:不支援";
+
+"Printer Status: Out of Memory" = "印表機狀態:可用記憶容量不足。";
+
+"Printer Status: Out of Paper" = "印表機狀態:沒有紙張";
+
+"Printer Status: Out of Toner" = "印表機狀態:沒有碳粉";
+
+"Printer Status: Page Error" = "印表機狀態:頁面錯誤";
+
+"Printer Status: Paper Jam" = "印表機狀態:夾紙";
+
+"Printer Status: Paper Problem" = "印表機狀態:紙張問題";
+
+"Printer Status: Pause" = "印表機狀態:暫停";
+
+"Printer Status: Power Off" = "印表機狀態:電源關閉";
+
+"Printer Status: Power Saver Mode" = "印表機狀態:節電模式";
+
+"Printer Status: Printing" = "印表機狀態:列印中";
+
+"Printer Status: Processing" = "印表機狀態:處理中";
+
+"Printer Status: Ready" = "印表機狀態:已就緒";
+
+"Printer Status: Toner Low" = "印表機狀態:碳粉低";
+
+"Printer Status: Unknown" = "印表機狀態:不明";
+
+"Printer Status: Waiting" = "印表機狀態:準備中";
+
+"Printer Status: Warming Up" = "印表機狀態:熱機中";
+
+"Printer Status: ADF Cover Open" = "印表機狀態:ADF蓋開著。";
+
+"Printer Status: ADF Paper Jam" = "印表機狀態:ADF夾紙";
+
+"Printer Status: User Intervention Required" = "印表機狀態:需要使用者干預";
+
+"Cancel" = "取消";
+
+"Help" = "說明";
+
+"OK" = "確定";
+
+"Reset Defaults" = "重設預設值";
+
+"Printer Setting Utility" = "印表機公用程式";
+
+"seconds" = "秒鐘";
+
+"Information was not acquired because the Status Monitor was running." = "無法取得資訊，因為印表機在使用中。";
+
+"Information was not transmitted because the Status Monitor was running." = "無法傳輸資訊，因為印表機在使用中。";
+
+"Boot Code Version" = "啟動代碼版本";
+
+"Color Table Version" = "色表版本";
+
+"Density Adjustment" = "濃度調整";
+
+"Density Adjustment_D_HOT" = "濃度調整(&D)";
+
+"Density Adjustment_ADJUSTMENT" = "濃度調整";
+
+"Density Adjustment_ADJUSTMENT_HOT" = "濃度調整(&D)";
+
+"Adjust Paper Type" = "調整紙張種類";
+
+"Plain Paper" = "普通紙";
+
+"Plain Paper_P_HOT" = "普通紙(&P)";
+
+"Lightweight" = "薄紙";
+
+"Heavyweight" = "厚紙";
+
+"minutes_1_30" = "分(1~30)";
+
+"minutes_6_11" = "分(6~11)";
+
+"Printer Serial Number_P_HOT" = "印表機號碼(&P)";
+
+"Select Printer:" = "選擇印表機:";
+
+"Printer Name" = "印表機名稱";
+
+"Model Name" = "機種名稱";
+
+"Connected To" = "連線到";
+
+"Close" = "關閉";
+
+"Supported printers are not installed in the system." = "系統中未安裝支援的印表機。";
+
+"Meter Readings" = "碼錶確認";
+
+"Meter 1" = "碼錶1";
+
+"Meter 2" = "碼錶2";
+
+"Meter 3" = "碼錶3";
+
+"Meter 4" = "碼錶4";
+
+"inch (\")ES" = "英寸(\")";
+
+"CWIS" = "CWIS";
+
+"Drum Refresh Configuration Chart" = "圓鼓的更新配置圖";
+
+"Version" = "版本";
+
+"Billing Meters" = "碼錶確認";
+
+"Total Impression" = "總列印頁數";
+
+
+"Color Impression" = "彩色列印";
+
+"Black Impression" = "黑白列印";
+
+"Network Message" = "網路訊息";
+
+"Low Toner Alert Message_W_HOT" = "無碳粉警告訊息(&W)";
+
+"Low Toner Alert Message" = "低碳粉警訊";
+
+"Machine Life" = "機器壽命";
+
+"C&ontinue Print" = "繼續列印(&O)";
+
+"IDS_CU_XERO_LIFE" = "注意:\r雖然在過了印表機的使用期限之後，只要將設定變更為[繼續列印]就能繼續使用印表機，但是我們無法保證列印品質。";
+
+//
+
+"About" = "關於";
+
+"Quit" = "退出";
+
+"On (except A4/Ltr)" = "有(除了A4/Ltr)";
+
+"English" = "English";
+
+"French" = "French";
+
+"Russion" = "Russion";
+
+"Show Paper Size Error" = "顯示紙張尺寸錯誤";
+
+"Labels" = "標籤貼紙";
+
+"Plain" = "普通纸";
+
+"Bond" = "優質紙";
+
+"Lightweight Cardstock" = "厚紙1";
+
+"Lightweight Glossy Cardstock" = "光面處理紙";
+
+"Envelope" = "信封";
+
+"Recycled" = "再生紙";
+
+"Black" = "黑色";
+
+"seconds (0: Off, 3 - 300)" = "秒鐘(0:關閉，3-300)";
+
+"Ethernet" = "以太網";
+
+"10BASE-T Half" = "10BASE-T Half";
+
+"10BASE-T Full" = "10BASE-T Full";
+
+"100BASE-T Half" = "100BASE-T Half";
+
+"100BASE-T Full" = "100BASE-T Full";
+
+"LPD" = "LPD";
+
+"Port9100" = "連接埠9100";
+
+"IPP" = "IPP";
+
+"WSD" = "WSD";
+
+"SNMP v1/v2c" = "SNMP v1/v2c";
+
+"StatusMessenger" = "寄送通知";
+
+"Bonjour(mDNS)" = "Bonjour(mDNS)";
+
+"Mode" = "模式";
+
+"Incorrect SSID." = "SSID不正確。";
+
+"Incorrect Password." = "密碼不正確。";
+
+
+
+
+
+
+
+
+
+
+
+
+
+

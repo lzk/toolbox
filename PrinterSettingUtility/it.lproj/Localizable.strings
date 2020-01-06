@@ -1,0 +1,655 @@
+/* 
+  Localizable.strings
+  PrinterSettingUtility
+
+  Created by Wang Kun on 13-12-13.
+  Copyright (c) 2013年 Wang Kun. All rights reserved.
+*/
+
+
+"IDS_EDIT" = "Modifica";
+"IDS_COPY" = "Copia";
+"IDS_PASTE" = "Incolla";
+"IDS_SELECT_ALL" = "Seleziona tutto";
+
+
+"IDS_Idle" = "Formazione gruppo inattivo";
+
+"IDS_Start Configuration" = "Avvia configurazione";
+
+"IDS_directPINCode" = "PIN-Code";
+
+"IDS_WIRELESS_PASSWORD_DESCRIPTION" = "Inserire la chiave WEP (5 o 13 simboli/caratteri alfanumerici oppure numeri esadecimali con 10 o 26 cifre).\n
+Se si utilizza il valore predefinito, vedere le etichette o il manuale del punto di accesso.";
+
+"IDS_WIRELESS_PASSPHRASE_DESCRIPTION" = "Immettere la passphrase (da 8 a 63 caratteri alfanumerici  / simboli, O, numeri esadecimali a 64 cifre) per la password.\n
+Fare riferimento alle etichette o al manuale di Access Point se utilizzato dall'impostazione di fabbrica. ";
+
+"IDS_CONFIGURATION_PAGE" = "Pagina di configurazione";
+
+"IDS_PRINT" = "Stampa";
+
+"IDS_WIRELESS_RESET" = "Ripristina";
+
+"IDS_THE_SET_GATEWAY_ADDRESS_IS_ILLEGAL" = "Indirizzo gateway impostato non valido";
+
+"IDS_THE_SET_IP_ADDRESS_IS_ILLEGAL" = "Indirizzo IP impostato non valido.";
+
+"IDS_CAUTION_X" ="ATTENZIONE:\rl'utilizzo di cartucce toner non Xerox può rendere inutilizzabili alcune funzioni, ridurre la qualità di stampa e diminuire l'affidabilità della stampante. Xerox raccomanda l'utilizzo solo di cartucce toner Xerox nuove per la stampante. Non si fornisce alcuna garanzia contro problemi dovuti all'uso di accessori, elementi o componenti non originali Xerox.";
+
+"IDS_Security Settings" = "Impost. protez.";
+
+"IDS_No Reception" = "Nessuna ricezione";
+
+"IDS_Low" = "Basso";
+
+"IDS_Good" = "Buono";
+
+"IDS_Acceptable" = "Accettabile";
+
+"IDS_E-mail Alert" = "Avvisi e-mail";
+
+"IDS_directWPSSetup" = "Impost. WPS";
+
+"IDS_ManualGatewayAddress" = "Indirizzo gateway";
+
+"IDS_Network Mask" = "Network mask";
+
+"This IP subnet can not be used in same section with Wi-Fi Direct." = "Impossibile utilizzare questo valore Subnet IP nella stessa sezione di Wi-Fi Direct.";
+
+"IP subnet 192.168.186.x is reserved for Wi-Fi Direct." = "Valore Subnet IP 192.168.186.x riservato per Wi-Fi Direct.";
+
+"IDS_Software Download" = "Scarica software";
+
+"IDS_IPv6UseManualAddress" = "Usa indirizzo manuale";
+
+"IDS_Reset Network Setup" = "Ripristina impostazione di rete";
+
+"IDS_Wi-Fi Setup" = "Impostazione Wi-Fi";
+
+"IDS_Print PIN Code" = "Stampa codice PIN";
+
+"IDS_Reset Passphrase" = "Ripristina passphrase";
+
+"IDS_Disconnect and Reset Passphrase" = "Disconnetti e ripristina passphrase";
+
+"IDS_Disconnect Now" = "Disconnetti ora";
+
+"Status" = "Stato";
+
+"Grid 2 Chart" = "Diagramma griglia 2";
+
+"Toner Palette Check" = "Verifica tavolozza toner";
+
+"Disable" = "Disabilita";
+
+"Printer Information" = "Informazioni stampante";
+
+"Printer Serial Number" = "Numero di serie stampante";
+
+"Printer Type" = "Tipo di stampante";
+
+"Memory Capacity" = "Capacità di memoria";
+
+"Processor Speed" = "Velocità processore";
+
+"Firmware Version" = "Versione firmware";
+
+"Network Firmware Version" = "Versione firmware di rete";
+
+"MCU Firmware Version" = "Versione firmware MCU";
+
+"Printing Speed (Color)" = "Velocità di stampa (Colore)";
+
+"Printing Speed (Monochrome)" = "Velocità di stampa (B/N)";
+
+"Menu Settings" = "Impostazioni Menu";
+
+"System Settings" = "Impost. sistema";
+
+"Power Saver Timer" = "Timer economizz.";
+
+"Low Power Timer" = "Timer alim. ridotta";
+
+"Power Saver Mode 1 " = "Modo economizz. 1";
+
+"Sleep Timer" = "Timer sospens.";
+
+"Power Saver Mode 2" = "Modo economizz. 2";
+
+"minutes_5_30" = "minuti (%d - %d)";
+
+"Auto Reset" = "Ripr. autom.";
+
+"Job Timeout" = "Timeout lavoro";
+
+"Fault Timeout" = "Timeout errore";
+
+"mm/inch" = "mm/pollici";
+
+"Adjust BTR" = "Registra BTR";
+
+"Adjust Fusing Unit" = "Registra fusore";
+
+"Auto Registration Adjustment" = "Registrazione automatica";
+
+"Adjust Altitude" = "Registra altitudine";
+
+"Non-Genuine Mode" = "Modo non originale";
+
+"BTR Refresh Mode" = "Modo aggiorn. BTR";
+
+"Reports" = "Rapporti";
+
+"Information Pages" = "Pagine di informazioni";
+
+"System Settings" = "Impost. sistema";
+
+"Panel Settings" = "Impostazioni pannello";
+
+"Job History" = "Cronologia lavori";
+
+"Error History" = "Cronologia errori";
+
+"Demo Page" = "Pag. dimostr.";
+
+"IDS_SETTING_REPORT" = "Rapporto impostazioni stampante";
+
+"Report Language" = "Lingua rapporto";
+
+"IP Mode" = "Modo IP";
+
+"IPv4" = "IPv4";
+
+"Dual Stack" = "Dual stack";
+
+"Network Settings" = "Impostazioni di rete";
+
+"Auto" = "Automatico";
+
+"Protocols" = "Protocolli";
+
+"Host Access List" = "Elenco accesso host";
+
+"IP Filter" = "Filtro IP";
+
+"Accept" = "Accetta";
+
+"Reject" = "Rifiuta";
+
+"Enable" = "Abilita";
+
+"Wireless Setup" = "Impost. wireless";
+
+"Select Mode" = "Seleziona modo";
+
+"Wi-Fi" = "Wi-Fi";
+
+"SSID" = "SSID";
+
+"Infrastructure" = "Infrastruttura";
+
+"Ad-Hoc" = "Ad-Hoc";
+
+"Encryption Type" = "Tipo crittografia";
+
+"No Security" = "Nessuna sicurezza";
+
+"WEP" = "WEP";
+
+"Password" = "Password";
+
+"WPA-PSK-TKIP" = "WPA-PSK-TKIP";
+
+"WPA2-PSK-AES" = "WPA2-PSK-AES";
+
+"Mixed mode PSK" = "PSK modo misto";
+
+"Display Characters" = "Visualizza caratteri";
+
+"Transmit Key" = "Chiave di trasmissione";
+
+"WEP Key" = "Chiave WEP";
+
+"Wi-Fi Direct Setup" = "Impost. Wi-Fi Direct";
+
+"TCP/IP Settings" = "Impostazioni TCP/IP";
+
+"IP Address Mode" = "Modo indirizzo IP";
+
+"IP Address" = "Indirizzo IP";
+
+"Subnet Mask" = "Subnet mask";
+
+"Gateway Address" = "Indirizzo gateway";
+
+"IDS_Reset Code" = "Ripristina codice PIN";
+
+"IDS_directP2PRole" = "Ruolo corrente";
+
+"IDS_Client" = "Client";
+
+"IDS_Connection Status" = "Stato connessione";
+
+"IDS_directPassphrase" = "Passphrase";
+
+"IDS_Reset Wireless" = "Ripristina impostazioni Wi-Fi";
+
+
+"IDS_Print Passphrase" = "Passphrase di stampa";
+
+"Printer Maintenance" = "Manutenzione stampante";
+
+"System Settings" = "Impost. sistema";
+
+"minutes_1_6" = "minuti (%d - %d)";
+
+"Auto Reset_O_HOT" = "Ripr. autom.";
+
+"1 minute" = "1 minuto";
+
+"2 minutes" = "2 minuti";
+
+"3 minutes" = "3 minuti";
+
+"4 minutes" = "4 minuti";
+
+"Off" = "No";
+
+"Job Timeout_I_HOT" = "Timeout lavoro";
+
+"seconds (0: Off, 5 - 300)" = "secondi (0:No, 5 - 300)";
+
+"Fault Timeout_U_HOT" = "Timeout errore";
+
+"Off" = "No";
+
+"IDS_Group Owner" = "Proprietario gruppo";
+
+"IDS_directDevice" = "Nome dispositivo";
+
+"IDS_directWPSMethod" = "Metodo WPS";
+
+"IDS_Push Button Control" = "Configurazione pulsante";
+
+"IDS_Group Role" = "Ruolo gruppo";
+
+"Off_JUNK_FAX_FILTER" = "No";
+
+"Off_JPN_FOR_COLLATED" = "No";
+
+"On_JPN_FOR_COLLATED" = "Fascicol.";
+
+"On" = "Sì";
+
+"On_FOR_JPN" = "Sì";
+
+"On1_JUNK_FAX_FILTER" = "Sì (&1)";
+
+"On2_REMOTE_RECEIVE" = "Sì (&2)";
+
+"On3_SEND_HEADER" = "Sì (&3)";
+
+"On4_FAX_COVER_PAGE" = "Sì (&4)";
+
+"On5_PREFIX_DIAL" = "Sì (&5)";
+
+"On6_ECM" = "Sì (&6)";
+
+"millimeter (mm)" = "mm (mm)";
+
+"inch (\")" = "poll. (\")";
+
+"Apply New Settings" = "Applica nuove impostazioni";
+
+"Registration Adjustment" = "Regolazione registrazione";
+
+"Manual Registration Adjustments" = "Registrazioni manuali";
+
+"Auto Correct" = "Correzione automatica";
+
+"Print Color Regi Chart" = "Stampa diagr. reg. col.";
+
+"Color Registration Adjustment 1 (Lateral)" = "Regolazione registrazione colore 1 (laterale)";
+
+"Y (Yellow)" = "Y (Giallo)";
+
+"M (Magenta)" = "M (Magenta)";
+
+"C (Cyan)" = "C (Ciano)";
+
+"Color Registration Adjustment 2 (Process)" = "Regolazione registrazione colore 2 (elaborazione)";
+
+"LY (Left Yellow)" = "LY (Sinistra giallo)";
+
+"LM (Left Magenta)" = "LM (Sinistra magenta)";
+
+"LC (Left Cyan)" = "LC (Sinistra ciano)";
+
+"RY (Right Yellow)" = "RY (Destra giallo)";
+
+"RM (Right Magenta)" = "RM (Destra magenta)";
+
+"RC (Right Cyan)" = "RC (Destra ciano)";
+
+"Start" = "Avvia";
+
+"0 meter" = "0 metri";
+
+"1000 meters" = "1000 metri";
+
+"2000 meters" = "2000 metri";
+
+"3000 meters" = "3000 metri";
+
+"System Section" = "Sez. sistema";
+
+"BOOTP" = "BOOTP";
+
+"RARP" = "RARP";
+
+"DHCP" = "DHCP";
+
+"DHCP/AutoIP" = "DHCP/AutoIP";
+
+"Panel" = "Pannello";
+
+"Restart printer to apply new settings" = "Riavvia la stampante per applicare le nuove impostazioni";
+
+"Internet Services" = "Internet Services";
+
+"Print Server Settings" = "Impostazioni server di stampa";
+
+"Display of CentreWare Internet Services" = "Visualizz. CentreWare Internet Services";
+
+"Display of CWIS" = "Visualizz. CWIS";
+
+"Display" = "Visualizzazione";
+
+"seconds_0_255" = "secondi(0-255)";
+
+"seconds_3_255" = "secondi(3-255)";
+
+"minutes" = "minuti";
+
+"Diagnosis" = "Diagnosi";
+
+"Chart Print" = "Stampa tabelle";
+
+"Pitch Configuration Chart" = "Tabella configurazione passo";
+
+"Ghost Configuration Chart" = "Tabella configurazione immagine spuria";
+
+"4 &Colors Configuration Chart" = "Tabella configurazione 4 colori";
+
+"MQ Chart" = "Tabella MQ";
+
+"Alignment Chart" = "Tabella allineamento";
+
+"Environment Sensor Info" = "Info sensore ambientale";
+
+"Get Environment Sensor Info" = "Recupera info sensore ambientale";
+
+"Result" = "Risultato";
+
+"Humidity inside the machine" = "Umidità interna della macchina  ";
+
+"Temperature inside the machine" = "Temperatura interna della macchina";
+
+"Clean Developer" = "Pulizia developer";
+
+"Start" = "Avvia";
+
+"Refresh Mode" = "Modo aggiornamento";
+
+"Toner Refresh Mode" = "Modo aggiorn. toner";
+
+"Toner Refresh Mode_GRANDE" = "Modo aggiorn. toner";
+
+"Get Printer Information." = "Recupero informazioni stampante";
+
+"Set Printer Information." = "Imposta informazioni stampante";
+
+"Send Printer Information." = "Invia informazioni stampante";
+
+"The setting has been changed. Do you want to cancel the settings?" = "Impostazione modificata. Annullare le impostazioni?";
+
+"Failed to acquire the information." = "Impossibile acquisire le informazioni.";
+
+"Communication with printer failed." = "Comunicazione con la stampante non riuscita.";
+
+"Are you sure you want to exit Printer Setting Utility?" = "Uscire da Utility impostazioni stampante?";
+
+"Are you sure you want to exit Printer Setting Utility?" = "Uscire da Strumenti?";
+
+"Information was not acquired because the Status Monitor was running." = "Informazioni non acquisite perché Status Monitor era in esecuzione.";
+
+"Information was not transmitted because the Status Monitor was running." = "Informazioni non trasmesse perché Status Monitor era in esecuzione.";
+
+"It is not possible to print with the paper set in the tray. \rPlease set A4 or the Letter size paper in the tray, and click on a button again. " = "Impossibile stampare con il tipo di carta disponibile nel vassoio. \rImpostare il formato A4 (o Letter) per la carta nel vassoio e selezione di nuovo un pulsante. ";
+
+"Restart printer for new settings to take effect.\rDo you want to restart printer?" = "Riavviare la stampante per applicare le nuove impostazioni.\rRiavviare la stampante?";
+
+"Printer Status: Active" = "Stato stampante: attivo";
+
+"Printer Status: Busy" = "Stato stampante: occupato";
+
+"Printer Status: Cover is Open" = "Stato stampante: coperchio aperto";
+
+"Printer Status: Error" = "Stato stampante: errore";
+
+"Printer Status: Initializing" = "Stato stampante: inizializzazione";
+
+"Printer Status: Job is Pending Deletion" = "Stato stampante: lavoro in attesa di eliminazione";
+
+"Printer Status: Manual Feed Required" = "Stato stampante: richiesta alimentazione manuale";
+
+"Printer Status: Not Available" = "Stato stampante: non disponibile";
+
+"Printer Status: Not Supported" = "Stato stampante: non supportato";
+
+"Printer Status: Out of Memory" = "Stato stampante: memoria esaurita";
+
+"Printer Status: Out of Paper" = "Stato stampante: carta esaurita";
+
+"Printer Status: Out of Toner" = "Stato stampante: toner esaurito";
+
+"Printer Status: Page Error" = "Stato stampante: errore pagina";
+
+"Printer Status: Paper Jam" = "Stato stampante: inceppamento";
+
+"Printer Status: Paper Problem" = "Stato stampante: problema carta";
+
+"Printer Status: Pause" = "Stato stampante: pausa";
+
+"Printer Status: Power Off" = "Stato stampante: spegnimento";
+
+"Printer Status: Power Saver Mode" = "Stato stampante: Modo economizz.";
+
+"Printer Status: Printing" = "Stato stampante: stampa";
+
+"Printer Status: Processing" = "Stato stampante: elaborazione in corso";
+
+"Printer Status: Ready" = "Stato stampante: pronto";
+
+"Printer Status: Toner Low" = "Stato stampante: livello toner basso";
+
+"Printer Status: Unknown" = "Stato stampante: sconosciuto";
+
+"Printer Status: Waiting" = "Stato stampante: in attesa";
+
+"Printer Status: Warming Up" = "Stato stampante: riscaldamento";
+
+"Printer Status: ADF Cover Open" = "Stato stampante: coperchio ADF aperto";
+
+"Printer Status: ADF Paper Jam" = "Stato stampante: inceppamento ADF";
+
+"Printer Status: User Intervention Required" = "Stato stampante: richiesto intervento dell'utente";
+
+"Cancel" = "Annulla";
+
+"Help" = "Guida";
+
+"OK" = "OK";
+
+"Reset Defaults" = "Ripr. predef.";
+
+"Printer Setting Utility" = "Utility impostazioni stampante";
+
+"seconds" = "secondi";
+
+"Information was not acquired because the Status Monitor was running." = "Informazioni non acquisite perché la stampante era occupata.";
+
+"Information was not transmitted because the Status Monitor was running." = "Informazioni non trasmesse perché la stampante era occupata.";
+
+"Boot Code Version" = "Versione codice di avvio";
+
+"Color Table Version" = "Versione tabella colori";
+
+"Density Adjustment" = "Registrazione densità";
+
+"Density Adjustment_D_HOT" = "R&egistrazione densità";
+
+"Density Adjustment_ADJUSTMENT" = "Registrazione densità";
+
+"Density Adjustment_ADJUSTMENT_HOT" = "R&egistrazione densità";
+
+"Adjust Paper Type" = "Registra tipo di carta";
+
+"Plain Paper" = "Standard";
+
+"Plain Paper_P_HOT" = "S&tandard";
+
+"Lightweight" = "Carta leggera";
+
+"Heavyweight" = "Carta pesante";
+
+"minutes_1_30" = "minuti (1 - 30)";
+
+"minutes_6_11" = "minuti (6 - 11)";
+
+"Printer Serial Number_P_HOT" = "&Printer Serial Number";
+
+"Select Printer:" = "Seleziona stampante:";
+
+"Printer Name" = "Nome stampante";
+
+"Model Name" = "Nome modello";
+
+"Connected To" = "Connessione a";
+
+"Close" = "Chiudi";
+
+"Supported printers are not installed in the system." = "Non sono installate nel sistema delle stampanti supportate.";
+
+"Meter Readings" = "Letture contatore";
+
+"Meter 1" = "Contatore 1";
+
+"Meter 2" = "Contatore 2";
+
+"Meter 3" = "Contatore 3";
+
+"Meter 4" = "Contatore 4";
+
+"inch (\")ES" = "pollici (\")";
+
+"CWIS" = "CWIS";
+
+"Drum Refresh Configuration Chart" = "Schema di configurazione agg. tamburo";
+
+"Version" = "Versione";
+
+"Billing Meters" = "Contatori di fatturazione";
+
+"Total Impression" = "Totale impress.";
+
+
+
+"Color Impression" = "Impress. a colori";
+
+"Black Impression" = "Impress. in B/N";
+
+"Network Message" = "Messaggio di rete";
+
+"Low Toner Alert Message_W_HOT" = "Avviso &toner basso";
+
+"Low Toner Alert Message" = "Avviso toner basso";
+
+"Machine Life" = "Durata utile macchina";
+
+"C&ontinue Print" = "Continua la stampa";
+
+"IDS_CU_XERO_LIFE" = "ATTENZIONE:\rsebbene sia possibile continuare a utilizzare la stampante anche dopo la fine della durata utile modificando l'impostazione Continua a stampare, non si garantisce una buona qualità di stampa.";
+
+//
+
+"About" = "circa";
+
+"Quit" = "smettere";
+
+"On (except A4/Ltr)" = "Sì tranne A4/Letter";
+
+"English" = "English";
+
+"French" = "French";
+
+"Russion" = "Russion";
+
+"Show Paper Size Error" = "Mostra errore formato carta";
+
+"Labels" = "Etichette";
+
+"Plain" = "Standard";
+
+"Bond" = "Carta di qualità";
+
+"Lightweight Cardstock" = "Cartoncino sottile";
+
+"Lightweight Glossy Cardstock" = "Cart. lucido leggero";
+
+"Envelope" = "Busta";
+
+"Recycled" = "Riciclata";
+
+"Black" = "Nero";
+
+"seconds (0: Off, 3 - 300)" = "secondi (0:No, 3 - 300)";
+
+"Ethernet" = "Ethernet";
+
+"10BASE-T Half" = "10BASE-T Half";
+
+"10BASE-T Full" = "10BASE-T Full";
+
+"100BASE-T Half" = "100BASE-T Half";
+
+"100BASE-T Full" = "100BASE-T Full";
+
+"LPD" = "LPD";
+
+"Port9100" = "Port9100";
+
+"IPP" = "IPP";
+
+"WSD" = "WSD";
+
+"SNMP v1/v2c" = "SNMP v1/v2c";
+
+"StatusMessenger" = "Avvisi e-mail";
+
+"Bonjour(mDNS)" = "Bonjour(mDNS)";
+
+"Mode" = "modo";
+
+"Incorrect SSID." = "SSID errato.";
+
+"Incorrect Password." = "Password errata.";
+
+
+
+
+
+
+
+

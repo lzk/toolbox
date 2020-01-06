@@ -7,55 +7,786 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		858E0000238294E000C40F6C /* PSRWirelessSetupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA234E6218BB14280061EF18 /* PSRWirelessSetupViewController.m */; };
+		858E0001238294E000C40F6C /* PMSecuritySettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC069591907736200273ABA /* PMSecuritySettingsViewController.m */; };
+		858E0002238294E000C40F6C /* CustomTextFieldFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = CED8591E190E291C00E3D847 /* CustomTextFieldFormatter.m */; };
+		858E0003238294E000C40F6C /* NetIO.cp in Sources */ = {isa = PBXBuildFile; fileRef = CEB727E7191B81BD00EEAC40 /* NetIO.cp */; };
+		858E0004238294E000C40F6C /* GrandeCmd.cp in Sources */ = {isa = PBXBuildFile; fileRef = CEB727E8191B81BD00EEAC40 /* GrandeCmd.cp */; };
+		858E0005238294E000C40F6C /* Socket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEB727EB191B81BD00EEAC40 /* Socket.cpp */; };
+		858E0006238294E000C40F6C /* cMD5.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEB727ED191B81BD00EEAC40 /* cMD5.cpp */; };
+		858E0007238294E000C40F6C /* des.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEB727EF191B81BD00EEAC40 /* des.cpp */; };
+		858E0009238294E000C40F6C /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA9B42DB184DAE1F002F828B /* IOKit.framework */; };
+		858E000A238294E000C40F6C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA9B41DD184DA1E5002F828B /* Cocoa.framework */; };
+		858E000B238294E000C40F6C /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC06ACF1907C22200273ABA /* Carbon.framework */; };
+		858E000D238294E000C40F6C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA9B41F2184DA1E5002F828B /* MainMenu.xib */; };
+		858E000E238294E000C40F6C /* PrinterSelector.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA9B4262184DA40F002F828B /* PrinterSelector.xib */; };
+		858E000F238294E000C40F6C /* Progress.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA9B4263184DA40F002F828B /* Progress.xib */; };
+		858E0010238294E000C40F6C /* InformationPages.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA9B4268184DA44C002F828B /* InformationPages.xib */; };
+		858E0011238294E000C40F6C /* PSRTCPIPViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA9B426B184DA44C002F828B /* PSRTCPIPViewController.xib */; };
+		858E0012238294E000C40F6C /* TraySettings.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA9B426C184DA44C002F828B /* TraySettings.xib */; };
+		858E0013238294E000C40F6C /* AdjustAltitude.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA9B4273184DA46F002F828B /* AdjustAltitude.xib */; };
+		858E0014238294E000C40F6C /* AdjustBTR.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA9B4274184DA46F002F828B /* AdjustBTR.xib */; };
+		858E0015238294E000C40F6C /* AdjustFuser.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA9B4275184DA46F002F828B /* AdjustFuser.xib */; };
+		858E0016238294E000C40F6C /* PMAdjustPaperTypeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA9B4276184DA46F002F828B /* PMAdjustPaperTypeViewController.xib */; };
+		858E0017238294E000C40F6C /* PMBTRRefreshModeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA9B4277184DA46F002F828B /* PMBTRRefreshModeViewController.xib */; };
+		858E0018238294E000C40F6C /* PMInternetServicesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA9B4278184DA46F002F828B /* PMInternetServicesViewController.xib */; };
+		858E0019238294E000C40F6C /* PMMachineLifeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA9B4279184DA46F002F828B /* PMMachineLifeViewController.xib */; };
+		858E001A238294E000C40F6C /* PMNonGenuineModeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA9B427A184DA46F002F828B /* PMNonGenuineModeViewController.xib */; };
+		858E001B238294E000C40F6C /* PMRegistrationAdjustmentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA9B427B184DA46F002F828B /* PMRegistrationAdjustmentViewController.xib */; };
+		858E001C238294E000C40F6C /* PrinterInformation.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA833F2618CD9435003C01A7 /* PrinterInformation.xib */; };
+		858E001D238294E000C40F6C /* PMTCPIPViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA9B427C184DA46F002F828B /* PMTCPIPViewController.xib */; };
+		858E001E238294E000C40F6C /* PMTraySettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA9B427D184DA46F002F828B /* PMTraySettingsViewController.xib */; };
+		858E001F238294E000C40F6C /* ResetDefaults.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA9B427E184DA46F002F828B /* ResetDefaults.xib */; };
+		858E0020238294E000C40F6C /* SystemSettings.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA9B427F184DA46F002F828B /* SystemSettings.xib */; };
+		858E0021238294E000C40F6C /* CleanDeveloper.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA9B428F184DA4B5002F828B /* CleanDeveloper.xib */; };
+		858E0022238294E000C40F6C /* DEnvironmentSensorInforViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA9B4290184DA4B5002F828B /* DEnvironmentSensorInforViewController.xib */; };
+		858E0023238294E000C40F6C /* RefreshMode.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA9B4291184DA4B5002F828B /* RefreshMode.xib */; };
+		858E0024238294E000C40F6C /* PSRMenuSettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA833F2318CD942E003C01A7 /* PSRMenuSettingsViewController.xib */; };
+		858E0025238294E000C40F6C /* About_IBG.bmp in Resources */ = {isa = PBXBuildFile; fileRef = EA9B42A6184DA768002F828B /* About_IBG.bmp */; };
+		858E0026238294E000C40F6C /* Help.ico in Resources */ = {isa = PBXBuildFile; fileRef = EA9B42A8184DA768002F828B /* Help.ico */; };
+		858E0027238294E000C40F6C /* MachineSetup.icns in Resources */ = {isa = PBXBuildFile; fileRef = EA9B42A9184DA768002F828B /* MachineSetup.icns */; };
+		858E0028238294E000C40F6C /* SFP.bmp in Resources */ = {isa = PBXBuildFile; fileRef = EA9B42AA184DA768002F828B /* SFP.bmp */; };
+		858E0029238294E000C40F6C /* Title_IBG.bmp in Resources */ = {isa = PBXBuildFile; fileRef = EA9B42AC184DA768002F828B /* Title_IBG.bmp */; };
+		858E002A238294E000C40F6C /* toolbox.ico in Resources */ = {isa = PBXBuildFile; fileRef = EA9B42AE184DA768002F828B /* toolbox.ico */; };
+		858E002B238294E000C40F6C /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = EAAE5E21184DB0570022B816 /* MainWindow.xib */; };
+		858E002C238294E000C40F6C /* Align_A4.prn in Resources */ = {isa = PBXBuildFile; fileRef = EAE22E7318516AD800420DA4 /* Align_A4.prn */; };
+		858E002D238294E000C40F6C /* Align_LT.prn in Resources */ = {isa = PBXBuildFile; fileRef = EAE22E7418516AD800420DA4 /* Align_LT.prn */; };
+		858E002E238294E000C40F6C /* COLOR_A4.prn in Resources */ = {isa = PBXBuildFile; fileRef = EAE22E7518516AD800420DA4 /* COLOR_A4.prn */; };
+		858E002F238294E000C40F6C /* COLOR_LT.prn in Resources */ = {isa = PBXBuildFile; fileRef = EAE22E7618516AD800420DA4 /* COLOR_LT.prn */; };
+		858E0030238294E000C40F6C /* CONF_A4.prn in Resources */ = {isa = PBXBuildFile; fileRef = EAE22E7718516AD800420DA4 /* CONF_A4.prn */; };
+		858E0031238294E000C40F6C /* CONF_LT.prn in Resources */ = {isa = PBXBuildFile; fileRef = EAE22E7818516AD800420DA4 /* CONF_LT.prn */; };
+		858E0032238294E000C40F6C /* Ghost_A4.prn in Resources */ = {isa = PBXBuildFile; fileRef = EAE22E7918516AD800420DA4 /* Ghost_A4.prn */; };
+		858E0033238294E000C40F6C /* Ghost_LT.prn in Resources */ = {isa = PBXBuildFile; fileRef = EAE22E7A18516AD800420DA4 /* Ghost_LT.prn */; };
+		858E0034238294E000C40F6C /* Grid2_A4.prn in Resources */ = {isa = PBXBuildFile; fileRef = EAE22E7B18516AD800420DA4 /* Grid2_A4.prn */; };
+		858E0035238294E000C40F6C /* Grid2_LT.prn in Resources */ = {isa = PBXBuildFile; fileRef = EAE22E7C18516AD800420DA4 /* Grid2_LT.prn */; };
+		858E0036238294E000C40F6C /* MQ_A4.prn in Resources */ = {isa = PBXBuildFile; fileRef = EAE22E7D18516AD800420DA4 /* MQ_A4.prn */; };
+		858E0037238294E000C40F6C /* MQ_LT.prn in Resources */ = {isa = PBXBuildFile; fileRef = EAE22E7E18516AD800420DA4 /* MQ_LT.prn */; };
+		858E0038238294E000C40F6C /* PHD_A4.prn in Resources */ = {isa = PBXBuildFile; fileRef = EAE22E7F18516AD800420DA4 /* PHD_A4.prn */; };
+		858E0039238294E000C40F6C /* PHD_LT.prn in Resources */ = {isa = PBXBuildFile; fileRef = EAE22E8018516AD800420DA4 /* PHD_LT.prn */; };
+		858E003A238294E000C40F6C /* Regi_A4.prn in Resources */ = {isa = PBXBuildFile; fileRef = EAE22E8118516AD800420DA4 /* Regi_A4.prn */; };
+		858E003B238294E000C40F6C /* Regi_LT.prn in Resources */ = {isa = PBXBuildFile; fileRef = EAE22E8218516AD800420DA4 /* Regi_LT.prn */; };
+		858E003C238294E000C40F6C /* Toner_A4.prn in Resources */ = {isa = PBXBuildFile; fileRef = EAE22E8318516AD800420DA4 /* Toner_A4.prn */; };
+		858E003D238294E000C40F6C /* Toner_LT.prn in Resources */ = {isa = PBXBuildFile; fileRef = EAE22E8418516AD800420DA4 /* Toner_LT.prn */; };
+		858E003E238294E000C40F6C /* PrinterSettingUtility-IBG-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EAA26082185FE2E300EF9B1F /* PrinterSettingUtility-IBG-Info.plist */; };
+		858E003F238294E000C40F6C /* PMDensityAdjustmentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA353B531861297B00098266 /* PMDensityAdjustmentViewController.xib */; };
+		858E0040238294E000C40F6C /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = EAF96DB7185AD1D200F42A8A /* Localizable.strings */; };
+		858E0041238294E000C40F6C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EA9B41E6184DA1E5002F828B /* InfoPlist.strings */; };
+		858E0042238294E000C40F6C /* PMNetwrokSettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EAA8A0921867CE29002469BE /* PMNetwrokSettingsViewController.xib */; };
+		858E0043238294E000C40F6C /* PMWirelessSetupViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EAA4689518691DF8006D2056 /* PMWirelessSetupViewController.xib */; };
+		858E0044238294E000C40F6C /* VLL-SFP_IBG.bmp in Resources */ = {isa = PBXBuildFile; fileRef = EA36ABC018ADA622002E6E2A /* VLL-SFP_IBG.bmp */; };
+		858E0045238294E000C40F6C /* SFP.tif in Resources */ = {isa = PBXBuildFile; fileRef = EA5E013E18ADFD96006F5E2E /* SFP.tif */; };
+		858E0046238294E000C40F6C /* 11.bmp in Resources */ = {isa = PBXBuildFile; fileRef = EA74010318B6F66500B089A8 /* 11.bmp */; };
+		858E0047238294E000C40F6C /* 222.bmp in Resources */ = {isa = PBXBuildFile; fileRef = EA74010618B6F7E700B089A8 /* 222.bmp */; };
+		858E0048238294E000C40F6C /* 123.png in Resources */ = {isa = PBXBuildFile; fileRef = EA74010818B6FBA800B089A8 /* 123.png */; };
+		858E0049238294E000C40F6C /* IBG.png in Resources */ = {isa = PBXBuildFile; fileRef = EA74010F18B7015D00B089A8 /* IBG.png */; };
+		858E004A238294E000C40F6C /* PSRNetworkSettingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EAA15E3B18BACCCE0087C005 /* PSRNetworkSettingViewController.xib */; };
+		858E004B238294E000C40F6C /* PSRWirelessSetupViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA234E6318BB14280061EF18 /* PSRWirelessSetupViewController.xib */; };
+		858E004C238294E000C40F6C /* About.xib in Resources */ = {isa = PBXBuildFile; fileRef = EACF47D918CD912A00034E57 /* About.xib */; };
+		858E004D238294E000C40F6C /* ChartPrint.xib in Resources */ = {isa = PBXBuildFile; fileRef = EAA08F3B18CD96FF00AEE4AF /* ChartPrint.xib */; };
+		858E004E238294E000C40F6C /* PMSecuritySettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEC06951190772A300273ABA /* PMSecuritySettingsViewController.xib */; };
+		858E004F238294E000C40F6C /* CrossVendor_I.strings in Resources */ = {isa = PBXBuildFile; fileRef = CEB726D0191B54D400EEAC40 /* CrossVendor_I.strings */; };
+		858EFFD9238294E000C40F6C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9B41E9184DA1E5002F828B /* main.m */; };
+		858EFFDA238294E000C40F6C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9B41F0184DA1E5002F828B /* AppDelegate.m */; };
+		858EFFDB238294E000C40F6C /* AboutController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9B41FB184DA20F002F828B /* AboutController.m */; };
+		858EFFDC238294E000C40F6C /* DeviceCommunicator.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9B41FE184DA20F002F828B /* DeviceCommunicator.m */; };
+		858EFFDD238294E000C40F6C /* DeviceProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9B4200184DA20F002F828B /* DeviceProperty.m */; };
+		858EFFDE238294E000C40F6C /* MainTabController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9B4202184DA20F002F828B /* MainTabController.m */; };
+		858EFFDF238294E000C40F6C /* MainWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9B4204184DA20F002F828B /* MainWindowController.m */; };
+		858EFFE0238294E000C40F6C /* NetDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9B4206184DA20F002F828B /* NetDevice.m */; };
+		858EFFE1238294E000C40F6C /* PrinterSelectorController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9B4208184DA20F002F828B /* PrinterSelectorController.m */; };
+		858EFFE2238294E000C40F6C /* ProgressController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9B420A184DA20F002F828B /* ProgressController.m */; };
+		858EFFE3238294E000C40F6C /* SettingsController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9B420C184DA20F002F828B /* SettingsController.m */; };
+		858EFFE4238294E000C40F6C /* USBDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9B420F184DA20F002F828B /* USBDevice.m */; };
+		858EFFE5238294E000C40F6C /* InformationPagesController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9B421C184DA26A002F828B /* InformationPagesController.m */; };
+		858EFFE6238294E000C40F6C /* PrinterInformationController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9B421E184DA26A002F828B /* PrinterInformationController.m */; };
+		858EFFE7238294E000C40F6C /* PSRMenuSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9B4220184DA26A002F828B /* PSRMenuSettingsViewController.m */; };
+		858EFFE8238294E000C40F6C /* PSRTCPIPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9B4222184DA26A002F828B /* PSRTCPIPViewController.m */; };
+		858EFFE9238294E000C40F6C /* traySettingsController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9B4224184DA26A002F828B /* traySettingsController.m */; };
+		858EFFEA238294E000C40F6C /* AdjustAltitudeController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9B422C184DA2A7002F828B /* AdjustAltitudeController.m */; };
+		858EFFEB238294E000C40F6C /* NetPrinter.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4A6D7C18C431CF0084968C /* NetPrinter.m */; };
+		858EFFEC238294E000C40F6C /* AdjustBTR.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9B422E184DA2A7002F828B /* AdjustBTR.m */; };
+		858EFFED238294E000C40F6C /* AdjustFuser.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9B4230184DA2A7002F828B /* AdjustFuser.m */; };
+		858EFFEE238294E000C40F6C /* PMAdjustPaperTypeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9B4232184DA2A7002F828B /* PMAdjustPaperTypeViewController.m */; };
+		858EFFEF238294E000C40F6C /* PMBTRRefreshModeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9B4234184DA2A7002F828B /* PMBTRRefreshModeViewController.m */; };
+		858EFFF0238294E000C40F6C /* PMInternetServicesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9B4236184DA2A7002F828B /* PMInternetServicesViewController.m */; };
+		858EFFF1238294E000C40F6C /* PMMachineLifeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9B4238184DA2A7002F828B /* PMMachineLifeViewController.m */; };
+		858EFFF2238294E000C40F6C /* PMNonGenuineModeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9B423A184DA2A7002F828B /* PMNonGenuineModeViewController.m */; };
+		858EFFF3238294E000C40F6C /* PMRegistrationAdjustmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9B423C184DA2A7002F828B /* PMRegistrationAdjustmentViewController.m */; };
+		858EFFF4238294E000C40F6C /* PMTCPIPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9B423E184DA2A7002F828B /* PMTCPIPViewController.m */; };
+		858EFFF5238294E000C40F6C /* PMTraySettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9B4240184DA2A7002F828B /* PMTraySettingsViewController.m */; };
+		858EFFF6238294E000C40F6C /* ResetDefaultsController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9B4242184DA2A7002F828B /* ResetDefaultsController.m */; };
+		858EFFF7238294E000C40F6C /* SystemSettingsController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9B4244184DA2A7002F828B /* SystemSettingsController.m */; };
+		858EFFF8238294E000C40F6C /* ChartPrintController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9B4255184DA364002F828B /* ChartPrintController.m */; };
+		858EFFF9238294E000C40F6C /* CleanDeveloperController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9B4257184DA364002F828B /* CleanDeveloperController.m */; };
+		858EFFFA238294E000C40F6C /* DEnvironmentSensorInforViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9B4259184DA364002F828B /* DEnvironmentSensorInforViewController.m */; };
+		858EFFFB238294E000C40F6C /* RefreshModeController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9B425B184DA364002F828B /* RefreshModeController.m */; };
+		858EFFFC238294E000C40F6C /* PMDensityAdjustmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA353B521861297B00098266 /* PMDensityAdjustmentViewController.m */; };
+		858EFFFD238294E000C40F6C /* PMNetwrokSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAA8A0911867CE29002469BE /* PMNetwrokSettingsViewController.m */; };
+		858EFFFE238294E000C40F6C /* PMWirelessSetupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAA4689418691DF8006D2056 /* PMWirelessSetupViewController.m */; };
+		858EFFFF238294E000C40F6C /* PSRNetworkSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAA15E3A18BACCCE0087C005 /* PSRNetworkSettingViewController.m */; };
+		CEB72632191B4ACF00EEAC40 /* PrinterSettingUtility-IBG-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EAA26082185FE2E300EF9B1F /* PrinterSettingUtility-IBG-Info.plist */; };
+		CEB72634191B4CA200EEAC40 /* CrossVendor_X.strings in Resources */ = {isa = PBXBuildFile; fileRef = CEB72633191B4CA200EEAC40 /* CrossVendor_X.strings */; };
+		CEB726D1191B54D400EEAC40 /* CrossVendor_I.strings in Resources */ = {isa = PBXBuildFile; fileRef = CEB726D0191B54D400EEAC40 /* CrossVendor_I.strings */; };
+		CEB727F1191B81BD00EEAC40 /* NetIO.cp in Sources */ = {isa = PBXBuildFile; fileRef = CEB727E7191B81BD00EEAC40 /* NetIO.cp */; };
+		CEB727F2191B81BD00EEAC40 /* GrandeCmd.cp in Sources */ = {isa = PBXBuildFile; fileRef = CEB727E8191B81BD00EEAC40 /* GrandeCmd.cp */; };
+		CEB727F3191B81BD00EEAC40 /* Socket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEB727EB191B81BD00EEAC40 /* Socket.cpp */; };
+		CEB727F4191B81BD00EEAC40 /* cMD5.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEB727ED191B81BD00EEAC40 /* cMD5.cpp */; };
+		CEB727F5191B81BD00EEAC40 /* des.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEB727EF191B81BD00EEAC40 /* des.cpp */; };
+		CEB727F6191B81BD00EEAC40 /* NetIO.cp in Sources */ = {isa = PBXBuildFile; fileRef = CEB727E7191B81BD00EEAC40 /* NetIO.cp */; };
+		CEB727F7191B81BD00EEAC40 /* GrandeCmd.cp in Sources */ = {isa = PBXBuildFile; fileRef = CEB727E8191B81BD00EEAC40 /* GrandeCmd.cp */; };
+		CEB727F8191B81BD00EEAC40 /* Socket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEB727EB191B81BD00EEAC40 /* Socket.cpp */; };
+		CEB727F9191B81BD00EEAC40 /* cMD5.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEB727ED191B81BD00EEAC40 /* cMD5.cpp */; };
+		CEB727FA191B81BD00EEAC40 /* des.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEB727EF191B81BD00EEAC40 /* des.cpp */; };
+		CEC06952190772A300273ABA /* PMSecuritySettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEC06951190772A300273ABA /* PMSecuritySettingsViewController.xib */; };
+		CEC06953190772A300273ABA /* PMSecuritySettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEC06951190772A300273ABA /* PMSecuritySettingsViewController.xib */; };
+		CEC069AF19078A3700273ABA /* PMSecuritySettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC069591907736200273ABA /* PMSecuritySettingsViewController.m */; };
+		CEC069B019078A3700273ABA /* PMSecuritySettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC069591907736200273ABA /* PMSecuritySettingsViewController.m */; };
+		CEC06AD01907C22200273ABA /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC06ACF1907C22200273ABA /* Carbon.framework */; };
+		CEC06B071907C86600273ABA /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC06ACF1907C22200273ABA /* Carbon.framework */; };
+		CED85920190E291C00E3D847 /* CustomTextFieldFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = CED8591E190E291C00E3D847 /* CustomTextFieldFormatter.m */; };
+		CED85921190E291C00E3D847 /* CustomTextFieldFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = CED8591E190E291C00E3D847 /* CustomTextFieldFormatter.m */; };
+		CEF9756B19458D3E009100E9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9B41E9184DA1E5002F828B /* main.m */; };
+		CEF9756C19458D3E009100E9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9B41F0184DA1E5002F828B /* AppDelegate.m */; };
+		CEF9756D19458D3E009100E9 /* AboutController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9B41FB184DA20F002F828B /* AboutController.m */; };
+		CEF9756E19458D3E009100E9 /* DeviceCommunicator.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9B41FE184DA20F002F828B /* DeviceCommunicator.m */; };
+		CEF9756F19458D3E009100E9 /* DeviceProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9B4200184DA20F002F828B /* DeviceProperty.m */; };
+		CEF9757019458D3E009100E9 /* MainTabController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9B4202184DA20F002F828B /* MainTabController.m */; };
+		CEF9757119458D3E009100E9 /* MainWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9B4204184DA20F002F828B /* MainWindowController.m */; };
+		CEF9757219458D3E009100E9 /* NetDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9B4206184DA20F002F828B /* NetDevice.m */; };
+		CEF9757319458D3E009100E9 /* PrinterSelectorController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9B4208184DA20F002F828B /* PrinterSelectorController.m */; };
+		CEF9757419458D3E009100E9 /* ProgressController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9B420A184DA20F002F828B /* ProgressController.m */; };
+		CEF9757519458D3E009100E9 /* SettingsController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9B420C184DA20F002F828B /* SettingsController.m */; };
+		CEF9757619458D3E009100E9 /* USBDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9B420F184DA20F002F828B /* USBDevice.m */; };
+		CEF9757719458D3E009100E9 /* InformationPagesController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9B421C184DA26A002F828B /* InformationPagesController.m */; };
+		CEF9757819458D3E009100E9 /* PrinterInformationController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9B421E184DA26A002F828B /* PrinterInformationController.m */; };
+		CEF9757919458D3E009100E9 /* PSRMenuSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9B4220184DA26A002F828B /* PSRMenuSettingsViewController.m */; };
+		CEF9757A19458D3E009100E9 /* PSRTCPIPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9B4222184DA26A002F828B /* PSRTCPIPViewController.m */; };
+		CEF9757B19458D3E009100E9 /* traySettingsController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9B4224184DA26A002F828B /* traySettingsController.m */; };
+		CEF9757C19458D3E009100E9 /* AdjustAltitudeController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9B422C184DA2A7002F828B /* AdjustAltitudeController.m */; };
+		CEF9757D19458D3E009100E9 /* NetPrinter.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4A6D7C18C431CF0084968C /* NetPrinter.m */; };
+		CEF9757E19458D3E009100E9 /* AdjustBTR.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9B422E184DA2A7002F828B /* AdjustBTR.m */; };
+		CEF9757F19458D3E009100E9 /* AdjustFuser.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9B4230184DA2A7002F828B /* AdjustFuser.m */; };
+		CEF9758019458D3E009100E9 /* PMAdjustPaperTypeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9B4232184DA2A7002F828B /* PMAdjustPaperTypeViewController.m */; };
+		CEF9758119458D3E009100E9 /* PMBTRRefreshModeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9B4234184DA2A7002F828B /* PMBTRRefreshModeViewController.m */; };
+		CEF9758219458D3E009100E9 /* PMInternetServicesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9B4236184DA2A7002F828B /* PMInternetServicesViewController.m */; };
+		CEF9758319458D3E009100E9 /* PMMachineLifeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9B4238184DA2A7002F828B /* PMMachineLifeViewController.m */; };
+		CEF9758419458D3E009100E9 /* PMNonGenuineModeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9B423A184DA2A7002F828B /* PMNonGenuineModeViewController.m */; };
+		CEF9758519458D3E009100E9 /* PMRegistrationAdjustmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9B423C184DA2A7002F828B /* PMRegistrationAdjustmentViewController.m */; };
+		CEF9758619458D3E009100E9 /* PMTCPIPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9B423E184DA2A7002F828B /* PMTCPIPViewController.m */; };
+		CEF9758719458D3E009100E9 /* PMTraySettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9B4240184DA2A7002F828B /* PMTraySettingsViewController.m */; };
+		CEF9758819458D3E009100E9 /* ResetDefaultsController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9B4242184DA2A7002F828B /* ResetDefaultsController.m */; };
+		CEF9758919458D3E009100E9 /* SystemSettingsController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9B4244184DA2A7002F828B /* SystemSettingsController.m */; };
+		CEF9758A19458D3E009100E9 /* ChartPrintController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9B4255184DA364002F828B /* ChartPrintController.m */; };
+		CEF9758B19458D3E009100E9 /* CleanDeveloperController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9B4257184DA364002F828B /* CleanDeveloperController.m */; };
+		CEF9758C19458D3E009100E9 /* DEnvironmentSensorInforViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9B4259184DA364002F828B /* DEnvironmentSensorInforViewController.m */; };
+		CEF9758D19458D3E009100E9 /* RefreshModeController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9B425B184DA364002F828B /* RefreshModeController.m */; };
+		CEF9758E19458D3E009100E9 /* PMDensityAdjustmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA353B521861297B00098266 /* PMDensityAdjustmentViewController.m */; };
+		CEF9758F19458D3E009100E9 /* PMNetwrokSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAA8A0911867CE29002469BE /* PMNetwrokSettingsViewController.m */; };
+		CEF9759019458D3E009100E9 /* PMWirelessSetupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAA4689418691DF8006D2056 /* PMWirelessSetupViewController.m */; };
+		CEF9759119458D3E009100E9 /* PSRNetworkSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAA15E3A18BACCCE0087C005 /* PSRNetworkSettingViewController.m */; };
+		CEF9759219458D3E009100E9 /* PSRWirelessSetupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA234E6218BB14280061EF18 /* PSRWirelessSetupViewController.m */; };
+		CEF9759319458D3E009100E9 /* PMSecuritySettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC069591907736200273ABA /* PMSecuritySettingsViewController.m */; };
+		CEF9759419458D3E009100E9 /* CustomTextFieldFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = CED8591E190E291C00E3D847 /* CustomTextFieldFormatter.m */; };
+		CEF9759519458D3E009100E9 /* NetIO.cp in Sources */ = {isa = PBXBuildFile; fileRef = CEB727E7191B81BD00EEAC40 /* NetIO.cp */; };
+		CEF9759619458D3E009100E9 /* GrandeCmd.cp in Sources */ = {isa = PBXBuildFile; fileRef = CEB727E8191B81BD00EEAC40 /* GrandeCmd.cp */; };
+		CEF9759719458D3E009100E9 /* Socket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEB727EB191B81BD00EEAC40 /* Socket.cpp */; };
+		CEF9759819458D3E009100E9 /* cMD5.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEB727ED191B81BD00EEAC40 /* cMD5.cpp */; };
+		CEF9759919458D3E009100E9 /* des.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEB727EF191B81BD00EEAC40 /* des.cpp */; };
+		CEF9759B19458D3E009100E9 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA9B42DB184DAE1F002F828B /* IOKit.framework */; };
+		CEF9759C19458D3E009100E9 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA9B41DD184DA1E5002F828B /* Cocoa.framework */; };
+		CEF9759D19458D3E009100E9 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC06ACF1907C22200273ABA /* Carbon.framework */; };
+		CEF9759F19458D3E009100E9 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA9B41F2184DA1E5002F828B /* MainMenu.xib */; };
+		CEF975A019458D3E009100E9 /* PrinterSelector.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA9B4262184DA40F002F828B /* PrinterSelector.xib */; };
+		CEF975A119458D3E009100E9 /* Progress.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA9B4263184DA40F002F828B /* Progress.xib */; };
+		CEF975A219458D3E009100E9 /* InformationPages.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA9B4268184DA44C002F828B /* InformationPages.xib */; };
+		CEF975A319458D3E009100E9 /* PSRTCPIPViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA9B426B184DA44C002F828B /* PSRTCPIPViewController.xib */; };
+		CEF975A419458D3E009100E9 /* TraySettings.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA9B426C184DA44C002F828B /* TraySettings.xib */; };
+		CEF975A519458D3E009100E9 /* AdjustAltitude.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA9B4273184DA46F002F828B /* AdjustAltitude.xib */; };
+		CEF975A619458D3E009100E9 /* AdjustBTR.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA9B4274184DA46F002F828B /* AdjustBTR.xib */; };
+		CEF975A719458D3E009100E9 /* AdjustFuser.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA9B4275184DA46F002F828B /* AdjustFuser.xib */; };
+		CEF975A819458D3E009100E9 /* PMAdjustPaperTypeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA9B4276184DA46F002F828B /* PMAdjustPaperTypeViewController.xib */; };
+		CEF975A919458D3E009100E9 /* PMBTRRefreshModeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA9B4277184DA46F002F828B /* PMBTRRefreshModeViewController.xib */; };
+		CEF975AA19458D3E009100E9 /* PMInternetServicesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA9B4278184DA46F002F828B /* PMInternetServicesViewController.xib */; };
+		CEF975AB19458D3E009100E9 /* PMMachineLifeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA9B4279184DA46F002F828B /* PMMachineLifeViewController.xib */; };
+		CEF975AC19458D3E009100E9 /* PMNonGenuineModeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA9B427A184DA46F002F828B /* PMNonGenuineModeViewController.xib */; };
+		CEF975AD19458D3E009100E9 /* PMRegistrationAdjustmentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA9B427B184DA46F002F828B /* PMRegistrationAdjustmentViewController.xib */; };
+		CEF975AE19458D3E009100E9 /* PrinterInformation.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA833F2618CD9435003C01A7 /* PrinterInformation.xib */; };
+		CEF975AF19458D3E009100E9 /* PMTCPIPViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA9B427C184DA46F002F828B /* PMTCPIPViewController.xib */; };
+		CEF975B019458D3E009100E9 /* PMTraySettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA9B427D184DA46F002F828B /* PMTraySettingsViewController.xib */; };
+		CEF975B119458D3E009100E9 /* ResetDefaults.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA9B427E184DA46F002F828B /* ResetDefaults.xib */; };
+		CEF975B219458D3E009100E9 /* SystemSettings.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA9B427F184DA46F002F828B /* SystemSettings.xib */; };
+		CEF975B319458D3E009100E9 /* CleanDeveloper.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA9B428F184DA4B5002F828B /* CleanDeveloper.xib */; };
+		CEF975B419458D3E009100E9 /* DEnvironmentSensorInforViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA9B4290184DA4B5002F828B /* DEnvironmentSensorInforViewController.xib */; };
+		CEF975B519458D3E009100E9 /* RefreshMode.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA9B4291184DA4B5002F828B /* RefreshMode.xib */; };
+		CEF975B619458D3E009100E9 /* PSRMenuSettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA833F2318CD942E003C01A7 /* PSRMenuSettingsViewController.xib */; };
+		CEF975B719458D3E009100E9 /* About_IBG.bmp in Resources */ = {isa = PBXBuildFile; fileRef = EA9B42A6184DA768002F828B /* About_IBG.bmp */; };
+		CEF975B819458D3E009100E9 /* Help.ico in Resources */ = {isa = PBXBuildFile; fileRef = EA9B42A8184DA768002F828B /* Help.ico */; };
+		CEF975B919458D3E009100E9 /* MachineSetup.icns in Resources */ = {isa = PBXBuildFile; fileRef = EA9B42A9184DA768002F828B /* MachineSetup.icns */; };
+		CEF975BA19458D3E009100E9 /* SFP.bmp in Resources */ = {isa = PBXBuildFile; fileRef = EA9B42AA184DA768002F828B /* SFP.bmp */; };
+		CEF975BB19458D3E009100E9 /* Title_IBG.bmp in Resources */ = {isa = PBXBuildFile; fileRef = EA9B42AC184DA768002F828B /* Title_IBG.bmp */; };
+		CEF975BC19458D3E009100E9 /* toolbox.ico in Resources */ = {isa = PBXBuildFile; fileRef = EA9B42AE184DA768002F828B /* toolbox.ico */; };
+		CEF975BD19458D3E009100E9 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = EAAE5E21184DB0570022B816 /* MainWindow.xib */; };
+		CEF975BE19458D3E009100E9 /* Align_A4.prn in Resources */ = {isa = PBXBuildFile; fileRef = EAE22E7318516AD800420DA4 /* Align_A4.prn */; };
+		CEF975BF19458D3E009100E9 /* Align_LT.prn in Resources */ = {isa = PBXBuildFile; fileRef = EAE22E7418516AD800420DA4 /* Align_LT.prn */; };
+		CEF975C019458D3E009100E9 /* COLOR_A4.prn in Resources */ = {isa = PBXBuildFile; fileRef = EAE22E7518516AD800420DA4 /* COLOR_A4.prn */; };
+		CEF975C119458D3E009100E9 /* COLOR_LT.prn in Resources */ = {isa = PBXBuildFile; fileRef = EAE22E7618516AD800420DA4 /* COLOR_LT.prn */; };
+		CEF975C219458D3E009100E9 /* CONF_A4.prn in Resources */ = {isa = PBXBuildFile; fileRef = EAE22E7718516AD800420DA4 /* CONF_A4.prn */; };
+		CEF975C319458D3E009100E9 /* CONF_LT.prn in Resources */ = {isa = PBXBuildFile; fileRef = EAE22E7818516AD800420DA4 /* CONF_LT.prn */; };
+		CEF975C419458D3E009100E9 /* Ghost_A4.prn in Resources */ = {isa = PBXBuildFile; fileRef = EAE22E7918516AD800420DA4 /* Ghost_A4.prn */; };
+		CEF975C519458D3E009100E9 /* Ghost_LT.prn in Resources */ = {isa = PBXBuildFile; fileRef = EAE22E7A18516AD800420DA4 /* Ghost_LT.prn */; };
+		CEF975C619458D3E009100E9 /* Grid2_A4.prn in Resources */ = {isa = PBXBuildFile; fileRef = EAE22E7B18516AD800420DA4 /* Grid2_A4.prn */; };
+		CEF975C719458D3E009100E9 /* Grid2_LT.prn in Resources */ = {isa = PBXBuildFile; fileRef = EAE22E7C18516AD800420DA4 /* Grid2_LT.prn */; };
+		CEF975C819458D3E009100E9 /* MQ_A4.prn in Resources */ = {isa = PBXBuildFile; fileRef = EAE22E7D18516AD800420DA4 /* MQ_A4.prn */; };
+		CEF975C919458D3E009100E9 /* MQ_LT.prn in Resources */ = {isa = PBXBuildFile; fileRef = EAE22E7E18516AD800420DA4 /* MQ_LT.prn */; };
+		CEF975CA19458D3E009100E9 /* PHD_A4.prn in Resources */ = {isa = PBXBuildFile; fileRef = EAE22E7F18516AD800420DA4 /* PHD_A4.prn */; };
+		CEF975CB19458D3E009100E9 /* PHD_LT.prn in Resources */ = {isa = PBXBuildFile; fileRef = EAE22E8018516AD800420DA4 /* PHD_LT.prn */; };
+		CEF975CC19458D3E009100E9 /* Regi_A4.prn in Resources */ = {isa = PBXBuildFile; fileRef = EAE22E8118516AD800420DA4 /* Regi_A4.prn */; };
+		CEF975CD19458D3E009100E9 /* Regi_LT.prn in Resources */ = {isa = PBXBuildFile; fileRef = EAE22E8218516AD800420DA4 /* Regi_LT.prn */; };
+		CEF975CE19458D3E009100E9 /* Toner_A4.prn in Resources */ = {isa = PBXBuildFile; fileRef = EAE22E8318516AD800420DA4 /* Toner_A4.prn */; };
+		CEF975CF19458D3E009100E9 /* Toner_LT.prn in Resources */ = {isa = PBXBuildFile; fileRef = EAE22E8418516AD800420DA4 /* Toner_LT.prn */; };
+		CEF975D019458D3E009100E9 /* PrinterSettingUtility-IBG-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EAA26082185FE2E300EF9B1F /* PrinterSettingUtility-IBG-Info.plist */; };
+		CEF975D119458D3E009100E9 /* PMDensityAdjustmentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA353B531861297B00098266 /* PMDensityAdjustmentViewController.xib */; };
+		CEF975D219458D3E009100E9 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = EAF96DB7185AD1D200F42A8A /* Localizable.strings */; };
+		CEF975D319458D3E009100E9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EA9B41E6184DA1E5002F828B /* InfoPlist.strings */; };
+		CEF975D419458D3E009100E9 /* PMNetwrokSettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EAA8A0921867CE29002469BE /* PMNetwrokSettingsViewController.xib */; };
+		CEF975D519458D3E009100E9 /* PMWirelessSetupViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EAA4689518691DF8006D2056 /* PMWirelessSetupViewController.xib */; };
+		CEF975D619458D3E009100E9 /* VLL-SFP_IBG.bmp in Resources */ = {isa = PBXBuildFile; fileRef = EA36ABC018ADA622002E6E2A /* VLL-SFP_IBG.bmp */; };
+		CEF975D719458D3E009100E9 /* SFP.tif in Resources */ = {isa = PBXBuildFile; fileRef = EA5E013E18ADFD96006F5E2E /* SFP.tif */; };
+		CEF975D819458D3E009100E9 /* 11.bmp in Resources */ = {isa = PBXBuildFile; fileRef = EA74010318B6F66500B089A8 /* 11.bmp */; };
+		CEF975D919458D3E009100E9 /* 222.bmp in Resources */ = {isa = PBXBuildFile; fileRef = EA74010618B6F7E700B089A8 /* 222.bmp */; };
+		CEF975DA19458D3E009100E9 /* 123.png in Resources */ = {isa = PBXBuildFile; fileRef = EA74010818B6FBA800B089A8 /* 123.png */; };
+		CEF975DB19458D3E009100E9 /* IBG.png in Resources */ = {isa = PBXBuildFile; fileRef = EA74010F18B7015D00B089A8 /* IBG.png */; };
+		CEF975DC19458D3E009100E9 /* PSRNetworkSettingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EAA15E3B18BACCCE0087C005 /* PSRNetworkSettingViewController.xib */; };
+		CEF975DD19458D3E009100E9 /* PSRWirelessSetupViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA234E6318BB14280061EF18 /* PSRWirelessSetupViewController.xib */; };
+		CEF975DE19458D3E009100E9 /* About.xib in Resources */ = {isa = PBXBuildFile; fileRef = EACF47D918CD912A00034E57 /* About.xib */; };
+		CEF975DF19458D3E009100E9 /* ChartPrint.xib in Resources */ = {isa = PBXBuildFile; fileRef = EAA08F3B18CD96FF00AEE4AF /* ChartPrint.xib */; };
+		CEF975E019458D3E009100E9 /* PMSecuritySettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEC06951190772A300273ABA /* PMSecuritySettingsViewController.xib */; };
+		CEF975E119458D3E009100E9 /* CrossVendor_I.strings in Resources */ = {isa = PBXBuildFile; fileRef = CEB726D0191B54D400EEAC40 /* CrossVendor_I.strings */; };
+		EA234E6418BB14280061EF18 /* PSRWirelessSetupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA234E6218BB14280061EF18 /* PSRWirelessSetupViewController.m */; };
+		EA234E6518BB14280061EF18 /* PSRWirelessSetupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA234E6218BB14280061EF18 /* PSRWirelessSetupViewController.m */; };
+		EA234E6618BB14280061EF18 /* PSRWirelessSetupViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA234E6318BB14280061EF18 /* PSRWirelessSetupViewController.xib */; };
+		EA234E6718BB14280061EF18 /* PSRWirelessSetupViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA234E6318BB14280061EF18 /* PSRWirelessSetupViewController.xib */; };
+		EA353B541861297B00098266 /* PMDensityAdjustmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA353B521861297B00098266 /* PMDensityAdjustmentViewController.m */; };
+		EA353B551861297B00098266 /* PMDensityAdjustmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA353B521861297B00098266 /* PMDensityAdjustmentViewController.m */; };
+		EA353B561861297B00098266 /* PMDensityAdjustmentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA353B531861297B00098266 /* PMDensityAdjustmentViewController.xib */; };
+		EA353B571861297B00098266 /* PMDensityAdjustmentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA353B531861297B00098266 /* PMDensityAdjustmentViewController.xib */; };
+		EA36ABC118ADA622002E6E2A /* VLL-SFP_IBG.bmp in Resources */ = {isa = PBXBuildFile; fileRef = EA36ABC018ADA622002E6E2A /* VLL-SFP_IBG.bmp */; };
+		EA36ABC418ADA62E002E6E2A /* VLL-SFP_XC.bmp in Resources */ = {isa = PBXBuildFile; fileRef = EA36ABC318ADA62E002E6E2A /* VLL-SFP_XC.bmp */; };
+		EA4A6D7D18C431CF0084968C /* NetPrinter.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4A6D7C18C431CF0084968C /* NetPrinter.m */; };
+		EA4A6D7E18C431CF0084968C /* NetPrinter.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4A6D7C18C431CF0084968C /* NetPrinter.m */; };
+		EA5E013F18ADFD96006F5E2E /* SFP.tif in Resources */ = {isa = PBXBuildFile; fileRef = EA5E013E18ADFD96006F5E2E /* SFP.tif */; };
+		EA5E014118ADFD9D006F5E2E /* SFP.tif in Resources */ = {isa = PBXBuildFile; fileRef = EA5E013E18ADFD96006F5E2E /* SFP.tif */; };
+		EA74010418B6F66500B089A8 /* 11.bmp in Resources */ = {isa = PBXBuildFile; fileRef = EA74010318B6F66500B089A8 /* 11.bmp */; };
+		EA74010718B6F7E700B089A8 /* 222.bmp in Resources */ = {isa = PBXBuildFile; fileRef = EA74010618B6F7E700B089A8 /* 222.bmp */; };
+		EA74010918B6FBA800B089A8 /* 123.png in Resources */ = {isa = PBXBuildFile; fileRef = EA74010818B6FBA800B089A8 /* 123.png */; };
+		EA74011018B7015D00B089A8 /* IBG.png in Resources */ = {isa = PBXBuildFile; fileRef = EA74010F18B7015D00B089A8 /* IBG.png */; };
+		EA74011318B7016E00B089A8 /* XC.png in Resources */ = {isa = PBXBuildFile; fileRef = EA74011218B7016E00B089A8 /* XC.png */; };
+		EA833F2418CD942E003C01A7 /* PSRMenuSettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA833F2318CD942E003C01A7 /* PSRMenuSettingsViewController.xib */; };
+		EA833F2518CD942E003C01A7 /* PSRMenuSettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA833F2318CD942E003C01A7 /* PSRMenuSettingsViewController.xib */; };
+		EA833F2718CD9435003C01A7 /* PrinterInformation.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA833F2618CD9435003C01A7 /* PrinterInformation.xib */; };
+		EA833F2818CD9435003C01A7 /* PrinterInformation.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA833F2618CD9435003C01A7 /* PrinterInformation.xib */; };
 		EA9B41DE184DA1E5002F828B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA9B41DD184DA1E5002F828B /* Cocoa.framework */; };
-		EA9B41E8184DA1E5002F828B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EA9B41E6184DA1E5002F828B /* InfoPlist.strings */; };
 		EA9B41EA184DA1E5002F828B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9B41E9184DA1E5002F828B /* main.m */; };
-		EA9B41EE184DA1E5002F828B /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = EA9B41EC184DA1E5002F828B /* Credits.rtf */; };
 		EA9B41F1184DA1E5002F828B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9B41F0184DA1E5002F828B /* AppDelegate.m */; };
 		EA9B41F4184DA1E5002F828B /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA9B41F2184DA1E5002F828B /* MainMenu.xib */; };
+		EA9B4210184DA20F002F828B /* AboutController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9B41FB184DA20F002F828B /* AboutController.m */; };
+		EA9B4211184DA20F002F828B /* DeviceCommunicator.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9B41FE184DA20F002F828B /* DeviceCommunicator.m */; };
+		EA9B4212184DA20F002F828B /* DeviceProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9B4200184DA20F002F828B /* DeviceProperty.m */; };
+		EA9B4213184DA20F002F828B /* MainTabController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9B4202184DA20F002F828B /* MainTabController.m */; };
+		EA9B4214184DA20F002F828B /* MainWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9B4204184DA20F002F828B /* MainWindowController.m */; };
+		EA9B4215184DA20F002F828B /* NetDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9B4206184DA20F002F828B /* NetDevice.m */; };
+		EA9B4216184DA20F002F828B /* PrinterSelectorController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9B4208184DA20F002F828B /* PrinterSelectorController.m */; };
+		EA9B4217184DA20F002F828B /* ProgressController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9B420A184DA20F002F828B /* ProgressController.m */; };
+		EA9B4218184DA20F002F828B /* SettingsController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9B420C184DA20F002F828B /* SettingsController.m */; };
+		EA9B4219184DA20F002F828B /* USBDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9B420F184DA20F002F828B /* USBDevice.m */; };
+		EA9B4225184DA26A002F828B /* InformationPagesController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9B421C184DA26A002F828B /* InformationPagesController.m */; };
+		EA9B4226184DA26A002F828B /* PrinterInformationController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9B421E184DA26A002F828B /* PrinterInformationController.m */; };
+		EA9B4227184DA26A002F828B /* PSRMenuSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9B4220184DA26A002F828B /* PSRMenuSettingsViewController.m */; };
+		EA9B4228184DA26A002F828B /* PSRTCPIPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9B4222184DA26A002F828B /* PSRTCPIPViewController.m */; };
+		EA9B4229184DA26A002F828B /* traySettingsController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9B4224184DA26A002F828B /* traySettingsController.m */; };
+		EA9B4245184DA2A7002F828B /* AdjustAltitudeController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9B422C184DA2A7002F828B /* AdjustAltitudeController.m */; };
+		EA9B4246184DA2A7002F828B /* AdjustBTR.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9B422E184DA2A7002F828B /* AdjustBTR.m */; };
+		EA9B4247184DA2A7002F828B /* AdjustFuser.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9B4230184DA2A7002F828B /* AdjustFuser.m */; };
+		EA9B4248184DA2A7002F828B /* PMAdjustPaperTypeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9B4232184DA2A7002F828B /* PMAdjustPaperTypeViewController.m */; };
+		EA9B4249184DA2A7002F828B /* PMBTRRefreshModeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9B4234184DA2A7002F828B /* PMBTRRefreshModeViewController.m */; };
+		EA9B424A184DA2A7002F828B /* PMInternetServicesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9B4236184DA2A7002F828B /* PMInternetServicesViewController.m */; };
+		EA9B424B184DA2A7002F828B /* PMMachineLifeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9B4238184DA2A7002F828B /* PMMachineLifeViewController.m */; };
+		EA9B424C184DA2A7002F828B /* PMNonGenuineModeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9B423A184DA2A7002F828B /* PMNonGenuineModeViewController.m */; };
+		EA9B424D184DA2A7002F828B /* PMRegistrationAdjustmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9B423C184DA2A7002F828B /* PMRegistrationAdjustmentViewController.m */; };
+		EA9B424E184DA2A7002F828B /* PMTCPIPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9B423E184DA2A7002F828B /* PMTCPIPViewController.m */; };
+		EA9B424F184DA2A7002F828B /* PMTraySettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9B4240184DA2A7002F828B /* PMTraySettingsViewController.m */; };
+		EA9B4250184DA2A7002F828B /* ResetDefaultsController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9B4242184DA2A7002F828B /* ResetDefaultsController.m */; };
+		EA9B4251184DA2A7002F828B /* SystemSettingsController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9B4244184DA2A7002F828B /* SystemSettingsController.m */; };
+		EA9B425C184DA364002F828B /* ChartPrintController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9B4255184DA364002F828B /* ChartPrintController.m */; };
+		EA9B425D184DA364002F828B /* CleanDeveloperController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9B4257184DA364002F828B /* CleanDeveloperController.m */; };
+		EA9B425E184DA364002F828B /* DEnvironmentSensorInforViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9B4259184DA364002F828B /* DEnvironmentSensorInforViewController.m */; };
+		EA9B425F184DA364002F828B /* RefreshModeController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9B425B184DA364002F828B /* RefreshModeController.m */; };
+		EA9B4265184DA40F002F828B /* PrinterSelector.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA9B4262184DA40F002F828B /* PrinterSelector.xib */; };
+		EA9B4266184DA40F002F828B /* Progress.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA9B4263184DA40F002F828B /* Progress.xib */; };
+		EA9B426D184DA44C002F828B /* InformationPages.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA9B4268184DA44C002F828B /* InformationPages.xib */; };
+		EA9B4270184DA44C002F828B /* PSRTCPIPViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA9B426B184DA44C002F828B /* PSRTCPIPViewController.xib */; };
+		EA9B4271184DA44C002F828B /* TraySettings.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA9B426C184DA44C002F828B /* TraySettings.xib */; };
+		EA9B4280184DA46F002F828B /* AdjustAltitude.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA9B4273184DA46F002F828B /* AdjustAltitude.xib */; };
+		EA9B4281184DA46F002F828B /* AdjustBTR.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA9B4274184DA46F002F828B /* AdjustBTR.xib */; };
+		EA9B4282184DA46F002F828B /* AdjustFuser.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA9B4275184DA46F002F828B /* AdjustFuser.xib */; };
+		EA9B4283184DA46F002F828B /* PMAdjustPaperTypeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA9B4276184DA46F002F828B /* PMAdjustPaperTypeViewController.xib */; };
+		EA9B4284184DA46F002F828B /* PMBTRRefreshModeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA9B4277184DA46F002F828B /* PMBTRRefreshModeViewController.xib */; };
+		EA9B4285184DA46F002F828B /* PMInternetServicesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA9B4278184DA46F002F828B /* PMInternetServicesViewController.xib */; };
+		EA9B4286184DA46F002F828B /* PMMachineLifeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA9B4279184DA46F002F828B /* PMMachineLifeViewController.xib */; };
+		EA9B4287184DA46F002F828B /* PMNonGenuineModeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA9B427A184DA46F002F828B /* PMNonGenuineModeViewController.xib */; };
+		EA9B4288184DA46F002F828B /* PMRegistrationAdjustmentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA9B427B184DA46F002F828B /* PMRegistrationAdjustmentViewController.xib */; };
+		EA9B4289184DA46F002F828B /* PMTCPIPViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA9B427C184DA46F002F828B /* PMTCPIPViewController.xib */; };
+		EA9B428A184DA46F002F828B /* PMTraySettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA9B427D184DA46F002F828B /* PMTraySettingsViewController.xib */; };
+		EA9B428B184DA46F002F828B /* ResetDefaults.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA9B427E184DA46F002F828B /* ResetDefaults.xib */; };
+		EA9B428C184DA46F002F828B /* SystemSettings.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA9B427F184DA46F002F828B /* SystemSettings.xib */; };
+		EA9B4293184DA4B5002F828B /* CleanDeveloper.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA9B428F184DA4B5002F828B /* CleanDeveloper.xib */; };
+		EA9B4294184DA4B5002F828B /* DEnvironmentSensorInforViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA9B4290184DA4B5002F828B /* DEnvironmentSensorInforViewController.xib */; };
+		EA9B4295184DA4B5002F828B /* RefreshMode.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA9B4291184DA4B5002F828B /* RefreshMode.xib */; };
+		EA9B42AF184DA768002F828B /* About_IBG.bmp in Resources */ = {isa = PBXBuildFile; fileRef = EA9B42A6184DA768002F828B /* About_IBG.bmp */; };
+		EA9B42B1184DA768002F828B /* Help.ico in Resources */ = {isa = PBXBuildFile; fileRef = EA9B42A8184DA768002F828B /* Help.ico */; };
+		EA9B42B2184DA768002F828B /* MachineSetup.icns in Resources */ = {isa = PBXBuildFile; fileRef = EA9B42A9184DA768002F828B /* MachineSetup.icns */; };
+		EA9B42B3184DA768002F828B /* SFP.bmp in Resources */ = {isa = PBXBuildFile; fileRef = EA9B42AA184DA768002F828B /* SFP.bmp */; };
+		EA9B42B5184DA768002F828B /* Title_IBG.bmp in Resources */ = {isa = PBXBuildFile; fileRef = EA9B42AC184DA768002F828B /* Title_IBG.bmp */; };
+		EA9B42B7184DA768002F828B /* toolbox.ico in Resources */ = {isa = PBXBuildFile; fileRef = EA9B42AE184DA768002F828B /* toolbox.ico */; };
+		EA9B42DC184DAE20002F828B /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA9B42DB184DAE1F002F828B /* IOKit.framework */; };
+		EAA08F3C18CD96FF00AEE4AF /* ChartPrint.xib in Resources */ = {isa = PBXBuildFile; fileRef = EAA08F3B18CD96FF00AEE4AF /* ChartPrint.xib */; };
+		EAA08F3D18CD96FF00AEE4AF /* ChartPrint.xib in Resources */ = {isa = PBXBuildFile; fileRef = EAA08F3B18CD96FF00AEE4AF /* ChartPrint.xib */; };
+		EAA120421863E7E100941F6A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EA9B41E6184DA1E5002F828B /* InfoPlist.strings */; };
+		EAA15E3C18BACCCE0087C005 /* PSRNetworkSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAA15E3A18BACCCE0087C005 /* PSRNetworkSettingViewController.m */; };
+		EAA15E3D18BACCCE0087C005 /* PSRNetworkSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAA15E3A18BACCCE0087C005 /* PSRNetworkSettingViewController.m */; };
+		EAA15E3E18BACCCE0087C005 /* PSRNetworkSettingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EAA15E3B18BACCCE0087C005 /* PSRNetworkSettingViewController.xib */; };
+		EAA15E3F18BACCCE0087C005 /* PSRNetworkSettingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EAA15E3B18BACCCE0087C005 /* PSRNetworkSettingViewController.xib */; };
+		EAA35B7818618BD00057B868 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = EAF96DB7185AD1D200F42A8A /* Localizable.strings */; };
+		EAA4689618691DF8006D2056 /* PMWirelessSetupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAA4689418691DF8006D2056 /* PMWirelessSetupViewController.m */; };
+		EAA4689718691DF8006D2056 /* PMWirelessSetupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAA4689418691DF8006D2056 /* PMWirelessSetupViewController.m */; };
+		EAA4689818691DF8006D2056 /* PMWirelessSetupViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EAA4689518691DF8006D2056 /* PMWirelessSetupViewController.xib */; };
+		EAA4689918691DF8006D2056 /* PMWirelessSetupViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EAA4689518691DF8006D2056 /* PMWirelessSetupViewController.xib */; };
+		EAA8A0931867CE29002469BE /* PMNetwrokSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAA8A0911867CE29002469BE /* PMNetwrokSettingsViewController.m */; };
+		EAA8A0941867CE29002469BE /* PMNetwrokSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAA8A0911867CE29002469BE /* PMNetwrokSettingsViewController.m */; };
+		EAA8A0951867CE29002469BE /* PMNetwrokSettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EAA8A0921867CE29002469BE /* PMNetwrokSettingsViewController.xib */; };
+		EAA8A0961867CE29002469BE /* PMNetwrokSettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EAA8A0921867CE29002469BE /* PMNetwrokSettingsViewController.xib */; };
+		EAAE5E22184DB0570022B816 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = EAAE5E21184DB0570022B816 /* MainWindow.xib */; };
+		EAAE5E2B184DB3E20022B816 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9B41E9184DA1E5002F828B /* main.m */; };
+		EAAE5E2C184DB3E20022B816 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9B41F0184DA1E5002F828B /* AppDelegate.m */; };
+		EAAE5E2D184DB3E20022B816 /* AboutController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9B41FB184DA20F002F828B /* AboutController.m */; };
+		EAAE5E2E184DB3E20022B816 /* DeviceCommunicator.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9B41FE184DA20F002F828B /* DeviceCommunicator.m */; };
+		EAAE5E2F184DB3E20022B816 /* DeviceProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9B4200184DA20F002F828B /* DeviceProperty.m */; };
+		EAAE5E30184DB3E20022B816 /* MainTabController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9B4202184DA20F002F828B /* MainTabController.m */; };
+		EAAE5E31184DB3E20022B816 /* MainWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9B4204184DA20F002F828B /* MainWindowController.m */; };
+		EAAE5E32184DB3E20022B816 /* NetDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9B4206184DA20F002F828B /* NetDevice.m */; };
+		EAAE5E33184DB3E20022B816 /* PrinterSelectorController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9B4208184DA20F002F828B /* PrinterSelectorController.m */; };
+		EAAE5E34184DB3E20022B816 /* ProgressController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9B420A184DA20F002F828B /* ProgressController.m */; };
+		EAAE5E35184DB3E20022B816 /* SettingsController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9B420C184DA20F002F828B /* SettingsController.m */; };
+		EAAE5E36184DB3E20022B816 /* USBDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9B420F184DA20F002F828B /* USBDevice.m */; };
+		EAAE5E37184DB3E20022B816 /* InformationPagesController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9B421C184DA26A002F828B /* InformationPagesController.m */; };
+		EAAE5E38184DB3E20022B816 /* PrinterInformationController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9B421E184DA26A002F828B /* PrinterInformationController.m */; };
+		EAAE5E39184DB3E20022B816 /* PSRMenuSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9B4220184DA26A002F828B /* PSRMenuSettingsViewController.m */; };
+		EAAE5E3A184DB3E20022B816 /* PSRTCPIPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9B4222184DA26A002F828B /* PSRTCPIPViewController.m */; };
+		EAAE5E3B184DB3E20022B816 /* traySettingsController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9B4224184DA26A002F828B /* traySettingsController.m */; };
+		EAAE5E3C184DB3E20022B816 /* AdjustAltitudeController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9B422C184DA2A7002F828B /* AdjustAltitudeController.m */; };
+		EAAE5E3D184DB3E20022B816 /* AdjustBTR.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9B422E184DA2A7002F828B /* AdjustBTR.m */; };
+		EAAE5E3E184DB3E20022B816 /* AdjustFuser.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9B4230184DA2A7002F828B /* AdjustFuser.m */; };
+		EAAE5E3F184DB3E20022B816 /* PMAdjustPaperTypeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9B4232184DA2A7002F828B /* PMAdjustPaperTypeViewController.m */; };
+		EAAE5E40184DB3E20022B816 /* PMBTRRefreshModeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9B4234184DA2A7002F828B /* PMBTRRefreshModeViewController.m */; };
+		EAAE5E41184DB3E20022B816 /* PMInternetServicesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9B4236184DA2A7002F828B /* PMInternetServicesViewController.m */; };
+		EAAE5E42184DB3E20022B816 /* PMMachineLifeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9B4238184DA2A7002F828B /* PMMachineLifeViewController.m */; };
+		EAAE5E43184DB3E20022B816 /* PMNonGenuineModeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9B423A184DA2A7002F828B /* PMNonGenuineModeViewController.m */; };
+		EAAE5E44184DB3E20022B816 /* PMRegistrationAdjustmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9B423C184DA2A7002F828B /* PMRegistrationAdjustmentViewController.m */; };
+		EAAE5E45184DB3E20022B816 /* PMTCPIPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9B423E184DA2A7002F828B /* PMTCPIPViewController.m */; };
+		EAAE5E46184DB3E20022B816 /* PMTraySettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9B4240184DA2A7002F828B /* PMTraySettingsViewController.m */; };
+		EAAE5E47184DB3E20022B816 /* ResetDefaultsController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9B4242184DA2A7002F828B /* ResetDefaultsController.m */; };
+		EAAE5E48184DB3E20022B816 /* SystemSettingsController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9B4244184DA2A7002F828B /* SystemSettingsController.m */; };
+		EAAE5E49184DB3E20022B816 /* ChartPrintController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9B4255184DA364002F828B /* ChartPrintController.m */; };
+		EAAE5E4A184DB3E20022B816 /* CleanDeveloperController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9B4257184DA364002F828B /* CleanDeveloperController.m */; };
+		EAAE5E4B184DB3E20022B816 /* DEnvironmentSensorInforViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9B4259184DA364002F828B /* DEnvironmentSensorInforViewController.m */; };
+		EAAE5E4C184DB3E20022B816 /* RefreshModeController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9B425B184DA364002F828B /* RefreshModeController.m */; };
+		EAAE5E4E184DB3E20022B816 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA9B42DB184DAE1F002F828B /* IOKit.framework */; };
+		EAAE5E4F184DB3E20022B816 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA9B41DD184DA1E5002F828B /* Cocoa.framework */; };
+		EAAE5E51184DB3E20022B816 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EA9B41E6184DA1E5002F828B /* InfoPlist.strings */; };
+		EAAE5E53184DB3E20022B816 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA9B41F2184DA1E5002F828B /* MainMenu.xib */; };
+		EAAE5E55184DB3E20022B816 /* PrinterSelector.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA9B4262184DA40F002F828B /* PrinterSelector.xib */; };
+		EAAE5E56184DB3E20022B816 /* Progress.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA9B4263184DA40F002F828B /* Progress.xib */; };
+		EAAE5E57184DB3E20022B816 /* InformationPages.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA9B4268184DA44C002F828B /* InformationPages.xib */; };
+		EAAE5E5A184DB3E20022B816 /* PSRTCPIPViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA9B426B184DA44C002F828B /* PSRTCPIPViewController.xib */; };
+		EAAE5E5B184DB3E20022B816 /* TraySettings.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA9B426C184DA44C002F828B /* TraySettings.xib */; };
+		EAAE5E5C184DB3E20022B816 /* AdjustAltitude.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA9B4273184DA46F002F828B /* AdjustAltitude.xib */; };
+		EAAE5E5D184DB3E20022B816 /* AdjustBTR.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA9B4274184DA46F002F828B /* AdjustBTR.xib */; };
+		EAAE5E5E184DB3E20022B816 /* AdjustFuser.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA9B4275184DA46F002F828B /* AdjustFuser.xib */; };
+		EAAE5E5F184DB3E20022B816 /* PMAdjustPaperTypeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA9B4276184DA46F002F828B /* PMAdjustPaperTypeViewController.xib */; };
+		EAAE5E60184DB3E20022B816 /* PMBTRRefreshModeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA9B4277184DA46F002F828B /* PMBTRRefreshModeViewController.xib */; };
+		EAAE5E61184DB3E20022B816 /* PMInternetServicesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA9B4278184DA46F002F828B /* PMInternetServicesViewController.xib */; };
+		EAAE5E62184DB3E20022B816 /* PMMachineLifeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA9B4279184DA46F002F828B /* PMMachineLifeViewController.xib */; };
+		EAAE5E63184DB3E20022B816 /* PMNonGenuineModeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA9B427A184DA46F002F828B /* PMNonGenuineModeViewController.xib */; };
+		EAAE5E64184DB3E20022B816 /* PMRegistrationAdjustmentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA9B427B184DA46F002F828B /* PMRegistrationAdjustmentViewController.xib */; };
+		EAAE5E65184DB3E20022B816 /* PMTCPIPViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA9B427C184DA46F002F828B /* PMTCPIPViewController.xib */; };
+		EAAE5E66184DB3E20022B816 /* PMTraySettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA9B427D184DA46F002F828B /* PMTraySettingsViewController.xib */; };
+		EAAE5E67184DB3E20022B816 /* ResetDefaults.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA9B427E184DA46F002F828B /* ResetDefaults.xib */; };
+		EAAE5E68184DB3E20022B816 /* SystemSettings.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA9B427F184DA46F002F828B /* SystemSettings.xib */; };
+		EAAE5E6A184DB3E20022B816 /* CleanDeveloper.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA9B428F184DA4B5002F828B /* CleanDeveloper.xib */; };
+		EAAE5E6B184DB3E20022B816 /* DEnvironmentSensorInforViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA9B4290184DA4B5002F828B /* DEnvironmentSensorInforViewController.xib */; };
+		EAAE5E6C184DB3E20022B816 /* RefreshMode.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA9B4291184DA4B5002F828B /* RefreshMode.xib */; };
+		EAAE5E6E184DB3E20022B816 /* About_XC1.bmp in Resources */ = {isa = PBXBuildFile; fileRef = EA9B42A7184DA768002F828B /* About_XC1.bmp */; };
+		EAAE5E6F184DB3E20022B816 /* Help.ico in Resources */ = {isa = PBXBuildFile; fileRef = EA9B42A8184DA768002F828B /* Help.ico */; };
+		EAAE5E70184DB3E20022B816 /* MachineSetup.icns in Resources */ = {isa = PBXBuildFile; fileRef = EA9B42A9184DA768002F828B /* MachineSetup.icns */; };
+		EAAE5E71184DB3E20022B816 /* SFP.bmp in Resources */ = {isa = PBXBuildFile; fileRef = EA9B42AA184DA768002F828B /* SFP.bmp */; };
+		EAAE5E74184DB3E20022B816 /* Title_XC1.bmp in Resources */ = {isa = PBXBuildFile; fileRef = EA9B42AD184DA768002F828B /* Title_XC1.bmp */; };
+		EAAE5E75184DB3E20022B816 /* toolbox.ico in Resources */ = {isa = PBXBuildFile; fileRef = EA9B42AE184DA768002F828B /* toolbox.ico */; };
+		EAAE5E82184DB3E20022B816 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = EAAE5E21184DB0570022B816 /* MainWindow.xib */; };
+		EAAE5E8B184DB7440022B816 /* PrinterSettingUtility-XC-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EAAE5E89184DB7440022B816 /* PrinterSettingUtility-XC-Info.plist */; };
+		EACF47DA18CD912A00034E57 /* About.xib in Resources */ = {isa = PBXBuildFile; fileRef = EACF47D918CD912A00034E57 /* About.xib */; };
+		EACF47DB18CD912A00034E57 /* About.xib in Resources */ = {isa = PBXBuildFile; fileRef = EACF47D918CD912A00034E57 /* About.xib */; };
+		EAE22E8518516AD800420DA4 /* Align_A4.prn in Resources */ = {isa = PBXBuildFile; fileRef = EAE22E7318516AD800420DA4 /* Align_A4.prn */; };
+		EAE22E8618516AD800420DA4 /* Align_A4.prn in Resources */ = {isa = PBXBuildFile; fileRef = EAE22E7318516AD800420DA4 /* Align_A4.prn */; };
+		EAE22E8718516AD800420DA4 /* Align_LT.prn in Resources */ = {isa = PBXBuildFile; fileRef = EAE22E7418516AD800420DA4 /* Align_LT.prn */; };
+		EAE22E8818516AD800420DA4 /* Align_LT.prn in Resources */ = {isa = PBXBuildFile; fileRef = EAE22E7418516AD800420DA4 /* Align_LT.prn */; };
+		EAE22E8918516AD800420DA4 /* COLOR_A4.prn in Resources */ = {isa = PBXBuildFile; fileRef = EAE22E7518516AD800420DA4 /* COLOR_A4.prn */; };
+		EAE22E8A18516AD800420DA4 /* COLOR_A4.prn in Resources */ = {isa = PBXBuildFile; fileRef = EAE22E7518516AD800420DA4 /* COLOR_A4.prn */; };
+		EAE22E8B18516AD800420DA4 /* COLOR_LT.prn in Resources */ = {isa = PBXBuildFile; fileRef = EAE22E7618516AD800420DA4 /* COLOR_LT.prn */; };
+		EAE22E8C18516AD800420DA4 /* COLOR_LT.prn in Resources */ = {isa = PBXBuildFile; fileRef = EAE22E7618516AD800420DA4 /* COLOR_LT.prn */; };
+		EAE22E8D18516AD800420DA4 /* CONF_A4.prn in Resources */ = {isa = PBXBuildFile; fileRef = EAE22E7718516AD800420DA4 /* CONF_A4.prn */; };
+		EAE22E8E18516AD800420DA4 /* CONF_A4.prn in Resources */ = {isa = PBXBuildFile; fileRef = EAE22E7718516AD800420DA4 /* CONF_A4.prn */; };
+		EAE22E8F18516AD800420DA4 /* CONF_LT.prn in Resources */ = {isa = PBXBuildFile; fileRef = EAE22E7818516AD800420DA4 /* CONF_LT.prn */; };
+		EAE22E9018516AD800420DA4 /* CONF_LT.prn in Resources */ = {isa = PBXBuildFile; fileRef = EAE22E7818516AD800420DA4 /* CONF_LT.prn */; };
+		EAE22E9118516AD800420DA4 /* Ghost_A4.prn in Resources */ = {isa = PBXBuildFile; fileRef = EAE22E7918516AD800420DA4 /* Ghost_A4.prn */; };
+		EAE22E9218516AD800420DA4 /* Ghost_A4.prn in Resources */ = {isa = PBXBuildFile; fileRef = EAE22E7918516AD800420DA4 /* Ghost_A4.prn */; };
+		EAE22E9318516AD800420DA4 /* Ghost_LT.prn in Resources */ = {isa = PBXBuildFile; fileRef = EAE22E7A18516AD800420DA4 /* Ghost_LT.prn */; };
+		EAE22E9418516AD800420DA4 /* Ghost_LT.prn in Resources */ = {isa = PBXBuildFile; fileRef = EAE22E7A18516AD800420DA4 /* Ghost_LT.prn */; };
+		EAE22E9518516AD800420DA4 /* Grid2_A4.prn in Resources */ = {isa = PBXBuildFile; fileRef = EAE22E7B18516AD800420DA4 /* Grid2_A4.prn */; };
+		EAE22E9618516AD800420DA4 /* Grid2_A4.prn in Resources */ = {isa = PBXBuildFile; fileRef = EAE22E7B18516AD800420DA4 /* Grid2_A4.prn */; };
+		EAE22E9718516AD800420DA4 /* Grid2_LT.prn in Resources */ = {isa = PBXBuildFile; fileRef = EAE22E7C18516AD800420DA4 /* Grid2_LT.prn */; };
+		EAE22E9818516AD800420DA4 /* Grid2_LT.prn in Resources */ = {isa = PBXBuildFile; fileRef = EAE22E7C18516AD800420DA4 /* Grid2_LT.prn */; };
+		EAE22E9918516AD800420DA4 /* MQ_A4.prn in Resources */ = {isa = PBXBuildFile; fileRef = EAE22E7D18516AD800420DA4 /* MQ_A4.prn */; };
+		EAE22E9A18516AD800420DA4 /* MQ_A4.prn in Resources */ = {isa = PBXBuildFile; fileRef = EAE22E7D18516AD800420DA4 /* MQ_A4.prn */; };
+		EAE22E9B18516AD800420DA4 /* MQ_LT.prn in Resources */ = {isa = PBXBuildFile; fileRef = EAE22E7E18516AD800420DA4 /* MQ_LT.prn */; };
+		EAE22E9C18516AD800420DA4 /* MQ_LT.prn in Resources */ = {isa = PBXBuildFile; fileRef = EAE22E7E18516AD800420DA4 /* MQ_LT.prn */; };
+		EAE22E9D18516AD800420DA4 /* PHD_A4.prn in Resources */ = {isa = PBXBuildFile; fileRef = EAE22E7F18516AD800420DA4 /* PHD_A4.prn */; };
+		EAE22E9E18516AD800420DA4 /* PHD_A4.prn in Resources */ = {isa = PBXBuildFile; fileRef = EAE22E7F18516AD800420DA4 /* PHD_A4.prn */; };
+		EAE22E9F18516AD800420DA4 /* PHD_LT.prn in Resources */ = {isa = PBXBuildFile; fileRef = EAE22E8018516AD800420DA4 /* PHD_LT.prn */; };
+		EAE22EA018516AD800420DA4 /* PHD_LT.prn in Resources */ = {isa = PBXBuildFile; fileRef = EAE22E8018516AD800420DA4 /* PHD_LT.prn */; };
+		EAE22EA118516AD800420DA4 /* Regi_A4.prn in Resources */ = {isa = PBXBuildFile; fileRef = EAE22E8118516AD800420DA4 /* Regi_A4.prn */; };
+		EAE22EA218516AD800420DA4 /* Regi_A4.prn in Resources */ = {isa = PBXBuildFile; fileRef = EAE22E8118516AD800420DA4 /* Regi_A4.prn */; };
+		EAE22EA318516AD800420DA4 /* Regi_LT.prn in Resources */ = {isa = PBXBuildFile; fileRef = EAE22E8218516AD800420DA4 /* Regi_LT.prn */; };
+		EAE22EA418516AD800420DA4 /* Regi_LT.prn in Resources */ = {isa = PBXBuildFile; fileRef = EAE22E8218516AD800420DA4 /* Regi_LT.prn */; };
+		EAE22EA518516AD800420DA4 /* Toner_A4.prn in Resources */ = {isa = PBXBuildFile; fileRef = EAE22E8318516AD800420DA4 /* Toner_A4.prn */; };
+		EAE22EA618516AD800420DA4 /* Toner_A4.prn in Resources */ = {isa = PBXBuildFile; fileRef = EAE22E8318516AD800420DA4 /* Toner_A4.prn */; };
+		EAE22EA718516AD800420DA4 /* Toner_LT.prn in Resources */ = {isa = PBXBuildFile; fileRef = EAE22E8418516AD800420DA4 /* Toner_LT.prn */; };
+		EAE22EA818516AD800420DA4 /* Toner_LT.prn in Resources */ = {isa = PBXBuildFile; fileRef = EAE22E8418516AD800420DA4 /* Toner_LT.prn */; };
+		EAF96DB5185AD1D200F42A8A /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = EAF96DB7185AD1D200F42A8A /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		EA9B41D9184DA1E5002F828B /* PrinterSettingUtility.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrinterSettingUtility.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		858E0055238294E000C40F6C /* PrinterSettingUtility_IBG copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PrinterSettingUtility_IBG copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		858E0056238294E600C40F6C /* PrinterSettingUtility_IBG copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "PrinterSettingUtility_IBG copy-Info.plist"; path = "/Volumes/work/workspace/project/a3/toolbox/PrinterSettingUtility_64bit/PrinterSettingUtility_IBG copy-Info.plist"; sourceTree = "<absolute>"; };
+		CE7CF5971917804E0081E377 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/CrossVendor_I.strings; sourceTree = "<group>"; };
+		CE7CF59A191780B70081E377 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/CrossVendor_X.strings; sourceTree = "<group>"; };
+		CEB72635191B4CAA00EEAC40 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/CrossVendor_X.strings; sourceTree = "<group>"; };
+		CEB72636191B4CB100EEAC40 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/CrossVendor_X.strings"; sourceTree = "<group>"; };
+		CEB72637191B4CB400EEAC40 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/CrossVendor_X.strings"; sourceTree = "<group>"; };
+		CEB72638191B4CB800EEAC40 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/CrossVendor_X.strings; sourceTree = "<group>"; };
+		CEB72639191B4CBD00EEAC40 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/CrossVendor_X.strings; sourceTree = "<group>"; };
+		CEB7263A191B4CC300EEAC40 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/CrossVendor_X.strings; sourceTree = "<group>"; };
+		CEB7263B191B4CCC00EEAC40 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/CrossVendor_X.strings; sourceTree = "<group>"; };
+		CEB7263C191B4CD200EEAC40 /* da */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = da; path = da.lproj/CrossVendor_X.strings; sourceTree = "<group>"; };
+		CEB7263D191B4CD900EEAC40 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/CrossVendor_X.strings; sourceTree = "<group>"; };
+		CEB7263E191B4CE900EEAC40 /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/CrossVendor_X.strings; sourceTree = "<group>"; };
+		CEB7263F191B4CEE00EEAC40 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/CrossVendor_X.strings; sourceTree = "<group>"; };
+		CEB72640191B4CF600EEAC40 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/CrossVendor_X.strings; sourceTree = "<group>"; };
+		CEB72641191B4CFD00EEAC40 /* pt-PT */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-PT"; path = "pt-PT.lproj/CrossVendor_X.strings"; sourceTree = "<group>"; };
+		CEB72642191B4D0200EEAC40 /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/CrossVendor_X.strings; sourceTree = "<group>"; };
+		CEB7264F191B4E3700EEAC40 /* nb */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nb; path = nb.lproj/CrossVendor_X.strings; sourceTree = "<group>"; };
+		CEB726A2191B52F600EEAC40 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/CrossVendor_X.strings; sourceTree = "<group>"; };
+		CEB726D2191B54DF00EEAC40 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/CrossVendor_I.strings; sourceTree = "<group>"; };
+		CEB726D3191B54E500EEAC40 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/CrossVendor_I.strings"; sourceTree = "<group>"; };
+		CEB726D4191B54E900EEAC40 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/CrossVendor_I.strings"; sourceTree = "<group>"; };
+		CEB726D5191B54EC00EEAC40 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/CrossVendor_I.strings; sourceTree = "<group>"; };
+		CEB727E7191B81BD00EEAC40 /* NetIO.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = NetIO.cp; path = Mac_snmpv3/NetIO.cp; sourceTree = "<group>"; };
+		CEB727E8191B81BD00EEAC40 /* GrandeCmd.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GrandeCmd.cp; path = Mac_snmpv3/GrandeCmd.cp; sourceTree = "<group>"; };
+		CEB727E9191B81BD00EEAC40 /* NetIO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NetIO.h; path = Mac_snmpv3/NetIO.h; sourceTree = "<group>"; };
+		CEB727EA191B81BD00EEAC40 /* GrandeCmd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GrandeCmd.h; path = Mac_snmpv3/GrandeCmd.h; sourceTree = "<group>"; };
+		CEB727EB191B81BD00EEAC40 /* Socket.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Socket.cpp; path = Mac_snmpv3/Socket.cpp; sourceTree = "<group>"; };
+		CEB727EC191B81BD00EEAC40 /* cMD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cMD5.h; path = Mac_snmpv3/cMD5.h; sourceTree = "<group>"; };
+		CEB727ED191B81BD00EEAC40 /* cMD5.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = cMD5.cpp; path = Mac_snmpv3/cMD5.cpp; sourceTree = "<group>"; };
+		CEB727EE191B81BD00EEAC40 /* Socket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Socket.h; path = Mac_snmpv3/Socket.h; sourceTree = "<group>"; };
+		CEB727EF191B81BD00EEAC40 /* des.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = des.cpp; path = Mac_snmpv3/des.cpp; sourceTree = "<group>"; };
+		CEB727F0191B81BD00EEAC40 /* des.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = des.h; path = Mac_snmpv3/des.h; sourceTree = "<group>"; };
+		CEC06951190772A300273ABA /* PMSecuritySettingsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PMSecuritySettingsViewController.xib; sourceTree = "<group>"; };
+		CEC069581907736200273ABA /* PMSecuritySettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PMSecuritySettingsViewController.h; sourceTree = "<group>"; };
+		CEC069591907736200273ABA /* PMSecuritySettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PMSecuritySettingsViewController.m; sourceTree = "<group>"; };
+		CEC06ACF1907C22200273ABA /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
+		CED8591E190E291C00E3D847 /* CustomTextFieldFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTextFieldFormatter.m; sourceTree = "<group>"; };
+		CED8591F190E291C00E3D847 /* CustomTextFieldFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTextFieldFormatter.h; sourceTree = "<group>"; };
+		CEF975E719458D3E009100E9 /* Printer Setting Utility.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Printer Setting Utility.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEF975E919458D3E009100E9 /* PrinterSettingUtility-IBG-Info copy.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PrinterSettingUtility-IBG-Info copy.plist"; sourceTree = "<group>"; };
+		EA053A93185FE07300617465 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EA234E6118BB14280061EF18 /* PSRWirelessSetupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSRWirelessSetupViewController.h; sourceTree = "<group>"; };
+		EA234E6218BB14280061EF18 /* PSRWirelessSetupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSRWirelessSetupViewController.m; sourceTree = "<group>"; };
+		EA234E6318BB14280061EF18 /* PSRWirelessSetupViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PSRWirelessSetupViewController.xib; sourceTree = "<group>"; };
+		EA353B511861297B00098266 /* PMDensityAdjustmentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PMDensityAdjustmentViewController.h; sourceTree = "<group>"; };
+		EA353B521861297B00098266 /* PMDensityAdjustmentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PMDensityAdjustmentViewController.m; sourceTree = "<group>"; };
+		EA353B531861297B00098266 /* PMDensityAdjustmentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PMDensityAdjustmentViewController.xib; sourceTree = "<group>"; };
+		EA36ABC018ADA622002E6E2A /* VLL-SFP_IBG.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = "VLL-SFP_IBG.bmp"; sourceTree = "<group>"; };
+		EA36ABC318ADA62E002E6E2A /* VLL-SFP_XC.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = "VLL-SFP_XC.bmp"; sourceTree = "<group>"; };
+		EA4A6D7B18C431CF0084968C /* NetPrinter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetPrinter.h; sourceTree = "<group>"; };
+		EA4A6D7C18C431CF0084968C /* NetPrinter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetPrinter.m; sourceTree = "<group>"; };
+		EA4D2E65185AE2C10091B4AC /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; lineEnding = 0; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.simpleColoring; };
+		EA4D2E66185AE2D40091B4AC /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; lineEnding = 0; name = ko; path = ko.lproj/Localizable.strings; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.simpleColoring; };
+		EA4D2E67185AE2E50091B4AC /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; lineEnding = 0; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.simpleColoring; };
+		EA4D2E68185AE30E0091B4AC /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; lineEnding = 0; name = it; path = it.lproj/Localizable.strings; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.simpleColoring; };
+		EA4D2E69185AE34C0091B4AC /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; lineEnding = 0; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.simpleColoring; };
+		EA4D2E6A185AE35C0091B4AC /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; lineEnding = 0; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.simpleColoring; };
+		EA4D2E6B185AE3690091B4AC /* da */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; lineEnding = 0; name = da; path = da.lproj/Localizable.strings; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.simpleColoring; };
+		EA4D2E6C185AE3770091B4AC /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; lineEnding = 0; name = nl; path = nl.lproj/Localizable.strings; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.simpleColoring; };
+		EA4D2E6D185AE38E0091B4AC /* nb */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; lineEnding = 0; name = nb; path = nb.lproj/Localizable.strings; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.simpleColoring; };
+		EA4D2E6E185AE3990091B4AC /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; lineEnding = 0; name = sv; path = sv.lproj/Localizable.strings; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.simpleColoring; };
+		EA4D2E6F185AE3A30091B4AC /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; lineEnding = 0; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.simpleColoring; };
+		EA4D2E70185AE3B40091B4AC /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; lineEnding = 0; name = tr; path = tr.lproj/Localizable.strings; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.simpleColoring; };
+		EA5E013E18ADFD96006F5E2E /* SFP.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = SFP.tif; sourceTree = "<group>"; };
+		EA74010318B6F66500B089A8 /* 11.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = 11.bmp; sourceTree = "<group>"; };
+		EA74010618B6F7E700B089A8 /* 222.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = 222.bmp; sourceTree = "<group>"; };
+		EA74010818B6FBA800B089A8 /* 123.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 123.png; sourceTree = "<group>"; };
+		EA74010F18B7015D00B089A8 /* IBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IBG.png; sourceTree = "<group>"; };
+		EA74011218B7016E00B089A8 /* XC.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = XC.png; sourceTree = "<group>"; };
+		EA833F2318CD942E003C01A7 /* PSRMenuSettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PSRMenuSettingsViewController.xib; sourceTree = "<group>"; };
+		EA833F2618CD9435003C01A7 /* PrinterInformation.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PrinterInformation.xib; sourceTree = "<group>"; };
+		EA9B41D9184DA1E5002F828B /* Printer Setting Utility.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Printer Setting Utility.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA9B41DD184DA1E5002F828B /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		EA9B41E0184DA1E5002F828B /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		EA9B41E1184DA1E5002F828B /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		EA9B41E2184DA1E5002F828B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		EA9B41E5184DA1E5002F828B /* PrinterSettingUtility-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PrinterSettingUtility-Info.plist"; sourceTree = "<group>"; };
-		EA9B41E7184DA1E5002F828B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EA9B41E9184DA1E5002F828B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EA9B41EB184DA1E5002F828B /* PrinterSettingUtility-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PrinterSettingUtility-Prefix.pch"; sourceTree = "<group>"; };
-		EA9B41ED184DA1E5002F828B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		EA9B41EF184DA1E5002F828B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		EA9B41F0184DA1E5002F828B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EA9B41EF184DA1E5002F828B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = AppDelegate.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		EA9B41F0184DA1E5002F828B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = AppDelegate.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		EA9B41F3184DA1E5002F828B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		EA9B41FA184DA20F002F828B /* AboutController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutController.h; sourceTree = "<group>"; };
+		EA9B41FB184DA20F002F828B /* AboutController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutController.m; sourceTree = "<group>"; };
+		EA9B41FC184DA20F002F828B /* DataStructure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataStructure.h; sourceTree = "<group>"; };
+		EA9B41FD184DA20F002F828B /* DeviceCommunicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceCommunicator.h; sourceTree = "<group>"; };
+		EA9B41FE184DA20F002F828B /* DeviceCommunicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceCommunicator.m; sourceTree = "<group>"; };
+		EA9B41FF184DA20F002F828B /* DeviceProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceProperty.h; sourceTree = "<group>"; };
+		EA9B4200184DA20F002F828B /* DeviceProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceProperty.m; sourceTree = "<group>"; };
+		EA9B4201184DA20F002F828B /* MainTabController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabController.h; sourceTree = "<group>"; };
+		EA9B4202184DA20F002F828B /* MainTabController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = MainTabController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		EA9B4203184DA20F002F828B /* MainWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainWindowController.h; sourceTree = "<group>"; };
+		EA9B4204184DA20F002F828B /* MainWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainWindowController.m; sourceTree = "<group>"; };
+		EA9B4205184DA20F002F828B /* NetDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetDevice.h; sourceTree = "<group>"; };
+		EA9B4206184DA20F002F828B /* NetDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetDevice.m; sourceTree = "<group>"; };
+		EA9B4207184DA20F002F828B /* PrinterSelectorController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrinterSelectorController.h; sourceTree = "<group>"; };
+		EA9B4208184DA20F002F828B /* PrinterSelectorController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrinterSelectorController.m; sourceTree = "<group>"; };
+		EA9B4209184DA20F002F828B /* ProgressController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressController.h; sourceTree = "<group>"; };
+		EA9B420A184DA20F002F828B /* ProgressController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressController.m; sourceTree = "<group>"; };
+		EA9B420B184DA20F002F828B /* SettingsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsController.h; sourceTree = "<group>"; };
+		EA9B420C184DA20F002F828B /* SettingsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsController.m; sourceTree = "<group>"; };
+		EA9B420D184DA20F002F828B /* TargetVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TargetVersion.h; sourceTree = "<group>"; };
+		EA9B420E184DA20F002F828B /* USBDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = USBDevice.h; sourceTree = "<group>"; };
+		EA9B420F184DA20F002F828B /* USBDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = USBDevice.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		EA9B421B184DA26A002F828B /* InformationPagesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InformationPagesController.h; sourceTree = "<group>"; };
+		EA9B421C184DA26A002F828B /* InformationPagesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InformationPagesController.m; sourceTree = "<group>"; };
+		EA9B421D184DA26A002F828B /* PrinterInformationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrinterInformationController.h; sourceTree = "<group>"; };
+		EA9B421E184DA26A002F828B /* PrinterInformationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = PrinterInformationController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		EA9B421F184DA26A002F828B /* PSRMenuSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSRMenuSettingsViewController.h; sourceTree = "<group>"; };
+		EA9B4220184DA26A002F828B /* PSRMenuSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = PSRMenuSettingsViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		EA9B4221184DA26A002F828B /* PSRTCPIPViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSRTCPIPViewController.h; sourceTree = "<group>"; };
+		EA9B4222184DA26A002F828B /* PSRTCPIPViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSRTCPIPViewController.m; sourceTree = "<group>"; };
+		EA9B4223184DA26A002F828B /* traySettingsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = traySettingsController.h; sourceTree = "<group>"; };
+		EA9B4224184DA26A002F828B /* traySettingsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = traySettingsController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		EA9B422B184DA2A7002F828B /* AdjustAltitudeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdjustAltitudeController.h; sourceTree = "<group>"; };
+		EA9B422C184DA2A7002F828B /* AdjustAltitudeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdjustAltitudeController.m; sourceTree = "<group>"; };
+		EA9B422D184DA2A7002F828B /* AdjustBTR.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdjustBTR.h; sourceTree = "<group>"; };
+		EA9B422E184DA2A7002F828B /* AdjustBTR.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdjustBTR.m; sourceTree = "<group>"; };
+		EA9B422F184DA2A7002F828B /* AdjustFuser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdjustFuser.h; sourceTree = "<group>"; };
+		EA9B4230184DA2A7002F828B /* AdjustFuser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdjustFuser.m; sourceTree = "<group>"; };
+		EA9B4231184DA2A7002F828B /* PMAdjustPaperTypeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PMAdjustPaperTypeViewController.h; sourceTree = "<group>"; };
+		EA9B4232184DA2A7002F828B /* PMAdjustPaperTypeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PMAdjustPaperTypeViewController.m; sourceTree = "<group>"; };
+		EA9B4233184DA2A7002F828B /* PMBTRRefreshModeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PMBTRRefreshModeViewController.h; sourceTree = "<group>"; };
+		EA9B4234184DA2A7002F828B /* PMBTRRefreshModeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PMBTRRefreshModeViewController.m; sourceTree = "<group>"; };
+		EA9B4235184DA2A7002F828B /* PMInternetServicesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PMInternetServicesViewController.h; sourceTree = "<group>"; };
+		EA9B4236184DA2A7002F828B /* PMInternetServicesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = PMInternetServicesViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		EA9B4237184DA2A7002F828B /* PMMachineLifeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PMMachineLifeViewController.h; sourceTree = "<group>"; };
+		EA9B4238184DA2A7002F828B /* PMMachineLifeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PMMachineLifeViewController.m; sourceTree = "<group>"; };
+		EA9B4239184DA2A7002F828B /* PMNonGenuineModeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PMNonGenuineModeViewController.h; sourceTree = "<group>"; };
+		EA9B423A184DA2A7002F828B /* PMNonGenuineModeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PMNonGenuineModeViewController.m; sourceTree = "<group>"; };
+		EA9B423B184DA2A7002F828B /* PMRegistrationAdjustmentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PMRegistrationAdjustmentViewController.h; sourceTree = "<group>"; };
+		EA9B423C184DA2A7002F828B /* PMRegistrationAdjustmentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PMRegistrationAdjustmentViewController.m; sourceTree = "<group>"; };
+		EA9B423D184DA2A7002F828B /* PMTCPIPViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PMTCPIPViewController.h; sourceTree = "<group>"; };
+		EA9B423E184DA2A7002F828B /* PMTCPIPViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PMTCPIPViewController.m; sourceTree = "<group>"; };
+		EA9B423F184DA2A7002F828B /* PMTraySettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PMTraySettingsViewController.h; sourceTree = "<group>"; };
+		EA9B4240184DA2A7002F828B /* PMTraySettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PMTraySettingsViewController.m; sourceTree = "<group>"; };
+		EA9B4241184DA2A7002F828B /* ResetDefaultsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResetDefaultsController.h; sourceTree = "<group>"; };
+		EA9B4242184DA2A7002F828B /* ResetDefaultsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResetDefaultsController.m; sourceTree = "<group>"; };
+		EA9B4243184DA2A7002F828B /* SystemSettingsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SystemSettingsController.h; sourceTree = "<group>"; };
+		EA9B4244184DA2A7002F828B /* SystemSettingsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = SystemSettingsController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		EA9B4254184DA364002F828B /* ChartPrintController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChartPrintController.h; sourceTree = "<group>"; };
+		EA9B4255184DA364002F828B /* ChartPrintController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChartPrintController.m; sourceTree = "<group>"; };
+		EA9B4256184DA364002F828B /* CleanDeveloperController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CleanDeveloperController.h; sourceTree = "<group>"; };
+		EA9B4257184DA364002F828B /* CleanDeveloperController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CleanDeveloperController.m; sourceTree = "<group>"; };
+		EA9B4258184DA364002F828B /* DEnvironmentSensorInforViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DEnvironmentSensorInforViewController.h; sourceTree = "<group>"; };
+		EA9B4259184DA364002F828B /* DEnvironmentSensorInforViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DEnvironmentSensorInforViewController.m; sourceTree = "<group>"; };
+		EA9B425A184DA364002F828B /* RefreshModeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RefreshModeController.h; sourceTree = "<group>"; };
+		EA9B425B184DA364002F828B /* RefreshModeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RefreshModeController.m; sourceTree = "<group>"; };
+		EA9B4262184DA40F002F828B /* PrinterSelector.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PrinterSelector.xib; sourceTree = "<group>"; };
+		EA9B4263184DA40F002F828B /* Progress.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Progress.xib; sourceTree = "<group>"; };
+		EA9B4268184DA44C002F828B /* InformationPages.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InformationPages.xib; sourceTree = "<group>"; };
+		EA9B426B184DA44C002F828B /* PSRTCPIPViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PSRTCPIPViewController.xib; sourceTree = "<group>"; };
+		EA9B426C184DA44C002F828B /* TraySettings.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TraySettings.xib; sourceTree = "<group>"; };
+		EA9B4273184DA46F002F828B /* AdjustAltitude.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AdjustAltitude.xib; sourceTree = "<group>"; };
+		EA9B4274184DA46F002F828B /* AdjustBTR.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AdjustBTR.xib; sourceTree = "<group>"; };
+		EA9B4275184DA46F002F828B /* AdjustFuser.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AdjustFuser.xib; sourceTree = "<group>"; };
+		EA9B4276184DA46F002F828B /* PMAdjustPaperTypeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PMAdjustPaperTypeViewController.xib; sourceTree = "<group>"; };
+		EA9B4277184DA46F002F828B /* PMBTRRefreshModeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PMBTRRefreshModeViewController.xib; sourceTree = "<group>"; };
+		EA9B4278184DA46F002F828B /* PMInternetServicesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PMInternetServicesViewController.xib; sourceTree = "<group>"; };
+		EA9B4279184DA46F002F828B /* PMMachineLifeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PMMachineLifeViewController.xib; sourceTree = "<group>"; };
+		EA9B427A184DA46F002F828B /* PMNonGenuineModeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PMNonGenuineModeViewController.xib; sourceTree = "<group>"; };
+		EA9B427B184DA46F002F828B /* PMRegistrationAdjustmentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PMRegistrationAdjustmentViewController.xib; sourceTree = "<group>"; };
+		EA9B427C184DA46F002F828B /* PMTCPIPViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PMTCPIPViewController.xib; sourceTree = "<group>"; };
+		EA9B427D184DA46F002F828B /* PMTraySettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PMTraySettingsViewController.xib; sourceTree = "<group>"; };
+		EA9B427E184DA46F002F828B /* ResetDefaults.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ResetDefaults.xib; sourceTree = "<group>"; };
+		EA9B427F184DA46F002F828B /* SystemSettings.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SystemSettings.xib; sourceTree = "<group>"; };
+		EA9B428F184DA4B5002F828B /* CleanDeveloper.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CleanDeveloper.xib; sourceTree = "<group>"; };
+		EA9B4290184DA4B5002F828B /* DEnvironmentSensorInforViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DEnvironmentSensorInforViewController.xib; sourceTree = "<group>"; };
+		EA9B4291184DA4B5002F828B /* RefreshMode.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RefreshMode.xib; sourceTree = "<group>"; };
+		EA9B42A6184DA768002F828B /* About_IBG.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = About_IBG.bmp; sourceTree = "<group>"; };
+		EA9B42A7184DA768002F828B /* About_XC1.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = About_XC1.bmp; sourceTree = "<group>"; };
+		EA9B42A8184DA768002F828B /* Help.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; path = Help.ico; sourceTree = "<group>"; };
+		EA9B42A9184DA768002F828B /* MachineSetup.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = MachineSetup.icns; sourceTree = "<group>"; };
+		EA9B42AA184DA768002F828B /* SFP.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = SFP.bmp; sourceTree = "<group>"; };
+		EA9B42AC184DA768002F828B /* Title_IBG.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = Title_IBG.bmp; sourceTree = "<group>"; };
+		EA9B42AD184DA768002F828B /* Title_XC1.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = Title_XC1.bmp; sourceTree = "<group>"; };
+		EA9B42AE184DA768002F828B /* toolbox.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; path = toolbox.ico; sourceTree = "<group>"; };
+		EA9B42DB184DAE1F002F828B /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		EAA08F3B18CD96FF00AEE4AF /* ChartPrint.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChartPrint.xib; sourceTree = "<group>"; };
+		EAA1203E1863C6D500941F6A /* pt-PT */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-PT"; path = "pt-PT.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		EAA1203F1863C6D500941F6A /* pt-PT */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; lineEnding = 0; name = "pt-PT"; path = "pt-PT.lproj/Localizable.strings"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.simpleColoring; };
+		EAA120401863C6F800941F6A /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EAA120411863C6F800941F6A /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/Localizable.strings; sourceTree = "<group>"; };
+		EAA15E3918BACCCE0087C005 /* PSRNetworkSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSRNetworkSettingViewController.h; sourceTree = "<group>"; };
+		EAA15E3A18BACCCE0087C005 /* PSRNetworkSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSRNetworkSettingViewController.m; sourceTree = "<group>"; };
+		EAA15E3B18BACCCE0087C005 /* PSRNetworkSettingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PSRNetworkSettingViewController.xib; sourceTree = "<group>"; };
+		EAA227CC185FD21800E0E78C /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		EAA227CE185FD21800E0E78C /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		EAA227CF185FD21B00E0E78C /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EAA227D0185FD21C00E0E78C /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EAA227D1185FD21D00E0E78C /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EAA227D2185FD21E00E0E78C /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EAA227D3185FD21F00E0E78C /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EAA227D4185FD22000E0E78C /* da */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = da; path = da.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EAA227D5185FD22100E0E78C /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EAA227D6185FD22200E0E78C /* nb */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nb; path = nb.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EAA227D7185FD22300E0E78C /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EAA227D8185FD22400E0E78C /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EAA227D9185FD22400E0E78C /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EAA26082185FE2E300EF9B1F /* PrinterSettingUtility-IBG-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "PrinterSettingUtility-IBG-Info.plist"; sourceTree = "<group>"; };
+		EAA4689318691DF8006D2056 /* PMWirelessSetupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PMWirelessSetupViewController.h; sourceTree = "<group>"; };
+		EAA4689418691DF8006D2056 /* PMWirelessSetupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PMWirelessSetupViewController.m; sourceTree = "<group>"; };
+		EAA4689518691DF8006D2056 /* PMWirelessSetupViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PMWirelessSetupViewController.xib; sourceTree = "<group>"; };
+		EAA8A0901867CE29002469BE /* PMNetwrokSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PMNetwrokSettingsViewController.h; sourceTree = "<group>"; };
+		EAA8A0911867CE29002469BE /* PMNetwrokSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PMNetwrokSettingsViewController.m; sourceTree = "<group>"; };
+		EAA8A0921867CE29002469BE /* PMNetwrokSettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PMNetwrokSettingsViewController.xib; sourceTree = "<group>"; };
+		EAAE5E21184DB0570022B816 /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		EAAE5E86184DB3E20022B816 /* Printer Setting Utility.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Printer Setting Utility.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAAE5E89184DB7440022B816 /* PrinterSettingUtility-XC-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "PrinterSettingUtility-XC-Info.plist"; sourceTree = "<group>"; };
+		EACF47D918CD912A00034E57 /* About.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = About.xib; sourceTree = "<group>"; };
+		EAE22E7318516AD800420DA4 /* Align_A4.prn */ = {isa = PBXFileReference; lastKnownFileType = file; path = Align_A4.prn; sourceTree = "<group>"; };
+		EAE22E7418516AD800420DA4 /* Align_LT.prn */ = {isa = PBXFileReference; lastKnownFileType = file; path = Align_LT.prn; sourceTree = "<group>"; };
+		EAE22E7518516AD800420DA4 /* COLOR_A4.prn */ = {isa = PBXFileReference; lastKnownFileType = file; path = COLOR_A4.prn; sourceTree = "<group>"; };
+		EAE22E7618516AD800420DA4 /* COLOR_LT.prn */ = {isa = PBXFileReference; lastKnownFileType = file; path = COLOR_LT.prn; sourceTree = "<group>"; };
+		EAE22E7718516AD800420DA4 /* CONF_A4.prn */ = {isa = PBXFileReference; lastKnownFileType = file; path = CONF_A4.prn; sourceTree = "<group>"; };
+		EAE22E7818516AD800420DA4 /* CONF_LT.prn */ = {isa = PBXFileReference; lastKnownFileType = file; path = CONF_LT.prn; sourceTree = "<group>"; };
+		EAE22E7918516AD800420DA4 /* Ghost_A4.prn */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ghost_A4.prn; sourceTree = "<group>"; };
+		EAE22E7A18516AD800420DA4 /* Ghost_LT.prn */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ghost_LT.prn; sourceTree = "<group>"; };
+		EAE22E7B18516AD800420DA4 /* Grid2_A4.prn */ = {isa = PBXFileReference; lastKnownFileType = file; path = Grid2_A4.prn; sourceTree = "<group>"; };
+		EAE22E7C18516AD800420DA4 /* Grid2_LT.prn */ = {isa = PBXFileReference; lastKnownFileType = file; path = Grid2_LT.prn; sourceTree = "<group>"; };
+		EAE22E7D18516AD800420DA4 /* MQ_A4.prn */ = {isa = PBXFileReference; lastKnownFileType = file; path = MQ_A4.prn; sourceTree = "<group>"; };
+		EAE22E7E18516AD800420DA4 /* MQ_LT.prn */ = {isa = PBXFileReference; lastKnownFileType = file; path = MQ_LT.prn; sourceTree = "<group>"; };
+		EAE22E7F18516AD800420DA4 /* PHD_A4.prn */ = {isa = PBXFileReference; lastKnownFileType = file; path = PHD_A4.prn; sourceTree = "<group>"; };
+		EAE22E8018516AD800420DA4 /* PHD_LT.prn */ = {isa = PBXFileReference; lastKnownFileType = file; path = PHD_LT.prn; sourceTree = "<group>"; };
+		EAE22E8118516AD800420DA4 /* Regi_A4.prn */ = {isa = PBXFileReference; lastKnownFileType = file; path = Regi_A4.prn; sourceTree = "<group>"; };
+		EAE22E8218516AD800420DA4 /* Regi_LT.prn */ = {isa = PBXFileReference; lastKnownFileType = file; path = Regi_LT.prn; sourceTree = "<group>"; };
+		EAE22E8318516AD800420DA4 /* Toner_A4.prn */ = {isa = PBXFileReference; lastKnownFileType = file; path = Toner_A4.prn; sourceTree = "<group>"; };
+		EAE22E8418516AD800420DA4 /* Toner_LT.prn */ = {isa = PBXFileReference; lastKnownFileType = file; path = Toner_LT.prn; sourceTree = "<group>"; };
+		EAF96DB6185AD1D200F42A8A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; lineEnding = 0; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.simpleColoring; };
+		EAF96DB8185AD1ED00F42A8A /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; lineEnding = 0; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.simpleColoring; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		858E0008238294E000C40F6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				858E0009238294E000C40F6C /* IOKit.framework in Frameworks */,
+				858E000A238294E000C40F6C /* Cocoa.framework in Frameworks */,
+				858E000B238294E000C40F6C /* Carbon.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEF9759A19458D3E009100E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEF9759B19458D3E009100E9 /* IOKit.framework in Frameworks */,
+				CEF9759C19458D3E009100E9 /* Cocoa.framework in Frameworks */,
+				CEF9759D19458D3E009100E9 /* Carbon.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EA9B41D6184DA1E5002F828B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA9B42DC184DAE20002F828B /* IOKit.framework in Frameworks */,
 				EA9B41DE184DA1E5002F828B /* Cocoa.framework in Frameworks */,
+				CEC06AD01907C22200273ABA /* Carbon.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAAE5E4D184DB3E20022B816 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAAE5E4E184DB3E20022B816 /* IOKit.framework in Frameworks */,
+				EAAE5E4F184DB3E20022B816 /* Cocoa.framework in Frameworks */,
+				CEC06B071907C86600273ABA /* Carbon.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CEB727D4191B819C00EEAC40 /* Snmp */ = {
+			isa = PBXGroup;
+			children = (
+				CEB727E7191B81BD00EEAC40 /* NetIO.cp */,
+				CEB727E8191B81BD00EEAC40 /* GrandeCmd.cp */,
+				CEB727E9191B81BD00EEAC40 /* NetIO.h */,
+				CEB727EA191B81BD00EEAC40 /* GrandeCmd.h */,
+				CEB727EB191B81BD00EEAC40 /* Socket.cpp */,
+				CEB727EC191B81BD00EEAC40 /* cMD5.h */,
+				CEB727ED191B81BD00EEAC40 /* cMD5.cpp */,
+				CEB727EE191B81BD00EEAC40 /* Socket.h */,
+				CEB727EF191B81BD00EEAC40 /* des.cpp */,
+				CEB727F0191B81BD00EEAC40 /* des.h */,
+			);
+			name = Snmp;
+			sourceTree = "<group>";
+		};
 		EA9B41CE184DA1E5002F828B = {
 			isa = PBXGroup;
 			children = (
 				EA9B41E3184DA1E5002F828B /* PrinterSettingUtility */,
 				EA9B41DC184DA1E5002F828B /* Frameworks */,
 				EA9B41DA184DA1E5002F828B /* Products */,
+				CEC06ACF1907C22200273ABA /* Carbon.framework */,
+				858E0056238294E600C40F6C /* PrinterSettingUtility_IBG copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
 		EA9B41DA184DA1E5002F828B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EA9B41D9184DA1E5002F828B /* PrinterSettingUtility.app */,
+				EA9B41D9184DA1E5002F828B /* Printer Setting Utility.app */,
+				EAAE5E86184DB3E20022B816 /* Printer Setting Utility.app */,
+				CEF975E719458D3E009100E9 /* Printer Setting Utility.app */,
+				858E0055238294E000C40F6C /* PrinterSettingUtility_IBG copy.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -72,6 +803,7 @@
 		EA9B41DF184DA1E5002F828B /* Other Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				EA9B42DB184DAE1F002F828B /* IOKit.framework */,
 				EA9B41E0184DA1E5002F828B /* AppKit.framework */,
 				EA9B41E1184DA1E5002F828B /* CoreData.framework */,
 				EA9B41E2184DA1E5002F828B /* Foundation.framework */,
@@ -82,9 +814,9 @@
 		EA9B41E3184DA1E5002F828B /* PrinterSettingUtility */ = {
 			isa = PBXGroup;
 			children = (
-				EA9B41EF184DA1E5002F828B /* AppDelegate.h */,
-				EA9B41F0184DA1E5002F828B /* AppDelegate.m */,
-				EA9B41F2184DA1E5002F828B /* MainMenu.xib */,
+				EA9B4260184DA384002F828B /* Class */,
+				EA9B4297184DA4CD002F828B /* XIB */,
+				EA9B42B9184DA77D002F828B /* Sources */,
 				EA9B41E4184DA1E5002F828B /* Supporting Files */,
 			);
 			path = PrinterSettingUtility;
@@ -93,33 +825,364 @@
 		EA9B41E4184DA1E5002F828B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				EA9B41E5184DA1E5002F828B /* PrinterSettingUtility-Info.plist */,
+				EAA26082185FE2E300EF9B1F /* PrinterSettingUtility-IBG-Info.plist */,
+				EAAE5E89184DB7440022B816 /* PrinterSettingUtility-XC-Info.plist */,
 				EA9B41E6184DA1E5002F828B /* InfoPlist.strings */,
 				EA9B41E9184DA1E5002F828B /* main.m */,
 				EA9B41EB184DA1E5002F828B /* PrinterSettingUtility-Prefix.pch */,
-				EA9B41EC184DA1E5002F828B /* Credits.rtf */,
+				EAF96DB7185AD1D200F42A8A /* Localizable.strings */,
+				CEB726D0191B54D400EEAC40 /* CrossVendor_I.strings */,
+				CEB72633191B4CA200EEAC40 /* CrossVendor_X.strings */,
+				CEF975E919458D3E009100E9 /* PrinterSettingUtility-IBG-Info copy.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EA9B421A184DA225002F828B /* Basic */ = {
+			isa = PBXGroup;
+			children = (
+				CEB727D4191B819C00EEAC40 /* Snmp */,
+				CED8591E190E291C00E3D847 /* CustomTextFieldFormatter.m */,
+				CED8591F190E291C00E3D847 /* CustomTextFieldFormatter.h */,
+				EA9B420D184DA20F002F828B /* TargetVersion.h */,
+				EA9B41FC184DA20F002F828B /* DataStructure.h */,
+				EA9B41EF184DA1E5002F828B /* AppDelegate.h */,
+				EA9B41F0184DA1E5002F828B /* AppDelegate.m */,
+				EA9B4203184DA20F002F828B /* MainWindowController.h */,
+				EA9B4204184DA20F002F828B /* MainWindowController.m */,
+				EA9B4201184DA20F002F828B /* MainTabController.h */,
+				EA9B4202184DA20F002F828B /* MainTabController.m */,
+				EA9B4207184DA20F002F828B /* PrinterSelectorController.h */,
+				EA9B4208184DA20F002F828B /* PrinterSelectorController.m */,
+				EA9B420B184DA20F002F828B /* SettingsController.h */,
+				EA9B420C184DA20F002F828B /* SettingsController.m */,
+				EA9B41FD184DA20F002F828B /* DeviceCommunicator.h */,
+				EA9B41FE184DA20F002F828B /* DeviceCommunicator.m */,
+				EA9B41FF184DA20F002F828B /* DeviceProperty.h */,
+				EA9B4200184DA20F002F828B /* DeviceProperty.m */,
+				EA9B4205184DA20F002F828B /* NetDevice.h */,
+				EA9B4206184DA20F002F828B /* NetDevice.m */,
+				EA4A6D7B18C431CF0084968C /* NetPrinter.h */,
+				EA4A6D7C18C431CF0084968C /* NetPrinter.m */,
+				EA9B420E184DA20F002F828B /* USBDevice.h */,
+				EA9B420F184DA20F002F828B /* USBDevice.m */,
+				EA9B4209184DA20F002F828B /* ProgressController.h */,
+				EA9B420A184DA20F002F828B /* ProgressController.m */,
+				EA9B41FA184DA20F002F828B /* AboutController.h */,
+				EA9B41FB184DA20F002F828B /* AboutController.m */,
+			);
+			name = Basic;
+			sourceTree = "<group>";
+		};
+		EA9B422A184DA272002F828B /* PrinterSettingReport */ = {
+			isa = PBXGroup;
+			children = (
+				EA9B421D184DA26A002F828B /* PrinterInformationController.h */,
+				EA9B421E184DA26A002F828B /* PrinterInformationController.m */,
+				EA9B421F184DA26A002F828B /* PSRMenuSettingsViewController.h */,
+				EA9B4220184DA26A002F828B /* PSRMenuSettingsViewController.m */,
+				EA9B421B184DA26A002F828B /* InformationPagesController.h */,
+				EA9B421C184DA26A002F828B /* InformationPagesController.m */,
+				EA9B4221184DA26A002F828B /* PSRTCPIPViewController.h */,
+				EA9B4222184DA26A002F828B /* PSRTCPIPViewController.m */,
+				EAA15E3918BACCCE0087C005 /* PSRNetworkSettingViewController.h */,
+				EAA15E3A18BACCCE0087C005 /* PSRNetworkSettingViewController.m */,
+				EA234E6118BB14280061EF18 /* PSRWirelessSetupViewController.h */,
+				EA234E6218BB14280061EF18 /* PSRWirelessSetupViewController.m */,
+				EA9B4223184DA26A002F828B /* traySettingsController.h */,
+				EA9B4224184DA26A002F828B /* traySettingsController.m */,
+			);
+			name = PrinterSettingReport;
+			sourceTree = "<group>";
+		};
+		EA9B4252184DA2BF002F828B /* PrinterMaintenance */ = {
+			isa = PBXGroup;
+			children = (
+				EA9B4243184DA2A7002F828B /* SystemSettingsController.h */,
+				EA9B4244184DA2A7002F828B /* SystemSettingsController.m */,
+				EA9B4231184DA2A7002F828B /* PMAdjustPaperTypeViewController.h */,
+				EA9B4232184DA2A7002F828B /* PMAdjustPaperTypeViewController.m */,
+				EA9B422D184DA2A7002F828B /* AdjustBTR.h */,
+				EA9B422E184DA2A7002F828B /* AdjustBTR.m */,
+				EA9B422F184DA2A7002F828B /* AdjustFuser.h */,
+				EA9B4230184DA2A7002F828B /* AdjustFuser.m */,
+				EA9B423B184DA2A7002F828B /* PMRegistrationAdjustmentViewController.h */,
+				EA9B423C184DA2A7002F828B /* PMRegistrationAdjustmentViewController.m */,
+				EA353B511861297B00098266 /* PMDensityAdjustmentViewController.h */,
+				EA353B521861297B00098266 /* PMDensityAdjustmentViewController.m */,
+				EA9B422B184DA2A7002F828B /* AdjustAltitudeController.h */,
+				EA9B422C184DA2A7002F828B /* AdjustAltitudeController.m */,
+				EA9B4241184DA2A7002F828B /* ResetDefaultsController.h */,
+				EA9B4242184DA2A7002F828B /* ResetDefaultsController.m */,
+				EA9B4239184DA2A7002F828B /* PMNonGenuineModeViewController.h */,
+				EA9B423A184DA2A7002F828B /* PMNonGenuineModeViewController.m */,
+				EA9B4233184DA2A7002F828B /* PMBTRRefreshModeViewController.h */,
+				EA9B4234184DA2A7002F828B /* PMBTRRefreshModeViewController.m */,
+				EAA8A0901867CE29002469BE /* PMNetwrokSettingsViewController.h */,
+				EAA8A0911867CE29002469BE /* PMNetwrokSettingsViewController.m */,
+				EAA4689318691DF8006D2056 /* PMWirelessSetupViewController.h */,
+				EAA4689418691DF8006D2056 /* PMWirelessSetupViewController.m */,
+				EA9B423D184DA2A7002F828B /* PMTCPIPViewController.h */,
+				EA9B423E184DA2A7002F828B /* PMTCPIPViewController.m */,
+				EA9B4235184DA2A7002F828B /* PMInternetServicesViewController.h */,
+				EA9B4236184DA2A7002F828B /* PMInternetServicesViewController.m */,
+				EA9B4237184DA2A7002F828B /* PMMachineLifeViewController.h */,
+				EA9B4238184DA2A7002F828B /* PMMachineLifeViewController.m */,
+				EA9B423F184DA2A7002F828B /* PMTraySettingsViewController.h */,
+				EA9B4240184DA2A7002F828B /* PMTraySettingsViewController.m */,
+				CEC069581907736200273ABA /* PMSecuritySettingsViewController.h */,
+				CEC069591907736200273ABA /* PMSecuritySettingsViewController.m */,
+			);
+			name = PrinterMaintenance;
+			sourceTree = "<group>";
+		};
+		EA9B4253184DA33F002F828B /* Diagnosis */ = {
+			isa = PBXGroup;
+			children = (
+				EA9B4254184DA364002F828B /* ChartPrintController.h */,
+				EA9B4255184DA364002F828B /* ChartPrintController.m */,
+				EA9B4258184DA364002F828B /* DEnvironmentSensorInforViewController.h */,
+				EA9B4259184DA364002F828B /* DEnvironmentSensorInforViewController.m */,
+				EA9B4256184DA364002F828B /* CleanDeveloperController.h */,
+				EA9B4257184DA364002F828B /* CleanDeveloperController.m */,
+				EA9B425A184DA364002F828B /* RefreshModeController.h */,
+				EA9B425B184DA364002F828B /* RefreshModeController.m */,
+			);
+			name = Diagnosis;
+			sourceTree = "<group>";
+		};
+		EA9B4260184DA384002F828B /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				EA9B421A184DA225002F828B /* Basic */,
+				EA9B422A184DA272002F828B /* PrinterSettingReport */,
+				EA9B4252184DA2BF002F828B /* PrinterMaintenance */,
+				EA9B4253184DA33F002F828B /* Diagnosis */,
+			);
+			name = Class;
+			sourceTree = "<group>";
+		};
+		EA9B4267184DA417002F828B /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				EA9B41F2184DA1E5002F828B /* MainMenu.xib */,
+				EAAE5E21184DB0570022B816 /* MainWindow.xib */,
+				EA9B4262184DA40F002F828B /* PrinterSelector.xib */,
+				EA9B4263184DA40F002F828B /* Progress.xib */,
+				EACF47D918CD912A00034E57 /* About.xib */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		EA9B4272184DA450002F828B /* PSR */ = {
+			isa = PBXGroup;
+			children = (
+				EA833F2618CD9435003C01A7 /* PrinterInformation.xib */,
+				EA833F2318CD942E003C01A7 /* PSRMenuSettingsViewController.xib */,
+				EA9B4268184DA44C002F828B /* InformationPages.xib */,
+				EA9B426B184DA44C002F828B /* PSRTCPIPViewController.xib */,
+				EAA15E3B18BACCCE0087C005 /* PSRNetworkSettingViewController.xib */,
+				EA234E6318BB14280061EF18 /* PSRWirelessSetupViewController.xib */,
+				EA9B426C184DA44C002F828B /* TraySettings.xib */,
+			);
+			name = PSR;
+			sourceTree = "<group>";
+		};
+		EA9B428D184DA476002F828B /* PM */ = {
+			isa = PBXGroup;
+			children = (
+				EA9B427F184DA46F002F828B /* SystemSettings.xib */,
+				EA9B4276184DA46F002F828B /* PMAdjustPaperTypeViewController.xib */,
+				EA9B4274184DA46F002F828B /* AdjustBTR.xib */,
+				EA9B4275184DA46F002F828B /* AdjustFuser.xib */,
+				EA9B427B184DA46F002F828B /* PMRegistrationAdjustmentViewController.xib */,
+				EA353B531861297B00098266 /* PMDensityAdjustmentViewController.xib */,
+				EA9B4273184DA46F002F828B /* AdjustAltitude.xib */,
+				EA9B427E184DA46F002F828B /* ResetDefaults.xib */,
+				EA9B4277184DA46F002F828B /* PMBTRRefreshModeViewController.xib */,
+				EA9B427A184DA46F002F828B /* PMNonGenuineModeViewController.xib */,
+				EAA8A0921867CE29002469BE /* PMNetwrokSettingsViewController.xib */,
+				EAA4689518691DF8006D2056 /* PMWirelessSetupViewController.xib */,
+				EA9B427C184DA46F002F828B /* PMTCPIPViewController.xib */,
+				EA9B4278184DA46F002F828B /* PMInternetServicesViewController.xib */,
+				EA9B4279184DA46F002F828B /* PMMachineLifeViewController.xib */,
+				EA9B427D184DA46F002F828B /* PMTraySettingsViewController.xib */,
+				CEC06951190772A300273ABA /* PMSecuritySettingsViewController.xib */,
+			);
+			name = PM;
+			sourceTree = "<group>";
+		};
+		EA9B4296184DA4B9002F828B /* D */ = {
+			isa = PBXGroup;
+			children = (
+				EAA08F3B18CD96FF00AEE4AF /* ChartPrint.xib */,
+				EA9B4290184DA4B5002F828B /* DEnvironmentSensorInforViewController.xib */,
+				EA9B428F184DA4B5002F828B /* CleanDeveloper.xib */,
+				EA9B4291184DA4B5002F828B /* RefreshMode.xib */,
+			);
+			name = D;
+			sourceTree = "<group>";
+		};
+		EA9B4297184DA4CD002F828B /* XIB */ = {
+			isa = PBXGroup;
+			children = (
+				EA9B4267184DA417002F828B /* Main */,
+				EA9B4272184DA450002F828B /* PSR */,
+				EA9B428D184DA476002F828B /* PM */,
+				EA9B4296184DA4B9002F828B /* D */,
+			);
+			name = XIB;
+			sourceTree = "<group>";
+		};
+		EA9B42B9184DA77D002F828B /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				EA9B42D5184DA846002F828B /* Pictures */,
+				EA9B42D2184DA7CE002F828B /* Chart */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		EA9B42D2184DA7CE002F828B /* Chart */ = {
+			isa = PBXGroup;
+			children = (
+				EAE22E7318516AD800420DA4 /* Align_A4.prn */,
+				EAE22E7418516AD800420DA4 /* Align_LT.prn */,
+				EAE22E7518516AD800420DA4 /* COLOR_A4.prn */,
+				EAE22E7618516AD800420DA4 /* COLOR_LT.prn */,
+				EAE22E7718516AD800420DA4 /* CONF_A4.prn */,
+				EAE22E7818516AD800420DA4 /* CONF_LT.prn */,
+				EAE22E7918516AD800420DA4 /* Ghost_A4.prn */,
+				EAE22E7A18516AD800420DA4 /* Ghost_LT.prn */,
+				EAE22E7B18516AD800420DA4 /* Grid2_A4.prn */,
+				EAE22E7C18516AD800420DA4 /* Grid2_LT.prn */,
+				EAE22E7D18516AD800420DA4 /* MQ_A4.prn */,
+				EAE22E7E18516AD800420DA4 /* MQ_LT.prn */,
+				EAE22E7F18516AD800420DA4 /* PHD_A4.prn */,
+				EAE22E8018516AD800420DA4 /* PHD_LT.prn */,
+				EAE22E8118516AD800420DA4 /* Regi_A4.prn */,
+				EAE22E8218516AD800420DA4 /* Regi_LT.prn */,
+				EAE22E8318516AD800420DA4 /* Toner_A4.prn */,
+				EAE22E8418516AD800420DA4 /* Toner_LT.prn */,
+			);
+			name = Chart;
+			sourceTree = "<group>";
+		};
+		EA9B42D3184DA805002F828B /* XC */ = {
+			isa = PBXGroup;
+			children = (
+				EA9B42AD184DA768002F828B /* Title_XC1.bmp */,
+				EA9B42A7184DA768002F828B /* About_XC1.bmp */,
+				EA74011218B7016E00B089A8 /* XC.png */,
+			);
+			name = XC;
+			sourceTree = "<group>";
+		};
+		EA9B42D4184DA81A002F828B /* IBG */ = {
+			isa = PBXGroup;
+			children = (
+				EA9B42AC184DA768002F828B /* Title_IBG.bmp */,
+				EA9B42A6184DA768002F828B /* About_IBG.bmp */,
+				EA74010F18B7015D00B089A8 /* IBG.png */,
+			);
+			name = IBG;
+			sourceTree = "<group>";
+		};
+		EA9B42D5184DA846002F828B /* Pictures */ = {
+			isa = PBXGroup;
+			children = (
+				EA9B42D3184DA805002F828B /* XC */,
+				EA9B42D4184DA81A002F828B /* IBG */,
+				EA9B42A8184DA768002F828B /* Help.ico */,
+				EA9B42A9184DA768002F828B /* MachineSetup.icns */,
+				EA36ABC018ADA622002E6E2A /* VLL-SFP_IBG.bmp */,
+				EA74010318B6F66500B089A8 /* 11.bmp */,
+				EA74010618B6F7E700B089A8 /* 222.bmp */,
+				EA36ABC318ADA62E002E6E2A /* VLL-SFP_XC.bmp */,
+				EA74010818B6FBA800B089A8 /* 123.png */,
+				EA9B42AA184DA768002F828B /* SFP.bmp */,
+				EA5E013E18ADFD96006F5E2E /* SFP.tif */,
+				EA9B42AE184DA768002F828B /* toolbox.ico */,
+			);
+			name = Pictures;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EA9B41D8184DA1E5002F828B /* PrinterSettingUtility */ = {
+		858EFFD7238294E000C40F6C /* PrinterSettingUtility_IBG copy */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EA9B41F7184DA1E5002F828B /* Build configuration list for PBXNativeTarget "PrinterSettingUtility" */;
+			buildConfigurationList = 858E0052238294E000C40F6C /* Build configuration list for PBXNativeTarget "PrinterSettingUtility_IBG copy" */;
 			buildPhases = (
-				EA9B41D5184DA1E5002F828B /* Sources */,
-				EA9B41D6184DA1E5002F828B /* Frameworks */,
-				EA9B41D7184DA1E5002F828B /* Resources */,
+				858EFFD8238294E000C40F6C /* Sources */,
+				858E0008238294E000C40F6C /* Frameworks */,
+				858E000C238294E000C40F6C /* Resources */,
+				858E0050238294E000C40F6C /* Rez */,
+				858E0051238294E000C40F6C /* ShellScript */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = PrinterSettingUtility;
+			name = "PrinterSettingUtility_IBG copy";
 			productName = PrinterSettingUtility;
-			productReference = EA9B41D9184DA1E5002F828B /* PrinterSettingUtility.app */;
+			productReference = 858E0055238294E000C40F6C /* PrinterSettingUtility_IBG copy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEF9756919458D3E009100E9 /* PrinterSettingUtility_IBG_AirPrint */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEF975E419458D3E009100E9 /* Build configuration list for PBXNativeTarget "PrinterSettingUtility_IBG_AirPrint" */;
+			buildPhases = (
+				CEF9756A19458D3E009100E9 /* Sources */,
+				CEF9759A19458D3E009100E9 /* Frameworks */,
+				CEF9759E19458D3E009100E9 /* Resources */,
+				CEF975E219458D3E009100E9 /* Rez */,
+				CEF975E319458D3E009100E9 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PrinterSettingUtility_IBG_AirPrint;
+			productName = PrinterSettingUtility;
+			productReference = CEF975E719458D3E009100E9 /* Printer Setting Utility.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA9B41D8184DA1E5002F828B /* PrinterSettingUtility_IBG */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA9B41F7184DA1E5002F828B /* Build configuration list for PBXNativeTarget "PrinterSettingUtility_IBG" */;
+			buildPhases = (
+				EA9B41D5184DA1E5002F828B /* Sources */,
+				EA9B41D6184DA1E5002F828B /* Frameworks */,
+				EA9B41D7184DA1E5002F828B /* Resources */,
+				CEFCFC3918FD0D0400EEC83B /* Rez */,
+				CEFCFC3218FD0CFE00EEC83B /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PrinterSettingUtility_IBG;
+			productName = PrinterSettingUtility;
+			productReference = EA9B41D9184DA1E5002F828B /* Printer Setting Utility.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EAAE5E29184DB3E20022B816 /* PrinterSettingUtility_XC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAAE5E83184DB3E20022B816 /* Build configuration list for PBXNativeTarget "PrinterSettingUtility_XC" */;
+			buildPhases = (
+				EAAE5E2A184DB3E20022B816 /* Sources */,
+				EAAE5E4D184DB3E20022B816 /* Frameworks */,
+				EAAE5E50184DB3E20022B816 /* Resources */,
+				CEFCFC4718FD0D6900EEC83B /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PrinterSettingUtility_XC;
+			productName = PrinterSettingUtility;
+			productReference = EAAE5E86184DB3E20022B816 /* Printer Setting Utility.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -133,61 +1196,692 @@
 			};
 			buildConfigurationList = EA9B41D3184DA1E5002F828B /* Build configuration list for PBXProject "PrinterSettingUtility" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				"zh-Hant",
+				"zh-Hans",
+				ko,
+				fr,
+				it,
+				de,
+				es,
+				da,
+				nl,
+				nb,
+				sv,
+				ru,
+				tr,
+				"pt-BR",
+				"pt-PT",
+				pt,
 			);
 			mainGroup = EA9B41CE184DA1E5002F828B;
 			productRefGroup = EA9B41DA184DA1E5002F828B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EA9B41D8184DA1E5002F828B /* PrinterSettingUtility */,
+				EA9B41D8184DA1E5002F828B /* PrinterSettingUtility_IBG */,
+				EAAE5E29184DB3E20022B816 /* PrinterSettingUtility_XC */,
+				CEF9756919458D3E009100E9 /* PrinterSettingUtility_IBG_AirPrint */,
+				858EFFD7238294E000C40F6C /* PrinterSettingUtility_IBG copy */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		858E000C238294E000C40F6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				858E000D238294E000C40F6C /* MainMenu.xib in Resources */,
+				858E000E238294E000C40F6C /* PrinterSelector.xib in Resources */,
+				858E000F238294E000C40F6C /* Progress.xib in Resources */,
+				858E0010238294E000C40F6C /* InformationPages.xib in Resources */,
+				858E0011238294E000C40F6C /* PSRTCPIPViewController.xib in Resources */,
+				858E0012238294E000C40F6C /* TraySettings.xib in Resources */,
+				858E0013238294E000C40F6C /* AdjustAltitude.xib in Resources */,
+				858E0014238294E000C40F6C /* AdjustBTR.xib in Resources */,
+				858E0015238294E000C40F6C /* AdjustFuser.xib in Resources */,
+				858E0016238294E000C40F6C /* PMAdjustPaperTypeViewController.xib in Resources */,
+				858E0017238294E000C40F6C /* PMBTRRefreshModeViewController.xib in Resources */,
+				858E0018238294E000C40F6C /* PMInternetServicesViewController.xib in Resources */,
+				858E0019238294E000C40F6C /* PMMachineLifeViewController.xib in Resources */,
+				858E001A238294E000C40F6C /* PMNonGenuineModeViewController.xib in Resources */,
+				858E001B238294E000C40F6C /* PMRegistrationAdjustmentViewController.xib in Resources */,
+				858E001C238294E000C40F6C /* PrinterInformation.xib in Resources */,
+				858E001D238294E000C40F6C /* PMTCPIPViewController.xib in Resources */,
+				858E001E238294E000C40F6C /* PMTraySettingsViewController.xib in Resources */,
+				858E001F238294E000C40F6C /* ResetDefaults.xib in Resources */,
+				858E0020238294E000C40F6C /* SystemSettings.xib in Resources */,
+				858E0021238294E000C40F6C /* CleanDeveloper.xib in Resources */,
+				858E0022238294E000C40F6C /* DEnvironmentSensorInforViewController.xib in Resources */,
+				858E0023238294E000C40F6C /* RefreshMode.xib in Resources */,
+				858E0024238294E000C40F6C /* PSRMenuSettingsViewController.xib in Resources */,
+				858E0025238294E000C40F6C /* About_IBG.bmp in Resources */,
+				858E0026238294E000C40F6C /* Help.ico in Resources */,
+				858E0027238294E000C40F6C /* MachineSetup.icns in Resources */,
+				858E0028238294E000C40F6C /* SFP.bmp in Resources */,
+				858E0029238294E000C40F6C /* Title_IBG.bmp in Resources */,
+				858E002A238294E000C40F6C /* toolbox.ico in Resources */,
+				858E002B238294E000C40F6C /* MainWindow.xib in Resources */,
+				858E002C238294E000C40F6C /* Align_A4.prn in Resources */,
+				858E002D238294E000C40F6C /* Align_LT.prn in Resources */,
+				858E002E238294E000C40F6C /* COLOR_A4.prn in Resources */,
+				858E002F238294E000C40F6C /* COLOR_LT.prn in Resources */,
+				858E0030238294E000C40F6C /* CONF_A4.prn in Resources */,
+				858E0031238294E000C40F6C /* CONF_LT.prn in Resources */,
+				858E0032238294E000C40F6C /* Ghost_A4.prn in Resources */,
+				858E0033238294E000C40F6C /* Ghost_LT.prn in Resources */,
+				858E0034238294E000C40F6C /* Grid2_A4.prn in Resources */,
+				858E0035238294E000C40F6C /* Grid2_LT.prn in Resources */,
+				858E0036238294E000C40F6C /* MQ_A4.prn in Resources */,
+				858E0037238294E000C40F6C /* MQ_LT.prn in Resources */,
+				858E0038238294E000C40F6C /* PHD_A4.prn in Resources */,
+				858E0039238294E000C40F6C /* PHD_LT.prn in Resources */,
+				858E003A238294E000C40F6C /* Regi_A4.prn in Resources */,
+				858E003B238294E000C40F6C /* Regi_LT.prn in Resources */,
+				858E003C238294E000C40F6C /* Toner_A4.prn in Resources */,
+				858E003D238294E000C40F6C /* Toner_LT.prn in Resources */,
+				858E003E238294E000C40F6C /* PrinterSettingUtility-IBG-Info.plist in Resources */,
+				858E003F238294E000C40F6C /* PMDensityAdjustmentViewController.xib in Resources */,
+				858E0040238294E000C40F6C /* Localizable.strings in Resources */,
+				858E0041238294E000C40F6C /* InfoPlist.strings in Resources */,
+				858E0042238294E000C40F6C /* PMNetwrokSettingsViewController.xib in Resources */,
+				858E0043238294E000C40F6C /* PMWirelessSetupViewController.xib in Resources */,
+				858E0044238294E000C40F6C /* VLL-SFP_IBG.bmp in Resources */,
+				858E0045238294E000C40F6C /* SFP.tif in Resources */,
+				858E0046238294E000C40F6C /* 11.bmp in Resources */,
+				858E0047238294E000C40F6C /* 222.bmp in Resources */,
+				858E0048238294E000C40F6C /* 123.png in Resources */,
+				858E0049238294E000C40F6C /* IBG.png in Resources */,
+				858E004A238294E000C40F6C /* PSRNetworkSettingViewController.xib in Resources */,
+				858E004B238294E000C40F6C /* PSRWirelessSetupViewController.xib in Resources */,
+				858E004C238294E000C40F6C /* About.xib in Resources */,
+				858E004D238294E000C40F6C /* ChartPrint.xib in Resources */,
+				858E004E238294E000C40F6C /* PMSecuritySettingsViewController.xib in Resources */,
+				858E004F238294E000C40F6C /* CrossVendor_I.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEF9759E19458D3E009100E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEF9759F19458D3E009100E9 /* MainMenu.xib in Resources */,
+				CEF975A019458D3E009100E9 /* PrinterSelector.xib in Resources */,
+				CEF975A119458D3E009100E9 /* Progress.xib in Resources */,
+				CEF975A219458D3E009100E9 /* InformationPages.xib in Resources */,
+				CEF975A319458D3E009100E9 /* PSRTCPIPViewController.xib in Resources */,
+				CEF975A419458D3E009100E9 /* TraySettings.xib in Resources */,
+				CEF975A519458D3E009100E9 /* AdjustAltitude.xib in Resources */,
+				CEF975A619458D3E009100E9 /* AdjustBTR.xib in Resources */,
+				CEF975A719458D3E009100E9 /* AdjustFuser.xib in Resources */,
+				CEF975A819458D3E009100E9 /* PMAdjustPaperTypeViewController.xib in Resources */,
+				CEF975A919458D3E009100E9 /* PMBTRRefreshModeViewController.xib in Resources */,
+				CEF975AA19458D3E009100E9 /* PMInternetServicesViewController.xib in Resources */,
+				CEF975AB19458D3E009100E9 /* PMMachineLifeViewController.xib in Resources */,
+				CEF975AC19458D3E009100E9 /* PMNonGenuineModeViewController.xib in Resources */,
+				CEF975AD19458D3E009100E9 /* PMRegistrationAdjustmentViewController.xib in Resources */,
+				CEF975AE19458D3E009100E9 /* PrinterInformation.xib in Resources */,
+				CEF975AF19458D3E009100E9 /* PMTCPIPViewController.xib in Resources */,
+				CEF975B019458D3E009100E9 /* PMTraySettingsViewController.xib in Resources */,
+				CEF975B119458D3E009100E9 /* ResetDefaults.xib in Resources */,
+				CEF975B219458D3E009100E9 /* SystemSettings.xib in Resources */,
+				CEF975B319458D3E009100E9 /* CleanDeveloper.xib in Resources */,
+				CEF975B419458D3E009100E9 /* DEnvironmentSensorInforViewController.xib in Resources */,
+				CEF975B519458D3E009100E9 /* RefreshMode.xib in Resources */,
+				CEF975B619458D3E009100E9 /* PSRMenuSettingsViewController.xib in Resources */,
+				CEF975B719458D3E009100E9 /* About_IBG.bmp in Resources */,
+				CEF975B819458D3E009100E9 /* Help.ico in Resources */,
+				CEF975B919458D3E009100E9 /* MachineSetup.icns in Resources */,
+				CEF975BA19458D3E009100E9 /* SFP.bmp in Resources */,
+				CEF975BB19458D3E009100E9 /* Title_IBG.bmp in Resources */,
+				CEF975BC19458D3E009100E9 /* toolbox.ico in Resources */,
+				CEF975BD19458D3E009100E9 /* MainWindow.xib in Resources */,
+				CEF975BE19458D3E009100E9 /* Align_A4.prn in Resources */,
+				CEF975BF19458D3E009100E9 /* Align_LT.prn in Resources */,
+				CEF975C019458D3E009100E9 /* COLOR_A4.prn in Resources */,
+				CEF975C119458D3E009100E9 /* COLOR_LT.prn in Resources */,
+				CEF975C219458D3E009100E9 /* CONF_A4.prn in Resources */,
+				CEF975C319458D3E009100E9 /* CONF_LT.prn in Resources */,
+				CEF975C419458D3E009100E9 /* Ghost_A4.prn in Resources */,
+				CEF975C519458D3E009100E9 /* Ghost_LT.prn in Resources */,
+				CEF975C619458D3E009100E9 /* Grid2_A4.prn in Resources */,
+				CEF975C719458D3E009100E9 /* Grid2_LT.prn in Resources */,
+				CEF975C819458D3E009100E9 /* MQ_A4.prn in Resources */,
+				CEF975C919458D3E009100E9 /* MQ_LT.prn in Resources */,
+				CEF975CA19458D3E009100E9 /* PHD_A4.prn in Resources */,
+				CEF975CB19458D3E009100E9 /* PHD_LT.prn in Resources */,
+				CEF975CC19458D3E009100E9 /* Regi_A4.prn in Resources */,
+				CEF975CD19458D3E009100E9 /* Regi_LT.prn in Resources */,
+				CEF975CE19458D3E009100E9 /* Toner_A4.prn in Resources */,
+				CEF975CF19458D3E009100E9 /* Toner_LT.prn in Resources */,
+				CEF975D019458D3E009100E9 /* PrinterSettingUtility-IBG-Info.plist in Resources */,
+				CEF975D119458D3E009100E9 /* PMDensityAdjustmentViewController.xib in Resources */,
+				CEF975D219458D3E009100E9 /* Localizable.strings in Resources */,
+				CEF975D319458D3E009100E9 /* InfoPlist.strings in Resources */,
+				CEF975D419458D3E009100E9 /* PMNetwrokSettingsViewController.xib in Resources */,
+				CEF975D519458D3E009100E9 /* PMWirelessSetupViewController.xib in Resources */,
+				CEF975D619458D3E009100E9 /* VLL-SFP_IBG.bmp in Resources */,
+				CEF975D719458D3E009100E9 /* SFP.tif in Resources */,
+				CEF975D819458D3E009100E9 /* 11.bmp in Resources */,
+				CEF975D919458D3E009100E9 /* 222.bmp in Resources */,
+				CEF975DA19458D3E009100E9 /* 123.png in Resources */,
+				CEF975DB19458D3E009100E9 /* IBG.png in Resources */,
+				CEF975DC19458D3E009100E9 /* PSRNetworkSettingViewController.xib in Resources */,
+				CEF975DD19458D3E009100E9 /* PSRWirelessSetupViewController.xib in Resources */,
+				CEF975DE19458D3E009100E9 /* About.xib in Resources */,
+				CEF975DF19458D3E009100E9 /* ChartPrint.xib in Resources */,
+				CEF975E019458D3E009100E9 /* PMSecuritySettingsViewController.xib in Resources */,
+				CEF975E119458D3E009100E9 /* CrossVendor_I.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EA9B41D7184DA1E5002F828B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA9B41E8184DA1E5002F828B /* InfoPlist.strings in Resources */,
-				EA9B41EE184DA1E5002F828B /* Credits.rtf in Resources */,
 				EA9B41F4184DA1E5002F828B /* MainMenu.xib in Resources */,
+				EA9B4265184DA40F002F828B /* PrinterSelector.xib in Resources */,
+				EA9B4266184DA40F002F828B /* Progress.xib in Resources */,
+				EA9B426D184DA44C002F828B /* InformationPages.xib in Resources */,
+				EA9B4270184DA44C002F828B /* PSRTCPIPViewController.xib in Resources */,
+				EA9B4271184DA44C002F828B /* TraySettings.xib in Resources */,
+				EA9B4280184DA46F002F828B /* AdjustAltitude.xib in Resources */,
+				EA9B4281184DA46F002F828B /* AdjustBTR.xib in Resources */,
+				EA9B4282184DA46F002F828B /* AdjustFuser.xib in Resources */,
+				EA9B4283184DA46F002F828B /* PMAdjustPaperTypeViewController.xib in Resources */,
+				EA9B4284184DA46F002F828B /* PMBTRRefreshModeViewController.xib in Resources */,
+				EA9B4285184DA46F002F828B /* PMInternetServicesViewController.xib in Resources */,
+				EA9B4286184DA46F002F828B /* PMMachineLifeViewController.xib in Resources */,
+				EA9B4287184DA46F002F828B /* PMNonGenuineModeViewController.xib in Resources */,
+				EA9B4288184DA46F002F828B /* PMRegistrationAdjustmentViewController.xib in Resources */,
+				EA833F2718CD9435003C01A7 /* PrinterInformation.xib in Resources */,
+				EA9B4289184DA46F002F828B /* PMTCPIPViewController.xib in Resources */,
+				EA9B428A184DA46F002F828B /* PMTraySettingsViewController.xib in Resources */,
+				EA9B428B184DA46F002F828B /* ResetDefaults.xib in Resources */,
+				EA9B428C184DA46F002F828B /* SystemSettings.xib in Resources */,
+				EA9B4293184DA4B5002F828B /* CleanDeveloper.xib in Resources */,
+				EA9B4294184DA4B5002F828B /* DEnvironmentSensorInforViewController.xib in Resources */,
+				EA9B4295184DA4B5002F828B /* RefreshMode.xib in Resources */,
+				EA833F2418CD942E003C01A7 /* PSRMenuSettingsViewController.xib in Resources */,
+				EA9B42AF184DA768002F828B /* About_IBG.bmp in Resources */,
+				EA9B42B1184DA768002F828B /* Help.ico in Resources */,
+				EA9B42B2184DA768002F828B /* MachineSetup.icns in Resources */,
+				EA9B42B3184DA768002F828B /* SFP.bmp in Resources */,
+				EA9B42B5184DA768002F828B /* Title_IBG.bmp in Resources */,
+				EA9B42B7184DA768002F828B /* toolbox.ico in Resources */,
+				EAAE5E22184DB0570022B816 /* MainWindow.xib in Resources */,
+				EAE22E8518516AD800420DA4 /* Align_A4.prn in Resources */,
+				EAE22E8718516AD800420DA4 /* Align_LT.prn in Resources */,
+				EAE22E8918516AD800420DA4 /* COLOR_A4.prn in Resources */,
+				EAE22E8B18516AD800420DA4 /* COLOR_LT.prn in Resources */,
+				EAE22E8D18516AD800420DA4 /* CONF_A4.prn in Resources */,
+				EAE22E8F18516AD800420DA4 /* CONF_LT.prn in Resources */,
+				EAE22E9118516AD800420DA4 /* Ghost_A4.prn in Resources */,
+				EAE22E9318516AD800420DA4 /* Ghost_LT.prn in Resources */,
+				EAE22E9518516AD800420DA4 /* Grid2_A4.prn in Resources */,
+				EAE22E9718516AD800420DA4 /* Grid2_LT.prn in Resources */,
+				EAE22E9918516AD800420DA4 /* MQ_A4.prn in Resources */,
+				EAE22E9B18516AD800420DA4 /* MQ_LT.prn in Resources */,
+				EAE22E9D18516AD800420DA4 /* PHD_A4.prn in Resources */,
+				EAE22E9F18516AD800420DA4 /* PHD_LT.prn in Resources */,
+				EAE22EA118516AD800420DA4 /* Regi_A4.prn in Resources */,
+				EAE22EA318516AD800420DA4 /* Regi_LT.prn in Resources */,
+				EAE22EA518516AD800420DA4 /* Toner_A4.prn in Resources */,
+				EAE22EA718516AD800420DA4 /* Toner_LT.prn in Resources */,
+				CEB72632191B4ACF00EEAC40 /* PrinterSettingUtility-IBG-Info.plist in Resources */,
+				EA353B561861297B00098266 /* PMDensityAdjustmentViewController.xib in Resources */,
+				EAA35B7818618BD00057B868 /* Localizable.strings in Resources */,
+				EAA120421863E7E100941F6A /* InfoPlist.strings in Resources */,
+				EAA8A0951867CE29002469BE /* PMNetwrokSettingsViewController.xib in Resources */,
+				EAA4689818691DF8006D2056 /* PMWirelessSetupViewController.xib in Resources */,
+				EA36ABC118ADA622002E6E2A /* VLL-SFP_IBG.bmp in Resources */,
+				EA5E013F18ADFD96006F5E2E /* SFP.tif in Resources */,
+				EA74010418B6F66500B089A8 /* 11.bmp in Resources */,
+				EA74010718B6F7E700B089A8 /* 222.bmp in Resources */,
+				EA74010918B6FBA800B089A8 /* 123.png in Resources */,
+				EA74011018B7015D00B089A8 /* IBG.png in Resources */,
+				EAA15E3E18BACCCE0087C005 /* PSRNetworkSettingViewController.xib in Resources */,
+				EA234E6618BB14280061EF18 /* PSRWirelessSetupViewController.xib in Resources */,
+				EACF47DA18CD912A00034E57 /* About.xib in Resources */,
+				EAA08F3C18CD96FF00AEE4AF /* ChartPrint.xib in Resources */,
+				CEC06952190772A300273ABA /* PMSecuritySettingsViewController.xib in Resources */,
+				CEB726D1191B54D400EEAC40 /* CrossVendor_I.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAAE5E50184DB3E20022B816 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAAE5E51184DB3E20022B816 /* InfoPlist.strings in Resources */,
+				EAAE5E53184DB3E20022B816 /* MainMenu.xib in Resources */,
+				EAAE5E55184DB3E20022B816 /* PrinterSelector.xib in Resources */,
+				EA833F2518CD942E003C01A7 /* PSRMenuSettingsViewController.xib in Resources */,
+				EAAE5E56184DB3E20022B816 /* Progress.xib in Resources */,
+				EAAE5E57184DB3E20022B816 /* InformationPages.xib in Resources */,
+				EAAE5E5A184DB3E20022B816 /* PSRTCPIPViewController.xib in Resources */,
+				EAAE5E5B184DB3E20022B816 /* TraySettings.xib in Resources */,
+				EA833F2818CD9435003C01A7 /* PrinterInformation.xib in Resources */,
+				EAAE5E5C184DB3E20022B816 /* AdjustAltitude.xib in Resources */,
+				EAAE5E5D184DB3E20022B816 /* AdjustBTR.xib in Resources */,
+				EAAE5E5E184DB3E20022B816 /* AdjustFuser.xib in Resources */,
+				EAAE5E5F184DB3E20022B816 /* PMAdjustPaperTypeViewController.xib in Resources */,
+				EAAE5E60184DB3E20022B816 /* PMBTRRefreshModeViewController.xib in Resources */,
+				EAAE5E61184DB3E20022B816 /* PMInternetServicesViewController.xib in Resources */,
+				EAAE5E62184DB3E20022B816 /* PMMachineLifeViewController.xib in Resources */,
+				EAAE5E63184DB3E20022B816 /* PMNonGenuineModeViewController.xib in Resources */,
+				EAAE5E64184DB3E20022B816 /* PMRegistrationAdjustmentViewController.xib in Resources */,
+				EAAE5E65184DB3E20022B816 /* PMTCPIPViewController.xib in Resources */,
+				EAAE5E66184DB3E20022B816 /* PMTraySettingsViewController.xib in Resources */,
+				EAAE5E67184DB3E20022B816 /* ResetDefaults.xib in Resources */,
+				EAAE5E68184DB3E20022B816 /* SystemSettings.xib in Resources */,
+				EAAE5E6A184DB3E20022B816 /* CleanDeveloper.xib in Resources */,
+				EAAE5E6B184DB3E20022B816 /* DEnvironmentSensorInforViewController.xib in Resources */,
+				EAAE5E6C184DB3E20022B816 /* RefreshMode.xib in Resources */,
+				EAAE5E6E184DB3E20022B816 /* About_XC1.bmp in Resources */,
+				EAAE5E6F184DB3E20022B816 /* Help.ico in Resources */,
+				EAAE5E70184DB3E20022B816 /* MachineSetup.icns in Resources */,
+				EAAE5E71184DB3E20022B816 /* SFP.bmp in Resources */,
+				EAAE5E74184DB3E20022B816 /* Title_XC1.bmp in Resources */,
+				EAAE5E75184DB3E20022B816 /* toolbox.ico in Resources */,
+				EAAE5E82184DB3E20022B816 /* MainWindow.xib in Resources */,
+				EAAE5E8B184DB7440022B816 /* PrinterSettingUtility-XC-Info.plist in Resources */,
+				EAE22E8618516AD800420DA4 /* Align_A4.prn in Resources */,
+				EAE22E8818516AD800420DA4 /* Align_LT.prn in Resources */,
+				EAE22E8A18516AD800420DA4 /* COLOR_A4.prn in Resources */,
+				EAE22E8C18516AD800420DA4 /* COLOR_LT.prn in Resources */,
+				EAE22E8E18516AD800420DA4 /* CONF_A4.prn in Resources */,
+				EAE22E9018516AD800420DA4 /* CONF_LT.prn in Resources */,
+				EAE22E9218516AD800420DA4 /* Ghost_A4.prn in Resources */,
+				EAE22E9418516AD800420DA4 /* Ghost_LT.prn in Resources */,
+				EAE22E9618516AD800420DA4 /* Grid2_A4.prn in Resources */,
+				EAE22E9818516AD800420DA4 /* Grid2_LT.prn in Resources */,
+				EAE22E9A18516AD800420DA4 /* MQ_A4.prn in Resources */,
+				EAE22E9C18516AD800420DA4 /* MQ_LT.prn in Resources */,
+				EAE22E9E18516AD800420DA4 /* PHD_A4.prn in Resources */,
+				EAE22EA018516AD800420DA4 /* PHD_LT.prn in Resources */,
+				EAE22EA218516AD800420DA4 /* Regi_A4.prn in Resources */,
+				EAE22EA418516AD800420DA4 /* Regi_LT.prn in Resources */,
+				EAE22EA618516AD800420DA4 /* Toner_A4.prn in Resources */,
+				EAE22EA818516AD800420DA4 /* Toner_LT.prn in Resources */,
+				EAF96DB5185AD1D200F42A8A /* Localizable.strings in Resources */,
+				EA353B571861297B00098266 /* PMDensityAdjustmentViewController.xib in Resources */,
+				EAA8A0961867CE29002469BE /* PMNetwrokSettingsViewController.xib in Resources */,
+				EAA4689918691DF8006D2056 /* PMWirelessSetupViewController.xib in Resources */,
+				EA36ABC418ADA62E002E6E2A /* VLL-SFP_XC.bmp in Resources */,
+				EA5E014118ADFD9D006F5E2E /* SFP.tif in Resources */,
+				EA74011318B7016E00B089A8 /* XC.png in Resources */,
+				EAA15E3F18BACCCE0087C005 /* PSRNetworkSettingViewController.xib in Resources */,
+				EA234E6718BB14280061EF18 /* PSRWirelessSetupViewController.xib in Resources */,
+				EACF47DB18CD912A00034E57 /* About.xib in Resources */,
+				EAA08F3D18CD96FF00AEE4AF /* ChartPrint.xib in Resources */,
+				CEC06953190772A300273ABA /* PMSecuritySettingsViewController.xib in Resources */,
+				CEB72634191B4CA200EEAC40 /* CrossVendor_X.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXRezBuildPhase section */
+		858E0050238294E000C40F6C /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEF975E219458D3E009100E9 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEFCFC3918FD0D0400EEC83B /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		858E0051238294E000C40F6C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 8;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = /bin/sh;
+			shellScript = "cd \"/Volumes/10.8/DevidWei/Justin/PrinterSettingUtility_64bit/Release/Printer Setting Utility.app/Contents/Resources\"\nfor i in *.lproj; do mv \"$i\" \"`echo $i | sed 's/lproj/lproj~/g'`\"; done\nmv en.lproj~ en.lproj\nmv ko.lproj~ ko.lproj\nmv \"zh-Hant.lproj~\" \"zh-Hant.lproj\"\nmv \"zh-Hans.lproj~\" \"zh-Hans.lproj\"\nrm -Rf *.lproj~";
+		};
+		CEF975E319458D3E009100E9 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cd \"/Volumes/10.7/Users/user/Documents/artaniswork/PrinterSettingUtility_20140319/Release/Printer Setting Utility.app/Contents/Resources\"\nfor i in *.lproj; do mv \"$i\" \"`echo $i | sed 's/lproj/lproj~/g'`\"; done\nmv en.lproj~ en.lproj\nmv ko.lproj~ ko.lproj\nmv \"zh-Hant.lproj~\" \"zh-Hant.lproj\"\nmv \"zh-Hans.lproj~\" \"zh-Hans.lproj\"\nrm -Rf *.lproj~";
+		};
+		CEFCFC3218FD0CFE00EEC83B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cd \"/Volumes/10.8/DevidWei/Justin/PrinterSettingUtility_64bit/Release/Printer Setting Utility.app/Contents/Resources\"\nfor i in *.lproj; do mv \"$i\" \"`echo $i | sed 's/lproj/lproj~/g'`\"; done\nmv en.lproj~ en.lproj\nmv ko.lproj~ ko.lproj\nmv \"zh-Hant.lproj~\" \"zh-Hant.lproj\"\nmv \"zh-Hans.lproj~\" \"zh-Hans.lproj\"\nrm -Rf *.lproj~";
+		};
+		CEFCFC4718FD0D6900EEC83B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cd \"/Volumes/10.8/DevidWei/Justin/PrinterSettingUtility_64bit/build/Release/Printer Setting Utility.app/Contents/Resources\"\nfor i in *.lproj; do mv \"$i\" \"`echo $i | sed 's/lproj/lproj~/g'`\"; done\nmv en.lproj~ en.lproj\nmv tr.lproj~ tr.lproj\nmv sv.lproj~ sv.lproj\nmv es.lproj~ es.lproj\nmv ru.lproj~ ru.lproj\nmv pt.lproj~ pt.lproj\nmv pt-PT.lproj~ pt-PT.lproj\nmv it.lproj~ it.lproj\nmv de.lproj~ de.lproj\nmv fr.lproj~ fr.lproj\nmv nl.lproj~ nl.lproj\nmv da.lproj~ da.lproj\nmv nb.lproj~ nb.lproj\nrm -Rf *.lproj~";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		858EFFD8238294E000C40F6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				858EFFD9238294E000C40F6C /* main.m in Sources */,
+				858EFFDA238294E000C40F6C /* AppDelegate.m in Sources */,
+				858EFFDB238294E000C40F6C /* AboutController.m in Sources */,
+				858EFFDC238294E000C40F6C /* DeviceCommunicator.m in Sources */,
+				858EFFDD238294E000C40F6C /* DeviceProperty.m in Sources */,
+				858EFFDE238294E000C40F6C /* MainTabController.m in Sources */,
+				858EFFDF238294E000C40F6C /* MainWindowController.m in Sources */,
+				858EFFE0238294E000C40F6C /* NetDevice.m in Sources */,
+				858EFFE1238294E000C40F6C /* PrinterSelectorController.m in Sources */,
+				858EFFE2238294E000C40F6C /* ProgressController.m in Sources */,
+				858EFFE3238294E000C40F6C /* SettingsController.m in Sources */,
+				858EFFE4238294E000C40F6C /* USBDevice.m in Sources */,
+				858EFFE5238294E000C40F6C /* InformationPagesController.m in Sources */,
+				858EFFE6238294E000C40F6C /* PrinterInformationController.m in Sources */,
+				858EFFE7238294E000C40F6C /* PSRMenuSettingsViewController.m in Sources */,
+				858EFFE8238294E000C40F6C /* PSRTCPIPViewController.m in Sources */,
+				858EFFE9238294E000C40F6C /* traySettingsController.m in Sources */,
+				858EFFEA238294E000C40F6C /* AdjustAltitudeController.m in Sources */,
+				858EFFEB238294E000C40F6C /* NetPrinter.m in Sources */,
+				858EFFEC238294E000C40F6C /* AdjustBTR.m in Sources */,
+				858EFFED238294E000C40F6C /* AdjustFuser.m in Sources */,
+				858EFFEE238294E000C40F6C /* PMAdjustPaperTypeViewController.m in Sources */,
+				858EFFEF238294E000C40F6C /* PMBTRRefreshModeViewController.m in Sources */,
+				858EFFF0238294E000C40F6C /* PMInternetServicesViewController.m in Sources */,
+				858EFFF1238294E000C40F6C /* PMMachineLifeViewController.m in Sources */,
+				858EFFF2238294E000C40F6C /* PMNonGenuineModeViewController.m in Sources */,
+				858EFFF3238294E000C40F6C /* PMRegistrationAdjustmentViewController.m in Sources */,
+				858EFFF4238294E000C40F6C /* PMTCPIPViewController.m in Sources */,
+				858EFFF5238294E000C40F6C /* PMTraySettingsViewController.m in Sources */,
+				858EFFF6238294E000C40F6C /* ResetDefaultsController.m in Sources */,
+				858EFFF7238294E000C40F6C /* SystemSettingsController.m in Sources */,
+				858EFFF8238294E000C40F6C /* ChartPrintController.m in Sources */,
+				858EFFF9238294E000C40F6C /* CleanDeveloperController.m in Sources */,
+				858EFFFA238294E000C40F6C /* DEnvironmentSensorInforViewController.m in Sources */,
+				858EFFFB238294E000C40F6C /* RefreshModeController.m in Sources */,
+				858EFFFC238294E000C40F6C /* PMDensityAdjustmentViewController.m in Sources */,
+				858EFFFD238294E000C40F6C /* PMNetwrokSettingsViewController.m in Sources */,
+				858EFFFE238294E000C40F6C /* PMWirelessSetupViewController.m in Sources */,
+				858EFFFF238294E000C40F6C /* PSRNetworkSettingViewController.m in Sources */,
+				858E0000238294E000C40F6C /* PSRWirelessSetupViewController.m in Sources */,
+				858E0001238294E000C40F6C /* PMSecuritySettingsViewController.m in Sources */,
+				858E0002238294E000C40F6C /* CustomTextFieldFormatter.m in Sources */,
+				858E0003238294E000C40F6C /* NetIO.cp in Sources */,
+				858E0004238294E000C40F6C /* GrandeCmd.cp in Sources */,
+				858E0005238294E000C40F6C /* Socket.cpp in Sources */,
+				858E0006238294E000C40F6C /* cMD5.cpp in Sources */,
+				858E0007238294E000C40F6C /* des.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEF9756A19458D3E009100E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEF9756B19458D3E009100E9 /* main.m in Sources */,
+				CEF9756C19458D3E009100E9 /* AppDelegate.m in Sources */,
+				CEF9756D19458D3E009100E9 /* AboutController.m in Sources */,
+				CEF9756E19458D3E009100E9 /* DeviceCommunicator.m in Sources */,
+				CEF9756F19458D3E009100E9 /* DeviceProperty.m in Sources */,
+				CEF9757019458D3E009100E9 /* MainTabController.m in Sources */,
+				CEF9757119458D3E009100E9 /* MainWindowController.m in Sources */,
+				CEF9757219458D3E009100E9 /* NetDevice.m in Sources */,
+				CEF9757319458D3E009100E9 /* PrinterSelectorController.m in Sources */,
+				CEF9757419458D3E009100E9 /* ProgressController.m in Sources */,
+				CEF9757519458D3E009100E9 /* SettingsController.m in Sources */,
+				CEF9757619458D3E009100E9 /* USBDevice.m in Sources */,
+				CEF9757719458D3E009100E9 /* InformationPagesController.m in Sources */,
+				CEF9757819458D3E009100E9 /* PrinterInformationController.m in Sources */,
+				CEF9757919458D3E009100E9 /* PSRMenuSettingsViewController.m in Sources */,
+				CEF9757A19458D3E009100E9 /* PSRTCPIPViewController.m in Sources */,
+				CEF9757B19458D3E009100E9 /* traySettingsController.m in Sources */,
+				CEF9757C19458D3E009100E9 /* AdjustAltitudeController.m in Sources */,
+				CEF9757D19458D3E009100E9 /* NetPrinter.m in Sources */,
+				CEF9757E19458D3E009100E9 /* AdjustBTR.m in Sources */,
+				CEF9757F19458D3E009100E9 /* AdjustFuser.m in Sources */,
+				CEF9758019458D3E009100E9 /* PMAdjustPaperTypeViewController.m in Sources */,
+				CEF9758119458D3E009100E9 /* PMBTRRefreshModeViewController.m in Sources */,
+				CEF9758219458D3E009100E9 /* PMInternetServicesViewController.m in Sources */,
+				CEF9758319458D3E009100E9 /* PMMachineLifeViewController.m in Sources */,
+				CEF9758419458D3E009100E9 /* PMNonGenuineModeViewController.m in Sources */,
+				CEF9758519458D3E009100E9 /* PMRegistrationAdjustmentViewController.m in Sources */,
+				CEF9758619458D3E009100E9 /* PMTCPIPViewController.m in Sources */,
+				CEF9758719458D3E009100E9 /* PMTraySettingsViewController.m in Sources */,
+				CEF9758819458D3E009100E9 /* ResetDefaultsController.m in Sources */,
+				CEF9758919458D3E009100E9 /* SystemSettingsController.m in Sources */,
+				CEF9758A19458D3E009100E9 /* ChartPrintController.m in Sources */,
+				CEF9758B19458D3E009100E9 /* CleanDeveloperController.m in Sources */,
+				CEF9758C19458D3E009100E9 /* DEnvironmentSensorInforViewController.m in Sources */,
+				CEF9758D19458D3E009100E9 /* RefreshModeController.m in Sources */,
+				CEF9758E19458D3E009100E9 /* PMDensityAdjustmentViewController.m in Sources */,
+				CEF9758F19458D3E009100E9 /* PMNetwrokSettingsViewController.m in Sources */,
+				CEF9759019458D3E009100E9 /* PMWirelessSetupViewController.m in Sources */,
+				CEF9759119458D3E009100E9 /* PSRNetworkSettingViewController.m in Sources */,
+				CEF9759219458D3E009100E9 /* PSRWirelessSetupViewController.m in Sources */,
+				CEF9759319458D3E009100E9 /* PMSecuritySettingsViewController.m in Sources */,
+				CEF9759419458D3E009100E9 /* CustomTextFieldFormatter.m in Sources */,
+				CEF9759519458D3E009100E9 /* NetIO.cp in Sources */,
+				CEF9759619458D3E009100E9 /* GrandeCmd.cp in Sources */,
+				CEF9759719458D3E009100E9 /* Socket.cpp in Sources */,
+				CEF9759819458D3E009100E9 /* cMD5.cpp in Sources */,
+				CEF9759919458D3E009100E9 /* des.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EA9B41D5184DA1E5002F828B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				EA9B41EA184DA1E5002F828B /* main.m in Sources */,
 				EA9B41F1184DA1E5002F828B /* AppDelegate.m in Sources */,
+				EA9B4210184DA20F002F828B /* AboutController.m in Sources */,
+				EA9B4211184DA20F002F828B /* DeviceCommunicator.m in Sources */,
+				EA9B4212184DA20F002F828B /* DeviceProperty.m in Sources */,
+				EA9B4213184DA20F002F828B /* MainTabController.m in Sources */,
+				EA9B4214184DA20F002F828B /* MainWindowController.m in Sources */,
+				EA9B4215184DA20F002F828B /* NetDevice.m in Sources */,
+				EA9B4216184DA20F002F828B /* PrinterSelectorController.m in Sources */,
+				EA9B4217184DA20F002F828B /* ProgressController.m in Sources */,
+				EA9B4218184DA20F002F828B /* SettingsController.m in Sources */,
+				EA9B4219184DA20F002F828B /* USBDevice.m in Sources */,
+				EA9B4225184DA26A002F828B /* InformationPagesController.m in Sources */,
+				EA9B4226184DA26A002F828B /* PrinterInformationController.m in Sources */,
+				EA9B4227184DA26A002F828B /* PSRMenuSettingsViewController.m in Sources */,
+				EA9B4228184DA26A002F828B /* PSRTCPIPViewController.m in Sources */,
+				EA9B4229184DA26A002F828B /* traySettingsController.m in Sources */,
+				EA9B4245184DA2A7002F828B /* AdjustAltitudeController.m in Sources */,
+				EA4A6D7D18C431CF0084968C /* NetPrinter.m in Sources */,
+				EA9B4246184DA2A7002F828B /* AdjustBTR.m in Sources */,
+				EA9B4247184DA2A7002F828B /* AdjustFuser.m in Sources */,
+				EA9B4248184DA2A7002F828B /* PMAdjustPaperTypeViewController.m in Sources */,
+				EA9B4249184DA2A7002F828B /* PMBTRRefreshModeViewController.m in Sources */,
+				EA9B424A184DA2A7002F828B /* PMInternetServicesViewController.m in Sources */,
+				EA9B424B184DA2A7002F828B /* PMMachineLifeViewController.m in Sources */,
+				EA9B424C184DA2A7002F828B /* PMNonGenuineModeViewController.m in Sources */,
+				EA9B424D184DA2A7002F828B /* PMRegistrationAdjustmentViewController.m in Sources */,
+				EA9B424E184DA2A7002F828B /* PMTCPIPViewController.m in Sources */,
+				EA9B424F184DA2A7002F828B /* PMTraySettingsViewController.m in Sources */,
+				EA9B4250184DA2A7002F828B /* ResetDefaultsController.m in Sources */,
+				EA9B4251184DA2A7002F828B /* SystemSettingsController.m in Sources */,
+				EA9B425C184DA364002F828B /* ChartPrintController.m in Sources */,
+				EA9B425D184DA364002F828B /* CleanDeveloperController.m in Sources */,
+				EA9B425E184DA364002F828B /* DEnvironmentSensorInforViewController.m in Sources */,
+				EA9B425F184DA364002F828B /* RefreshModeController.m in Sources */,
+				EA353B541861297B00098266 /* PMDensityAdjustmentViewController.m in Sources */,
+				EAA8A0931867CE29002469BE /* PMNetwrokSettingsViewController.m in Sources */,
+				EAA4689618691DF8006D2056 /* PMWirelessSetupViewController.m in Sources */,
+				EAA15E3C18BACCCE0087C005 /* PSRNetworkSettingViewController.m in Sources */,
+				EA234E6418BB14280061EF18 /* PSRWirelessSetupViewController.m in Sources */,
+				CEC069AF19078A3700273ABA /* PMSecuritySettingsViewController.m in Sources */,
+				CED85920190E291C00E3D847 /* CustomTextFieldFormatter.m in Sources */,
+				CEB727F6191B81BD00EEAC40 /* NetIO.cp in Sources */,
+				CEB727F7191B81BD00EEAC40 /* GrandeCmd.cp in Sources */,
+				CEB727F8191B81BD00EEAC40 /* Socket.cpp in Sources */,
+				CEB727F9191B81BD00EEAC40 /* cMD5.cpp in Sources */,
+				CEB727FA191B81BD00EEAC40 /* des.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAAE5E2A184DB3E20022B816 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAAE5E2B184DB3E20022B816 /* main.m in Sources */,
+				EAAE5E2C184DB3E20022B816 /* AppDelegate.m in Sources */,
+				EAAE5E2D184DB3E20022B816 /* AboutController.m in Sources */,
+				EAAE5E2E184DB3E20022B816 /* DeviceCommunicator.m in Sources */,
+				EAAE5E2F184DB3E20022B816 /* DeviceProperty.m in Sources */,
+				EAAE5E30184DB3E20022B816 /* MainTabController.m in Sources */,
+				EAAE5E31184DB3E20022B816 /* MainWindowController.m in Sources */,
+				EAAE5E32184DB3E20022B816 /* NetDevice.m in Sources */,
+				EAAE5E33184DB3E20022B816 /* PrinterSelectorController.m in Sources */,
+				EAAE5E34184DB3E20022B816 /* ProgressController.m in Sources */,
+				EAAE5E35184DB3E20022B816 /* SettingsController.m in Sources */,
+				EAAE5E36184DB3E20022B816 /* USBDevice.m in Sources */,
+				EAAE5E37184DB3E20022B816 /* InformationPagesController.m in Sources */,
+				EAAE5E38184DB3E20022B816 /* PrinterInformationController.m in Sources */,
+				EAAE5E39184DB3E20022B816 /* PSRMenuSettingsViewController.m in Sources */,
+				EAAE5E3A184DB3E20022B816 /* PSRTCPIPViewController.m in Sources */,
+				EAAE5E3B184DB3E20022B816 /* traySettingsController.m in Sources */,
+				EAAE5E3C184DB3E20022B816 /* AdjustAltitudeController.m in Sources */,
+				EA4A6D7E18C431CF0084968C /* NetPrinter.m in Sources */,
+				EAAE5E3D184DB3E20022B816 /* AdjustBTR.m in Sources */,
+				EAAE5E3E184DB3E20022B816 /* AdjustFuser.m in Sources */,
+				EAAE5E3F184DB3E20022B816 /* PMAdjustPaperTypeViewController.m in Sources */,
+				EAAE5E40184DB3E20022B816 /* PMBTRRefreshModeViewController.m in Sources */,
+				EAAE5E41184DB3E20022B816 /* PMInternetServicesViewController.m in Sources */,
+				EAAE5E42184DB3E20022B816 /* PMMachineLifeViewController.m in Sources */,
+				EAAE5E43184DB3E20022B816 /* PMNonGenuineModeViewController.m in Sources */,
+				EAAE5E44184DB3E20022B816 /* PMRegistrationAdjustmentViewController.m in Sources */,
+				EAAE5E45184DB3E20022B816 /* PMTCPIPViewController.m in Sources */,
+				EAAE5E46184DB3E20022B816 /* PMTraySettingsViewController.m in Sources */,
+				EAAE5E47184DB3E20022B816 /* ResetDefaultsController.m in Sources */,
+				EAAE5E48184DB3E20022B816 /* SystemSettingsController.m in Sources */,
+				EAAE5E49184DB3E20022B816 /* ChartPrintController.m in Sources */,
+				EAAE5E4A184DB3E20022B816 /* CleanDeveloperController.m in Sources */,
+				EAAE5E4B184DB3E20022B816 /* DEnvironmentSensorInforViewController.m in Sources */,
+				EAAE5E4C184DB3E20022B816 /* RefreshModeController.m in Sources */,
+				EA353B551861297B00098266 /* PMDensityAdjustmentViewController.m in Sources */,
+				EAA8A0941867CE29002469BE /* PMNetwrokSettingsViewController.m in Sources */,
+				EAA4689718691DF8006D2056 /* PMWirelessSetupViewController.m in Sources */,
+				EAA15E3D18BACCCE0087C005 /* PSRNetworkSettingViewController.m in Sources */,
+				EA234E6518BB14280061EF18 /* PSRWirelessSetupViewController.m in Sources */,
+				CEC069B019078A3700273ABA /* PMSecuritySettingsViewController.m in Sources */,
+				CED85921190E291C00E3D847 /* CustomTextFieldFormatter.m in Sources */,
+				CEB727F1191B81BD00EEAC40 /* NetIO.cp in Sources */,
+				CEB727F2191B81BD00EEAC40 /* GrandeCmd.cp in Sources */,
+				CEB727F3191B81BD00EEAC40 /* Socket.cpp in Sources */,
+				CEB727F4191B81BD00EEAC40 /* cMD5.cpp in Sources */,
+				CEB727F5191B81BD00EEAC40 /* des.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		CEB72633191B4CA200EEAC40 /* CrossVendor_X.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE7CF59A191780B70081E377 /* English */,
+				CEB72635191B4CAA00EEAC40 /* fr */,
+				CEB72636191B4CB100EEAC40 /* zh-Hans */,
+				CEB72637191B4CB400EEAC40 /* zh-Hant */,
+				CEB72638191B4CB800EEAC40 /* ko */,
+				CEB72639191B4CBD00EEAC40 /* it */,
+				CEB7263A191B4CC300EEAC40 /* de */,
+				CEB7263B191B4CCC00EEAC40 /* es */,
+				CEB7263C191B4CD200EEAC40 /* da */,
+				CEB7263D191B4CD900EEAC40 /* nl */,
+				CEB7264F191B4E3700EEAC40 /* nb */,
+				CEB7263E191B4CE900EEAC40 /* sv */,
+				CEB7263F191B4CEE00EEAC40 /* ru */,
+				CEB72640191B4CF600EEAC40 /* tr */,
+				CEB72641191B4CFD00EEAC40 /* pt-PT */,
+				CEB72642191B4D0200EEAC40 /* pt */,
+				CEB726A2191B52F600EEAC40 /* en */,
+			);
+			name = CrossVendor_X.strings;
+			sourceTree = "<group>";
+		};
+		CEB726D0191B54D400EEAC40 /* CrossVendor_I.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE7CF5971917804E0081E377 /* English */,
+				CEB726D2191B54DF00EEAC40 /* en */,
+				CEB726D3191B54E500EEAC40 /* zh-Hans */,
+				CEB726D4191B54E900EEAC40 /* zh-Hant */,
+				CEB726D5191B54EC00EEAC40 /* ko */,
+			);
+			name = CrossVendor_I.strings;
+			sourceTree = "<group>";
+		};
 		EA9B41E6184DA1E5002F828B /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				EA9B41E7184DA1E5002F828B /* en */,
+				EAA227CC185FD21800E0E78C /* zh-Hans */,
+				EAA227CE185FD21800E0E78C /* zh-Hant */,
+				EAA227CF185FD21B00E0E78C /* ko */,
+				EAA227D0185FD21C00E0E78C /* fr */,
+				EAA227D1185FD21D00E0E78C /* it */,
+				EAA227D2185FD21E00E0E78C /* de */,
+				EAA227D3185FD21F00E0E78C /* es */,
+				EAA227D4185FD22000E0E78C /* da */,
+				EAA227D5185FD22100E0E78C /* nl */,
+				EAA227D6185FD22200E0E78C /* nb */,
+				EAA227D7185FD22300E0E78C /* sv */,
+				EAA227D8185FD22400E0E78C /* ru */,
+				EAA227D9185FD22400E0E78C /* tr */,
+				EA053A93185FE07300617465 /* en */,
+				EAA1203E1863C6D500941F6A /* pt-PT */,
+				EAA120401863C6F800941F6A /* pt */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		EA9B41EC184DA1E5002F828B /* Credits.rtf */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EA9B41ED184DA1E5002F828B /* en */,
-			);
-			name = Credits.rtf;
 			sourceTree = "<group>";
 		};
 		EA9B41F2184DA1E5002F828B /* MainMenu.xib */ = {
@@ -198,14 +1892,119 @@
 			name = MainMenu.xib;
 			sourceTree = "<group>";
 		};
+		EAF96DB7185AD1D200F42A8A /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAF96DB6185AD1D200F42A8A /* en */,
+				EA4D2E67185AE2E50091B4AC /* fr */,
+				EAF96DB8185AD1ED00F42A8A /* zh-Hans */,
+				EA4D2E65185AE2C10091B4AC /* zh-Hant */,
+				EA4D2E66185AE2D40091B4AC /* ko */,
+				EA4D2E68185AE30E0091B4AC /* it */,
+				EA4D2E69185AE34C0091B4AC /* de */,
+				EA4D2E6A185AE35C0091B4AC /* es */,
+				EA4D2E6B185AE3690091B4AC /* da */,
+				EA4D2E6C185AE3770091B4AC /* nl */,
+				EA4D2E6D185AE38E0091B4AC /* nb */,
+				EA4D2E6E185AE3990091B4AC /* sv */,
+				EA4D2E6F185AE3A30091B4AC /* ru */,
+				EA4D2E70185AE3B40091B4AC /* tr */,
+				EAA1203F1863C6D500941F6A /* pt-PT */,
+				EAA120411863C6F800941F6A /* pt */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		858E0053238294E000C40F6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEAD_CODE_STRIPPING = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PrinterSettingUtility/PrinterSettingUtility-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = MACHINESETUP_IBG;
+				INFOPLIST_FILE = "PrinterSettingUtility_IBG copy-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = YES;
+				SYMROOT = build_jacky;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		858E0054238294E000C40F6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_AUTO_VECTORIZATION = YES;
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PrinterSettingUtility/PrinterSettingUtility-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = MACHINESETUP_IBG;
+				INFOPLIST_FILE = "PrinterSettingUtility_IBG copy-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SYMROOT = build_jacky;
+				VALID_ARCHS = "i386 x86_64 ppc ppc64 ppc7400 ppc970";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CEF975E519458D3E009100E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEAD_CODE_STRIPPING = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PrinterSettingUtility/PrinterSettingUtility-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = MACHINESETUP_IBG;
+				INFOPLIST_FILE = "PrinterSettingUtility-IBG-Info copy.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				PRODUCT_NAME = "Printer Setting Utility";
+				STRIP_INSTALLED_PRODUCT = YES;
+				SYMROOT = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CEF975E619458D3E009100E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_AUTO_VECTORIZATION = YES;
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PrinterSettingUtility/PrinterSettingUtility-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					MACHINESETUP_AIRPRINT,
+					MACHINESETUP_IBG,
+				);
+				INFOPLIST_FILE = "PrinterSettingUtility/PrinterSettingUtility-IBG-Info.plist";
+				PRODUCT_NAME = "Printer Setting Utility";
+				SYMROOT = "";
+				VALID_ARCHS = "i386 x86_64 ppc ppc64 ppc7400 ppc970";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
 		EA9B41F5184DA1E5002F828B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -224,7 +2023,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
 			};
@@ -234,7 +2033,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -247,7 +2046,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
 				SDKROOT = macosx;
 			};
 			name = Release;
@@ -256,10 +2055,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEAD_CODE_STRIPPING = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PrinterSettingUtility/PrinterSettingUtility-Prefix.pch";
-				INFOPLIST_FILE = "PrinterSettingUtility/PrinterSettingUtility-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREPROCESSOR_DEFINITIONS = MACHINESETUP_IBG;
+				INFOPLIST_FILE = "PrinterSettingUtility/PrinterSettingUtility-IBG-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				PRODUCT_NAME = "Printer Setting Utility";
+				SDKROOT = macosx10.6;
+				STRIP_INSTALLED_PRODUCT = YES;
+				SYMROOT = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -267,11 +2073,62 @@
 		EA9B41F9184DA1E5002F828B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				COMBINE_HIDPI_IMAGES = YES;
+				GCC_AUTO_VECTORIZATION = YES;
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PrinterSettingUtility/PrinterSettingUtility-Prefix.pch";
-				INFOPLIST_FILE = "PrinterSettingUtility/PrinterSettingUtility-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREPROCESSOR_DEFINITIONS = MACHINESETUP_IBG;
+				INFOPLIST_FILE = "PrinterSettingUtility/PrinterSettingUtility-IBG-Info.plist";
+				PRODUCT_NAME = "Printer Setting Utility";
+				SDKROOT = macosx10.6;
+				SYMROOT = "";
+				VALID_ARCHS = "i386 x86_64 ppc ppc64 ppc7400 ppc970";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EAAE5E84184DB3E20022B816 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = NO;
+				GCC_AUTO_VECTORIZATION = YES;
+				GCC_ENABLE_OBJC_GC = unsupported;
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PrinterSettingUtility/PrinterSettingUtility-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = MACHINESETUP_XC;
+				INFOPLIST_FILE = "PrinterSettingUtility/PrinterSettingUtility-XC-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "Printer Setting Utility";
+				STRIP_INSTALLED_PRODUCT = NO;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EAAE5E85184DB3E20022B816 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_AUTO_VECTORIZATION = YES;
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PrinterSettingUtility/PrinterSettingUtility-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = MACHINESETUP_XC;
+				INFOPLIST_FILE = "PrinterSettingUtility/PrinterSettingUtility-XC-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				PRODUCT_NAME = "Printer Setting Utility";
+				SDKROOT = macosx10.6;
+				VALID_ARCHS = "i386 x86_64 ppc ppc64 ppc7400 ppc970";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -279,6 +2136,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		858E0052238294E000C40F6C /* Build configuration list for PBXNativeTarget "PrinterSettingUtility_IBG copy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				858E0053238294E000C40F6C /* Debug */,
+				858E0054238294E000C40F6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEF975E419458D3E009100E9 /* Build configuration list for PBXNativeTarget "PrinterSettingUtility_IBG_AirPrint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEF975E519458D3E009100E9 /* Debug */,
+				CEF975E619458D3E009100E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		EA9B41D3184DA1E5002F828B /* Build configuration list for PBXProject "PrinterSettingUtility" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -288,13 +2163,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EA9B41F7184DA1E5002F828B /* Build configuration list for PBXNativeTarget "PrinterSettingUtility" */ = {
+		EA9B41F7184DA1E5002F828B /* Build configuration list for PBXNativeTarget "PrinterSettingUtility_IBG" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EA9B41F8184DA1E5002F828B /* Debug */,
 				EA9B41F9184DA1E5002F828B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAAE5E83184DB3E20022B816 /* Build configuration list for PBXNativeTarget "PrinterSettingUtility_XC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAAE5E84184DB3E20022B816 /* Debug */,
+				EAAE5E85184DB3E20022B816 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,0 +1,649 @@
+/* 
+  Localizable.strings
+  PrinterSettingUtility
+
+  Created by Wang Kun on 13-12-13.
+  Copyright (c) 2013年 Wang Kun. All rights reserved.
+*/
+
+"IDS_EDIT" = "편집";
+"IDS_COPY" = "복사";
+"IDS_PASTE" = "붙여넣기";
+"IDS_SELECT_ALL" = "모두 선택";
+
+
+"IDS_Idle" = "그룹 생성 대기"; 
+
+"IDS_Start Configuration" = "구성 시작";
+
+"IDS_directPINCode" = "PIN 코드";
+
+"IDS_WIRELESS_PASSWORD_DESCRIPTION" = "비밀번호의 WEP 키(영숫자/기호로 5 ~ 13자 또는 10 ~ 26자리의 16진수)를 입력하십시오.\n
+공장 기본 설정을 사용하고 있는 경우에는 액세스 포인트의 라벨이나 설명서를 참고하십시오.";
+
+"IDS_WIRELESS_PASSPHRASE_DESCRIPTION" = "비밀번호의 패스프레이즈(영숫자/기호로 8 ~ 63자 또는 64자리의 16진수)를 입력하십시오.\n
+공장 기본 설정을 사용하고 있는 경우에는 액세스 포인트의 라벨이나 설명서를 참고하십시오.";
+
+"IDS_CONFIGURATION_PAGE" = "구성 페이지";
+
+"IDS_Disconnect" = "";
+
+"IDS_PRINT" = "프린트";
+
+"IDS_WIRELESS_RESET" = "재설정";
+
+"IDS_THE_SET_GATEWAY_ADDRESS_IS_ILLEGAL" = "설정된 Gateway Address가 잘못되었습니다.";
+
+"IDS_THE_SET_IP_ADDRESS_IS_ILLEGAL" = "설정된 IP 주소가 잘못되었습니다.";
+
+"IDS_CAUTION_I" = "주의:\r비정품 토너 카트리지를 사용하면 일부 프린터 기능을 사용하지 못하고, 인쇄 품질이 저하되며, 프린터의 신뢰성에 영향을 줄 수 있습니다. 프린터에 새 정품 토너 카트리지 사용만 권장합니다. Fuji Xerox에서 공급하지 않은 부속품, 부품 또는 구성품을 사용해 발생한 문제에 대해서는 보증이 적용되지 않습니다.";
+
+"IDS_Security Settings" = "보안 설정";
+
+"IDS_Good" = "양호";
+
+"IDS_Low" = "낮음";
+
+"IDS_Acceptable" = "보통";
+
+"IDS_No Reception" = "반응 없음";
+
+"IDS_E-mail Alert" = "메일 통지";
+
+"IDS_directWPSSetup" = "WPS";
+
+"IDS_ManualGatewayAddress" = "Gateway Address"; 
+
+"IDS_Network Mask" = "Subnet Mask";
+
+"This IP subnet can not be used in same section with Wi-Fi Direct." = "동일한 섹션에서는 Wi-Fi Direct와 함께 사용할 수 없는 IP 서브넷입니다.";
+
+"IP subnet 192.168.186.x is reserved for Wi-Fi Direct." = "IP 서브넷 192.168.186.x는 Wi-Fi Direct용입니다.";
+
+"IDS_Software Download" = "소프트웨어 다운로드";
+
+"IDS_IPv6UseManualAddress" = "수동 설정 주소 사용";
+
+"IDS_Reset Network Setup" = "네트워크 재설정";
+
+"IDS_Wi-Fi Setup" = "Wi-Fi 설정";
+
+"IDS_Print PIN Code" = "프린트 PIN 코드"; 
+
+"IDS_Reset Passphrase" = "패스프레이즈 재설정"; 
+
+"IDS_Disconnect and Reset Passphrase" = "연결을 끊고 패스프레이즈 재설정";
+
+"IDS_Disconnect Now" = "지금 연결 끊기";
+
+"Status" = "상태";
+
+"IDS_Group Role" = "그룹 역할";
+
+"IDS_Group Owner" = "그룹 소유자";
+"IDS_Reset Wireless" = "Wi-Fi 재설정";
+"IDS_directWPSMethod" = "WPS 방식";
+
+"IDS_directP2PRole" = "현재 역할";
+
+"IDS_Reset Code" = "PIN 코드 재설정";
+
+"IDS_Push Button Control" = "푸시 버튼 구성";
+"IDS_directPassphrase" = "패스프레이즈";
+"IDS_Print Passphrase" = "패스프레이즈 프린트";
+"IDS_Client" = "클라이언트";
+"IDS_directDevice" = "장치 이름";
+"IDS_Connection Status" = "연결 상태";
+"Disable" = "선택안함";
+
+"Grid 2 Chart" = "격자2 차트";
+
+"Toner Palette Check" = "토너 팔레트 차트";
+
+"Printer Information" = "프린터 정보";
+
+"Printer Serial Number" = "기계번호";
+
+"Printer Type" = "프린터 종류";
+
+"Memory Capacity" = "메모리 용량";
+
+"Processor Speed" = "프로세서 속도";
+
+"Firmware Version" = "펌웨어 버전";
+
+"Network Firmware Version" = "네트워크 펌웨어 버전";
+
+"MCU Firmware Version" = "MCU 펌웨어 버전";
+
+"Printing Speed (Color)" = "프린트 속도(컬러)";
+
+"Printing Speed (Monochrome)" = "프린트 속도(흑백)";
+
+"Menu Settings" = "메뉴 설정";
+
+"System Settings" = "시스템 설정";
+
+"Power Saver Timer" = "절전 타이머";//
+
+"Low Power Timer" = "저전력 타이머";
+
+"Power Saver Mode 1 " = "저전력 타이머";
+
+"Sleep Timer" = "Sleep 타이머";
+
+"Power Saver Mode 2" = "Sleep 타이머";
+
+"minutes_5_30" = "분(%d~%d)";
+
+"Auto Reset" = "자동 리셋";
+
+"Job Timeout" = "작업시간초과";
+
+"Fault Timeout" = "시간초과에러";
+
+"mm/inch" = "밀리미터/인치";
+
+"Adjust BTR" = "BTR 조정";
+
+"Adjust Fusing Unit" = "정착부 조정";
+
+"Auto Registration Adjustment" = "자동 Registration 조정";
+
+"Adjust Altitude" = "고도 보정";
+
+"Non-Genuine Mode" = "비정품 모드";
+
+"BTR Refresh Mode" = "BTR 정화 모드";
+
+"Reports" = "리포트";
+
+"Information Pages" = "리포트";
+
+"System Settings" = "시스템 설정";
+
+"Panel Settings" = "조작부 설정";
+
+"Job History" = "작업 이력 리스트";
+
+"Error History" = "에러 이력";
+
+"Demo Page" = "데모 페이지";
+
+"IDS_SETTING_REPORT" = "프린터 설정 리포트";
+
+"Report Language" = "리포트 언어";
+
+"IP Mode" = "IP 모드";
+
+"IPv4" = "IPv4";
+
+"Dual Stack" = "듀얼 스택";
+
+"Network Settings" = "네트워크 설정";
+
+"Auto" = "자동";
+
+"Protocols" = "프로토콜";
+
+"Host Access List" = "호스트 액세스 리스트";
+
+"IP Filter" = "IP 필터";
+
+"Accept" = "수락";
+
+"Reject" = "거부";
+
+"Enable" = "선택함";
+
+"Wireless Setup" = "무선 설정";
+
+"Select Mode" = "모드 선택";
+
+"Wi-Fi" = "Wi-Fi";
+
+"SSID" = "SSID";
+
+"Infrastructure" = "Infrastructure";
+
+"Ad-Hoc" = "Ad-Hoc";
+
+"Encryption Type" = "암호화 유형";
+
+"No Security" = "사용안함";
+
+"WEP" = "WEP";
+
+"Password" = "비밀번호";
+
+"WPA-PSK-TKIP" = "WPA-PSK-TKIP";
+
+"WPA2-PSK-AES" = "WPA2-PSK-AES";
+
+"Mixed mode PSK" = "혼합 모드 PSK";
+
+"Display Characters" = "문자 표시";
+
+"Transmit Key" = "전송 키";
+
+"WEP Key" = "WEP 키";
+
+"Wi-Fi Direct Setup" = "Wi-Fi Direct 설정";
+
+"TCP/IP Settings" = "TCP/IP 설정";
+
+"IP Address Mode" = "IP 주소 모드";
+
+"IP Address" = "IP 주소";
+
+"Subnet Mask" = "Subnet Mask";
+
+"Gateway Address" = "Gateway Address";
+
+"Printer Maintenance" = "프린터 유지보수";
+
+"System Settings" = "시스템 설정";
+
+"minutes_1_6" = "분(%d~%d)";
+
+"Auto Reset_O_HOT" = "자동 리셋";
+
+"1 minute" = "분";
+
+"2 minutes" = "분";
+
+"3 minutes" = "분";
+
+"4 minutes" = "분";
+
+"Off" = "선택안함";
+
+"Job Timeout_I_HOT" = "작업시간초과";
+
+"seconds (0: Off, 5 - 300)" = "초(0: 선택안함, 5 - 300)";
+
+"Fault Timeout_U_HOT" = "시간초과에러";
+
+"Off" = "선택안함";
+
+"Off_JUNK_FAX_FILTER" = "선택안함";
+
+"Off_JPN_FOR_COLLATED" = "선택안함";
+
+"On_JPN_FOR_COLLATED" = "선택함";
+
+"On" = "선택함";
+
+"On_FOR_JPN" = "선택함";
+
+"On1_JUNK_FAX_FILTER" = "선택함(&1)";
+
+"On2_REMOTE_RECEIVE" = "선택함(&2)";
+
+"On3_SEND_HEADER" = "선택함(&3)";
+
+"On4_FAX_COVER_PAGE" = "선택함(&4)";
+
+"On5_PREFIX_DIAL" = "선택함(&5)";
+
+"On6_ECM" = "선택함(&6)";
+
+"millimeter (mm)" = "밀리미터(mm)";
+
+"inch (\")" = "인치(\")";
+
+"Apply New Settings" = "새 설정 적용";
+
+"Registration Adjustment" = "Registration 조정";
+
+"Manual Registration Adjustments" = "수동 Registration 조정";
+
+"Auto Correct" = "자동 보정";
+
+"Print Color Regi Chart" = "컬러정합 차트 프린트";
+
+"Color Registration Adjustment 1 (Lateral)" = "컬러 Registration 조정 1(Lateral)";
+
+"Y (Yellow)" = "Y(Yellow)";
+
+"M (Magenta)" = "M(Magenta)";
+
+"C (Cyan)" = "C(Cyan)";
+
+"Color Registration Adjustment 2 (Process)" = "컬러 Registration 조정 2(Process)";
+
+"LY (Left Yellow)" = "LY(좌측 Yellow)";
+
+"LM (Left Magenta)" = "LM(좌측 Magenta)";
+
+"LC (Left Cyan)" = "LC(좌측 Cyan)";
+
+"RY (Right Yellow)" = "RY(우측 Yellow)";
+
+"RM (Right Magenta)" = "RM(우측 Magenta)";
+
+"RC (Right Cyan)" = "RC(우측 Cyan)";
+
+"Start" = "실행";
+
+"0 meter" = "0미터";
+
+"1000 meters" = "1000미터";
+
+"2000 meters" = "2000미터";
+
+"3000 meters" = "3000미터";
+
+"System Section" = "시스템 설정값";
+
+"BOOTP" = "BOOTP";
+
+"RARP" = "RARP";
+
+"DHCP" = "DHCP";
+
+"DHCP/AutoIP" = "DHCP/AutoIP";
+
+"Panel" = "조작부";
+
+"Restart printer to apply new settings" = "새 설정을 적용하려면 프린터를 재기동하십시오.";
+
+"Internet Services" = "Internet Services";
+
+"Print Server Settings" = "프린트 서버 설정";
+
+"Display of CentreWare Internet Services" = "CentreWare Internet Services 표시";
+
+"Display of CWIS" = "CentreWare Internet Services 표시";
+
+"Display" = "표시";
+
+"seconds_0_255" = "초(0~255)";
+
+"seconds_3_255" = "초(3~255)";
+
+"minutes" = "분";
+
+"Diagnosis" = "진단";
+
+"Chart Print" = "차트 프린트";
+
+"Pitch Configuration Chart" = "피치 구성 차트";
+
+"Ghost Configuration Chart" = "Ghost 구성 차트";
+
+"4 &Colors Configuration Chart" = "4 색 계조 확인 차트";
+
+"MQ Chart" = "MQ 차트";
+
+"Alignment Chart" = "맞춤 차트";
+
+"Environment Sensor Info" = "환경 센서 정보";
+
+"Get Environment Sensor Info" = "환경 센서 정보 취득";
+
+"Result" = "결과";
+
+"Humidity inside the machine" = "기기 내부  습도  ";
+
+"Temperature inside the machine" = "기기 내부 온도";
+
+"Clean Developer" = "현상기 청소";
+
+"Start" = "실행";
+
+"Refresh Mode" = "정화 모드";
+
+"Toner Refresh Mode" = "토너정화 모드";
+
+"Toner Refresh Mode_GRANDE" = "토너정화 모드";
+
+"Get Printer Information." = "프린터 정보 취득.";
+
+"Set Printer Information." = "프린터 정보 설정.";
+
+"Send Printer Information." = "프린터 정보 송신.";
+
+"The setting has been changed. Do you want to cancel the settings?" = "설정이 변경되었습니다. 설정을 취소하시겠습니까?";
+
+"Failed to acquire the information." = "정보를 얻지 못했습니다.";
+
+"Communication with printer failed." = "프린터와의 통신에 실패했습니다.";
+
+"Are you sure you want to exit Printer Setting Utility?" = "프린터 설정 유틸리티를 종료하시겠습니까?";
+
+
+"Information was not acquired because the Status Monitor was running." = "상태 모니터가 실행 중이므로 정보를 얻지 못했습니다.";
+
+"Information was not transmitted because the Status Monitor was running." = "상태 모니터가 실행 중이므로 정보가 전송되지 않았습니다.";
+
+"It is not possible to print with the paper set in the tray. \rPlease set A4 or the Letter size paper in the tray, and click on a button again. " = "트레이에 용지가 세트되어 있으면 프린트할 수 없습니다. \r트레이에 A4 또는 Letter 크기 용지를 세트하고, 버튼을 다시 클릭하여 주십시오. ";
+
+"Restart printer for new settings to take effect.\rDo you want to restart printer?" = "새 설정을 적용할 프린터를 다시 시작하여 주십시오.\r프린터를 다시 시작하시겠습니까?";
+
+"Printer Status: Active" = "프린터 상태: 실행 중";
+
+"Printer Status: Busy" = "프린터 상태: 사용중";
+
+"Printer Status: Cover is Open" = "프린터 상태: 커버 열림";
+
+"Printer Status: Error" = "프린터 상태: 에러";
+
+"Printer Status: Initializing" = "프린터 상태: 초기화중";
+
+"Printer Status: Job is Pending Deletion" = "프린터 상태: 작업 삭제 대기 중";
+
+"Printer Status: Manual Feed Required" = "프린터 상태: 수동트레이 필요";
+
+"Printer Status: Not Available" = "프린터 상태: 선택안함";
+
+"Printer Status: Not Supported" = "프린터 상태: 지원되지 않음";
+
+"Printer Status: Out of Memory" = "프린터 상태: 메모리 용량 부족";
+
+"Printer Status: Out of Paper" = "프린터 상태: 용지부족음";
+
+"Printer Status: Out of Toner" = "프린터 상태: 토너부족";
+
+"Printer Status: Page Error" = "프린터 상태: 페이지 에러";
+
+"Printer Status: Paper Jam" = "프린터 상태: 용지걸림";
+
+"Printer Status: Paper Problem" = "프린터 상태: 용지 문제";
+
+"Printer Status: Pause" = "프린터 상태: 일시정지";
+
+"Printer Status: Power Off" = "프린터 상태: 전원 꺼짐";
+
+"Printer Status: Power Saver Mode" = "프린터 상태: 절전 모드";
+
+"Printer Status: Printing" = "프린터 상태: 프린트중";
+
+"Printer Status: Processing" = "프린터 상태: 처리중";
+
+"Printer Status: Ready" = "프린터 상태: 준비 완료";
+
+"Printer Status: Toner Low" = "프린터 상태: 토너부족";
+
+"Printer Status: Unknown" = "프린터 상태: 알 수 없음";
+
+"Printer Status: Waiting" = "프린터 상태: 대기 중";
+
+"Printer Status: Warming Up" = "프린터 상태: 예열중";
+
+"Printer Status: ADF Cover Open" = "프린터 상태: 원고이송장치 커버 열림";
+
+"Printer Status: ADF Paper Jam" = "프린터 상태: 원고이송장치 용지걸림";
+
+"Printer Status: User Intervention Required" = "프린터 상태: 사용자 조작 필요";
+
+"Cancel" = "취소";
+
+"Help" = "도움말";
+
+"OK" = "확인";
+
+"Reset Defaults" = "기본값 재설정";
+
+"Printer Setting Utility" = "프린터 설정 유틸리티";
+
+"seconds" = "초";
+
+"Information was not acquired because the Status Monitor was running." = "프린터가 사용 중이므로 정보를 얻지 못했습니다.";
+
+"Information was not transmitted because the Status Monitor was running." = "프린터가 사용 중이므로 정보가 전송되지 않았습니다.";
+
+"Boot Code Version" = "부트 코드 버전";
+
+"Color Table Version" = "컬러 테이블 버전";
+
+"Density Adjustment" = "농도 조정";
+
+"Density Adjustment_D_HOT" = "농도 조정(&D)";
+
+"Density Adjustment_ADJUSTMENT" = "농도 조정";
+
+"Density Adjustment_ADJUSTMENT_HOT" = "농도 조정(&D)";
+
+"Adjust Paper Type" = "용지종류 변경";
+
+"Plain Paper" = "보통용지";
+
+"Plain Paper_P_HOT" = "보통용지(&P)";
+
+"Lightweight" = "얇은 용지";
+
+"Heavyweight" = "중량지";
+
+"minutes_1_30" = "분(1 ~ 30)";
+
+"minutes_6_11" = "분(6 ~ 11)";
+
+"Printer Serial Number_P_HOT" = "프린터 일련번호(&P)";
+
+"Select Printer:" = "프린터 선택:";
+
+"Printer Name" = "프린터명";
+
+"Model Name" = "모델명";
+
+"Connected To" = "연결 대상";
+
+"Close" = "닫기";
+
+"Supported printers are not installed in the system." = "지원되는 프린터가 시스템에 설치되지 않았습니다.";
+
+"Meter Readings" = "사용매수";
+
+"Meter 1" = "사용매수 1";
+
+"Meter 2" = "사용매수 2";
+
+"Meter 3" = "사용매수 3";
+
+"Meter 4" = "사용매수 4";
+
+"inch (\")ES" = "인치(\")";
+
+"CWIS" = "CWIS";
+
+"Drum Refresh Configuration Chart" = "드럼정화 기능 확인 차트";
+
+"Version" = "버전";
+
+"Billing Meters" = "사용매수";
+
+"Total Impression" = "총 페이지수";
+
+
+"Color Impression" = "컬러 페이지수";
+
+"Black Impression" = "흑백 페이지수";
+
+"Network Message" = "네트워크 메시지";
+
+"Low Toner Alert Message_W_HOT" = "토너 부족 경고 메시지(&W)";
+
+"Low Toner Alert Message" = "토너 부족 경고 메시지";
+
+"Machine Life" = "기계 수명";
+
+"C&ontinue Print" = "프린트 계속";
+
+"IDS_CU_XERO_LIFE" = "주의:\r설정을 [프린트 계속]으로 변경하여 서비스 수명 한계에 도달한 후에도 프린터를 계속 사용할 수 있지만 프린트 품질이 보장되지 않습니다.";
+
+//
+
+"About" = "약";
+
+"Quit" = "종료";
+
+"On (except A4/Ltr)" = "활성(A4/LTR 제외)";
+
+"English" = "English";
+
+"French" = "French";
+
+"Russion" = "Russion";
+
+"Show Paper Size Error" = "용지크기 에러 표시";
+
+"Labels" = "라벨용지";
+
+"Plain" = "보통용지";
+
+"Bond" = "고급 백상지";
+
+"Lightweight Cardstock" = "중량지 1";
+
+"Lightweight Glossy Cardstock" = "코팅용지";
+
+"Envelope" = "봉투";
+
+"Recycled" = "재생용지";
+
+"Black" = "Black";
+
+"seconds (0: Off, 3 - 300)" = "초(0: 선택안함, 3 - 300)";
+
+"Ethernet" = "이더넷";
+
+"10BASE-T Half" = "10BASE-T Half";
+
+"10BASE-T Full" = "10BASE-T Full";
+
+"100BASE-T Half" = "100BASE-T Half";
+
+"100BASE-T Full" = "100BASE-T Full";
+
+"LPD" = "LPD";
+
+"Port9100" = "포트 9100";
+
+"IPP" = "IPP";
+
+"WSD" = "WSD";
+
+"SNMP v1/v2c" = "SNMP v1/v2c";
+
+"StatusMessenger" = "StatusMessenger";
+
+"Bonjour(mDNS)" = "Bonjour(mDNS)";
+
+"Mode" = "모드";
+
+"Incorrect SSID." = "SSID가 올바르지 않습니다.";
+
+"Incorrect Password." = "비밀번호가 올바르지 않습니다.";
+
+
+
+
+
+
+
+
+
+
+
+

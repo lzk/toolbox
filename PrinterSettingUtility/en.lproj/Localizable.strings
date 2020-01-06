@@ -1,0 +1,642 @@
+/* 
+  Localizable.strings
+  PrinterSettingUtility
+
+  Created by Wang Kun on 13-12-13.
+  Copyright (c) 2013年 Wang Kun. All rights reserved.
+*/
+
+"IDS_EDIT" = "Edit";
+"IDS_COPY" = "Copy";
+"IDS_PASTE" = "Paste";
+"IDS_SELECT_ALL" = "Select All";
+
+
+"IDS_Start Configuration" = "Start Configuration";
+
+"IDS_directPINCode" = "PIN Code";
+
+"IDS_WIRELESS_PASSWORD_DESCRIPTION" = "Enter the WEP Key (5 or 13 alphanumeric characters / symbols, OR, 10 or 26 digit hexadecimal numbers) for the Password.\n
+Please refer to labels or manual of Access Point if you are using it from factory setting.";
+
+"IDS_WIRELESS_PASSPHRASE_DESCRIPTION" = "Enter the Passphrase (8 to 63 alphanumeric characters / symbols, OR, 64 digit hexadecimal numbers) for the Password.\n
+Please refer to labels or manual of Access Point if you are using it from factory setting. ";
+
+"IDS_PRINT" = "Print";
+
+"IDS_WIRELESS_RESET" = "Reset";
+
+"IDS_THE_SET_GATEWAY_ADDRESS_IS_ILLEGAL" = "The set Gateway Address is illegal.";
+
+"IDS_THE_SET_IP_ADDRESS_IS_ILLEGAL" = "The set IP Address is illegal.";
+
+
+"IDS_E-mail Alert" = "E-mail Alert";
+
+"IDS_ManualGatewayAddress" = "Gateway Address";
+
+"IDS_Network Mask" = "Network Mask";
+
+"IDS_No Reception" = "No Reception";
+
+"IDS_Low" = "Low";
+
+"IDS_Acceptable" = "Acceptable";
+
+"IDS_Good" = "Good";
+
+"IDS_Security Settings" = "Secure Settings";
+
+"IDS_Software Download" = "Software Download";
+
+"IDS_IPv6UseManualAddress" = "Use Manual Address";
+
+"IDS_Reset Network Setup" = "Reset Network Setup";
+
+"IDS_Wi-Fi Setup" = "Wi-Fi Setup";
+
+"IDS_Group Role" = "Group Role";
+
+"IDS_Group Owner" = "Group Owner";
+
+"IDS_directDevice" = "Device Name";
+
+"IDS_directWPSMethod" = "WPS Method";
+
+"IDS_directWPSSetup" = "WPS Setup";
+
+"IDS_Push Button Control" = "Push Button Configuration";
+
+"IDS_directPINCode" = "PIN Code";
+
+"IDS_Print PIN Code" = "Print PIN Code";
+
+"IDS_Reset Code" = "Reset PIN Code";
+
+"IDS_directP2PRole" = "Current Role";
+
+"IDS_Idle" = "Group Formation Idle";
+
+"IDS_Client" = "Client";
+
+"IDS_Connection Status" = "Connection Status";
+
+"IDS_Disconnect Now" = "Disconnect Now";
+
+"IDS_Disconnect and Reset Passphrase" = "Disconnect and Reset Passphrase";
+
+"IDS_directPassphrase" = "Passphrase";
+
+"IDS_Print Passphrase" = "Print Passphrase";
+
+"IDS_Reset Passphrase" = "Reset Passphrase";
+
+"IDS_Reset Wireless" = "Reset Wi-Fi Settings";
+
+
+"Printer Information" = "Printer Information";
+
+"Printer Serial Number" = "Printer Serial Number";
+
+"Printer Type" = "Printer Type";
+
+"Memory Capacity" = "Memory Capacity";
+
+"Processor Speed" = "Processor Speed";
+
+"Firmware Version" = "Firmware Version";
+
+"Network Firmware Version" = "Network Firmware Version";
+
+"MCU Firmware Version" = "MCU Firmware Version";
+
+"Printing Speed (Color)" = "Printing Speed (Color)";
+
+"Printing Speed (Monochrome)" = "Printing Speed (Monochrome)";
+
+"Menu Settings" = "Menu Settings";
+
+"System Settings" = "System Settings";
+
+"Power Saver Timer" = "Power Saver Timer";  
+
+"Low Power Timer" = "Low Power Timer";
+
+"Power Saver Mode 1 " = "Power Saver Mode 1";
+
+"Sleep Timer" = "Sleep Timer";
+
+"Power Saver Mode 2" = "Power Saver Mode 2";
+
+"minutes_5_30" = "minutes (%d - %d)";
+
+"Auto Reset" = "Auto Reset";
+
+"Job Timeout" = "Job Timeout";
+
+"Fault Timeout" = "Fault Timeout";
+
+"mm/inch" = "mm/inch";
+
+"Adjust BTR" = "Adjust BTR";
+
+"Adjust Fusing Unit" = "Adjust Fusing Unit";
+
+"Auto Registration Adjustment" = "Auto Registration Adjustment";
+
+"Adjust Altitude" = "Adjust Altitude";
+
+"Non-Genuine Mode" = "Non-Genuine Mode";
+
+"BTR Refresh Mode" = "BTR Refresh Mode";
+
+"Reports" = "Reports";
+
+"Information Pages" = "Information Pages";
+
+"System Settings" = "System Settings";
+
+"Panel Settings" = "Panel Settings";
+
+"Job History" = "Job History";
+
+"Error History" = "Error History";
+
+"Demo Page" = "Demo Page";
+
+"IDS_SETTING_REPORT" = "Printer Settings Report";
+
+"IDS_CONFIGURATION_PAGE" = "Configuration Page";
+
+"Report Language" = "Report Language";
+
+"IP Mode" = "IP Mode";
+
+"IPv4" = "IPv4";
+
+"Dual Stack" = "Dual Stack";
+
+"Network Settings" = "Network Settings";
+
+"Auto" = "Auto";
+
+"Protocols" = "Protocols";
+
+"Host Access List" = "Host Access List";
+
+"IP Filter" = "IP Filter";
+
+"Accept" = "Accept";
+
+"Reject" = "Reject";
+
+"Enable" = "Enable";
+
+"Wireless Setup" = "Wireless Setup";
+
+"Select Mode" = "Select Mode";
+
+"Wi-Fi" = "Wi-Fi";
+
+"SSID" = "SSID";
+
+"Infrastructure" = "Infrastructure";
+
+"Ad-Hoc" = "Ad-Hoc";
+
+"Encryption Type" = "Encryption Type";
+
+"No Security" = "No Security";
+
+"WEP" = "WEP";
+
+"Password" = "Password";
+
+"WPA-PSK-TKIP" = "WPA-PSK-TKIP";
+
+"WPA2-PSK-AES" = "WPA2-PSK-AES";
+
+"Mixed mode PSK" = "Mixed Mode PSK";
+
+"Display Characters" = "Display Characters";
+
+"Transmit Key" = "Transmit Key";
+
+"WEP Key" = "WEP Key";
+
+"Wi-Fi Direct Setup" = "Wi-Fi Direct Setup";
+
+"TCP/IP Settings" = "TCP/IP Settings";
+
+"IP Address Mode" = "IP Address Mode";
+
+"IP Address" = "IP Address";
+
+"Subnet Mask" = "Subnet Mask";
+
+"Gateway Address" = "Gateway Address";
+
+"Printer Maintenance" = "Printer Maintenance";
+
+"System Settings" = "System Settings";
+
+"minutes_1_6" = "minutes (%d - %d)";
+
+"Auto Reset_O_HOT" = "Auto Reset";
+
+"1 minute" = "1 minute";
+
+"2 minutes" = "2 minutes";
+
+"3 minutes" = "3 minutes";
+
+"4 minutes" = "4 minutes";
+
+"Off" = "Off";
+
+"Job Timeout_I_HOT" = "Job Timeout";
+
+"seconds (0: Off, 5 - 300)" = "seconds (0: Off, 5 - 300)";
+
+"Fault Timeout_U_HOT" = "Fault Timeout";
+
+"Off" = "Off";
+
+"Off_JUNK_FAX_FILTER" = "Off";
+
+"Off_JPN_FOR_COLLATED" = "Off";
+
+"On_JPN_FOR_COLLATED" = "On";
+
+"On" = "On";
+
+"On_FOR_JPN" = "On";
+
+"On1_JUNK_FAX_FILTER" = "On (&1)";
+
+"On2_REMOTE_RECEIVE" = "On (&2)";
+
+"On3_SEND_HEADER" = "On (&3)";
+
+"On4_FAX_COVER_PAGE" = "On (&4)";
+
+"On5_PREFIX_DIAL" = "On (&5)";
+
+"On6_ECM" = "On (&6)";
+
+"millimeter (mm)" = "millimeter (mm)";
+
+"inch (\")" = "inch (\")";
+
+"Apply New Settings" = "Apply New Settings";
+
+"Registration Adjustment" = "Registration Adjustment";
+
+"Manual Registration Adjustments" = "Manual Registration Adjustments";
+
+"Auto Correct" = "Auto Correct";
+
+"Print Color Regi Chart" = "Print Color Regi Chart";
+
+"Color Registration Adjustment 1 (Lateral)" = "Color Registration Adjustment 1 (Lateral)";
+
+"Y (Yellow)" = "Y (Yellow)";
+
+"M (Magenta)" = "M (Magenta)";
+
+"C (Cyan)" = "C (Cyan)";
+
+"Color Registration Adjustment 2 (Process)" = "Color Registration Adjustment 2 (Process)";
+
+"LY (Left Yellow)" = "LY (Left Yellow)";
+
+"LM (Left Magenta)" = "LM (Left Magenta)";
+
+"LC (Left Cyan)" = "LC (Left Cyan)";
+
+"RY (Right Yellow)" = "RY (Right Yellow)";
+
+"RM (Right Magenta)" = "RM (Right Magenta)";
+
+"RC (Right Cyan)" = "RC (Right Cyan)";
+
+"Start" = "Start";
+
+"0 meter" = "0 meter";
+
+"1000 meters" = "1000 meters";
+
+"2000 meters" = "2000 meters";
+
+"3000 meters" = "3000 meters";
+
+"System Section" = "System Section";
+
+"BOOTP" = "BOOTP";
+
+"RARP" = "RARP";
+
+"DHCP" = "DHCP";
+
+"DHCP/AutoIP" = "DHCP/AutoIP";
+
+"Panel" = "Manual";
+
+"Restart printer to apply new settings" = "Restart printer to apply new settings";
+
+"Internet Services" = "Internet Services";
+
+"Print Server Settings" = "Print Server Settings";
+
+"Display of CentreWare Internet Services" = "Display of CentreWare Internet Services";
+
+"Display of CWIS" = "Display of CWIS";
+
+"Display" = "Display";
+
+"seconds_0_255" = "seconds (0-255)";
+
+"seconds_3_255" = "seconds (3-255)";
+
+"minutes" = "minutes";
+
+"Diagnosis" = "Diagnosis";
+
+"Chart Print" = "Chart Print";
+
+"Pitch Configuration Chart" = "Pitch Configuration Chart";
+
+"Ghost Configuration Chart" = "Ghost Configuration Chart";
+
+"4 &Colors Configuration Chart" = "4 Colors Configuration Chart";
+
+"MQ Chart" = "MQ Chart";
+
+"Alignment Chart" = "Alignment Chart";
+
+"Environment Sensor Info" = "Environment Sensor Info";
+
+"Get Environment Sensor Info" = "Get Environment Sensor Info";
+
+"Result" = "Result";
+
+"Humidity inside the machine" = "Humidity inside the machine  ";
+
+"Temperature inside the machine" = "Temperature inside the machine";
+
+"Clean Developer" = "Clean Developer";
+
+"Start" = "Start";
+
+"Refresh Mode" = "Refresh Mode";
+
+"Toner Refresh Mode" = "Toner Refresh Mode";
+
+"Toner Refresh Mode_GRANDE" = "Toner Refresh Mode";
+
+"Get Printer Information." = "Get Printer Information.";
+
+"Set Printer Information." = "Set Printer Information.";
+
+"Send Printer Information." = "Send Printer Information.";
+
+"The setting has been changed. Do you want to cancel the settings?" = "The setting has been changed. Do you want to cancel the settings?";
+
+"Failed to acquire the information." = "Failed to acquire the information.";
+
+"Communication with printer failed." = "Communication with printer failed.";
+
+"Are you sure you want to exit Printer Setting Utility?" = "Are you sure you want to exit Printer Setting Utility?";
+
+"Information was not acquired because the Status Monitor was running." = "Information was not acquired because the Status Monitor was running.";
+
+"Information was not transmitted because the Status Monitor was running." = "Information was not transmitted because the Status Monitor was running.";
+
+"It is not possible to print with the paper set in the tray. \rPlease set A4 or the Letter size paper in the tray, and click on a button again. " = "It is not possible to print with the paper set in the tray. \rPlease set A4 or the Letter size paper in the tray, and click on a button again. ";
+
+"Restart printer for new settings to take effect.\rDo you want to restart printer?" = "Restart printer for new settings to take effect.\rDo you want to restart printer?";
+
+"Printer Status: Active" = "Printer Status: Active";
+
+"Printer Status: Busy" = "Printer Status: Busy";
+
+"Printer Status: Cover is Open" = "Printer Status: Cover is Open";
+
+"Printer Status: Error" = "Printer Status: Error";
+
+"Printer Status: Initializing" = "Printer Status: Initializing";
+
+"Printer Status: Job is Pending Deletion" = "Printer Status: Job is Pending Deletion";
+
+"Printer Status: Manual Feed Required" = "Printer Status: Manual Feed Required";
+
+"Printer Status: Not Available" = "Printer Status: Not Available";
+
+"Printer Status: Not Supported" = "Printer Status: Not Supported";
+
+"Printer Status: Out of Memory" = "Printer Status: Out of Memory";
+
+"Printer Status: Out of Paper" = "Printer Status: Out of Paper";
+
+"Printer Status: Out of Toner" = "Printer Status: Out of Toner";
+
+"Printer Status: Page Error" = "Printer Status: Page Error";
+
+"Printer Status: Paper Jam" = "Printer Status: Paper Jam";
+
+"Printer Status: Paper Problem" = "Printer Status: Paper Problem";
+
+"Printer Status: Pause" = "Printer Status: Pause";
+
+"Printer Status: Power Off" = "Printer Status: Power Off";
+
+"Printer Status: Power Saver Mode" = "Printer Status: Power Saver Mode";
+
+"Printer Status: Printing" = "Printer Status: Printing";
+
+"Printer Status: Processing" = "Printer Status: Processing";
+
+"Printer Status: Ready" = "Printer Status: Ready";
+
+"Printer Status: Toner Low" = "Printer Status: Toner Low";
+
+"Printer Status: Unknown" = "Printer Status: Unknown";
+
+"Printer Status: Waiting" = "Printer Status: Waiting";
+
+"Printer Status: Warming Up" = "Printer Status: Warming Up";
+
+"Printer Status: ADF Cover Open" = "Printer Status: ADF Cover Open";
+
+"Printer Status: ADF Paper Jam" = "Printer Status: ADF Paper Jam";
+
+"Printer Status: User Intervention Required" = "Printer Status: User Intervention Required";
+
+"Cancel" = "Cancel";
+
+"Help" = "Help";
+
+"OK" = "OK";
+
+"Reset Defaults" = "Reset Defaults";
+
+"Printer Setting Utility" = "Printer Setting Utility";
+
+"seconds" = "seconds";
+
+"Information was not acquired because the Status Monitor was running." = "Information was not acquired because the Printer was busy.";
+
+"Information was not transmitted because the Status Monitor was running." = "Information was not transmitted because the Printer was busy.";
+
+"Boot Code Version" = "Boot Code Version";
+
+"Color Table Version" = "Color Table Version";
+
+"Density Adjustment" = "Density Adjustment";
+
+"Density Adjustment_D_HOT" = "&Density Adjustment";
+
+"Density Adjustment_ADJUSTMENT" = "Density Adjustment";
+
+"Density Adjustment_ADJUSTMENT_HOT" = "&Density Adjustment";
+
+"Adjust Paper Type" = "Adjust Paper Type";
+
+"Plain Paper" = "Plain Paper";
+
+"Plain Paper_P_HOT" = "&Plain Paper";
+
+"Lightweight" = "Lightweight";
+
+"Heavyweight" = "Heavyweight";
+
+"minutes_1_30" = "minutes (1 - 30)";
+
+"minutes_6_11" = "minutes (6 - 11)";
+
+"Printer Serial Number_P_HOT" = "&Printer Serial Number";
+
+"Select Printer:" = "Select Printer:";
+
+"Printer Name" = "Printer Name";
+
+"Model Name" = "Model Name";
+
+"Connected To" = "Connected To";
+
+"Close" = "Close";
+
+"Supported printers are not installed in the system." = "Supported printers are not installed in the system.";
+
+"Meter Readings" = "Meter Readings";
+
+"Meter 1" = "Meter 1";
+
+"Meter 2" = "Meter 2";
+
+"Meter 3" = "Meter 3";
+
+"Meter 4" = "Meter 4";
+
+"inch (\")ES" = "inches (\")";
+
+"CWIS" = "CWIS";
+
+"Drum Refresh Configuration Chart" = "Drum Refresh Configuration Chart";
+
+"Version" = "Version";
+
+"Billing Meters" = "Billing Meters";
+
+"Total Impression" = "Total Impression";
+
+
+"Color Impression" = "Color Impression";
+
+"Black Impression" = "Black Impression";
+
+"Network Message" = "Network Message";
+
+"Low Toner Alert Message_W_HOT" = "Lo&w Toner Alert Message";
+
+"Low Toner Alert Message" = "Low Toner Alert Message";
+
+"Machine Life" = "Machine Life";
+
+"C&ontinue Print" = "Continue Print";
+
+"IDS_CU_XERO_LIFE" = "CAUTION:\rAlthough you can keep using the printer after the end of its service life by changing the setting to Keep Printing, the printing quality is not guaranteed.";
+
+
+"About" = "About";
+
+"Quit" = "Quit";
+
+"On (except A4/Ltr)" = "On (except A4/Ltr)";
+
+"English" = "English";
+
+"French" = "French";
+
+"Russion" = "Russion";
+
+"Show Paper Size Error" = "Show Paper Size Error";
+
+"Labels" = "Labels";
+
+"Plain" = "Plain";
+
+"Bond" = "Bond";
+
+"Lightweight Cardstock" = "Lightweight Cardstock";
+
+"Lightweight Glossy Cardstock" = "Lightweight Glossy Cardstock";
+
+"Envelope" = "Envelope";
+
+"Recycled" = "Recycled";
+
+"Black" = "Black";
+
+"seconds (0: Off, 3 - 300)" = "seconds (0: Off, 3 - 300)";
+
+"Ethernet" = "Ethernet";
+
+"10BASE-T Half" = "10BASE-T Half";
+
+"10BASE-T Full" = "10BASE-T Full";
+
+"100BASE-T Half" = "100BASE-T Half";
+
+"100BASE-T Full" = "100BASE-T Full";
+
+"LPD" = "LPD";
+
+"Port9100" = "Port9100";
+
+"IPP" = "IPP";
+
+"WSD" = "WSD";
+
+"SNMP v1/v2c" = "SNMP v1/v2c";
+
+"StatusMessenger" = "StatusMessenger";
+
+"Bonjour(mDNS)" = "Bonjour(mDNS)";
+
+"Mode" = "Mode";
+
+"Incorrect SSID." = "Incorrect SSID.";
+
+"Incorrect Password." = "Incorrect Password.";
+
+
+
+
+
+
+
+
+
+
+

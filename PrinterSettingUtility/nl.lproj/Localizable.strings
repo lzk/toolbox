@@ -1,0 +1,649 @@
+/* 
+  Localizable.strings
+  PrinterSettingUtility
+
+  Created by Wang Kun on 13-12-13.
+  Copyright (c) 2013年 Wang Kun. All rights reserved.
+*/
+
+"IDS_EDIT" = "Bewerken";
+"IDS_COPY" = "Kopiëren";
+"IDS_PASTE" = "Plakken";
+"IDS_SELECT_ALL" = "Alles selecteren";
+
+"IDS_Idle" = "Groepsvorming inactief";
+
+"IDS_Start Configuration" = "Start configuratie";
+
+"IDS_directPINCode" = "PIN";
+
+"IDS_WIRELESS_PASSWORD_DESCRIPTION" = "Voer de WEP-sleutel in (5 of 13 alfanumerieke tekens/symbolen OF 10 of 26 hexidecimale cijfers) voor het wachtwoord.\n
+Raadpleeg etiketten of handleiding van toegangspunt als u deze gebruikt met de fabrieksinstelling.";
+
+"IDS_WIRELESS_PASSPHRASE_DESCRIPTION" = "Voer de wachtwoordzin in (van 8 tot 63 alfanumerieke tekens/symbolen OF 64 hexidecimale cijfers) voor het wachtwoord.\n
+Raadpleeg etiketten of handleiding van toegangspunt als u deze gebruikt met de fabrieksinstelling.";
+
+"IDS_CONFIGURATION_PAGE" = "Configuratiepagina";
+
+"IDS_PRINT" = "Afdrukken";
+
+"IDS_WIRELESS_RESET" = "Opnieuw instellen";
+
+"IDS_THE_SET_GATEWAY_ADDRESS_IS_ILLEGAL" = "Het ingestelde Gateway-adres is ongeldig.";
+
+"IDS_THE_SET_IP_ADDRESS_IS_ILLEGAL" = "Het ingestelde IP-adres is ongeldig.";
+
+"IDS_CAUTION_X" = "LET OP:\rAls u tonercassettes gebruikt van een ander merk dan Xerox, zijn sommige printerfuncties misschien niet te gebruiken, is de afdrukkwaliteit lager en wordt de betrouwbaarheid van uw printer negatief beïnvloed. Xerox raadt alleen nieuwe tonercassettes van het Xerox-merk voor uw printer aan. Xerox biedt geen garantie voor problemen die zijn veroorzaakt door het gebruik van accessoires, onderdelen of componenten die niet door Xerox zijn geleverd.";
+
+"IDS_Security Settings" = "Beveiliging";
+
+"IDS_Acceptable" = "Acceptabel";
+
+"IDS_Low" = "Laag";
+
+"IDS_Good" = "Goed";
+
+"IDS_No Reception" = "Geen ontvangst";
+
+"IDS_E-mail Alert" = "E-mailwaarschuwingen";
+
+"IDS_directWPSSetup" = "Instelling WPS";
+
+"IDS_ManualGatewayAddress" = "Gateway-adres";
+
+"IDS_Network Mask" = "Netwerkmasker";
+
+"This IP subnet can not be used in same section with Wi-Fi Direct." = "Dit IP-subnet kan niet worden gebruikt in hetzelfde gedeelte als Wi-Fi Direct.";
+
+"IP subnet 192.168.186.x is reserved for Wi-Fi Direct." = "IP subnet 192.168.186.x is gereserveerd voor Wi-Fi Direct.";
+
+"IDS_Software Download" = "Software downloaden";
+
+
+"IDS_IPv6UseManualAddress" = "Handmatig adres gebruiken";
+
+"IDS_Reset Network Setup" = "Netwerkinstellingen opnieuw instellen";
+
+"IDS_Wi-Fi Setup" = "Instelling WiFi";
+
+"IDS_Print PIN Code" = "PIN afdrukken";
+
+"IDS_Reset Passphrase" = "ResetWachtwzin";
+
+"IDS_Disconnect and Reset Passphrase" = "Ontkoppelen en wachtw.zin opn. instellen";
+
+"IDS_Disconnect Now" = "Nu verbinding verbreken";
+
+"Status" = "Status";
+
+"IDS_Group Role" = "Groepsrol";
+
+"IDS_Group Owner" = "Groepseigenaar";
+
+"IDS_directDevice" = "Apparaatnaam";
+
+"IDS_directWPSMethod" = "WPS-methode";
+
+"IDS_Push Button Control" = "Drukknopconfiguratie";
+
+"IDS_Reset Code" = "Reset PIN-code";
+"IDS_directP2PRole" = "Huidige rol";
+"IDS_Client" = "Client";
+
+"IDS_Connection Status" = "Verbindingsstatus";
+
+"IDS_directPassphrase" = "Wachtwoordzin";
+"IDS_Print Passphrase" = "Wachtwoordzin afdrukken";
+
+"IDS_Reset Wireless" = "WiFi-instellingen opnieuw instellen";
+"Disable" = "Uitschakelen";
+
+"Grid 2 Chart" = "Diagram Raster 2";
+
+"Toner Palette Check" = "Tonerpaletcontrole";
+
+"Printer Information" = "Informatie over de printer";
+
+"Printer Serial Number" = "Serienummer printer";
+
+"Printer Type" = "Printersoort";
+
+"Memory Capacity" = "Geheugencapaciteit";
+
+"Processor Speed" = "Processorsnelheid";
+
+"Firmware Version" = "Firmware-versie";
+
+"Network Firmware Version" = "Network Firmware-versie";
+
+"MCU Firmware Version" = "MCU Firmware-versie";
+
+"Printing Speed (Color)" = "Afdruksnelheid (Kleur)";
+
+"Printing Speed (Monochrome)" = "Afdruksnelheid (Monochroom)";
+
+"Menu Settings" = "Menu-instellingen";
+
+"System Settings" = "Systeeminstellingen";
+
+"Power Saver Timer" = "Timer energiebesparing";
+
+"Low Power Timer" = "Timer Laag energieverbruik";
+
+"Power Saver Mode 1 " = "Energiespaarstand 1";
+
+"Sleep Timer" = "Timer Slaapstand";
+
+"Power Saver Mode 2" = "Energiespaarstand 2";
+
+"minutes_5_30" = "minuten (%d - %d)";
+
+"Auto Reset" = "Automatisch herstellen";
+
+"Job Timeout" = "Time-out voor taak";
+
+"Fault Timeout" = "Time-outfout";
+
+"mm/inch" = "mm/inch";
+
+"Adjust BTR" = "Transferrol aanpassen";
+
+"Adjust Fusing Unit" = "Fuseereenheid aanpassen";
+
+"Auto Registration Adjustment" = "Auto registratie-instelling";
+
+"Adjust Altitude" = "Hoogte regelen";
+
+"Non-Genuine Mode" = "Modus Niet-originele artikelen";
+
+"BTR Refresh Mode" = "Modus BTR vernieuwen";
+
+"Reports" = "Rapporten";
+
+"Information Pages" = "Informatiepagina's";
+
+"System Settings" = "Systeeminstellingen";
+
+"Panel Settings" = "Paneelinstellingen";
+
+"Job History" = "Taakgeschiedenis";
+
+"Error History" = "Foutengeschiedenis";
+
+"Demo Page" = "Demopagina";
+
+"IDS_SETTING_REPORT" = "Printerinstellingenrapport";
+
+"Report Language" = "Rapporttaal";
+
+"IP Mode" = "IP-indstilling";
+
+"IPv4" = "IPv4";
+
+"Dual Stack" = "Dobbeltstak";
+
+"Network Settings" = "Netwerkinstellingen";
+
+"Auto" = "Auto";
+
+"Protocols" = "Protocollen";
+
+"Host Access List" = "Hosttoegangslijst";
+
+"IP Filter" = "IP-filter";
+
+"Accept" = "Accepter";
+
+"Reject" = "Afvis";
+
+"Enable" = "Inschakelen";
+
+"Wireless Setup" = "Trådløs indstilling";
+
+"Select Mode" = "Vælg indstilling";
+
+"Wi-Fi" = "Wi-Fi";
+
+"SSID" = "SSID";
+
+"Infrastructure" = "Infrastruktur";
+
+"Ad-Hoc" = "Ad-Hoc";
+
+"Encryption Type" = "Krypteringstype";
+
+"No Security" = "Ingen sikkerhed";
+
+"WEP" = "WEP";
+
+"Password" = "Wachtwoord";
+
+"WPA-PSK-TKIP" = "WPA-PSK-TKIP";
+
+"WPA2-PSK-AES" = "WPA2-PSK-AES";
+
+"Mixed mode PSK" = "Blandet PSK";
+
+"Display Characters" = "Vis tegn";
+
+"Transmit Key" = "Overfør.nøgle";
+
+"WEP Key" = "WEP-nøgle";
+
+"Wi-Fi Direct Setup" = "Wi-Fi Direct konfig";
+
+"TCP/IP Settings" = "TCP/IP-instellingen";
+
+"IP Address Mode" = "IP-adresmodus";
+
+"IP Address" = "IP-adres";
+
+"Subnet Mask" = "Subnetmasker";
+
+"Gateway Address" = "Gateway-adres";
+
+"Printer Maintenance" = "Printeronderhoud";
+
+"System Settings" = "Systeeminstellingen";
+
+"minutes_1_6" = "minuten (%d - %d)";
+
+"Auto Reset_O_HOT" = "Automatisch herstellen";
+
+"1 minute" = "1 minuut";
+
+"2 minutes" = "2 minuten";
+
+"3 minutes" = "3 minuten";
+
+"4 minutes" = "4 minuten";
+
+"Off" = "Uit";
+
+"Job Timeout_I_HOT" = "Time-out voor taak";
+
+"seconds (0: Off, 5 - 300)" = "seconden (0:Uit, 5 - 300)";
+
+"Fault Timeout_U_HOT" = "Time-outfout";
+
+"Off" = "Uit";
+
+"Off_JUNK_FAX_FILTER" = "Uit";
+
+"Off_JPN_FOR_COLLATED" = "Uit";
+
+"On_JPN_FOR_COLLATED" = "Gesorteerd";
+
+"On" = "Aan";
+
+"On_FOR_JPN" = "Aan";
+
+"On1_JUNK_FAX_FILTER" = "Aan (&1)";
+
+"On2_REMOTE_RECEIVE" = "Aan (&2)";
+
+"On3_SEND_HEADER" = "Aan (&3)";
+
+"On4_FAX_COVER_PAGE" = "Aan (&4)";
+
+"On5_PREFIX_DIAL" = "Aan (&5)";
+
+"On6_ECM" = "Aan (&6)";
+
+"millimeter (mm)" = "mm (mm)";
+
+"inch (\")" = "inch (\")";
+
+"Apply New Settings" = "Nieuwe instellingen toepassen";
+
+"Registration Adjustment" = "Aanpassing registratie";
+
+"Manual Registration Adjustments" = "Handmatige aanpassing registratie";
+
+"Auto Correct" = "Automatische correctie";
+
+"Print Color Regi Chart" = "Kleurregisterdiagram afdrukken";
+
+"Color Registration Adjustment 1 (Lateral)" = "Aanpassing kleurregistratie 1 (lateraal)";
+
+"Y (Yellow)" = "G (Geel)";
+
+"M (Magenta)" = "M (Magenta)";
+
+"C (Cyan)" = "C (Cyaan)";
+
+"Color Registration Adjustment 2 (Process)" = "Aanpassing kleurregistratie 1 (proces)";
+
+"LY (Left Yellow)" = "LG (Links geel)";
+
+"LM (Left Magenta)" = "LM (Links magenta)";
+
+"LC (Left Cyan)" = "LC (Links cyaan)";
+
+"RY (Right Yellow)" = "RG (Rechts geel)";
+
+"RM (Right Magenta)" = "RM (Rechts magenta)";
+
+"RC (Right Cyan)" = "RC (Rechts cyaan)";
+
+"Start" = "Start";
+
+"0 meter" = "0 meter";
+
+"1000 meters" = "1000 meter";
+
+"2000 meters" = "2000 meter";
+
+"3000 meters" = "3000 meter";
+
+"System Section" = "Systeemsectie";
+
+"BOOTP" = "BOOTP";
+
+"RARP" = "RARP";
+
+"DHCP" = "DHCP";
+
+"DHCP/AutoIP" = "DHCP/AutoIP";
+
+"Panel" = "Bedieningspaneel";
+
+"Restart printer to apply new settings" = "Start de printer opnieuw om nieuwe instellingen toe te passen";
+
+"Internet Services" = "Internetservices";
+
+
+"Print Server Settings" = "Afdrukserverinstellingen";
+
+"Display of CentreWare Internet Services" = "InternetServices-weergave";
+
+"Display of CWIS" = "CWIS-weergave";
+
+"Display" = "Weergave";
+
+"seconds_0_255" = "seconden(0-255)";
+
+"seconds_3_255" = "seconden(3-255)";
+
+"minutes" = "minuten";
+
+"Diagnosis" = "Diagnose";
+
+"Chart Print" = "Diagramafdruk";
+
+"Pitch Configuration Chart" = "Configuratiediagram tekenbreedte";
+
+"Ghost Configuration Chart" = "Configuratiediagram spookbeeld";
+
+"4 &Colors Configuration Chart" = "Configuratiediagram 4 kleuren";
+
+"MQ Chart" = "MQ-diagram";
+
+"Alignment Chart" = "Uitlijndiagram";
+
+"Environment Sensor Info" = "Info omgevingssensor";
+
+"Get Environment Sensor Info" = "Info omgevingssensor ophalen";
+
+"Result" = "Resultaat";
+
+"Humidity inside the machine" = "Luchtvochtigheid in het apparaat  ";
+
+"Temperature inside the machine" = "Temperatuur in het apparaat";
+
+"Clean Developer" = "Ontwikkelaar reinigen";
+
+"Start" = "Start";
+
+"Refresh Mode" = "Vernieuwingsmodus";
+
+"Toner Refresh Mode" = "Vernieuwingsfunctie toner";
+
+"Toner Refresh Mode_GRANDE" = "Vernieuwingsfunctie toner";
+
+"Get Printer Information." = "Printerinformatie ophalen.";
+
+"Set Printer Information." = "Printerinformatie instellen.";
+
+"Send Printer Information." = "Printerinformatie verzenden.";
+
+"The setting has been changed. Do you want to cancel the settings?" = "Instellingen zijn gewijzigd. Wilt u de instellingen annuleren?";
+
+"Failed to acquire the information." = "Ophalen van informatie mislukt.";
+
+"Communication with printer failed." = "Communicatie met printer mislukt.";
+
+"Are you sure you want to exit Printer Setting Utility?" = "Wilt u echt het Hulpprogramma Printerinstellingen afsluiten?";
+
+
+
+"Information was not acquired because the Status Monitor was running." = "Er is geen informatie opgehaald omdat de Status Monitor in bedrijf was.";
+
+"Information was not transmitted because the Status Monitor was running." = "Er is geen informatie verzonden omdat de Status Monitor in bedrijf was.";
+
+"It is not possible to print with the paper set in the tray. \rPlease set A4 or the Letter size paper in the tray, and click on a button again. " = "Het is niet mogelijk af te drukken met het huidige papier in de lade. \rPlaats papier van het formaat A4 of Letter in de lade en klik nogmaals op een knop. ";
+
+"Restart printer for new settings to take effect.\rDo you want to restart printer?" = "Start de printer opnieuw om de nieuwe instellingen te bevestigen.\rWilt u de printer opnieuw starten?";
+
+"Printer Status: Active" = "Printerstatus: Actief";
+
+"Printer Status: Busy" = "Printerstatus: Bezig";
+
+"Printer Status: Cover is Open" = "Printerstatus: Klep open";
+
+"Printer Status: Error" = "Printerstatus: Fout";
+
+"Printer Status: Initializing" = "Printerstatus: Bezig met initialiseren";
+
+"Printer Status: Job is Pending Deletion" = "Printerstatus: afdruktaak wacht op verwijdering";
+
+"Printer Status: Manual Feed Required" = "Printerstatus: Handmatige invoer vereist";
+
+"Printer Status: Not Available" = "Printerstatus: Niet aanwezig";
+
+"Printer Status: Not Supported" = "Printerstatus: Niet ondersteund";
+
+"Printer Status: Out of Memory" = "Printerstatus: Geheugen vol";
+
+"Printer Status: Out of Paper" = "Printerstatus: Papier is op";
+
+"Printer Status: Out of Toner" = "Printerstatus: Toner is op";
+
+"Printer Status: Page Error" = "Printerstatus: Paginafout";
+
+"Printer Status: Paper Jam" = "Printerstatus: Papierstoring";
+
+"Printer Status: Paper Problem" = "Printerstatus: Papierprobleem";
+
+"Printer Status: Pause" = "Printerstatus: Pauzeren";
+
+"Printer Status: Power Off" = "Printerstatus: Uitgeschakeld";
+
+"Printer Status: Power Saver Mode" = "Printerstatus: Energiebesparingsstand";
+
+"Printer Status: Printing" = "Printerstatus: Afdrukken";
+
+"Printer Status: Processing" = "Printerstatus: Bezig met uitvoeren";
+
+"Printer Status: Ready" = "Printerstatus: Gereed";
+
+"Printer Status: Toner Low" = "Printerstatus: Toner bijna op";
+
+"Printer Status: Unknown" = "Printerstatus: Onbekend";
+
+"Printer Status: Waiting" = "Printerstatus: Wachten";
+
+"Printer Status: Warming Up" = "Printerstatus: Bezig met opwarmen";
+
+"Printer Status: ADF Cover Open" = "Printerstatus: Klep AOD open";
+
+"Printer Status: ADF Paper Jam" = "Printerstatus: Papierstoring AOD";
+
+"Printer Status: User Intervention Required" = "Printerstatus: Actie gebruiker vereist";
+
+"Cancel" = "Annuleren";
+
+"Help" = "Help";
+
+"OK" = "OK";
+
+"Reset Defaults" = "Terugstellen";
+
+"Printer Setting Utility" = "Hulpprogramma Printerinstellingen";
+
+"seconds" = "seconden";
+
+"Information was not acquired because the Status Monitor was running." = "Er is geen informatie opgehaald, omdat de printer bezig was.";
+
+"Information was not transmitted because the Status Monitor was running." = "Er is geen informatie verzonden, omdat de printer bezig was.";
+
+"Boot Code Version" = "Versie opstartcode";
+
+"Color Table Version" = "Versie kleurentabel";
+
+"Density Adjustment" = "Densiteit aanpassen";
+
+"Density Adjustment_D_HOT" = "&Densiteit aanpassen";
+
+"Density Adjustment_ADJUSTMENT" = "Densiteit aanpassen";
+
+"Density Adjustment_ADJUSTMENT_HOT" = "&Densiteit aanpassen";
+
+"Adjust Paper Type" = "Papiersoort aanpassen";
+
+"Plain Paper" = "Normaal papier";
+
+"Plain Paper_P_HOT" = "&Normaal papier";
+
+"Lightweight" = "Licht";
+
+"Heavyweight" = "Zwaar";
+
+"minutes_1_30" = "minuten (1 - 30)";
+
+"minutes_6_11" = "minuten (6 - 11)";
+
+"Printer Serial Number_P_HOT" = "&Printer Serial Number";
+
+"Select Printer:" = "Printer selecteren:";
+
+"Printer Name" = "Printernaam";
+
+"Model Name" = "Modelnaam";
+
+"Connected To" = "Verbonden met";
+
+"Close" = "Sluiten";
+
+"Supported printers are not installed in the system." = "De ondersteunde printers zijn niet in het systeem geïnstalleerd.";
+"Meter Readings" = "Tellerstanden";
+
+"Meter 1" = "Teller 1";
+
+"Meter 2" = "Teller 2";
+
+"Meter 3" = "Teller 3";
+
+"Meter 4" = "Teller 4";
+
+"inch (\")ES" = "inches (\")";
+
+"CWIS" = "CWIS";
+
+"Drum Refresh Configuration Chart" = "Configuratieschema drum vervangen";
+
+"Version" = "Versie";
+
+"Billing Meters" = "Factureringstellers";
+
+"Total Impression" = "Totaalafdrukken";
+
+
+"Color Impression" = "Kleurenafdrukken";
+
+"Black Impression" = "Z/w-afdrukken";
+
+"Network Message" = "Netwerkbericht";
+
+"Low Toner Alert Message_W_HOT" = "Be&richt toner bijna op";
+
+"Low Toner Alert Message" = "Bericht toner bijna op";
+
+"Machine Life" = "Bruikbaarheidsduur apparaat";
+
+"C&ontinue Print"= "Doorgaan met afdrukken";
+
+"IDS_CU_XERO_LIFE" = "PAS OP:\rHoewel u de printer kunt blijven gebruiken nadat de bruikbaarheidsduur is verstreken, door de instelling te wijzigen in Blijven afdrukken, is de afdrukkwaliteit niet langer gegarandeerd.";
+
+//
+
+"About" = "over";
+
+"Quit" = "verlaten";
+
+"On (except A4/Ltr)" = "Aan (behalve A4/Letter)";
+
+"English" = "English";
+
+"French" = "French";
+
+"Russion" = "Russion";
+
+"Show Paper Size Error" = "Papierformaatfout tonen";
+
+"Labels" = "Etiketten";
+
+"Plain" = "Normaal";
+
+"Bond" = "Postpapier";
+
+"Lightweight Cardstock" = "Licht karton";
+
+"Lightweight Glossy Cardstock" = "Licht glanzend karton";
+
+"Envelope" = "Envelop";
+
+"Recycled" = "Gerecycled";
+
+"Black" = "Zwart";
+
+"seconds (0: Off, 3 - 300)" = "seconden (0:Uit, 3 - 300)";
+
+"Ethernet" = "Ethernet";
+
+"10BASE-T Half" = "10BASE-T Half";
+
+"10BASE-T Full" = "10BASE-T Full";
+
+"100BASE-T Half" = "100BASE-T Half";
+
+"100BASE-T Full" = "100BASE-T Full";
+
+"LPD" = "LPD";
+
+"Port9100" = "Port9100";
+
+"IPP" = "IPP";
+
+"WSD" = "WSD";
+
+"SNMP v1/v2c" = "SNMP v1/v2c";
+
+"StatusMessenger" = "Statusberichten";
+
+"Bonjour(mDNS)" = "Bonjour(mDNS)";
+
+"Mode" = "mode";
+
+"Incorrect SSID." = "Incorrecte SSID.";
+
+"Incorrect Password." = "Onjuist wachtwoord.";
+
+
+
+
+
+
+
+
+

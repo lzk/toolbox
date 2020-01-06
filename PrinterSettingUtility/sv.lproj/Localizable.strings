@@ -1,0 +1,654 @@
+/*
+ Localizable.strings
+ PrinterSettingUtility
+ 
+ Created by Wang Kun on 13-12-13.
+ Copyright (c) 2013年 Wang Kun. All rights reserved.
+ */
+ 
+ 
+"IDS_EDIT" = "Redigera";
+"IDS_COPY" = "Kopiera";
+"IDS_PASTE" = "Klistra";
+"IDS_SELECT_ALL" = "Välj alla";
+ 
+"IDS_Idle" = "Grupp bildandet Idle";
+ 
+"IDS_Start Configuration" = "Startkonfiguration";
+
+"IDS_directPINCode" = "PIN-kod";
+
+"IDS_WIRELESS_PASSWORD_DESCRIPTION" = "Ange WEP-nyckel (5 eller 13 alfanumeriska tecken/symboler ELLER 10- eller 26-siffrigt hexidecimalt nummer) som lösenord.\n
+Se åtkomstpunktens etiketter eller handbok om den används med fabriksinställningen.";
+
+"IDS_WIRELESS_PASSPHRASE_DESCRIPTION" = "Ange lösenfras (8 eller 63 alfanumeriska tecken/symboler ELLER 64-siffrigt hexidecimalt nummer) som lösenord.\n
+Se åtkomstpunktens etiketter eller handbok om den används med fabriksinställningen.";
+
+
+"IDS_CONFIGURATION_PAGE" = "Konfigurationssida";
+
+"IDS_PRINT" = "Skrivare";
+
+"IDS_WIRELESS_RESET" = "Återställ";
+
+"IDS_THE_SET_GATEWAY_ADDRESS_IS_ILLEGAL" = "Ogiltig Gateway-adress har angivits.";
+
+"IDS_THE_SET_IP_ADDRESS_IS_ILLEGAL" = "Ogiltig IP-adress har angivits.";
+
+"IDS_CAUTION_X" = "FORSIGTIG:\rAnvändning av annan än Xerox-toner kan tonertonerkassetter kan göra vissa funktioner oanvändbara, försämra utskriftskvaliteten och minska pålitligheten för din skrivare. Xerox rekommenderar endast nya tonerkassetter från Xerox för din skrivare. Xerox erbjuder ingen garanti för problem som orsakas av användning av tillbehör, delar eller komponenter som inte tillhandahållits av Xerox.";
+
+"IDS_Security Settings" = "Säkerhetsinst.";
+
+"IDS_Acceptable" = "Acceptabel";
+
+"IDS_Good" = "God";
+
+"IDS_Low" = "Låg";
+
+"IDS_No Reception" = "Ingen mottagning";
+
+"IDS_E-mail Alert" = "E-postvarningar";
+
+"IDS_directWPSSetup" = "WPS-inställning";
+
+"IDS_ManualGatewayAddress" = "Gateway-adress";
+ 
+"IDS_Network Mask" = "Nätverksmask";
+ 
+"This IP subnet can not be used in same section with Wi-Fi Direct." = "IP-undernätet går inte att använda i samma avsnitt med Wi-Fi Direct.";
+
+"IP subnet 192.168.186.x is reserved for Wi-Fi Direct." = "IP-undernät 192.168.186.x är reserverat för Wi-Fi Direct.";
+ 
+"IDS_Software Download" = "Hämtning av programvara";
+ 
+"IDS_IPv6UseManualAddress" = "Använd manuell adress";
+
+"IDS_Reset Network Setup" = "Återställ nätverksinstallation";
+
+"IDS_Wi-Fi Setup" = "Wi-Fi-inst.";
+
+"IDS_Print PIN Code" = "Skriv ut PIN-kod"; 
+ 
+"IDS_Reset Passphrase" = "Återst lösenord";
+ 
+"IDS_Disconnect and Reset Passphrase" = "Koppla från och nollställ lösenfras";
+
+"IDS_Disconnect Now" = "Koppla från nu";
+
+"Status" = "Status";
+
+"IDS_Group Role" = "Grupproll";
+
+"IDS_Group Owner" = "Gruppägare";
+
+"IDS_directDevice" = "Enhetsnamn";
+
+"IDS_Push Button Control" = "Konfigurera tryckknapp";
+
+"IDS_Reset Code" = "Återställ PIN-kod";
+"IDS_directP2PRole" = "Aktuell roll";
+"IDS_Client" = "Klient";
+"IDS_Reset Wireless" = "Återställ Wi-Fi-inställningar";
+"IDS_Connection Status" = "Anslutningsstatus";
+
+"IDS_directPassphrase" = "Lösenord";
+
+"IDS_Print Passphrase" = "Lösenord f utskrift";
+
+"IDS_directWPSMethod" = "WPS-metod";
+
+"Disable" = "Inaktivera";
+
+"Grid 2 Chart" = "Rutnät 2-diagram";
+
+"Toner Palette Check" = "Tonerpalettkontroll";
+
+"Printer Information" = "Skrivarinformation";
+
+"Printer Serial Number" = "Skrivarens serienummer";
+
+"Printer Type" = "Skrivartyp";
+
+"Memory Capacity" = "Minneskapacitet";
+
+"Processor Speed" = "Processorhastighet";
+
+"Firmware Version" = "Fast programversion";
+
+"Network Firmware Version" = "Nätverk fast programversion";
+
+"MCU Firmware Version" = "MCU fast programversion";
+
+"Printing Speed (Color)" = "Utskriftshastighet (Färg)";
+
+"Printing Speed (Monochrome)" = "Utskriftshastighet (Monokrom)";
+
+"Menu Settings" = "Menyinställningar";
+
+"System Settings" = "Systeminställningar";
+
+"Power Saver Timer" = "Timer energisparläge";
+
+"Low Power Timer" = "Timer för lågeffektläge";
+
+"Power Saver Mode 1 " = "Energisparläge 1";
+
+"Sleep Timer" = "Timer för viloläge";
+
+"Power Saver Mode 2" = "Energisparläge 2";
+
+"minutes_5_30" = "minuter (%d–%d)";
+
+"Auto Reset" = "Autoåterställning";
+
+"Job Timeout" = "Jobb time-out";
+
+"Fault Timeout" = "Fel time-out";
+
+"mm/inch" = "mm/tum";
+
+"Adjust BTR" = "Justera BTR";
+
+"Adjust Fusing Unit" = "Justera fixeringsenhet";
+
+"Auto Registration Adjustment" = "Justering autoregistrering";
+
+"Adjust Altitude" = "Justera höjd";
+
+"Non-Genuine Mode" = "Icke-äkta läge";
+
+"BTR Refresh Mode" = "BTR förnyelseläge";
+
+"Reports" = "Rapporter";
+
+"Information Pages" = "Informationssidor";
+
+"System Settings" = "Systeminställningar";
+
+"Panel Settings" = "Panelinställningar";
+
+"Job History" = "Jobbhistorik";
+
+"Error History" = "Felhistorik";
+
+"Demo Page" = "Demosida";
+
+"IDS_SETTING_REPORT" = "Skrivarinställningsrapport";
+
+"Report Language" = "Rapportspråk";
+
+"IP Mode" = "IP-läge";
+
+"IPv4" = "IPv4";
+
+"Dual Stack" = "Dual-stack";
+
+"Network Settings" = "Nätverksinställningar";
+
+"Auto" = "Auto";
+
+"Protocols" = "Protokoll";
+
+"Host Access List" = "Värdåtkomstlista";
+
+"IP Filter" = "IP-filter";
+
+"Accept" = "Godkänn";
+
+"Reject" = "Avvisa";
+
+"Enable" = "Aktivera";
+
+"Wireless Setup" = "Ställ in för trådlöst";
+
+"Select Mode" = "Välj läge";
+
+"Wi-Fi" = "Wi-Fi";
+
+"SSID" = "SSID";
+
+"Infrastructure" = "Infrastruktur";
+
+"Ad-Hoc" = "Ad-Hoc";
+
+"Encryption Type" = "Krypteringstyp";
+
+"No Security" = "Ingen säkerhet";
+
+"WEP" = "WEP";
+
+"Password" = "Lösenord";
+
+"WPA-PSK-TKIP" = "WPA-PSK-TKIP";
+
+"WPA2-PSK-AES" = "WPA2-PSK-AES";
+
+"Mixed mode PSK" = "PSK blandat läge";
+
+"Display Characters" = "Visa tecken";
+
+"Transmit Key" = "Överföringsnyckel";
+
+"WEP Key" = "WEP-nyckel";
+
+"Wi-Fi Direct Setup" = "Konfig Wi-Fi Direct";
+
+"TCP/IP Settings" = "TCP/IP-inställningar";
+
+"IP Address Mode" = "IP-adressläge";
+
+"IP Address" = "IP-adress";
+
+"Subnet Mask" = "Subnätmask";
+
+"Gateway Address" = "Gateway-adress";
+
+"Printer Maintenance" = "Underhåll av skrivare";
+
+"System Settings" = "Systeminställningar";
+
+"minutes_1_6" = "minuter (%d–%d)";
+
+"Auto Reset_O_HOT" = "Autoåterställning";
+
+"1 minute" = "1 minut";
+
+"2 minutes" = "2 minuter";
+
+"3 minutes" = "3 minuter";
+
+"4 minutes" = "4 minuter";
+
+"Off" = "Av";
+
+"Job Timeout_I_HOT" = "Jobb time-out";
+
+"seconds (0: Off, 5 - 300)" = "sekunder(0:Av, 5 - 300)";
+
+"Fault Timeout_U_HOT" = "Fel time-out";
+
+"Off" = "Av";
+
+"Off_JUNK_FAX_FILTER" = "Av";
+
+"Off_JPN_FOR_COLLATED" = "Av";
+
+"On_JPN_FOR_COLLATED" = "Sorterad";
+
+"On" = "På";
+
+"On_FOR_JPN" = "På";
+
+"On1_JUNK_FAX_FILTER" = "På (&1)";
+
+"On2_REMOTE_RECEIVE" = "På (&2)";
+
+"On3_SEND_HEADER" = "På (&3)";
+
+"On4_FAX_COVER_PAGE" = "På (&4)";
+
+"On5_PREFIX_DIAL" = "På (&5)";
+
+"On6_ECM" = "På (&6)";
+
+"millimeter (mm)" = "mm (mm)";
+
+"inch (\")" = "tum (\")";
+
+"Apply New Settings" = "Tillämpa nya inställningar";
+
+"Registration Adjustment" = "Registreringsjustering";
+
+"Manual Registration Adjustments" = "Manuell registreringsjustering";
+
+"Auto Correct" = "Autokorrigera";
+
+"Print Color Regi Chart" = "Skriv ut färgregistreringsdiagram";
+
+"Color Registration Adjustment 1 (Lateral)" = "Justering färgregistrering 1 (Lateral)";
+
+"Y (Yellow)" = "G (gul)";
+
+"M (Magenta)" = "M (magenta)";
+
+"C (Cyan)" = "C (cyan)";
+
+"Color Registration Adjustment 2 (Process)" = "Justering färgregistrering 2 (Process)";
+
+"LY (Left Yellow)" = "VG (vänster gul)";
+
+"LM (Left Magenta)" = "VM (vänster magenta)";
+
+"LC (Left Cyan)" = "VC (vänster cyan)";
+
+"RY (Right Yellow)" = "HG (höger gul)";
+
+"RM (Right Magenta)" = "HM (höger magenta)";
+
+"RC (Right Cyan)" = "HC (höger cyan)";
+
+"Start" = "Start";
+
+"0 meter" = "0 meter";
+
+"1000 meters" = "1000 meter";
+
+"2000 meters" = "2000 meter";
+
+"3000 meters" = "3000 meter";
+
+"System Section" = "Systemdel";
+
+"BOOTP" = "BOOTP";
+
+"RARP" = "RARP";
+
+"DHCP" = "DHCP";
+
+"DHCP/AutoIP" = "DHCP/AutoIP";
+
+"Panel" = "Panel";
+
+"Restart printer to apply new settings" = "Starta om skrivaren för att tillämpa nya inställningar";
+
+"Internet Services" = "Internet Services";
+
+"Print Server Settings" = "Skrivarserverinställningar";
+
+"Display of CentreWare Internet Services" = "Visa CentreWare Internet Services";
+
+"Display of CWIS" = "Visa CWIS";
+
+"Display" = "Visa";
+
+"seconds_0_255" = "sekunder(0-255)";
+
+"seconds_3_255" = "sekunder(3-255)";
+
+"minutes" = "minuter";
+
+"Diagnosis" = "Diagnos";
+
+"Chart Print" = "Diagramutskrift";
+
+"Pitch Configuration Chart" = "Breddkonfigureringsdiagram";
+
+"Ghost Configuration Chart" = "Spökkonfigureringsdiagram";
+
+"4 &Colors Configuration Chart" = "4-färgskonfigureringsdiagram";
+
+"MQ Chart" = "MQ-diagram";
+
+"Alignment Chart" = "Placeringsdiagram";
+
+"Environment Sensor Info" = "Miljösensorinformation";
+
+"Get Environment Sensor Info" = "Hämtar miljösensorinformation";
+
+"Result" = "Resultat";
+
+"Humidity inside the machine" = "Luftfuktigheten inuti maskinen  ";
+
+"Temperature inside the machine" = "Temperaturen inuti maskinen";
+
+"Clean Developer" = "Rengör framkallare";
+
+"Start" = "Start";
+
+"Refresh Mode" = "Förnyelseläge";
+
+"Toner Refresh Mode" = "Toner förnyelseläge";
+
+"Toner Refresh Mode_GRANDE" = "Toner förnyelseläge";
+
+"Get Printer Information." = "Hämtar skrivarinformation";
+
+"Set Printer Information." = "Ange skrivarinformation.";
+
+"Send Printer Information." = "Skickar skrivarinformation";
+
+"The setting has been changed. Do you want to cancel the settings?" = "Inställningarna har ändrats. Vill du radera inställningarna?";
+
+"Failed to acquire the information." = "Lyckades inte hämta informationen.";
+
+"Communication with printer failed." = "Kommunikation med skrivaren misslyckades.";
+
+"Are you sure you want to exit Printer Setting Utility?" = "Är du säker på att du vill stänga skrivarinställningsverktyget?";
+
+"Are you sure you want to exit Printer Setting Utility?" = "Är du säker på att du vill stänga Verktygslådan?";
+
+"Information was not acquired because the Status Monitor was running." = "Information kunde inte erhållas på grund av att statusmonitorn kördes.";
+
+"Information was not transmitted because the Status Monitor was running." = "Information sändes inte på grund av att statusmonitorn kördes.";
+
+"It is not possible to print with the paper set in the tray. \rPlease set A4 or the Letter size paper in the tray, and click on a button again. " = "Det går inte att skriva ut med pappret i magasinet. \rSätt i papper i storlek A4 eller Letter i magasinet och klicka på en knapp igen.  ";
+
+"Restart printer for new settings to take effect.\rDo you want to restart printer?" = "Starta om skrivaren så att nya inställningar börjar gälla.\rVill du starta om skrivaren?";
+
+"Printer Status: Active" = "Skrivarstatus: Aktiv";
+
+"Printer Status: Busy" = "Skrivarstatus: Upptagen";
+
+"Printer Status: Cover is Open" = "Skrivarstatus: Luckan är öppen";
+
+"Printer Status: Error" = "Skrivarstatus: Fel";
+
+"Printer Status: Initializing" = "Skrivarstatus: Initialiserar";
+
+"Printer Status: Job is Pending Deletion" = "Skrivarstatus: Jobb väntar på radering";
+
+"Printer Status: Manual Feed Required" = "Skrivarstatus: Manuell matning krävs";
+
+"Printer Status: Not Available" = "Skrivarstatus: Ej tillgänglig";
+
+"Printer Status: Not Supported" = "Skrivarstatus: Stöds ej";
+
+"Printer Status: Out of Memory" = "Skrivarstatus: Slut på minne";
+
+"Printer Status: Out of Paper" = "Skrivarstatus: Slut på papper";
+
+"Printer Status: Out of Toner" = "Skrivarstatus: Slut på toner";
+
+"Printer Status: Page Error" = "Skrivarstatus: Sidfel";
+
+"Printer Status: Paper Jam" = "Skrivarstatus: Papperstopp";
+
+"Printer Status: Paper Problem" = "Skrivarstatus: Pappersproblem";
+
+"Printer Status: Pause" = "Skrivarstatus: Paus";
+
+"Printer Status: Power Off" = "Skrivarstatus: Strömmen av";
+
+"Printer Status: Power Saver Mode" = "Skrivarstatus: Energisparläge";
+
+"Printer Status: Printing" = "Skrivarstatus: Skriver ut";
+
+"Printer Status: Processing" = "Skrivarstatus: Bearbetar";
+
+"Printer Status: Ready" = "Skrivarstatus: Klar";
+
+"Printer Status: Toner Low" = "Skrivarstatus: Låg toner";
+
+"Printer Status: Unknown" = "Skrivarstatus: Okänd";
+
+"Printer Status: Waiting" = "Skrivarstatus: Väntar";
+
+"Printer Status: Warming Up" = "Skrivarstatus: Värmer upp";
+
+"Printer Status: ADF Cover Open" = "Skrivarstatus: ADF-luckan är öppen";
+
+"Printer Status: ADF Paper Jam" = "Skrivarstatus: Papperstopp";
+
+"Printer Status: User Intervention Required" = "Skrivarstatus: Åtgärd från användaren krävs";
+
+"Cancel" = "Avbryt";
+
+"Help" = "Hjälp";
+
+"OK" = "OK";
+
+"Reset Defaults" = "Återställ grundinställningar";
+
+"Printer Setting Utility" = "Verktyg för skrivarinställningar ";
+
+"seconds" = "sekunder";
+
+"Information was not acquired because the Status Monitor was running." = "Information kunde inte hämtas på grund av att skrivaren var upptagen.";
+
+"Information was not transmitted because the Status Monitor was running." = "Information kunde inte skickas på grund av att skrivaren var upptagen.";
+
+"Boot Code Version" = "Startkodversion";
+
+"Color Table Version" = "Färgtabellversion";
+
+"Density Adjustment" = "Densitetsjustering";
+
+"Density Adjustment_D_HOT" = "&Densitetsjustering";
+
+"Density Adjustment_ADJUSTMENT" = "Densitetsjustering";
+
+"Density Adjustment_ADJUSTMENT_HOT" = "&Densitetsjustering";
+
+"Adjust Paper Type" = "Justera papperstyp";
+
+"Plain Paper" = "Vanligt papper";
+
+"Plain Paper_P_HOT" = "&Vanligt";
+
+"Lightweight" = "Tunt";
+
+"Heavyweight" = "Tjockt";
+
+"minutes_1_30" = "minuter (1–30)";
+
+"minutes_6_11" = "minuter (6–11)";
+
+"Printer Serial Number_P_HOT" = "&Printer Serial Number";
+
+"Select Printer:" = "Välj skrivare:";
+
+"Printer Name" = "Skrivarnamn";
+
+"Model Name" = "Modellbeteckning";
+
+"Connected To" = "Ansluten till";
+
+"Close" = "Stäng";
+
+"Supported printers are not installed in the system." = "Skrivare som stöds är inte installerade i systemet.";
+
+"Meter Readings" = "Mätaravläsningar";
+
+"Meter 1" = "Mätare 1";
+
+"Meter 2" = "Mätare 2";
+
+"Meter 3" = "Mätare 3";
+
+"Meter 4" = "Mätare 4";
+
+"inch (\")ES" = "tum (\")";
+
+"CWIS" = "CWIS";
+
+"Drum Refresh Configuration Chart" = "Trumuppdatering konfigureringsdiagram";
+
+"Version" = "Version";
+
+"Billing Meters" = "Faktureringsmätare";
+
+"Total Impression" = "Summa utskrifter";
+
+
+
+"Color Impression" = "Färgutskrifter";
+
+"Black Impression" = "Svartvita utskrifter";
+
+"Network Message" = "Nätverksmeddelande";
+
+"Low Toner Alert Message_W_HOT" = "Varning låg t&onernivå";
+
+"Low Toner Alert Message" = "Varning låg tonernivå";
+
+"Machine Life" = "Maskinens livstid";
+
+"C&ontinue Print" = "Fortsätt utskrift";
+
+"IDS_CU_XERO_LIFE" = "VARNING:\rDu kan använda skrivaren efter livslängdens slut om du ändrar inställningen till Fortsätt skriva ut. Utskriftskvaliteten kan dock inte garanteras.";
+
+//
+
+"About" = "ca";
+
+"Quit" = "quit";
+
+"On (except A4/Ltr)" = "På (utom A4/Ltr)";
+
+"English" = "English";
+
+"French" = "French";
+
+"Russion" = "Russion";
+
+"Show Paper Size Error" = "Visa fel i pappersstorlek";
+
+"Labels" = "Etiketter";
+
+"Plain" = "Vanligt";
+
+"Bond" = "Vanligt tjockt";
+
+"Lightweight Cardstock" = "Tunn kortpapp";
+
+"Lightweight Glossy Cardstock" = "Tunn glättad kortpapp";
+
+"Envelope" = "Kuvert";
+
+"Recycled" = "Återvunnet";
+
+"Black" = "Svart";
+
+"seconds (0: Off, 3 - 300)" = "sekunder(0:Av, 3 - 300)";
+
+"Ethernet" = "Ethernet";
+
+"10BASE-T Half" = "10BASE-T Half";
+
+"10BASE-T Full" = "10BASE-T Full";
+
+"100BASE-T Half" = "100BASE-T Half";
+
+"100BASE-T Full" = "100BASE-T Full";
+
+"LPD" = "LPD";
+
+"Port9100" = "Port9100";
+
+"IPP" = "IPP";
+
+"WSD" = "WSD";
+
+"SNMP v1/v2c" = "SNMP v1/v2c";
+
+"StatusMessenger" = "E-postvarningar";
+
+"Bonjour(mDNS)" = "Bonjour(mDNS)";
+
+"Mode" = "läge";
+
+"Incorrect SSID." = "Felaktigt SSID";
+
+"Incorrect Password." = "Felaktigt lösenord.";
+
+
+
+
+
+
+
+
+
+
+
+

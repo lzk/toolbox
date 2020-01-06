@@ -1,0 +1,649 @@
+/*
+ Localizable.strings
+ PrinterSettingUtility
+ 
+ Created by Wang Kun on 13-12-13.
+ Copyright (c) 2013年 Wang Kun. All rights reserved.
+ */
+ 
+"IDS_EDIT" = "Изменить";
+"IDS_COPY" = "Копия";
+"IDS_PASTE" = "Вставка";
+"IDS_SELECT_ALL" = "Выбрать все";
+ 
+"IDS_Idle" = "Формирование группы не выполняется";
+ 
+"IDS_Start Configuration" = "Начальная конфигурация";
+
+"IDS_directPINCode" = "PIN-код";
+
+"IDS_WIRELESS_PASSWORD_DESCRIPTION" = "Введите для пароля WEP-ключ (5 или 13 буквенно-цифровых символов, либо 10 или 26 шестнадцатеричных символов).\n
+Сведения по новой точке доступа см. на наклейках или в ее руководстве.";
+
+"IDS_WIRELESS_PASSPHRASE_DESCRIPTION" = "Введите для пароля кодовую фразу (8-63 буквенно-цифровых символа или шестнадцатеричное число из 64 цифр).\n
+Сведения по новой точке доступа см. на наклейках или в ее руководстве. ";
+
+
+"IDS_CONFIGURATION_PAGE" = "Страница конфигурации";
+
+"IDS_PRINT" = "Печать";
+
+"IDS_WIRELESS_RESET" = "Сброс";
+
+"IDS_THE_SET_GATEWAY_ADDRESS_IS_ILLEGAL" = "Указан недопустимый адрес шлюза.";
+
+"IDS_THE_SET_IP_ADDRESS_IS_ILLEGAL" = "Указан недопустимый IP-адрес.";
+
+"IDS_CAUTION_X" = "ВНИМАНИЕ!\rИспользование тонер-картриджей сторонних производителей может привести к неработоспособности некоторых функции принтера, снижению качества печати и ненадежной работе принтера. Компания Xerox рекомендует устанавливать в принтер только новые фирменные тонер-картриджи Xerox. Гарантия компании Xerox не распространяется на неисправности, вызванные использованием дополнительных устройств, деталей и компонентов сторонних производителей.";
+
+"IDS_Security Settings" = "Настройки защиты";
+
+"IDS_Acceptable" = "Приемлемое";
+
+"IDS_Good" = "Оптимум";
+
+"IDS_Low" = "Низк.";
+
+"IDS_No Reception" = "Нет приема";
+
+"IDS_E-mail Alert" = "Уведомления по эл. почте";
+
+"IDS_directWPSSetup" = "Настройка WPS";
+ 
+"IDS_ManualGatewayAddress" = "Адрес шлюза"; 
+
+"IDS_Network Mask" = "Маска сети";
+ 
+"This IP subnet can not be used in same section with Wi-Fi Direct." = "Эту IP-подсеть нельзя использовать на одном участке с Wi-Fi Direct.";
+ 
+"IP subnet 192.168.186.x is reserved for Wi-Fi Direct." = "IP-подсеть 192.168.186.x зарезервирована для Wi-Fi Direct.";
+ 
+"IDS_Software Download" = "Загрузка ПО";
+ 
+"IDS_IPv6UseManualAddress" = "Использовать назначенный вручную адрес";
+
+"IDS_Reset Network Setup" = "Сброс настройки сети";
+
+"IDS_Wi-Fi Setup" = "Подтверждение регистрации в системе GCP";
+
+"IDS_Print PIN Code" = "Печатать PIN-код"; 
+
+"IDS_Reset Passphrase" = "Сброс кодовой фразы";
+
+"IDS_Disconnect and Reset Passphrase" = "Отсоединить и сбросить кодовую фразу";
+
+"IDS_Disconnect Now" = "Отсоединить сейчас";
+
+"Status" = "Состояние";
+
+"Disable" = "Отключить";
+
+"IDS_Group Owner" = "Владелец группы";
+
+"IDS_directDevice" = "Имя устройства";
+
+"IDS_directWPSMethod" = "Метод WPS";
+
+"IDS_Reset Code" = "Сброс PIN-кода";
+"IDS_directP2PRole" = "Текущая роль";
+"IDS_Client" = "Клиент";
+"IDS_Connection Status" = "Сост. соединения";
+"IDS_Push Button Control" = "Настройка кнопкой";
+"IDS_Print Passphrase" = "Печать кодовой фразы";
+"IDS_Reset Wireless" = "Сброс настроек Wi-Fi";
+"IDS_directPassphrase" = "Кодовая фраза";
+"IDS_Group Role" = "Груп. роль";
+
+"Grid 2 Chart" = "Сетчатая диаграмма 2";
+
+"Toner Palette Check" = "Проверка нанесения тонера";
+
+"Printer Information" = "Информация о принтере";
+
+"Printer Serial Number" = "Серийный номер принтера";
+
+"Printer Type" = "Тип принтера";
+
+"Memory Capacity" = "Объем памяти";
+
+"Processor Speed" = "Частота процессора";
+
+"Firmware Version" = "Версия микропрограммы";
+
+"Network Firmware Version" = "Версия сетевой микропрограммы";
+
+"MCU Firmware Version" = "Версия микропрограммы MCU";
+
+"Printing Speed (Color)" = "Скорость печати (цветной)";
+
+"Printing Speed (Monochrome)" = "Скорость печати (монохромной)";
+
+"Menu Settings" = "Настройки меню";
+
+"System Settings" = "Настройки системы";
+
+"Power Saver Timer" = "Таймер энергосбережения";
+
+"Low Power Timer" = "Таймер режима низкого энергопотребления";
+
+"Power Saver Mode 1 " = "Режим энергосбер. 1";
+
+"Sleep Timer" = "Таймер режима сна";
+
+"Power Saver Mode 2" = "Режим энергосбер. 2";
+
+"minutes_5_30" = "мин. (%d - %d)";
+
+"Auto Reset" = "Автосброс";
+
+"Job Timeout" = "Тайм-аут работы";
+
+"Fault Timeout" = "Тайм-аут неисправности";
+
+"mm/inch" = "мм/дюймы";
+
+"Adjust BTR" = "Настройка BTR";
+
+"Adjust Fusing Unit" = "Настр. фьюзера";
+
+"Auto Registration Adjustment" = "Автонастройка совмещения";
+
+"Adjust Altitude" = "Настройка высоты";
+
+"Non-Genuine Mode" = "Режим неоригинальный";
+
+"BTR Refresh Mode" = "Режим обновления BTR";
+
+"Reports" = "Отчеты";
+
+"Information Pages" = "Информ. страницы";
+
+"System Settings" = "Настройки системы";
+
+"Panel Settings" = "Настройки";
+
+"Job History" = "Журнал работ";
+
+"Error History" = "Журнал ошибок";
+
+"Demo Page" = "Демо-страница";
+
+"IDS_SETTING_REPORT" = "Отчет о настройках принтера";
+
+"Report Language" = "Язык отчета";
+
+"IP Mode" = "Режим IP";
+
+"IPv4" = "IPv4";
+
+"Dual Stack" = "Dual Stack";
+
+"Network Settings" = "Сетевые настройки";
+
+"Auto" = "Авто";
+
+"Protocols" = "Протоколы";
+
+"Host Access List" = "Список доступа к хосту";
+
+"IP Filter" = "IP-фильтр";
+
+"Accept" = "Разрешить";
+
+"Reject" = "Отклонить";
+
+"Enable" = "Включить";
+
+"Wireless Setup" = "Настр. беспроводн. сети";
+
+"Select Mode" = "Выбор режима";
+
+"Wi-Fi" = "Wi-Fi";
+
+"SSID" = "SSID";
+
+"Infrastructure" = "Инфраструктура";
+
+"Ad-Hoc" = "Прямое подключение";
+
+"Encryption Type" = "Тип шифрования";
+
+"No Security" = "Без режима безопасности";
+
+"WEP" = "WEP";
+
+"Password" = "Пароль";
+
+"WPA-PSK-TKIP" = "WPA-PSK-TKIP";
+
+"WPA2-PSK-AES" = "WPA2-PSK-AES";
+
+"Mixed mode PSK" = "Смешанный режим PSK";
+
+"Display Characters" = "Показывать символы";
+
+"Transmit Key" = "Ключ передачи";
+
+"WEP Key" = "Ключ WEP";
+
+"Wi-Fi Direct Setup" = "Настр.Wi-Fi Direct";
+
+"TCP/IP Settings" = "Параметры TCP/IP";
+
+"IP Address Mode" = "Режим IP-адреса";
+
+"IP Address" = "IP-адрес";
+
+"Subnet Mask" = "Маска подсети";
+
+"Gateway Address" = "Адрес шлюза";
+
+"Printer Maintenance" = "Обслуживание принтера";
+
+"System Settings" = "Настройки системы";
+
+"minutes_1_6" = "мин. (%d - %d)";
+
+"Auto Reset_O_HOT" = "Автосброс";
+
+"1 minute" = "1 мин.";
+
+"2 minutes" = "2 мин.";
+
+"3 minutes" = "3 мин.";
+
+"4 minutes" = "4 мин.";
+
+"Off" = "Выкл.";
+
+"Job Timeout_I_HOT" = "Тайм-аут работы";
+
+"seconds (0: Off, 5 - 300)" = "сек. (0: Откл., 5-300)";
+
+"Fault Timeout_U_HOT" = "Тайм-аут неисправности";
+
+"Off" = "Выкл.";
+
+"Off_JUNK_FAX_FILTER" = "Выкл.";
+
+"Off_JPN_FOR_COLLATED" = "Выкл.";
+
+"On_JPN_FOR_COLLATED" = "С подборкой";
+
+"On" = "Вкл.";
+
+"On_FOR_JPN" = "Вкл.";
+
+"On1_JUNK_FAX_FILTER" = "Вкл. (&1)";
+
+"On2_REMOTE_RECEIVE" = "Вкл. (&2)";
+
+"On3_SEND_HEADER" = "Вкл. (&3)";
+
+"On4_FAX_COVER_PAGE" = "Вкл. (&4)";
+
+"On5_PREFIX_DIAL" = "Вкл. (&5)";
+
+"On6_ECM" = "Вкл. (&6)";
+
+"millimeter (mm)" = "миллиметры (мм)";
+
+"inch (\")" = "дюймы (\")";
+
+"Apply New Settings" = "Применить новые настройки";
+
+"Registration Adjustment" = "Регулировка совмещения";
+
+"Manual Registration Adjustments" = "Ручная регулировка совмещения цветов";
+
+"Auto Correct" = "Автоисправление";
+
+"Print Color Regi Chart" = "Печать диаграммы совмещения цветов";
+
+"Color Registration Adjustment 1 (Lateral)" = "Регулировка совмещения цветов 1 (попереч.)";
+
+"Y (Yellow)" = "Y (желтый)";
+
+"M (Magenta)" = "M (пурпурный)";
+
+"C (Cyan)" = "C (голубой)";
+
+"Color Registration Adjustment 2 (Process)" = "Регулировка совмещения цветов 2 (продольн.)";
+
+"LY (Left Yellow)" = "LY (левый желтый)";
+
+"LM (Left Magenta)" = "LM (левый пурпурный)";
+
+"LC (Left Cyan)" = "LC (левый голубой)";
+
+"RY (Right Yellow)" = "RY (правый желтый)";
+
+"RM (Right Magenta)" = "RM (правый пурпурный)";
+
+"RC (Right Cyan)" = "RC (правый голубой)";
+
+"Start" = "Старт";
+
+"0 meter" = "0 метров";
+
+"1000 meters" = "1000 метров";
+
+"2000 meters" = "2000 метров";
+
+"3000 meters" = "3000 метров";
+
+"System Section" = "Системный раздел";
+
+"BOOTP" = "BOOTP";
+
+"RARP" = "RARP";
+
+"DHCP" = "DHCP";
+
+"DHCP/AutoIP" = "DHCP/AutoIP";
+
+"Panel" = "Панель";
+
+"Restart printer to apply new settings" = "Для применения новых новых перезагрузите принтер";
+
+"Internet Services" = "Интернет-службы";
+
+"Print Server Settings" = "Настройки сервера печати";
+
+"Display of CentreWare Internet Services" = "Отображение Интернет-служб";
+
+"Display of CWIS" = "Отображение CWIS";
+
+"Display" = "Отображение";
+
+"seconds_0_255" = "сек. (0-255)";
+
+"seconds_3_255" = "сек. (3-255)";
+
+"minutes" = "мин.";
+
+"Diagnosis" = "Диагностика";
+
+"Chart Print" = "Печать тестовых листов";
+
+"Pitch Configuration Chart" = "Диаграмма настройки шага";
+
+"Ghost Configuration Chart" = "Тест повторных изображений";
+
+"4 &Colors Configuration Chart" = "Тест настройки градиентов";
+
+"MQ Chart" = "Диаграмма MQ";
+
+"Alignment Chart" = "Тест выравнивания";
+
+"Environment Sensor Info" = "Данные датчика температуры и влажности";
+
+"Get Environment Sensor Info" = "Получить данные с датчика температуры и влажности";
+
+"Result" = "Результат";
+
+"Humidity inside the machine" = "Влажность внутри аппарата  ";
+
+"Temperature inside the machine" = "Температура внутри аппарата";
+
+"Clean Developer" = "Очистить проявитель";
+
+"Start" = "Старт";
+
+"Refresh Mode" = "Режим обновления";
+
+"Toner Refresh Mode" = "Обновление тонера";
+
+"Toner Refresh Mode_GRANDE" = "Обновление тонера";
+
+"Get Printer Information." = "Получение информации о принтере.";
+
+"Set Printer Information." = "Задание информации о принтере.";
+
+"Send Printer Information." = "Передача информации о принтере.";
+
+"The setting has been changed. Do you want to cancel the settings?" = "Настройка изменена. Отменить настройки?";
+
+"Failed to acquire the information." = "Не удалось получить информацию.";
+
+"Communication with printer failed." = "Ошибка связи с принтером.";
+
+"Are you sure you want to exit Printer Setting Utility?" = "Закрыть утилиту настройки принтера?";
+
+
+
+"Information was not acquired because the Status Monitor was running." = "Информация не получена, поскольку работал монитор состояния.";
+
+"Information was not transmitted because the Status Monitor was running." = "Информация не передана, поскольку работал монитор состояния.";
+
+"It is not possible to print with the paper set in the tray. \rPlease set A4 or the Letter size paper in the tray, and click on a button again. " = "Невозможна печать на бумаге, вложенной в лоток. \rВложите в лоток бумагу формата A4 или Letter и снова нажмите кнопку. ";
+
+"Restart printer for new settings to take effect.\rDo you want to restart printer?" = "Чтобы новые настройки вступили в силу, перезагрузите принтер.\rПерезагрузить принтер?";
+
+"Printer Status: Active" = "Состояние принтера: Активен";
+
+"Printer Status: Busy" = "Состояние принтера: Занят";
+
+"Printer Status: Cover is Open" = "Состояние принтера: Открыта крышка";
+
+"Printer Status: Error" = "Состояние принтера: Ошибка";
+
+"Printer Status: Initializing" = "Состояние принтера: Инициализация";
+
+"Printer Status: Job is Pending Deletion" = "Состояние принтера: Ожидается удаление работы";
+
+"Printer Status: Manual Feed Required" = "Состояние принтера: Требуется ручная подача";
+
+"Printer Status: Not Available" = "Состояние принтера: Недоступен";
+
+"Printer Status: Not Supported" = "Состояние принтера: Не поддерживается";
+
+"Printer Status: Out of Memory" = "Состояние принтера: Мало памяти";
+
+"Printer Status: Out of Paper" = "Состояние принтера: Нет бумаги";
+
+"Printer Status: Out of Toner" = "Состояние принтера: Нет тонера";
+
+"Printer Status: Page Error" = "Состояние принтера: Ошибка страницы";
+
+"Printer Status: Paper Jam" = "Состояние принтера: Застряла бумага";
+
+"Printer Status: Paper Problem" = "Состояние принтера: Проблемы с бумагой";
+
+"Printer Status: Pause" = "Состояние принтера: Пауза";
+
+"Printer Status: Power Off" = "Состояние принтера: Выключено питание";
+
+"Printer Status: Power Saver Mode" = "Состояние принтера: Режим энергосбережения";
+
+"Printer Status: Printing" = "Состояние принтера: Идет печать";
+
+"Printer Status: Processing" = "Состояние принтера: Идет обработка";
+
+"Printer Status: Ready" = "Состояние принтера: Готов";
+
+"Printer Status: Toner Low" = "Состояние принтера: Мало тонера";
+
+"Printer Status: Unknown" = "Состояние принтера: Неизвестно";
+
+"Printer Status: Waiting" = "Состояние принтера: Ожидание";
+
+"Printer Status: Warming Up" = "Состояние принтера: Прогрев";
+
+"Printer Status: ADF Cover Open" = "Состояние принтера: Открыта крышка ADF";
+
+"Printer Status: ADF Paper Jam" = "Состояние принтера: Застряла бумага в ADF";
+
+"Printer Status: User Intervention Required" = "Состояние принтера: Требуется вмешательство пользователя";
+
+"Cancel" = "Отменить";
+
+"Help" = "Справка";
+
+"OK" = "OK";
+
+"Reset Defaults" = "Значения по умолчанию";
+
+"Printer Setting Utility" = "Утилита настройки принтера";
+
+"seconds" = "сек.";
+
+"Information was not acquired because the Status Monitor was running." = "Информация не получена, поскольку принтер занят.";
+
+"Information was not transmitted because the Status Monitor was running." = "Информация не передана, поскольку принтер занят.";
+
+"Boot Code Version" = "Версия загрузочной записи";
+
+"Color Table Version" = "Версия таблицы цветов";
+
+"Density Adjustment" = "Настройка плотности";
+
+"Density Adjustment_D_HOT" = "&Настройка плотности";
+
+"Density Adjustment_ADJUSTMENT" = "Настройка плотности";
+
+"Density Adjustment_ADJUSTMENT_HOT" = "&Настройка плотности";
+
+"Adjust Paper Type" = "Настройка типа бумаги";
+
+"Plain Paper" = "Обычная бумага";
+
+"Plain Paper_P_HOT" = "&Обычная бумага";
+
+"Lightweight" = "Тонкая";
+
+"Heavyweight" = "Плотная";
+
+"minutes_1_30" = "мин. (1-30)";
+
+"minutes_6_11" = "мин. (6-11)";
+
+"Printer Serial Number_P_HOT" = "&Printer Serial Number";
+
+"Select Printer:" = "Выбрать принтер:";
+
+"Printer Name" = "Имя принтера";
+
+"Model Name" = "Название модели";
+
+"Connected To" = "Подключение:";
+
+"Close" = "Закрыть";
+
+"Supported printers are not installed in the system." = "В системе не установлены поддерживаемые принтеры.";
+
+"Meter Readings" = "Показания счетчиков";
+
+"Meter 1" = "Счетчик 1";
+
+"Meter 2" = "Счетчик 2";
+
+"Meter 3" = "Счетчик 3";
+
+"Meter 4" = "Счетчик 4";
+
+"inch (\")ES" = "дюймы (\")";
+
+"CWIS" = "CWIS";
+
+"Drum Refresh Configuration Chart" = "Тест обновления барабана";
+
+"Version" = "Версия";
+
+"Billing Meters" = "Счётчики";
+
+"Total Impression" = "Всего отпечатков";
+
+
+
+"Color Impression" = "Цвет.отпечатков";
+
+"Black Impression" = "Ч/Б отпечатков";
+
+"Network Message" = "Сообщение по сети";
+
+"Low Toner Alert Message_W_HOT" = "Предупреждающее сообщение о &низком уровне тонера";
+
+"Low Toner Alert Message" = "Пред.\"Мало тонера\"";
+
+"Machine Life" = "Срок службы аппарата";
+
+"C&ontinue Print" = "Продолжить печать";
+
+"IDS_CU_XERO_LIFE" = "ВНИМАНИЕ.\rПосле окончания срока службы принтер можно использовать, установив настройку \"Продолжить печать\", но качество печати при этом не гарантируется.";
+
+//
+
+"About" = "о";
+
+"Quit" = "выход";
+
+"On (except A4/Ltr)" = "Вкл. (кроме A4/Letter)";
+
+"English" = "English";
+
+"French" = "French";
+
+"Russion" = "Russion";
+
+"Show Paper Size Error" = "Показывать ошибку в размере бумаги";
+
+"Labels" = "Наклейки";
+
+"Plain" = "Обычная";
+
+"Bond" = "Канцелярская";
+
+"Lightweight Cardstock" = "Тонкая картотечная";
+
+"Lightweight Glossy Cardstock" = "Глянцевая тонкая картотечная";
+
+"Envelope" = "Конверт";
+
+"Recycled" = "Низк. кач-ва";
+
+"Black" = "Черный";
+
+"seconds (0: Off, 3 - 300)" = "сек. (0: Откл., 3-300)";
+
+"Ethernet" = "Ethernet";
+
+"10BASE-T Half" = "10BASE-T Half";
+
+"10BASE-T Full" = "10BASE-T Full";
+
+"100BASE-T Half" = "100BASE-T Half";
+
+"100BASE-T Full" = "100BASE-T Full";
+
+"LPD" = "LPD";
+
+"Port9100" = "Порт 9100";
+
+"IPP" = "IPP";
+
+"WSD" = "WSD";
+
+"SNMP v1/v2c" = "SNMP v1/v2c";
+
+"StatusMessenger" = "Оповещ. по эл.поч";
+
+"Bonjour(mDNS)" = "Bonjour(mDNS)";
+
+"Mode" = "режим";
+
+"Incorrect SSID." = "Неправильный идентификатор SSID.";
+
+"Incorrect Password." = "Неверный пароль.";
+
+
+
+
+
+
+
+
+
+
+
+

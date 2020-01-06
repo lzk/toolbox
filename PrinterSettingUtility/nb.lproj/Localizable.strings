@@ -1,0 +1,649 @@
+/*
+ Localizable.strings
+ PrinterSettingUtility
+ 
+ Created by Wang Kun on 13-12-13.
+ Copyright (c) 2013年 Wang Kun. All rights reserved.
+ */
+
+
+"IDS_EDIT" = "Rediger";
+"IDS_COPY" = "Kopier";
+"IDS_PASTE" = "Lim inn";
+"IDS_SELECT_ALL" = "Velg alle";
+
+"IDS_Idle" = "Group Formation Idle";
+
+"IDS_Start Configuration" = "Start konfigurering";
+
+"IDS_directPINCode" = "PIN-kode";
+
+"IDS_WIRELESS_PASSWORD_DESCRIPTION" = "Angi WEP-nøkkel (5 eller 13 alfanumeriske tegn, ELLER 10 eller 26 heksadesimale tall) som passord.\n
+Se etikettene eller håndboken for tilgangspunktet hvis du starter fra fabrikkinnstillingene.";
+
+"IDS_WIRELESS_PASSPHRASE_DESCRIPTION" = "Skriv inn passordet (8 til 63 alfanumeriske tegn/symboler, ELLER, 64-sifrede heksadesimale tall) for passordet.\nVennligst se etiketter eller manualer for Access Point hvis du bruker den fra fabrikkinnstilling.";
+
+"IDS_CONFIGURATION_PAGE" = "Konfigurasjonsside";
+
+"IDS_PRINT" = "Skriv ut";
+
+"IDS_WIRELESS_RESET" = "Tilbakestill";
+
+"IDS_THE_SET_GATEWAY_ADDRESS_IS_ILLEGAL" = "Angitt gateway-adresse er ugyldig.";
+
+"IDS_THE_SET_IP_ADDRESS_IS_ILLEGAL" = "Angitt IP-adresse er ugyldig.";
+
+
+"IDS_Security Settings" = "Sikre innstillinger";
+
+"IDS_Acceptable" = "Akseptabel";
+
+"IDS_Good" = "God";
+
+"IDS_Low" = "Lav";
+
+"IDS_No Reception" = "No Reception";
+
+"IDS_E-mail Alert" = "E-postvarsler";
+
+"IDS_directWPSSetup" = "WPS-oppsett";
+
+"IDS_ManualGatewayAddress" = "Gateway-adresse";
+ 
+"IDS_Network Mask" = "IDS_Network Mask";
+ 
+"This IP subnet can not be used in same section with Wi-Fi Direct." = "This IP subnet can not be used in same section with Wi-Fi Direct.";
+
+"IP subnet 192.168.186.x is reserved for Wi-Fi Direct." = "IP subnet 192.168.186.x is reserved for Wi-Fi Direct.";
+
+"IDS_Software Download" = "Software Download";
+
+"IDS_IPv6UseManualAddress" = "Bruk manuell adresse";
+
+"IDS_Reset Network Setup" = "Tilbakestill nettverksoppsett";
+
+"IDS_Wi-Fi Setup" = "Wi-Fi-oppsett";
+ 
+"IDS_Print PIN Code" = "Skriv ut PIN-kode"; 
+ 
+"IDS_Reset Passphrase" = "TilbakestPassord";
+ 
+"IDS_Disconnect and Reset Passphrase" = "Kople fra og tilbakestill passord";
+ 
+"IDS_Disconnect Now" = "Kople fra nå";
+
+"Status" = "Status";
+
+"IDS_Group Role" = "Grupperolle";
+ 
+"IDS_Group Owner" = "Gruppeeier";
+
+"IDS_directDevice" = "Enhetsnavn";
+
+"IDS_directWPSMethod" = "WPS-metode";
+"IDS_Push Button Control" = "Konfigurasjon av trykknapp";
+ 
+"IDS_Reset Code" = "Tilbakestill PIN-kode";
+"Disable" = "Deaktiver";
+"IDS_directP2PRole" = "Gjeldende rolle";
+"IDS_Client" = "Klient";
+"Grid 2 Chart" = "Skjema for rutenett 2";
+
+"IDS_Connection Status" = "Tilkoblingsstatus";
+"IDS_Reset Wireless" = "Tilbakestill Wi-Fi-innstillinger";
+
+"IDS_Print Passphrase" = "Skriv ut passord";
+
+"IDS_directPassphrase" = "Passord";
+
+"Toner Palette Check" = "Tonerpalettsjekk";
+
+"Printer Information" = "Skriverinformasjon";
+
+"Printer Serial Number" = "Serienummer for skriver";
+
+"Printer Type" = "Skrivertype";
+
+"Memory Capacity" = "Minnekapasitet";
+
+"Processor Speed" = "Prosessorhastighet";
+
+"Firmware Version" = "Firmware-versjon";
+
+"Network Firmware Version" = "Firmware-versjon nettverk";
+
+"MCU Firmware Version" = "Firmware-versjon MCU";
+
+"Printing Speed (Color)" = "Utskriftshastighet (farge)";
+
+"Printing Speed (Monochrome)" = "Utskriftshastighet (monokrom)";
+
+"Menu Settings" = "Menyinnstillinger";
+
+"System Settings" = "Systeminnstillinger";
+
+"Power Saver Timer" = "Tidtaker for strømsparing";
+
+"Low Power Timer" = "Tidsavbr. lavt strømforbr.";
+
+"Power Saver Mode 1 " = "Power Saver Mode 1";
+
+"Sleep Timer" = "Tidsavbr. hvilem.";
+
+"Power Saver Mode 2" = "Power Saver Mode 2";
+
+"minutes_5_30" = "minutter (%d-%d)";
+
+"Auto Reset" = "Autom. tilbakestilling";
+
+"Job Timeout" = "Tidsavbrudd for jobb";
+
+"Fault Timeout" = "Tidsavbrudd for feil";
+
+"mm/inch" = "mm/tomme";
+
+"Adjust BTR" = "Juster BTR";
+
+"Adjust Fusing Unit" = "Juster fuserenhet";
+
+"Auto Registration Adjustment" = "Autom. registreringsjustering";
+
+"Adjust Altitude" = "Juster høyde";
+
+"Non-Genuine Mode" = "Uektemodus";
+
+"BTR Refresh Mode" = "BTR-oppdateringsmodus";
+
+"Reports" = "Rapporter";
+
+"Information Pages" = "Information Pages";
+
+"System Settings" = "Systeminnstillinger";
+
+"Panel Settings" = "Panelinnstillinger";
+
+"Job History" = "Jobbhistorie";
+
+"Error History" = "Feilhistorie";
+
+"Demo Page" = "Demoside";
+
+"IDS_SETTING_REPORT" = "Skriverinnstillingsrapport";
+
+"Report Language" = "Rapportspråk";
+
+"IP Mode" = "IP-modus";
+
+"IPv4" = "IPv4";
+
+"Dual Stack" = "Dobbel stakk";
+
+"Network Settings" = "Nettverksinnstillinger";
+
+"Auto" = "Autom.";
+
+"Protocols" = "Protokoller";
+
+"Host Access List" = "Vertstilgangsliste";
+
+"IP Filter" = "IP-filter";
+
+"Accept" = "Godta";
+
+"Reject" = "Avvis";
+
+"Enable" = "Aktiver";
+
+"Wireless Setup" = "Trådløst oppsett";
+
+"Select Mode" = "Velg modus";
+
+"Wi-Fi" = "Wi-Fi";
+
+"SSID" = "SSID";
+
+"Infrastructure" = "Infrastruktur";
+
+"Ad-Hoc" = "Ad-Hoc";
+
+"Encryption Type" = "Krypteringstype";
+
+"No Security" = "Ingen sikkerhet";
+
+"WEP" = "WEP";
+
+"Password" = "Passord";
+
+"WPA-PSK-TKIP" = "WPA-PSK-TKIP";
+
+"WPA2-PSK-AES" = "WPA2-PSK-AES";
+
+"Mixed mode PSK" = "Blandet modus PSK";
+
+"Display Characters" = "Vis tegn";
+
+"Transmit Key" = "Send nøkkel";
+
+"WEP Key" = "WEP-nøkkel";
+
+"Wi-Fi Direct Setup" = "Wi-Fi Directoppsett";
+
+"TCP/IP Settings" = "TCP/IP-innstillinger";
+
+"IP Address Mode" = "IP-adressemodus";
+
+"IP Address" = "IP-adresse";
+
+"Subnet Mask" = "Subnettmaske";
+
+"Gateway Address" = "Gateway-adresse";
+
+"Printer Maintenance" = "Vedlikehold av skriver";
+
+"System Settings" = "Systeminnstillinger";
+
+"minutes_1_6" = "minutter (%d-%d)";
+
+"Auto Reset_O_HOT" = "Autom. tilbakestilling";
+
+"1 minute" = "";
+
+"2 minutes" = "";
+
+"3 minutes" = "";
+
+"4 minutes" = "";
+
+"Off" = "Av";
+
+"Job Timeout_I_HOT" = "Tidsavbrudd for jobb";
+
+"seconds (0: Off, 5 - 300)" = "sekunder (0: Av, 5-300)";
+
+"Fault Timeout_U_HOT" = "Tidsavbrudd for feil";
+
+"Off" = "Av";
+
+"Off_JUNK_FAX_FILTER" = "Av";
+
+"Off_JPN_FOR_COLLATED" = "Av";
+
+"On_JPN_FOR_COLLATED" = "Kollatert";
+
+"On" = "På";
+
+"On_FOR_JPN" = "På";
+
+"On1_JUNK_FAX_FILTER" = "På (&1)";
+
+"On2_REMOTE_RECEIVE" = "På (&2)";
+
+"On3_SEND_HEADER" = "På (&3)";
+
+"On4_FAX_COVER_PAGE" = "På (&4)";
+
+"On5_PREFIX_DIAL" = "På (&5)";
+
+"On6_ECM" = "På (&6)";
+
+"millimeter (mm)" = "millimeter (mm)";
+
+"inch (\")" = "tomme (\")";
+
+"Apply New Settings" = "Bruk nye innstillinger";
+
+"Registration Adjustment" = "Registreringsjusteringer";
+
+"Manual Registration Adjustments" = "Manuelle registreringsjusteringer";
+
+"Auto Correct" = "Autom. korrigering";
+
+"Print Color Regi Chart" = "Skriv ut fargereg.skjema";
+
+"Color Registration Adjustment 1 (Lateral)" = "Fargeregistreringsjustering 1 (lateral)";
+
+"Y (Yellow)" = "Y (gul)";
+
+"M (Magenta)" = "M (magenta)";
+
+"C (Cyan)" = "C (cyan)";
+
+"Color Registration Adjustment 2 (Process)" = "Fargeregistreringsjustering 2 (prosess)";
+
+"LY (Left Yellow)" = "LY (venstre gul)";
+
+"LM (Left Magenta)" = "LM (venstre magenta)";
+
+"LC (Left Cyan)" = "LC (venstre cyan)";
+
+"RY (Right Yellow)" = "RY (høyre gul)";
+
+"RM (Right Magenta)" = "RM (høyre magenta)";
+
+"RC (Right Cyan)" = "RC (høyre cyan)";
+
+"Start" = "Start";
+
+"0 meter" = "0 meter";
+
+"1000 meters" = "1000 meter";
+
+"2000 meters" = "2000 meter";
+
+"3000 meters" = "3000 meter";
+
+"System Section" = "Systemseksjon";
+
+"BOOTP" = "BOOTP";
+
+"RARP" = "RARP";
+
+"DHCP" = "DHCP";
+
+"DHCP/AutoIP" = "DHCP/AutoIP";
+
+"Panel" = "Panel";
+
+"Restart printer to apply new settings" = "Start skriver på nytt for å ta i bruk nye innstillinger";
+
+"Internet Services" = "Internett-tjenester";
+
+"Print Server Settings" = "Skriverserverinnstillinger";
+
+"Display of CentreWare Internet Services" = "Visning av Internett-tjenester";
+
+"Display of CWIS" = "";
+
+"Display" = "Visning";
+
+"seconds_0_255" = "sekunder (0-255)";
+
+"seconds_3_255" = "sekunder (3-255)";
+
+"minutes" = "minutter";
+
+"Diagnosis" = "Diagnose";
+
+"Chart Print" = "Skjemautskrift";
+
+"Pitch Configuration Chart" = "Høydekonfigureringsskjema";
+
+"Ghost Configuration Chart" = "Skyggekonfigureringsskjema";
+
+"4 &Colors Configuration Chart" = "4 Colors Configuration Chart";
+
+"MQ Chart" = "MQ-skjema";
+
+"Alignment Chart" = "Justeringsskjema";
+
+"Environment Sensor Info" = "Miljøsensorinformasjon";
+
+"Get Environment Sensor Info" = "Hent miljøsensorinformasjon";
+
+"Result" = "Resultat";
+
+"Humidity inside the machine" = "Luftfuktighet i maskinen  ";
+
+"Temperature inside the machine" = "Temperatur i maskinen";
+
+"Clean Developer" = "Rengjør fremkaller";
+
+"Start" = "Start";
+
+"Refresh Mode" = "Oppdateringsmodus";
+
+"Toner Refresh Mode" = "Fargetoneroppdateringsmodus";
+
+"Toner Refresh Mode_GRANDE" = "Fargetoneroppdateringsmodus";
+
+"Get Printer Information." = "Hent skriverinformasjon.";
+
+"Set Printer Information." = "Still inn skriverinformasjon.";
+
+"Send Printer Information." = "Send skriverinformasjon.";
+
+"The setting has been changed. Do you want to cancel the settings?" = "Innstillingen har blitt endret. Vil du avbryte innstillingene?";
+
+"Failed to acquire the information." = "Informasjonen er ikke hentet.";
+
+"Communication with printer failed." = "Kan ikke kommunisere med skriveren.";
+
+
+"Are you sure you want to exit Printer Setting Utility?" = "Er du sikker på at du vil avslutte Verktøykasse?";
+
+"Information was not acquired because the Status Monitor was running." = "Kan ikke hente informasjon fordi Statusmonitor ikke kjørte.";
+
+"Information was not transmitted because the Status Monitor was running." = "Kan ikke overføre informasjon fordi Statusmonitor ikke kjørte.";
+
+"It is not possible to print with the paper set in the tray. \rPlease set A4 or the Letter size paper in the tray, and click on a button again. " = "Det er ikke mulig å skrive ut med dette papiret i skuffen. \rLegg A4- eller Letter-papir i skuffen, og klikk en knapp på nytt. ";
+
+"Restart printer for new settings to take effect.\rDo you want to restart printer?" = "Start skriveren på nytt for å ta i bruk de nye innstillingene.\rVil du starte skriveren på nytt?";
+
+"Printer Status: Active" = "Skriverstatus: Aktiv";
+
+"Printer Status: Busy" = "Skriverstatus: Opptatt";
+
+"Printer Status: Cover is Open" = "Skriverstatus: Åpent deksel";
+
+"Printer Status: Error" = "Skriverstatus: Feil";
+
+"Printer Status: Initializing" = "Skriverstatus: Initialiserer";
+
+"Printer Status: Job is Pending Deletion" = "Skriverstatus: Jobb avventer sletting";
+
+"Printer Status: Manual Feed Required" = "Skriverstatus: Manuell mating kreves";
+
+"Printer Status: Not Available" = "Skriverstatus: Ikke tilgjengelig";
+
+"Printer Status: Not Supported" = "Skriverstatus: Støttes ikke";
+
+"Printer Status: Out of Memory" = "Skriverstatus: Ikke nok minne";
+
+"Printer Status: Out of Paper" = "Skriverstatus: Tomt for papir";
+
+"Printer Status: Out of Toner" = "Skriverstatus: Tomt for fargetoner";
+
+"Printer Status: Page Error" = "Skriverstatus: Sidefeil";
+
+"Printer Status: Paper Jam" = "Skriverstatus: Papirstopp";
+
+"Printer Status: Paper Problem" = "Skriverstatus: Papirproblem";
+
+"Printer Status: Pause" = "Skriverstatus: Pause";
+
+"Printer Status: Power Off" = "Skriverstatus: Slått av";
+
+"Printer Status: Power Saver Mode" = "Skriverstatus: Strømsparingsmodus";
+
+"Printer Status: Printing" = "Skriverstatus: Skriver ut";
+
+"Printer Status: Processing" = "Skriverstatus: Behandler";
+
+"Printer Status: Ready" = "Skriverstatus: Klar";
+
+"Printer Status: Toner Low" = "Skriverstatus: Lite toner";
+
+"Printer Status: Unknown" = "Skriverstatus: Ukjent";
+
+"Printer Status: Waiting" = "Skriverstatus: Venter";
+
+"Printer Status: Warming Up" = "Skriverstatus: Varmer opp";
+
+"Printer Status: ADF Cover Open" = "Skriverstatus: Åpent ADF-deksel";
+
+"Printer Status: ADF Paper Jam" = "Skriverstatus: Papirstopp i ADF";
+
+"Printer Status: User Intervention Required" = "Skriverstatus: Inngrep fra bruker kreves";
+
+"Cancel" = "Avbryt";
+
+"Help" = "Hjelp";
+
+"OK" = "OK";
+
+"Reset Defaults" = "Tilbakestill standarder";
+
+"Printer Setting Utility" = "Verktøykasse";
+
+"seconds" = "sekunder";
+
+"Information was not acquired because the Status Monitor was running." = "Informasjon ble ikke hentet fordi skriveren var opptatt.";
+
+"Information was not transmitted because the Status Monitor was running." = "Informasjon ble ikke sendt fordi skriveren var opptatt.";
+
+"Boot Code Version" = "Oppstartskodeversjon";
+
+"Color Table Version" = "Fargetabellversjon";
+
+"Density Adjustment" = "Density Adjustment";
+
+"Density Adjustment_D_HOT" = "";
+
+"Density Adjustment_ADJUSTMENT" = "";
+
+"Density Adjustment_ADJUSTMENT_HOT" = "";
+
+"Adjust Paper Type" = "Adjust Paper Type";
+
+"Plain Paper" = "Plain Paper";
+
+"Plain Paper_P_HOT" = "";
+
+"Lightweight" = "Lightweight";
+
+"Heavyweight" = "Heavyweight";
+
+"minutes_1_30" = "";
+
+"minutes_6_11" = "";
+
+"Printer Serial Number_P_HOT" = "";
+
+"Select Printer:" = "Velg skriver:";
+
+"Printer Name" = "Skrivernavn";
+
+"Model Name" = "Modellnavn";
+
+"Connected To" = "Koblet til";
+
+"Close" = "Lukk";
+
+
+"Meter Readings" = "Meter Readings";
+
+"Meter 1" = "Meter 1";
+
+"Meter 2" = "Meter 2";
+
+"Meter 3" = "Meter 3";
+
+"Meter 4" = "Meter 4";
+
+"inch (\")ES" = "";
+
+"CWIS" = "CWIS";
+
+"Drum Refresh Configuration Chart" = "Konfigurasjonsskjema for trommelfornyelse";
+
+"Version" = "Versjon";
+
+"Billing Meters" = "Billing Meters";
+
+"Total Impression" = "Total Impression";
+
+
+
+"Color Impression" = "Color Impression";
+
+"Black Impression" = "Black Impression";
+
+"Network Message" = "Nettverksmelding";
+
+"Low Toner Alert Message_W_HOT" = "Varsel om &lite toner";
+
+"Low Toner Alert Message" = "Varsel om lite toner";
+
+"Machine Life" = "Maskinens levetid";
+
+"C&ontinue Print" = "Fortsett utskrift";
+
+"IDS_CU_XERO_LIFE" = "OBS:\rVed å velge Fortsett utskrift kan du fortsette å bruke skriveren etter at levetiden er utløpt, men utskriftskvaliteten garanteres ikke.";
+
+//
+
+"About" = "om";
+
+"Quit" = "slutte";
+
+"On (except A4/Ltr)" = "På (unntatt A4/Ltr)";
+
+"English" = "English";
+
+"French" = "French";
+
+"Russion" = "Russion";
+
+"Show Paper Size Error" = "Vis papirstørrelsefeil";
+
+"Labels" = "Labels";
+
+"Plain" = "Plain";
+
+"Bond" = "Bond";
+
+"Lightweight Cardstock" = "Tynn kartong";
+
+"Lightweight Glossy Cardstock" = "Tynn, glanset kartong";
+
+"Envelope" = "Konvolutt";
+
+"Recycled" = "Resirkulert";
+
+"Black" = "Svart";
+
+"seconds (0: Off, 3 - 300)" = "sekunder (0: Av, 3-300)";
+
+"Ethernet" = "Ethernet";
+
+"10BASE-T Half" = "10BASE-T Half";
+
+"10BASE-T Full" = "10BASE-T Full";
+
+"100BASE-T Half" = "100BASE-T Half";
+
+"100BASE-T Full" = "100BASE-T Full";
+
+"LPD" = "LPD";
+
+"Port9100" = "Port9100";
+
+"IPP" = "IPP";
+
+"WSD" = "WSD";
+
+"SNMP v1/v2c" = "SNMP v1/v2c";
+
+"StatusMessenger" = "StatusMessenger";
+
+"Bonjour(mDNS)" = "Bonjour(mDNS)";
+
+"Mode" = "modus";
+
+"Incorrect SSID." = "Feil SSID.";
+
+"Incorrect Password." = "Feil passord.";
+
+
+
+
+
+
+
+
+
+
+
+
+
+

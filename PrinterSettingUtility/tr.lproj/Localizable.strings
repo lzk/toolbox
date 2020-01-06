@@ -1,0 +1,649 @@
+/*
+ Localizable.strings
+ PrinterSettingUtility
+ 
+ Created by Wang Kun on 13-12-13.
+ Copyright (c) 2013年 Wang Kun. All rights reserved.
+ */
+
+
+"IDS_EDIT" = "Düzenle";
+"IDS_COPY" = "Kopyala";
+"IDS_PASTE" = "Yapıştır";
+"IDS_SELECT_ALL" = "Tümünü Seç";
+
+"IDS_Idle" = "Grup oluşumu boşta";
+
+"IDS_Start Configuration" = "Yapılandırmayı Başlat";
+
+
+"IDS_directPINCode" = "PIN Kodu";
+
+"IDS_WIRELESS_PASSWORD_DESCRIPTION" = "Parola için WEP Anahtarı'nı girin (5 veya 13 alfasayısal karakter / sembol YA DA 10 veya 26 haneli onaltılık sayı).\n
+Erişim Noktası'nı fabrika ayarlarından kullanıyorsanız lütfen Erişim Noktası'nın etiketlerine veya kılavuzuna bakın.";
+
+"IDS_WIRELESS_PASSPHRASE_DESCRIPTION" = "Parola için geçiş kodunu yazın (8-63 alfasayısal karakter/sembol VEYA 64 haneli onaltılık sayı).\n";
+
+"IDS_CONFIGURATION_PAGE" = "Yapılandırma Sayfası";
+
+"IDS_PRINT" = "Yazdır";
+
+"IDS_WIRELESS_RESET" = "Sıfırla";
+
+"IDS_THE_SET_GATEWAY_ADDRESS_IS_ILLEGAL" = "Ayarlanan Ağ Geçidi Adresi geçersiz.";
+
+"IDS_THE_SET_IP_ADDRESS_IS_ILLEGAL" = "Ayarlanan IP Adresi geçersiz.";
+
+"IDS_CAUTION_X" = "DİKKAT:\rXerox olmayan toner kartuşlarının kullanılması bazı yazıcı özelliklerinin kullanılamamasına ve daha düşük baskı kalitesine neden olabilir, yazıcınızın güvenilirliğini etkileyebilir. Xerox, yazıcınız için yalnızca yeni Xerox toner kartuşlarını önerir. Xerox, Xerox tarafından tedarik edilmeyen aksesuarların, parçaların ya da bileşenlerin kullanılmasından kaynaklanan sorunlar için garanti kapsamı sunmaz.";
+
+"IDS_Security Settings" = "Güvenlik Ayarları";
+
+"IDS_Good" = "İyi";
+
+"IDS_Low" = "Düşük";
+
+"IDS_Acceptable" = "Kabul edilebilir";
+
+"IDS_No Reception" = "Sinyal Yok";
+
+"IDS_E-mail Alert" = "E-posta Uyarıları";
+
+"IDS_directWPSSetup" = "WPS Kurulumu";
+
+"IDS_ManualGatewayAddress" = "Ağ Geçidi Adresi"; 
+
+"IDS_Network Mask" = "Ağ Maskesi";
+
+"This IP subnet can not be used in same section with Wi-Fi Direct." = "Bu IP alt ağı, Wi-Fi Direct ile aynı bölümde kullanılamaz.";
+
+"IP subnet 192.168.186.x is reserved for Wi-Fi Direct." = "IP alt ağı 192.168.186.x, Wi-Fi Direct için ayrılmış.";
+
+"IDS_Software Download" = "Yazılım İndirme";
+
+"IDS_IPv6UseManualAddress" = "Manuel Adres Kullan";
+
+"IDS_Reset Network Setup" = "Ağ Kurulumunu Sıfırla";
+
+"IDS_Wi-Fi Setup" = "Wi-Fi Kurulumu";
+
+"IDS_Print PIN Code" = "PIN Kodunu Yazdır"; 
+
+"IDS_Reset Passphrase" = "ParolaSıfırla";
+
+"IDS_Disconnect and Reset Passphrase" = "Bağlantıyı kes ve Parolayı sıfırla";
+
+"IDS_Disconnect Now" = "Bağlantıyı şimdi kes";
+
+"Status" = "Durum";
+
+"IDS_Group Role" = "Gurup Rol";
+
+"IDS_Group Owner" = "Gurup Sahibi";
+
+"IDS_directDevice" = "Aygıt Adı";
+
+"IDS_directWPSMethod" = "WPS Yöntemi";
+
+"IDS_Reset Code" = "PIN Kodunu Sıfırla";
+"IDS_directP2PRole" = "Geçerli Rol";
+"IDS_Push Button Control" = "İtme Düğmesi Yapılandırması";
+"IDS_Client" = "İstemci";
+"Disable" = "Devre dışı brk";
+"IDS_Connection Status" = "Bağlantı Durumu";
+
+"IDS_Print Passphrase" = "Parolayı Yazdır";
+"IDS_Reset Wireless" = "Kablosuz Ayarları'nı Sıfırla";
+
+"IDS_directPassphrase" = "Parola";
+
+"Grid 2 Chart" = "Izgara 2 Tablosu";
+
+"Toner Palette Check" = "Toner Paleti Kontrolü";
+
+"Printer Information" = "Yazıcı Bilgileri";
+
+"Printer Serial Number" = "Yazıcı Seri Numarası";
+
+"Printer Type" = "Yazıcı Türü";
+
+"Memory Capacity" = "Bellek Kapasitesi";
+
+"Processor Speed" = "İşlemci Hızı";
+
+"Firmware Version" = "Ürün Yazılımı Sürümü";
+
+"Network Firmware Version" = "Ağ Ürün Yazılımı Sürümü";
+
+"MCU Firmware Version" = "MCU Ürün Yazılımı Sürümü";
+
+"Printing Speed (Color)" = "Yazdırma Hızı (Renkli)";
+
+"Printing Speed (Monochrome)" = "Yazdırma Hızı (Monokrom)";
+
+"Menu Settings" = "Menü Ayarları";
+
+"System Settings" = "Sistem Ayarları";
+
+"Power Saver Timer" = "Güç Tasarrufu Zamanlayıcısı";
+
+"Low Power Timer" = "Düşük Güç Zamanlayıcısı";
+
+"Power Saver Mode 1 " = "Güç Tasarrufu Modu 1";
+
+"Sleep Timer" = "Uyku Zamanlayıcısı";
+
+"Power Saver Mode 2" = "Güç Tasarrufu Modu 2";
+
+"minutes_5_30" = "dakika (%d - %d)";
+
+"Auto Reset" = "Otomatik Sıfırlama";
+
+"Job Timeout" = "İş Zaman Aşımı";
+
+"Fault Timeout" = "Hata Zaman Aşımı";
+
+"mm/inch" = "mm/inç";
+
+"Adjust BTR" = "BTR'yi Ayarla";
+
+"Adjust Fusing Unit" = "Isıtıcı Birimini Ayarlayın";
+
+"Auto Registration Adjustment" = "Otomatik Kayıt Ayarı";
+
+"Adjust Altitude" = "Rakımı Ayarla";
+
+"Non-Genuine Mode" = "Orijinal Olmayan Mod";
+
+"BTR Refresh Mode" = "BTR Yenileme Modu";
+
+"Reports" = "Raporlar";
+
+"Information Pages" = "Bilgi Sayfaları";
+
+"System Settings" = "Sistem Ayarları";
+
+"Panel Settings" = "Panel Ayarları";
+
+"Job History" = "İş Geçmişi";
+
+"Error History" = "Hata Geçmişi";
+
+"Demo Page" = "Demo Sayfası";
+
+"IDS_SETTING_REPORT" = "Yazıcı Ayarları Raporu";
+
+"Report Language" = "Rapor Dili";
+
+"IP Mode" = "IP Modu";
+
+"IPv4" = "IPv4";
+
+"Dual Stack" = "Çift İstif";
+
+"Network Settings" = "Ağ Ayarları";
+
+"Auto" = "Otomatik";
+
+"Protocols" = "Protokoller";
+
+"Host Access List" = "Ana Makine Erişim Listesi";
+
+"IP Filter" = "IP Filtresi";
+
+"Accept" = "Kabul Et";
+
+"Reject" = "Reddet";
+
+"Enable" = "Etkinleştir";
+
+"Wireless Setup" = "Kablosuz Kurulum";
+
+"Select Mode" = "Mod Seçin";
+
+"Wi-Fi" = "Wi-Fi";
+
+"SSID" = "SSID";
+
+"Infrastructure" = "Alt yapı";
+
+"Ad-Hoc" = "Ad-Hoc";
+
+"Encryption Type" = "Şifreleme Türü";
+
+"No Security" = "Güvenlik Yok";
+
+"WEP" = "WEP";
+
+"Password" = "Parola";
+
+"WPA-PSK-TKIP" = "WPA-PSK-TKIP";
+
+"WPA2-PSK-AES" = "WPA2-PSK-AES";
+
+"Mixed mode PSK" = "Karma mod PSK";
+
+"Display Characters" = "Karakterleri Göster";
+
+"Transmit Key" = "Anahtarı Gönder";
+
+"WEP Key" = "WEP Anahtarı";
+
+"Wi-Fi Direct Setup" = "Wi-Fi Direct Kur.";
+
+"TCP/IP Settings" = "TCP/IP Ayarları";
+
+"IP Address Mode" = "IP Adresi Modu";
+
+"IP Address" = "IP Adresi";
+
+"Subnet Mask" = "Alt Ağ Maskesi";
+"Gateway Address" = "Ağ Geçidi Adresi";
+
+"Printer Maintenance" = "Yazıcı Bakımı";
+
+"System Settings" = "Sistem Ayarları";
+
+"minutes_1_6" = "dakika (%d - %d)";
+
+"Auto Reset_O_HOT" = "Otomatik Sıfırlama";
+
+"1 minute" = "1 dakika";
+
+"2 minutes" = "2 dakika";
+
+"3 minutes" = "3 dakika";
+
+"4 minutes" = "4 dakika";
+
+"Off" = "Kapalı";
+
+"Job Timeout_I_HOT" = "İş Zaman Aşımı";
+
+"seconds (0: Off, 5 - 300)" = "saniye (0: Kapalı, 5 - 300)";
+
+"Fault Timeout_U_HOT" = "Hata Zaman Aşımı";
+
+"Off" = "Kapalı";
+
+"Off_JUNK_FAX_FILTER" = "Kapalı";
+
+"Off_JPN_FOR_COLLATED" = "Kapalı";
+
+"On_JPN_FOR_COLLATED" = "Harmanlı";
+
+"On" = "Açık";
+
+"On_FOR_JPN" = "Açık";
+
+"On1_JUNK_FAX_FILTER" = "Açık (&1)";
+
+"On2_REMOTE_RECEIVE" = "Açık (&2)";
+
+"On3_SEND_HEADER" = "Açık (&3)";
+
+"On4_FAX_COVER_PAGE" = "Açık (&4)";
+
+"On5_PREFIX_DIAL" = "Açık (&5)";
+
+"On6_ECM" = "Açık (&6)";
+
+"millimeter (mm)" = "milimetre (mm)";
+
+"inch (\")" = "inç (\")";
+
+"Apply New Settings" = "Yeni Ayarları Uygula";
+
+"Registration Adjustment" = "Kayıt Ayarı";
+
+"Manual Registration Adjustments" = "Manuel Kayıt AyarıManuel Kayıt Ayarları";
+
+"Auto Correct" = "Otomatik Düzeltme";
+
+"Print Color Regi Chart" = "Rengi Kayıt Tablosunu Yazdır";
+
+"Color Registration Adjustment 1 (Lateral)" = "Renk Kaydı Ayarı 1 (Yan)";
+
+"Y (Yellow)" = "Y (Sarı)";
+
+"M (Magenta)" = "M (Macenta)";
+
+"C (Cyan)" = "C (Camgöbeği)";
+
+"Color Registration Adjustment 2 (Process)" = "Renk Kaydı Ayarı 2 (İşlem)";
+
+"LY (Left Yellow)" = "LY (Sol Sarı)";
+
+"LM (Left Magenta)" = "LM (Sol Macenta)";
+
+"LC (Left Cyan)" = "LC (Sol Camgöbeği)";
+
+"RY (Right Yellow)" = "RY (Sağ Sarı)";
+
+"RM (Right Magenta)" = "RM (Sağ Macenta)";
+
+"RC (Right Cyan)" = "RC (Sağ Camgöbeği)";
+
+"Start" = "Başlat";
+
+"0 meter" = "0 metre";
+
+"1000 meters" = "1000 metre";
+
+"2000 meters" = "2000 metre";
+
+"3000 meters" = "3000 metre";
+
+"System Section" = "Sistem Seçimi";
+
+"BOOTP" = "BOOTP";
+
+"RARP" = "RARP";
+
+"DHCP" = "DHCP";
+
+"DHCP/AutoIP" = "DHCP/AutoIP";
+
+"Panel" = "Panel";
+
+"Restart printer to apply new settings" = "Yeni ayarları uygulamak için yazıcıyı yeniden başlat";
+
+"Internet Services" = "Internet Hizmetleri";
+
+"Print Server Settings" = "Yazdırma Sunucusu Ayarları";
+
+"Display of CentreWare Internet Services" = "Internet Hizmetleri Ekranı";
+
+"Display of CWIS" = "CWIS Ekranı";
+
+"Display" = "Ekran";
+
+"seconds_0_255" = "saniye (0-255)";
+
+"seconds_3_255" = "saniye (3-255)";
+
+"minutes" = "dakika";
+
+"Diagnosis" = "Tanı";
+
+"Chart Print" = "Tablo Yazdırma";
+
+"Pitch Configuration Chart" = "Aralık Yapılandırma Tablosu";
+
+"Ghost Configuration Chart" = "Taşma Yapılandırma Tablosu";
+
+"4 &Colors Configuration Chart" = "4 Renkli Yapılandırma Tablosu";
+
+"MQ Chart" = "MQ Tablosu";
+
+"Alignment Chart" = "Hizalama Tablosu";
+
+"Environment Sensor Info" = "Çevre Sensörü Bilgisi";
+
+"Get Environment Sensor Info" = "Çevre Sensörü Bilgisini Al";
+
+"Result" = "Sonuç";
+
+"Humidity inside the machine" = "Makinenin içindeki nem  ";
+
+"Temperature inside the machine" = "Makinenin içindeki sıcaklık";
+
+"Clean Developer" = "Geliştiriciyi Temizle";
+
+"Start" = "Başlat";
+
+"Refresh Mode" = "Yenileme Modu";
+
+"Toner Refresh Mode" = "Toner Yenileme Modu";
+
+"Toner Refresh Mode_GRANDE" = "Toner Yenileme Modu";
+
+"Get Printer Information." = "Yazıcı Bilgilerini Al.";
+
+"Set Printer Information." = "Yazıcı Bilgilerini Ayarla.";
+
+"Send Printer Information." = "Yazıcı Bilgilerini Gönder.";
+
+"The setting has been changed. Do you want to cancel the settings?" = "Ayar değiştirildi. Ayarları iptal etmek istiyor musunuz?";
+
+"Failed to acquire the information." = "Bilgiler alınamadı.";
+
+"Communication with printer failed." = "Yazıcı ile iletişim başarısız oldu.";
+
+"Are you sure you want to exit Printer Setting Utility?" = "Yazıcı Ayarı Yardımcı Programından çıkmak istediğinizden emin misiniz?";
+
+
+"Information was not acquired because the Status Monitor was running." = "Durum İzleme çalışmakta olduğundan bilgi alınamadı.";
+
+"Information was not transmitted because the Status Monitor was running." = "Durum İzleme çalışmakta olduğundan bilgi iletilemedi.";
+
+
+"It is not possible to print with the paper set in the tray. \rPlease set A4 or the Letter size paper in the tray, and click on a button again. " = "Kasette ayarlanan kağıt ile yazdırılamıyor. \rLütfen kasette A4 ya da Letter boyutu kağıt yerleştirin ve bir düğmeye yeniden basın. ";
+
+"Restart printer for new settings to take effect.\rDo you want to restart printer?" = "Yeni ayarların etkili olması için yazıcıyı yeniden başlatın.\rYazıcıyı yeniden başlatmak istiyor musunuz?";
+
+"Printer Status: Active" = "Yazıcı Durumu: Etkin";
+
+"Printer Status: Busy" = "Yazıcı Durumu: Meşgul";
+
+"Printer Status: Cover is Open" = "Yazıcı Durumu: Kapak Açık";
+
+"Printer Status: Error" = "Yazıcı Durumu: Hata";
+
+"Printer Status: Initializing" = "Yazıcı Durumu: Başlatılıyor";
+
+"Printer Status: Job is Pending Deletion" = "Yazıcı Durumu: İş Silinmeyi Bekliyor";
+
+"Printer Status: Manual Feed Required" = "Yazıcı Durumu: Manuel Besleme Gerekiyor";
+
+"Printer Status: Not Available" = "Yazıcı Durumu: Kullanılamıyor";
+
+"Printer Status: Not Supported" = "Yazıcı Durumu: Desteklenmiyor";
+
+"Printer Status: Out of Memory" = "Yazıcı Durumu: Yetersiz Bellek";
+
+"Printer Status: Out of Paper" = "Yazıcı Durumu: Kağıt Bitti";
+
+"Printer Status: Out of Toner" = "Yazıcı Durumu: Toner Bitti";
+
+"Printer Status: Page Error" = "Yazıcı Durumu: Sayfa Hatası";
+
+"Printer Status: Paper Jam" = "Yazıcı Durumu: Kağıt Sıkışması";
+
+"Printer Status: Paper Problem" = "Yazıcı Durumu: Kağıt Sorunu";
+
+"Printer Status: Pause" = "Yazıcı Durumu: Duraklatma";
+
+"Printer Status: Power Off" = "Yazıcı Durumu: Güç Kapalı";
+
+"Printer Status: Power Saver Mode" = "Yazıcı Durumu: Güç Tasarrufu Modu";
+
+"Printer Status: Printing" = "Yazıcı Durumu: Yazdırıyor";
+
+"Printer Status: Processing" = "Yazıcı Durumu: İşleniyor";
+
+"Printer Status: Ready" = "Yazıcı Durumu: Hazır";
+
+"Printer Status: Toner Low" = "Yazıcı Durumu: Toner Azaldı";
+
+"Printer Status: Unknown" = "Yazıcı Durumu: Bilinmiyor";
+
+"Printer Status: Waiting" = "Yazıcı Durumu: Bekliyor";
+
+"Printer Status: Warming Up" = "Yazıcı Durumu: Isınıyor";
+
+"Printer Status: ADF Cover Open" = "Yazıcı Durumu: ADF Kapak Açık";
+
+"Printer Status: ADF Paper Jam" = "Yazıcı Durumu: ADF Kağıt Sıkışması";
+
+"Printer Status: User Intervention Required" = "Yazıcı Durumu: Kullanıcı Müdahalesi Gerekiyor";
+
+"Cancel" = "İptal";
+
+"Help" = "Yardım";
+
+"OK" = "Tamam";
+
+"Reset Defaults" = "Varsayılanlara Sıfırla";
+
+"Printer Setting Utility" = "Yazıcı Ayarı Yardımcı Programı ";
+
+"seconds" = "saniye";
+
+"Information was not acquired because the Status Monitor was running." = "Yazıcı meşgul olduğundan bilgi alınamadı.";
+
+"Information was not transmitted because the Status Monitor was running." = "Yazıcı meşgul olduğundan bilgi iletilemedi.";
+
+"Boot Code Version" = "Yükleme Kodu Sürümü";
+
+"Color Table Version" = "Renk Tablosu Sürümü";
+
+"Density Adjustment" = "Yoğunluk Ayarı";
+
+"Density Adjustment_D_HOT" = "&Yoğunluk Ayarı";
+
+"Density Adjustment_ADJUSTMENT" = "Yoğunluk Ayarı";
+
+"Density Adjustment_ADJUSTMENT_HOT" = "&Yoğunluk Ayarı";
+
+"Adjust Paper Type" = "Kağıt Türünü Ayarla ";
+
+"Plain Paper" = "Düz Kağıt";
+
+"Plain Paper_P_HOT" = "&Düz Kağıt";
+
+"Lightweight" = "Hafif";
+
+"Heavyweight" = "Ağır";
+
+"minutes_1_30" = "dakika (1 - 30)";
+
+"minutes_6_11" = "dakika (6 - 11)";
+
+"Printer Serial Number_P_HOT" = "&Printer Serial Number";
+
+"Select Printer:" = "Yazıcı Seç:";
+
+"Printer Name" = "Yazıcı Adı";
+
+"Model Name" = "Model Adı";
+
+"Connected To" = "Bağlanılan Aygıt";
+
+"Close" = "Kapat";
+
+"Supported printers are not installed in the system." = "Desteklenen yazıcılar sisteme yüklenmemiş.";
+
+"Meter Readings" = "Sayaç Değerleri";
+
+"Meter 1" = "Sayaç 1";
+
+"Meter 2" = "Sayaç 2";
+
+"Meter 3" = "Sayaç 3";
+
+"Meter 4" = "Sayaç 4";
+
+"inch (\")ES" = "inç (\")";
+
+"CWIS" = "CWIS";
+
+"Drum Refresh Configuration Chart" = "Tambur Yenileme Yapılandırma Tablosu";
+
+"Version" = "Sürüm";
+
+"Billing Meters" = "Fatura Sayaçları";
+
+"Total Impression" = "Toplam Baskı";
+
+
+"Color Impression" = "Renkli Baskı";
+
+"Black Impression" = "Siyah Baskı";
+
+"Network Message" = "Ağ Mesajı";
+
+"Low Toner Alert Message_W_HOT" = "&Toner Azaldı Uyarı Mesajı";
+
+"Low Toner Alert Message" = "Toner Azaldı Uyarı Mesajı";
+
+"Machine Life" = "Makine Ömrü";
+
+"C&ontinue Print" = "Yazdırmaya Devam Et";
+
+"IDS_CU_XERO_LIFE" = "DİKKAT:\rServis süresinin dolmasından sonrada ayarı Yazdırmaya Devam et  olarak değiştirerek kullanabilirsiniz fakat çıktı kalitesi garanti edilmez.";
+
+//
+
+"About" = "hakkında";
+
+"Quit" = "çıkmak";
+
+"On (except A4/Ltr)" = "Açık (A4/Ltr hariç)";
+
+"English" = "English";
+
+"French" = "French";
+
+"Russion" = "Russion";
+
+"Show Paper Size Error" = "Kağıt Boyutu Hatasını Göster";
+
+"Labels" = "Etiketler";
+
+"Plain" = "Düz";
+
+"Bond" = "Bond";
+
+"Lightweight Cardstock" = "Hafif Kart Stoğu";
+
+"Lightweight Glossy Cardstock" = "Hafif Parlak Kart Stoğu";
+
+"Envelope" = "Zarf";
+
+"Recycled" = "Geri Dönüştürülmüş";
+
+"Black" = "Siyah";
+
+"seconds (0: Off, 3 - 300)" = "saniye (0: Kapalı, 3 - 300)";
+
+"Ethernet" = "Ethernet";
+
+"10BASE-T Half" = "10BASE-T Half";
+
+"10BASE-T Full" = "10BASE-T Full";
+
+"100BASE-T Half" = "100BASE-T Half";
+
+"100BASE-T Full" = "100BASE-T Full";
+
+"LPD" = "LPD";
+
+"Port9100" = "Bağlantı Noktası 9100";
+
+"IPP" = "IPP";
+
+"WSD" = "WSD";
+
+"SNMP v1/v2c" = "SNMP v1/v2c";
+
+"StatusMessenger" = "E-posta Uyarıları";
+
+"Bonjour(mDNS)" = "Bonjour(mDNS)";
+
+"Mode" = "kip";
+
+"Incorrect SSID." = "Yanlış SSID.";
+
+"Incorrect Password." = "Yanlış Parola.";
+
+
+
+
+
+
+
+
+
+
+
+

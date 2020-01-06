@@ -1,0 +1,421 @@
+// !$*UTF8*$!
+{
+	CD253DA91F2892E100A1235A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EA9B422C184DA2A7002F828B /* AdjustAltitudeController.m */;
+		name = "AdjustAltitudeController.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 966;
+		vrLoc = 0;
+	};
+	CD253DAA1F2892E100A1235A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EA9B41FE184DA20F002F828B /* DeviceCommunicator.m */;
+		name = "DeviceCommunicator.m: 651";
+		rLen = 0;
+		rLoc = 17699;
+		rType = 0;
+		vrLen = 1259;
+		vrLoc = 19445;
+	};
+	CD253DAB1F2892E100A1235A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EA4A6D7C18C431CF0084968C /* NetPrinter.m */;
+		name = "NetPrinter.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 631;
+		vrLoc = 0;
+	};
+	CD2633FD1F8762A200210124 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EA9B4206184DA20F002F828B /* NetDevice.m */;
+		rLen = 7;
+		rLoc = 2031;
+		rType = 0;
+	};
+	CD2634001F8764FC00210124 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CEB727E7191B81BD00EEAC40 /* NetIO.cp */;
+		name = "NetIO.cp: 2873";
+		rLen = 5;
+		rLoc = 69741;
+		rType = 0;
+		vrLen = 768;
+		vrLoc = 69247;
+	};
+	CD2634171F87708E00210124 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EA9B4206184DA20F002F828B /* NetDevice.m */;
+		name = "NetDevice.m: 201";
+		rLen = 0;
+		rLoc = 4830;
+		rType = 0;
+		vrLen = 809;
+		vrLoc = 4545;
+	};
+	CD2634181F87708E00210124 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EA9B4206184DA20F002F828B /* NetDevice.m */;
+		name = "NetDevice.m: 213";
+		rLen = 0;
+		rLoc = 5142;
+		rType = 0;
+		vrLen = 1213;
+		vrLoc = 3881;
+	};
+	CD2A7F421F26E0890059314F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EA9B420C184DA20F002F828B /* SettingsController.m */;
+		name = "SettingsController.m: 167";
+		rLen = 12;
+		rLoc = 4584;
+		rType = 0;
+		vrLen = 1500;
+		vrLoc = 4096;
+	};
+	CD303B071F0B5CB800FAFC45 /* PrinterSettingUtility_IBG */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = PrinterSettingUtility_IBG;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	CD303B081F0B5CB800FAFC45 /* PrinterSettingUtility_XC */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = PrinterSettingUtility_XC;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	CD303B091F0B5CB800FAFC45 /* PrinterSettingUtility_IBG_AirPrint */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = PrinterSettingUtility_IBG_AirPrint;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	CD303B131F0B5CDB00FAFC45 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	CD303B141F0B5CDB00FAFC45 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	CD303B3F1F0B6C1B00FAFC45 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = EAAE5E89184DB7440022B816 /* PrinterSettingUtility-XC-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Volumes/10.8/DevidWei/Justin/PrinterSettingUtility_20140319/PrinterSettingUtility/PrinterSettingUtility-XC-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	CD303B401F0B6C1B00FAFC45 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = CEF975E919458D3E009100E9 /* PrinterSettingUtility-IBG-Info copy.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Volumes/10.8/DevidWei/Justin/PrinterSettingUtility_20140319/PrinterSettingUtility/PrinterSettingUtility-IBG-Info copy.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	CD303B411F0B6C1B00FAFC45 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EA9B41E9184DA1E5002F828B /* main.m */;
+		name = "main.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 257;
+		vrLoc = 0;
+	};
+	CD303B421F0B6C1B00FAFC45 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = EAA26082185FE2E300EF9B1F /* PrinterSettingUtility-IBG-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Volumes/10.8/DevidWei/Justin/PrinterSettingUtility_20140319/PrinterSettingUtility/PrinterSettingUtility-IBG-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	CD303B431F0B6C1B00FAFC45 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EA9B4204184DA20F002F828B /* MainWindowController.m */;
+		name = "MainWindowController.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 746;
+		vrLoc = 0;
+	};
+	CD303B441F0B6C1B00FAFC45 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EA9B4208184DA20F002F828B /* PrinterSelectorController.m */;
+		name = "PrinterSelectorController.m: 178";
+		rLen = 23;
+		rLoc = 4622;
+		rType = 0;
+		vrLen = 1416;
+		vrLoc = 4488;
+	};
+	CD303B691F0B775600FAFC45 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EA9B4202184DA20F002F828B /* MainTabController.m */;
+		name = "MainTabController.m: 181";
+		rLen = 23;
+		rLoc = 5678;
+		rType = 0;
+		vrLen = 1040;
+		vrLoc = 5162;
+	};
+	CEB727E7191B81BD00EEAC40 /* NetIO.cp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1030, 59306}}";
+			sepNavSelRange = "{11792, 224}";
+			sepNavVisRange = "{11629, 599}";
+			sepNavWindowFrame = "{{15, 80}, {1110, 793}}";
+		};
+	};
+	CEF9756919458D3E009100E9 /* PrinterSettingUtility_IBG_AirPrint */ = {
+		activeExec = 0;
+		executables = (
+			CD303B091F0B5CB800FAFC45 /* PrinterSettingUtility_IBG_AirPrint */,
+		);
+	};
+	EA4A6D7C18C431CF0084968C /* NetPrinter.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1025, 12090}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 631}";
+			sepNavWindowFrame = "{{15, 80}, {1110, 793}}";
+		};
+	};
+	EA9B41D0184DA1E5002F828B /* Project object */ = {
+		activeBuildConfigurationName = Release;
+		activeExecutable = CD303B081F0B5CB800FAFC45 /* PrinterSettingUtility_XC */;
+		activeTarget = EAAE5E29184DB3E20022B816 /* PrinterSettingUtility_XC */;
+		codeSenseManager = CD303B141F0B5CDB00FAFC45 /* Code sense */;
+		executables = (
+			CD303B071F0B5CB800FAFC45 /* PrinterSettingUtility_IBG */,
+			CD303B081F0B5CB800FAFC45 /* PrinterSettingUtility_XC */,
+			CD303B091F0B5CB800FAFC45 /* PrinterSettingUtility_IBG_AirPrint */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					862,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					822,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 528966094;
+			PBXWorkspaceStateSaveDate = 528966094;
+		};
+		perUserProjectItems = {
+			CD253DA91F2892E100A1235A /* PBXTextBookmark */ = CD253DA91F2892E100A1235A /* PBXTextBookmark */;
+			CD253DAA1F2892E100A1235A /* PBXTextBookmark */ = CD253DAA1F2892E100A1235A /* PBXTextBookmark */;
+			CD253DAB1F2892E100A1235A /* PBXTextBookmark */ = CD253DAB1F2892E100A1235A /* PBXTextBookmark */;
+			CD2633FD1F8762A200210124 /* PBXTextBookmark */ = CD2633FD1F8762A200210124 /* PBXTextBookmark */;
+			CD2634001F8764FC00210124 /* PBXTextBookmark */ = CD2634001F8764FC00210124 /* PBXTextBookmark */;
+			CD2634171F87708E00210124 /* PBXTextBookmark */ = CD2634171F87708E00210124 /* PBXTextBookmark */;
+			CD2634181F87708E00210124 /* PBXTextBookmark */ = CD2634181F87708E00210124 /* PBXTextBookmark */;
+			CD2A7F421F26E0890059314F /* PBXTextBookmark */ = CD2A7F421F26E0890059314F /* PBXTextBookmark */;
+			CD303B3F1F0B6C1B00FAFC45 /* PlistBookmark */ = CD303B3F1F0B6C1B00FAFC45 /* PlistBookmark */;
+			CD303B401F0B6C1B00FAFC45 /* PlistBookmark */ = CD303B401F0B6C1B00FAFC45 /* PlistBookmark */;
+			CD303B411F0B6C1B00FAFC45 /* PBXTextBookmark */ = CD303B411F0B6C1B00FAFC45 /* PBXTextBookmark */;
+			CD303B421F0B6C1B00FAFC45 /* PlistBookmark */ = CD303B421F0B6C1B00FAFC45 /* PlistBookmark */;
+			CD303B431F0B6C1B00FAFC45 /* PBXTextBookmark */ = CD303B431F0B6C1B00FAFC45 /* PBXTextBookmark */;
+			CD303B441F0B6C1B00FAFC45 /* PBXTextBookmark */ = CD303B441F0B6C1B00FAFC45 /* PBXTextBookmark */;
+			CD303B691F0B775600FAFC45 /* PBXTextBookmark */ = CD303B691F0B775600FAFC45 /* PBXTextBookmark */;
+		};
+		sourceControlManager = CD303B131F0B5CDB00FAFC45 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	EA9B41D8184DA1E5002F828B /* PrinterSettingUtility_IBG */ = {
+		activeExec = 0;
+		executables = (
+			CD303B071F0B5CB800FAFC45 /* PrinterSettingUtility_IBG */,
+		);
+	};
+	EA9B41E9184DA1E5002F828B /* main.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1025, 487}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 257}";
+		};
+	};
+	EA9B41FE184DA20F002F828B /* DeviceCommunicator.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1025, 12454}}";
+			sepNavSelRange = "{17699, 0}";
+			sepNavVisRange = "{19445, 1259}";
+			sepNavWindowFrame = "{{330, 76}, {1110, 793}}";
+		};
+	};
+	EA9B4202184DA20F002F828B /* MainTabController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1051, 10608}}";
+			sepNavSelRange = "{15672, 47}";
+			sepNavVisRange = "{17533, 1802}";
+			sepNavWindowFrame = "{{15, 80}, {1110, 793}}";
+		};
+	};
+	EA9B4204184DA20F002F828B /* MainWindowController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1025, 1560}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 746}";
+		};
+	};
+	EA9B4206184DA20F002F828B /* NetDevice.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1051, 10361}}";
+			sepNavSelRange = "{5142, 0}";
+			sepNavVisRange = "{3881, 1213}";
+			sepNavWindowFrame = "{{256, 76}, {1110, 793}}";
+		};
+	};
+	EA9B4208184DA20F002F828B /* PrinterSelectorController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1279, 3367}}";
+			sepNavSelRange = "{4622, 23}";
+			sepNavVisRange = "{4488, 1416}";
+		};
+	};
+	EA9B420C184DA20F002F828B /* SettingsController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1025, 7644}}";
+			sepNavSelRange = "{4584, 12}";
+			sepNavVisRange = "{4096, 1500}";
+			sepNavWindowFrame = "{{15, 80}, {1110, 793}}";
+		};
+	};
+	EA9B422C184DA2A7002F828B /* AdjustAltitudeController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1025, 1742}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 966}";
+		};
+	};
+	EAAE5E29184DB3E20022B816 /* PrinterSettingUtility_XC */ = {
+		activeExec = 0;
+		executables = (
+			CD303B081F0B5CB800FAFC45 /* PrinterSettingUtility_XC */,
+		);
+	};
+}
